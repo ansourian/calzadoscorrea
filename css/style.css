@@ -20,11 +20,13 @@ header{
     width: 100%;
     background-color: #ffffffec;
     backdrop-filter: blur(5px);
+    z-index: 1000;
 }
 
 .header-index{
     background-color: #1c1f31ec;
     backdrop-filter: blur(5px);
+    z-index: 1000;
 }
 
 h1{
