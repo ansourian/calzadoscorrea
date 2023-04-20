@@ -277,7 +277,6 @@ margin: 2rem;
 footer {
     background-color: #1F2337;
     color: #fff;
-    display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -342,7 +341,7 @@ footer h3 {
 }
 
 .footer-title{
-    height: 25%;
+    height: 100%;
 }
 
 .footer-content{
