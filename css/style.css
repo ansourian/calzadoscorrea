@@ -341,10 +341,6 @@ footer h3 {
     margin: 0;
 }
 
-.h3-info_contacto{
-    margin: 0 0 16px 0;
-}
-
 .notas-periodisticas{
     display: flex;
     flex-direction: column;
@@ -368,26 +364,6 @@ footer h3 {
     font-size: 1rem;
     text-align: center;
     margin: 3.6rem 2rem 3rem;
-}
-
-.h3-infocontacto{
-    color: #ffffff;
-    font-family: 'Outfit', sans-serif;
-    font-size: 1.4rem;
-    text-align: center;
-    letter-spacing: 4px;
-    margin: 3rem 3rem 2.5rem 0;
-    height: 1rem;
-}
-
-.h3-sociales{
-    color: #ffffff;
-    font-family: 'Outfit', sans-serif;
-    font-size: 1.4rem;
-    text-align: center;
-    letter-spacing: 4px;
-    margin: 1.7rem 0rem 0.6rem 0;
-    height: 1rem;
 }
 
 .p-footerinfo{
