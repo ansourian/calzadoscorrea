@@ -42,8 +42,9 @@ h1{
 h2{
     color: #000000;
     margin: 40px 10px 40px;
-    font-size: 1.4rem;
+    font-size: 1.5vw;
     text-align: center;
+    justify-content: center;
     font-family: 'Outfit', sans-serif;
 }
 
@@ -52,13 +53,13 @@ h3{
     font-family: 'Outfit', sans-serif;
     font-size: 1.5vw;
     text-align: center;
-    letter-spacing: 4px;
-    margin-top: 2rem;
+    letter-spacing: 0.3vw;
+    margin-top: 2vw;
 }
 
 p{
     text-align: left;
-    font-size: 20px;
+    font-size: 1.2vw;
     font-family: 'EB Garamond', serif;
 }
 
@@ -143,6 +144,10 @@ ul{
     width: 10vw;
 }
 
+.instagram-logo{
+    width: 10vw;
+}
+
 hr{
     margin: 2rem 20rem;
 }
@@ -179,7 +184,7 @@ form{
 }
 
 .div-button{
-    margin: 4rem;
+    margin: 3vw;
 }
 
 .div-button-nota{
@@ -191,9 +196,9 @@ form{
     background-color: #ffffff;
     border-color: #000000;
     border-style: solid;
-    border-width: 3px;
+    border-width: 0.2vw;
     color: rgb(0, 0, 0);
-    padding: 15px;
+    padding: 1vw;
     text-decoration: none;
     font-size: 1vw;
 }
@@ -219,7 +224,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-margin: 2rem;
+margin: 1vw;
 }
 
 .all-sections{
@@ -338,9 +343,8 @@ footer h3 {
 }
 
 .h2-footer {
-    text-align: center;
     color: white;
-    margin-top: 2.3rem;
+    margin-top: 2vw;
 }
 
 .footer-title{
