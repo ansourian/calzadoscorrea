@@ -26,6 +26,7 @@ header{
 }
 
 .header-index{
+    position: sticky;
     background-color: #1c1f31ec;
     backdrop-filter: blur(5px);
     z-index: 1000;
@@ -54,7 +55,7 @@ h3{
     font-size: 1.5vw;
     text-align: center;
     letter-spacing: 0.3vw;
-    margin-top: 2vw;
+    margin: 3vw 0;
 }
 
 p{
@@ -73,6 +74,15 @@ p{
 }
 
 .p-biografia{
+    text-align: left;
+    font-size: 1.3vw;
+    padding:  0px;
+    margin: 2rem 5rem;
+    font-family: 'EB Garamond', serif;
+    align-self: center;
+}
+
+.p-descripcion{
     text-align: left;
     font-size: 1.3vw;
     padding:  0px;
@@ -146,6 +156,8 @@ ul{
 
 .instagram-logo{
     width: 10vw;
+    display: flex;
+    margin: 1.5vw 13vw 0 0;
 }
 
 hr{
@@ -304,7 +316,7 @@ footer .row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .fit-content{
@@ -319,7 +331,7 @@ footer h3 {
 .p-footer {
     text-align: center;
     color: white;
-    margin: 0 0 0 0;
+    margin: 3vw 0 0 0;
 }
 
 .p-instagram {
@@ -335,16 +347,25 @@ footer h3 {
 .p-modelos {
     font-size: 1rem;
     text-align: center;
-    margin: 1rem 2rem;
+    margin: 3vw 2vw;
     box-sizing: content-box;
     height: 200px;
     padding: 2rem 0rem;
     align-items: center;
+    display: flex;
 }
 
-.h2-footer {
+.h1-footer {
     color: white;
-    margin-top: 2vw;
+    display: flex;
+    margin: 2vw -5vw 0 11vw;
+    font-size: 2vw;
+    justify-content: space-around;
+}
+
+.h2-descripcion{
+    text-align: left;
+    margin: 1vw 0  5vw;
 }
 
 .footer-title{
@@ -353,7 +374,7 @@ footer h3 {
 
 .footer-content{
     height: 50%;
-    margin: 0;
+    margin: 2vw 0 0 1vw;
 }
 
 .notas-periodisticas{
@@ -384,6 +405,7 @@ footer h3 {
 .p-footerinfo{
     color: white;
     text-align: left;
+    margin: 0 0 1.5vw 4.5vw;
 }
 
 .vertical-hr{
@@ -391,7 +413,8 @@ footer h3 {
     left: 50%;
     position: absolute;
     width: 0;
-    height: 12rem;
+    height: 15vw;
+    align-self: center;
 }
 
 .h2-modelos{
@@ -445,7 +468,7 @@ footer h3 {
         font-size: 3vw;
     }
     h3{
-        font-size: 70%;
+        font-size: 100%;
     }
     .h2-biografia{
         color: #595959;
@@ -454,15 +477,19 @@ footer h3 {
         font-family: 'Outfit', sans-serif;
         margin: 1vw;
     }
+    .model-titles{
+        margin: 0 auto 10vw;
+        font-size: 5vw;
+    }    
     .p-sub{
         flex-direction: column;
-        font-size: 80%;
-        margin: 1vw 7vw -1vw;
+        font-size: 100%;
+        margin: 1vw 7vw 3vw;
     }
     .p-sub_biografia{
         flex-direction: column;
-        font-size: 80%;
-        margin: 1vw 0vw -3vw
+        font-size: 100%;
+        margin: 1vw 0vw 3vw;
     }
     .p-general{
         text-align: left;
@@ -491,7 +518,8 @@ footer h3 {
         margin: 2vw 2vw -1vw;
     }
     hr{
-        border-width: 15vw;
+        border-width: 0.4vw;
+        margin: 6.5vw 15vw 4.5vw;
     }
     .linea-subtitulo{
 
@@ -518,6 +546,10 @@ footer h3 {
         margin: 0rem;
         flex-direction: column;
     }    
+    .div-biografia2{
+        margin: 0rem;
+        flex-direction: column-reverse;
+    }   
     .div-section{
         display: flex;
         flex-direction: column;
@@ -527,6 +559,14 @@ footer h3 {
     }
     .container-notas{
         flex-direction: column;
+        margin: 3rem 5rem 3rem;
+    }
+    .notas-periodisticas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2vw 0;
+        flex: 1;
     }
     .logos-diarios{
         width: 25vw;
@@ -564,22 +604,35 @@ footer h3 {
         align-items: center;
         margin: 7vw 0;
     }
-    .h2-footer{
+    .h1-footer{
+        color: white;
+        display: flex;
+        margin: 3vw -21vw 0 11vw;
+        font-size: 2vw;
+        justify-content: space-around;
         font-size: 4vw;
-        justify-content: center;
         align-items: center;
         text-align: center;
-        margin: 7vw 0 0 -0.5vw;
     }
     .p-footer{
         font-size: 3vw;
+    }
+    .p-modelos {
+        display: flex;
+        font-size: 1rem;
+        text-align: center;
+        margin: 2rem 0rem;
+        box-sizing: content-box;
+        height: 200px;
+        align-items: center;
     }
     .vertical-hr{
         visibility: hidden;
     }
     .instagram-logo{
-        width: 25vw;
-        margin: 2vw 0 4vw 0;
+        width: 50%;
+        display: flex;
+        margin: 1.5vw 44vw 0 0;
     }
     .youtube-vid{
         width: 75vw;
