@@ -209,7 +209,7 @@ display: block;
 }
 
 .form-contact{
-    margin: 1vw 22vw;
+    margin: 3vw 22vw;
     font-family: 'EB Garamond', serif;
     font-size: 1.3vw;
 
@@ -526,7 +526,8 @@ footer h3 {
 }
 
 .contenedor-biografia{
-    margin: 0 10vw;
+    margin: 0vw 10vw;
+    padding: 4vw 0 2vw;
 }
 
 .div-biografia{
@@ -540,6 +541,68 @@ footer h3 {
 
 .row-seguinos_ig{
     justify-content: center;
+}
+
+.button-send{
+    font-family: 'Outfit', sans-serif;
+    background-color: #ffffff;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 0.2vw;
+    color: rgb(0, 0, 0);
+    padding: 1vw 3vw;
+    margin: 1vw 0;
+    text-decoration: none;
+    font-size: 1vw;
+    transition: 0.3s;
+    border-radius: 0;
+}
+
+.button-send:hover{
+    background-color: #1F2337;
+    color: #ffffff;
+    transition: 0.3s;
+    border-color: #101225;
+}
+
+.form-style {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0.1vw solid #101225;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.blue-section{
+    margin: 3vw 0;
+    background: rgb(34,36,54);
+    background: linear-gradient(340deg, rgba(34,36,54,1) 10%, rgba(24,27,42,1) 33%, rgba(24,27,42,1) 65%, rgba(36,39,59,1) 90%);
+}
+
+.h1_quienes_somos{
+    color: #ffffff;
+}
+
+.h2-biografia{
+    color: #ffffff;
+}
+
+.p-biografia{
+    color: #ffffff;
+}
+
+.hr-white{
+    color: #ffffff;
 }
 
 @media (max-width:767px){
