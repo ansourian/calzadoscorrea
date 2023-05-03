@@ -1,0 +1,43 @@
+@import "variables";
+@import "reset";
+@import "header";
+@import "videomain";
+@import "images";
+@import "paragraphs";
+@import "index";
+@import "buttons";
+@import "fonts";
+@import "forms";
+@import "animations";
+@import "divisors";
+@import "containers";
+@import "titles";
+@import "sections";
+@import "footer";
+@import "queries";
+
+.estilo-x { 
+    font-size: calc(1em + 1vw);
+}
+
+body{
+    overflow-x: hidden;
+    font-family: 'Playfair Display', serif;
+}
+
+.youtube-vid{
+    width: 50vw;
+    height:28vw;
+    margin-bottom: 3vw;
+}
+
+.inline-flex{
+    display: inline-flex;
+}
+
+.fit-content{
+    width: fit-content;
+    margin: 0 auto;
+}
+    
+    

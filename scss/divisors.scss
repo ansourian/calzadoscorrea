@@ -1,0 +1,33 @@
+.div-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.div-model{
+    display: flex;
+    justify-content: center;
+}
+
+.div-biografia{
+    margin: 2rem 0rem;
+}
+
+hr{
+    margin: 2rem 20rem;
+}
+
+.hr-white{
+    color: #ffffff;
+}
+
+.linea-subtitulo{
+    border-width: 0.3vw;
+    width: 8vw;
+    margin: 2.5vw;
+    color: #1F2337;
+    border-style: solid;
+    opacity: 100;
+}
