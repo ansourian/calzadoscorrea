@@ -845,7 +845,10 @@ footer .derechos-reservados {
   .container-variant {
     justify-content: center;
   }
-  .video-index {
+  .video-intro {
+    margin: 0 0 3vw;
+  }
+  .video-intro .video-index {
     position: absolute;
     z-index: -1;
     margin: 0;
@@ -853,17 +856,17 @@ footer .derechos-reservados {
     height: 40vw;
     object-fit: cover;
   }
-  .div-bienvenida {
+  .video-intro .div-bienvenida {
     margin: 0 0 10vw;
     animation: fadein 3s;
   }
-  .div-bienvenida .h1-index {
+  .video-intro .div-bienvenida .h1-index {
     padding: 14vw 0 0;
     font-size: 3vw;
     color: #ffffff;
     margin: 0;
   }
-  .div-bienvenida .h1-index2 {
+  .video-intro .div-bienvenida .h1-index2 {
     padding: 0vw 0 0vw;
     color: #fff7b7;
     font-size: 4.5vw;
