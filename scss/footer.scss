@@ -50,20 +50,22 @@ footer{
         align-self: center;
     }
 
-    .footer-content{
-        height: 50%;
-        margin: 2vw 0 0 1vw;
-    
-        .p-footerinfo{
-            color: white;
-            text-align: left;
-            margin: 0 0 1.5vw 4.5vw;
+    .row{
+        .footer-content{
+            height: 50%;
+            margin: 2vw 0 0 1vw;
+        
+            .p-footerinfo{
+                color: white;
+                text-align: left;
+                margin: 0 0 1.5vw 4.5vw;
+            }
+        }
+        .footer-maps{
+            margin: 0 3vw 0 0;
         }
     }
-
-    .footer-maps{
-        margin: 0 3vw 0 0;
-    }
+    
 
     .derechos-reservados{
         font-family: 'Josefin Sans', sans-serif;

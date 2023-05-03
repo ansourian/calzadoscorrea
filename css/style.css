@@ -94,6 +94,7 @@ ul {
 
 .div-bienvenida {
   margin: 0 0 5vw;
+  animation: fadein 3s;
 }
 .div-bienvenida .h1-index {
   padding: 14vw 0 0;
@@ -381,6 +382,14 @@ p {
   font-size: 1.3vw;
 }
 
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .div-section {
   display: flex;
   flex-direction: column;
@@ -422,6 +431,11 @@ hr {
 .contenedor-biografia {
   margin: 0vw 10vw;
   padding: 4vw 0 2vw;
+}
+
+.contenedor-modelos {
+  margin: 0vw 10vw;
+  padding: 0vw 0 2vw;
 }
 
 h1 {
@@ -558,16 +572,16 @@ footer .vertical-hr {
   height: 16vw;
   align-self: center;
 }
-footer .footer-content {
+footer .row .footer-content {
   height: 50%;
   margin: 2vw 0 0 1vw;
 }
-footer .footer-content .p-footerinfo {
+footer .row .footer-content .p-footerinfo {
   color: white;
   text-align: left;
   margin: 0 0 1.5vw 4.5vw;
 }
-footer .footer-maps {
+footer .row .footer-maps {
   margin: 0 3vw 0 0;
 }
 footer .derechos-reservados {
@@ -593,7 +607,7 @@ footer .derechos-reservados {
     font-size: 100%;
   }
   .h2-biografia {
-    color: #ffffff;
+    color: #fff7b7;
     font-size: 2.5vw;
     text-align: center;
     font-family: "Outfit", sans-serif;
@@ -610,19 +624,26 @@ footer .derechos-reservados {
   }
   .p-general {
     text-align: left;
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     padding: 0 5vw;
     margin: 6vw 8vw;
   }
   .p-biografia {
     text-align: left;
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     padding: 0px;
     margin: 1vw 7vw;
     align-self: center;
   }
   .button-index {
     border-width: 0.5vw;
+    padding: 3vw;
+    font-size: 3vw;
+  }
+  .button-index:hover {
+    background-color: #1F2337;
+    color: #ffffff;
+    transition: 0.3s;
     padding: 3vw;
     font-size: 3vw;
   }
@@ -647,6 +668,15 @@ footer .derechos-reservados {
     width: 70vw;
     margin: 0 auto;
     display: block;
+  }
+  .banner-quienes_somos {
+    filter: grayscale(100);
+    transition: 0.5s;
+  }
+  .banner-quienes_somos:hover {
+    filter: grayscale(0);
+    transition: 0.5s;
+    width: 70vw;
   }
   .img-biografia_left {
     width: 50vw;
@@ -682,28 +712,28 @@ footer .derechos-reservados {
     flex-direction: column;
     margin: 3rem 5rem 3rem;
   }
-  .notas-periodisticas {
+  .container-notas .notas-periodisticas {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 2vw 0;
     flex: 1;
   }
-  .logos-diarios {
+  .container-notas .notas-periodisticas .logos-diarios {
     width: 25vw;
     margin: 3vw;
   }
-  .p-notas {
+  .container-notas .notas-periodisticas .p-notas {
     font-size: 3vw;
     text-align: center;
     margin: 5vw 0 5vw;
   }
-  .p-lanacion {
+  .container-notas .notas-periodisticas .p-lanacion {
     font-size: 3vw;
     text-align: center;
     margin: 5vw 0 5vw;
   }
-  .p-natgeo {
+  .container-notas .notas-periodisticas .p-natgeo {
     font-size: 3vw;
     text-align: center;
     margin: 5vw 0 5vw;
@@ -726,22 +756,30 @@ footer .derechos-reservados {
   footer .row .instagram-logo {
     width: 30%;
     display: flex;
-    margin: 3vw 0 0 0vw;
+    margin: 3vw 34vw 0vw;
     justify-self: center;
+  }
+  footer .row .p-footer {
+    font-size: 3.5vw;
+    margin: 5vw 0 0;
   }
   footer h3 {
     font-size: 4vw;
-    margin: 8vw 0 4vw;
+    margin: 12vw 0 4vw;
   }
-  footer .p-footer {
-    font-size: 3vw;
+  footer .row .footer-content {
+    height: 50%;
+    margin: 2vw 0 0 1vw;
   }
-  footer .p-footerinfo {
+  footer .row .footer-content .p-footerinfo {
     font-size: 4vw;
     text-align: center !important;
     justify-content: center;
     align-items: center;
-    margin: 7vw 0;
+    margin: 5vw 0;
+  }
+  footer .row .footer-maps {
+    margin: 0 3vw 3vw 0;
   }
   footer .vertical-hr {
     visibility: hidden;
@@ -755,7 +793,7 @@ footer .derechos-reservados {
   }
   .p-modelos {
     display: flex;
-    font-size: 1rem;
+    font-size: 3.5vw;
     text-align: center;
     margin: 2rem 0rem;
     box-sizing: content-box;
@@ -765,6 +803,9 @@ footer .derechos-reservados {
   .youtube-vid {
     width: 75vw;
     height: 40vw;
+  }
+  .div-youtube {
+    margin: 0 0 6vw;
   }
   .logo {
     width: 25vw;
@@ -782,7 +823,7 @@ footer .derechos-reservados {
     text-align: center;
   }
   .h2-model {
-    font-size: 110%;
+    font-size: 4vw;
     margin: 0 0 1vw;
     text-align: center;
   }
@@ -791,8 +832,8 @@ footer .derechos-reservados {
     text-align: center;
   }
   .p-model {
-    font-size: 3vw;
-    margin: 0 0 5vw;
+    font-size: 3.5vw;
+    margin: 3vw 0 4vw;
     text-align: center;
   }
   .div-model {
@@ -811,6 +852,21 @@ footer .derechos-reservados {
     width: 100%;
     height: 30%;
     object-fit: cover;
+  }
+  .contenedor-modelos {
+    margin: 0vw 10vw;
+    padding: 6vw 0 2vw;
+  }
+  .form-contact {
+    margin: 3vw 22vw;
+    font-family: "EB Garamond", serif;
+    font-size: 3.5vw;
+  }
+  .button-send {
+    border-width: 0.5vw;
+    padding: 3vw 20.5vw;
+    font-size: 3vw;
+    margin: 2vw 0 4vw;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -848,13 +904,13 @@ footer .derechos-reservados {
   }
   .p-general {
     text-align: left;
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     padding: 0 5vw;
     margin: 6vw 8vw;
   }
   .p-biografia {
     text-align: left;
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     padding: 0px;
     margin: 1vw 7vw;
     align-self: center;
