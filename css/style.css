@@ -604,7 +604,7 @@ footer .derechos-reservados {
     font-size: 3vw;
   }
   h3 {
-    font-size: 100%;
+    font-size: 80%;
   }
   .h2-biografia {
     color: #fff7b7;
@@ -724,17 +724,17 @@ footer .derechos-reservados {
     margin: 3vw;
   }
   .container-notas .notas-periodisticas .p-notas {
-    font-size: 3vw;
+    font-size: 3.5vw;
     text-align: center;
     margin: 5vw 0 5vw;
   }
   .container-notas .notas-periodisticas .p-lanacion {
-    font-size: 3vw;
+    font-size: 3.5vw;
     text-align: center;
     margin: 5vw 0 5vw;
   }
   .container-notas .notas-periodisticas .p-natgeo {
-    font-size: 3vw;
+    font-size: 3.5vw;
     text-align: center;
     margin: 5vw 0 5vw;
   }
@@ -850,8 +850,23 @@ footer .derechos-reservados {
     z-index: -1;
     margin: 0;
     width: 100%;
-    height: 30%;
+    height: 40vw;
     object-fit: cover;
+  }
+  .div-bienvenida {
+    margin: 0 0 10vw;
+    animation: fadein 3s;
+  }
+  .div-bienvenida .h1-index {
+    padding: 14vw 0 0;
+    font-size: 3vw;
+    color: #ffffff;
+    margin: 0;
+  }
+  .div-bienvenida .h1-index2 {
+    padding: 0vw 0 0vw;
+    color: #fff7b7;
+    font-size: 4.5vw;
   }
   .contenedor-modelos {
     margin: 0vw 10vw;
