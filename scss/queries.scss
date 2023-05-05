@@ -326,8 +326,46 @@
         margin: 2vw 0 4vw;
     }
 
-    p.mantenimiento{
-        font-size: 8vw;
+    .p-mantenimiento{
+        font-size: 3vw;
+        margin: 6vw 1rem 2vw;
+    }
+
+    .p-aclaracion{
+        font-size: 3vw;
+        margin: 6vw 1rem 2vw;
+    }
+
+    .h4{
+        font-size: 2vw;
+        margin: 2vw 0;
+    }
+
+    .h4-number{
+        font-size: 30vw;
+        margin: 0 2vw 0 0;
+        padding: 0 0 0 6vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contenedor-404{
+        flex-direction: column;
+    }
+
+    .div-404{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .p-404{
+        text-align: center;
+        font-size: 2.5vw;
+        margin: 2vw 0vw 2vw;
     }
 
 }
@@ -358,7 +396,7 @@
     
     .p-sub_biografia{
         flex-direction: column;
-        font-size: 2.5vw;
+        font-size: 2vw;
         margin: 1vw 0vw 3vw;
     }
     .p-general{
@@ -449,7 +487,7 @@
 
         .p-sub{
             flex-direction: column;
-            font-size: 2.5vw;
+            font-size: 2vw;
             margin: 2vw 7vw 2vw;
         }
     }
@@ -660,4 +698,47 @@
         margin: 2vw 0 4vw;
         
     }
+
+    .p-mantenimiento{
+        font-size: 2.5vw;
+        margin: 6vw 1rem 2vw;
+    }
+
+    .p-aclaracion{
+        font-size: 2.5vw;
+        margin: 6vw 1rem 2vw;
+    }
+
+    .h4{
+        font-size: 2vw;
+        margin: 2vw 0;
+    }
+
+    .h4-number{
+        font-size: 30vw;
+        margin: 0 2vw 0 0;
+        padding: 0 0 0 6vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contenedor-404{
+        flex-direction: column;
+    }
+
+    .div-404{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .p-404{
+        text-align: center;
+        font-size: 2vw;
+        margin: 2vw 0vw 2vw;
+    }
+
 }
