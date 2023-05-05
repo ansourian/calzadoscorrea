@@ -176,6 +176,12 @@ ul {
   display: block;
 }
 
+.img-404 {
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 1.25;
+}
+
 p {
   text-align: left;
   font-size: 1.2vw;
@@ -230,6 +236,32 @@ p {
   text-align: center;
   font-size: 1.3vw;
   margin: 2vw 25vw 2vw;
+  font-family: "EB Garamond", serif;
+}
+
+.p-mantenimiento {
+  text-align: left;
+  font-size: 1.3vw;
+  padding: 0px;
+  margin: 0 1rem;
+  font-family: "EB Garamond", serif;
+  align-self: center;
+}
+
+.p-aclaracion {
+  text-align: left;
+  font-size: 1.2vw;
+  padding: 0px;
+  margin: 0 1rem;
+  font-family: "EB Garamond", serif;
+  align-self: center;
+  color: #848484;
+}
+
+.p-404 {
+  text-align: center;
+  font-size: 1.3vw;
+  margin: 2vw 0vw 2vw;
   font-family: "EB Garamond", serif;
 }
 
@@ -424,6 +456,18 @@ hr {
   opacity: 100;
 }
 
+.div-mantenimiento {
+  margin: -4vw 0;
+}
+
+.div-404 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
 .container-variant {
   justify-content: left;
 }
@@ -436,6 +480,24 @@ hr {
 .contenedor-modelos {
   margin: 0vw 10vw;
   padding: 0vw 0 2vw;
+}
+
+.contenedor-mantenimiento {
+  margin: 0vw 10vw;
+  padding: 2vw 0 2vw;
+}
+
+.contenedor-aclaracion {
+  display: flex;
+  margin: 7vw 1vw;
+  padding: 0vw 0 0vw;
+  align-items: center;
+}
+
+.contenedor-404 {
+  margin: 0;
+  padding: 0 0 0;
+  display: flex;
 }
 
 h1 {
@@ -511,6 +573,29 @@ h3 {
   margin: auto 1rem;
   justify-content: center;
   align-items: center;
+}
+
+h4 {
+  color: #000000;
+  text-align: left;
+  font-size: 4vw;
+  margin: 0 0 2vw 2vw;
+  font-family: "EB Garamond", serif;
+}
+
+.h4-right {
+  color: #000000;
+  text-align: right;
+  font-size: 4vw;
+  margin: 0 2vw 2vw 0;
+  font-family: "EB Garamond", serif;
+}
+
+.h4-number {
+  color: #e7e7e7;
+  text-align: center;
+  font-size: 20vw;
+  font-family: "EB Garamond", serif;
 }
 
 .all-sections {
@@ -885,6 +970,9 @@ footer .derechos-reservados {
     padding: 3vw 20.5vw;
     font-size: 3vw;
     margin: 2vw 0 4vw;
+  }
+  p.mantenimiento {
+    font-size: 8vw;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
