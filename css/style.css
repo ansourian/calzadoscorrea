@@ -369,6 +369,14 @@ p {
   font-size: 1vw;
 }
 
+.open-menu {
+  display: none;
+}
+
+.close-menu {
+  display: none;
+}
+
 .button-send {
   font-family: "Outfit", sans-serif;
   background-color: #ffffff;
@@ -894,6 +902,9 @@ footer .derechos-reservados {
   }
   .logo {
     width: 25vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
   }
   .div-biografia {
     flex-direction: column;
@@ -1005,6 +1016,43 @@ footer .derechos-reservados {
     text-align: center;
     font-size: 2.5vw;
     margin: 2vw 0vw 2vw;
+  }
+  .open-menu {
+    display: block;
+    border: 0;
+    margin: 0 0 0 4vw;
+    background-color: transparent;
+    color: white;
+    font-size: 1.5rem;
+  }
+  .close-menu {
+    display: block;
+    border: 0;
+    margin: 3vw 0 0 4vw;
+    background-color: transparent;
+    color: white;
+    font-size: 1.3rem;
+  }
+  .navigation {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #1F2337;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+  }
+  .nav-logo {
+    display: flex;
+  }
+  .nav-list {
+    flex-direction: column;
+    align-items: start;
+  }
+  .item-nav-index {
+    padding: 4.3vw 2.5vw 4vw !important;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
