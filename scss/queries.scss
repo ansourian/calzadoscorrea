@@ -164,23 +164,31 @@
             .h1-footer {
                 color: white;
                 display: flex;
-                margin: 3vw 0vw 0 0;
+                margin: 3vw 0vw 0 17vw;
                 font-size: 6vw;
                 align-items: center;
                 text-align: center;
             }
     
             .instagram-logo{
-                width: 30%;
+                width: 60%;
                 display: flex;
-                margin: 3vw 34vw 0vw;
+                margin: 2vw 0 0 -3vw;
+                padding: 0vw 0vw 0vw 0vw;
                 justify-self: center;
+                object-fit: fill;
             }
 
             .p-footer{
                 font-size: 3.5vw;
                 margin: 5vw 0 0;
             }
+        }
+
+        .row-seguinos_ig{
+            display: flex;
+            flex-direction: row !important;
+            justify-content: space-between;
         }
 
         h3{
@@ -332,18 +340,23 @@
     }
 
     .p-mantenimiento{
-        font-size: 3vw;
+        font-size: 3.5vw;
         margin: 6vw 1rem 2vw;
     }
 
     .p-aclaracion{
-        font-size: 3vw;
+        font-size: 3.5vw;
         margin: 6vw 1rem 2vw;
     }
 
-    .h4{
-        font-size: 2vw;
-        margin: 2vw 0;
+    h4{
+        font-size: 5vw;
+        margin: 2vw 0 4vw;
+    }
+
+    .h4-right{
+        font-size: 5vw;
+        margin: 2vw 0 0;
     }
 
     .h4-number{
@@ -418,6 +431,16 @@
 
     body{
         overflow-x: hidden;
+    }
+
+    .img-mantenimiento{
+        display: flex;
+        justify-content: center;
+        margin: 8vw auto 1vw;
+        width: 350px;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 1vw;
     }
 }
 
@@ -587,28 +610,36 @@
             .h1-footer {
                 color: white;
                 display: flex;
-                margin: 3vw 0vw 0 0;
-                font-size: 4vw;
+                margin: 3.5vw 0vw 0 33vw;
+                font-size: 3vw;
                 align-items: center;
                 text-align: center;
             }
     
             .instagram-logo{
-                width: 25%;
+                width: 30%;
                 display: flex;
-                margin: 3vw 37vw 0vw;
+                margin: 3vw -2vw 0vw;
+                padding: 0vw 0vw 0vw 0vw;
                 justify-self: center;
+                object-fit: fill;
             }
 
             .p-footer{
-                font-size: 2.5vw;
+                font-size: 2vw;
                 margin: 5vw 0 0;
             }
         }
 
+        .row-seguinos_ig{
+            display: flex;
+            flex-direction: row !important;
+            justify-content: space-between;
+        }
+
         h3{
-        font-size: 4vw;
-        margin: 12vw 0 4vw;
+        font-size: 3vw;
+        margin: 10vw 0 1vw;
         }
 
         .row{
@@ -617,7 +648,7 @@
                 margin: 2vw 0 0 1vw;
             
                 .p-footerinfo{
-                    font-size: 2.5vw;
+                    font-size: 2vw;
                     text-align: center !important;
                     justify-content: center;
                     align-items: center;
@@ -637,7 +668,7 @@
             flex-direction: column;
         }
         .derechos-reservados {
-            font-size: 2.5vw;
+            font-size: 1.5vw;
             padding: 3vw;
             }
     }
@@ -751,18 +782,23 @@
     }
 
     .p-mantenimiento{
-        font-size: 2.5vw;
+        font-size: 2vw;
         margin: 6vw 1rem 2vw;
     }
 
     .p-aclaracion{
-        font-size: 2.5vw;
+        font-size: 2vw;
         margin: 6vw 1rem 2vw;
     }
 
-    .h4{
-        font-size: 2vw;
+    h4{
+        font-size: 3vw;
         margin: 2vw 0;
+    }
+
+    .h4-right{
+        font-size: 3vw;
+        margin: 2vw 0 0;
     }
 
     .h4-number{
@@ -794,6 +830,16 @@
 
     body{
         overflow-x: hidden;
+    }
+
+    .img-mantenimiento{
+        display: flex;
+        justify-content: center;
+        margin: 8vw auto 1vw;
+        width: 750px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 1vw;
     }
 
 }

@@ -66,3 +66,13 @@
     object-fit: cover;
     aspect-ratio: 1.25;
 }
+
+.img-mantenimiento{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 1200px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 0.5vw;
+}
