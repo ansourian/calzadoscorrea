@@ -189,7 +189,7 @@ ul {
   width: 1200px;
   height: 400px;
   object-fit: cover;
-  border-radius: 0.5vw;
+  border-radius: 0vw;
 }
 
 .img-index {
@@ -199,7 +199,7 @@ ul {
   width: 950px;
   height: 400px;
   object-fit: cover;
-  border-radius: 0.5vw;
+  border-radius: 0vw;
 }
 
 p {
@@ -418,6 +418,15 @@ p {
   border-color: #101225;
 }
 
+.button-slide {
+  font-size: 3vw;
+  border: none;
+  background-color: transparent;
+  padding: 0 8vw;
+  margin: 0.5vw 0 0;
+  color: #101225;
+}
+
 .form-style {
   display: block;
   width: 100%;
@@ -500,6 +509,11 @@ hr {
 
 .div-img_index {
   margin: 2vw 0;
+}
+
+.slide-styles {
+  display: flex;
+  flex-direction: row;
 }
 
 .container-variant {
