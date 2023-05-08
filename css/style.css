@@ -192,6 +192,16 @@ ul {
   border-radius: 0.5vw;
 }
 
+.img-index {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 950px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 0.5vw;
+}
+
 p {
   text-align: left;
   font-size: 1.2vw;
@@ -451,6 +461,7 @@ p {
 .div-model {
   display: flex;
   justify-content: center;
+  margin: 4vw 0;
 }
 
 .div-biografia {
@@ -485,6 +496,10 @@ hr {
   justify-content: center;
   align-items: center;
   width: 50%;
+}
+
+.div-img_index {
+  margin: 2vw 0;
 }
 
 .container-variant {
@@ -662,7 +677,7 @@ footer .row-seguinos_ig .h1-footer {
 footer .row-seguinos_ig .instagram-logo {
   width: 10vw;
   display: flex;
-  margin: 1.5vw 13vw 0 0;
+  margin: 1.5vw 15vw 0 0;
 }
 footer .p-footer {
   text-align: center;
@@ -1091,6 +1106,15 @@ footer .derechos-reservados {
     object-fit: cover;
     border-radius: 1vw;
   }
+  .img-index {
+    display: flex;
+    justify-content: center;
+    margin: 1vw auto 5vw;
+    width: 325px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 1vw;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   h1 {
@@ -1438,6 +1462,15 @@ footer .derechos-reservados {
     display: flex;
     justify-content: center;
     margin: 8vw auto 1vw;
+    width: 750px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 1vw;
+  }
+  .img-index {
+    display: flex;
+    justify-content: center;
+    margin: 1vw auto 4vw;
     width: 750px;
     height: 300px;
     object-fit: cover;

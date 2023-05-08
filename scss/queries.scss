@@ -442,6 +442,16 @@
         object-fit: cover;
         border-radius: 1vw;
     }
+
+    .img-index{
+        display: flex;
+        justify-content: center;
+        margin: 1vw auto 5vw;
+        width: 325px;
+        height: 170px;
+        object-fit: cover;
+        border-radius: 1vw;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width:1024px) {
@@ -837,6 +847,16 @@
         display: flex;
         justify-content: center;
         margin: 8vw auto 1vw;
+        width: 750px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 1vw;
+    }
+
+    .img-index{
+        display: flex;
+        justify-content: center;
+        margin: 1vw auto 4vw;
         width: 750px;
         height: 300px;
         object-fit: cover;
