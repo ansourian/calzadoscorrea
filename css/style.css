@@ -1129,6 +1129,11 @@ footer .derechos-reservados {
     object-fit: cover;
     border-radius: 1vw;
   }
+  .button-slide {
+    font-size: 7vw;
+    padding: 0 8vw;
+    margin: -1vw 0 0;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   h1 {
@@ -1351,8 +1356,8 @@ footer .derechos-reservados {
     margin: 0 0 6vw;
   }
   .logo {
-    width: 20vw;
-    margin: 0 0 0 0;
+    width: 15vw;
+    margin: 0 auto;
   }
   .div-biografia {
     flex-direction: column;
@@ -1489,6 +1494,11 @@ footer .derechos-reservados {
     height: 300px;
     object-fit: cover;
     border-radius: 1vw;
+  }
+  .button-slide {
+    font-size: 5vw;
+    padding: 0 10vw;
+    margin: -0.5vw 0 0;
   }
 }
 .estilo-x {
