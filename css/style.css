@@ -1195,8 +1195,11 @@ footer .derechos-reservados {
     object-fit: cover;
     border-radius: 1vw;
   }
-  html {
+  html, body {
     overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    transform: translate3d(0, 0, 0);
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -1378,8 +1381,6 @@ footer .derechos-reservados {
     padding: 1vw 0;
     margin-top: 2vw;
     margin-bottom: 0;
-    overflow-x: hidden;
-    max-width: 100vw;
   }
   footer .row-seguinos_ig {
     display: flex;
@@ -1548,9 +1549,6 @@ footer .derechos-reservados {
     text-align: center;
     font-size: 2vw;
     margin: 2vw 0vw 2vw;
-  }
-  body {
-    overflow-x: hidden;
   }
   .img-mantenimiento {
     display: flex;
