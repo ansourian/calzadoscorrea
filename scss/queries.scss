@@ -687,6 +687,18 @@
             }
         }
 
+        .derechos-reservados{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 0.8vw;
+            text-align: center;
+            background-color: #101225;
+            padding: 1vw 0;
+            margin-top: 2vw;
+            margin-bottom: 0;
+            overflow-x: hidden;
+            max-width: 100vw;
+        }
+
         .row-seguinos_ig{
             display: flex;
             flex-direction: row !important;
