@@ -1135,6 +1135,7 @@ footer .derechos-reservados {
   }
   body {
     overflow-x: hidden;
+    max-width: 100vw;
   }
   .img-mantenimiento {
     display: flex;
