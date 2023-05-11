@@ -224,7 +224,9 @@
         .derechos-reservados {
             font-size: 3vw;
             padding: 3vw;
-            }
+            overflow: hidden;
+            max-width: 100vw;
+        }
     }
 
     .p-modelos {
