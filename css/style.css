@@ -1195,6 +1195,9 @@ footer .derechos-reservados {
     object-fit: cover;
     border-radius: 1vw;
   }
+  html {
+    overflow: hidden;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   h1 {
