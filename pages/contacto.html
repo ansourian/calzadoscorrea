@@ -42,15 +42,19 @@
             <form action="404.html" class="form-contact"> 
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                    <input type="name" class="form-style form-control" id="exampleFormControlInput1" placeholder="Indique su nombre completo">
+                    <input type="text" class="form-style form-control" id="exampleFormControlInput1" placeholder="Indique su nombre" required>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Apellido</label>
+                    <input type="text" class="form-style form-control" id="exampleFormControlInput1" placeholder="Indique su apellido" required>
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
-                    <input type="email" class="form-style form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+                    <input type="email" class="form-style form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com" required>
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                    <textarea class="form-style form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <textarea class="form-style form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
                 </div>
                 <div class="col-12">
                     <button class="button-send btn btn-primary" type="submit">ENVIAR</button>
