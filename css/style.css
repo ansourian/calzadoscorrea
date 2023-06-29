@@ -159,6 +159,15 @@ ul {
   border-radius: 0.5vw;
 }
 
+.img-model_var {
+  width: 40vw;
+  align-items: center;
+  justify-content: center;
+  margin: 4vw;
+  display: block;
+  border-radius: 0.5vw;
+}
+
 .model-variant {
   width: 4vw;
   border-radius: 0.3vw;
@@ -225,7 +234,6 @@ p {
   padding: 0 11vw;
   margin: 3vw 8vw;
   font-family: "EB Garamond", serif;
-  text-align: center;
 }
 
 .p-biografia {
@@ -576,6 +584,15 @@ hr {
   display: flex;
 }
 
+.container-var {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
 h1 {
   color: #000000;
   text-align: center;
@@ -683,6 +700,7 @@ h4 {
 
 .blue-section {
   margin: 3vw 0;
+  padding: 0 0 3vw 0;
   background: rgb(36, 40, 65);
   background: linear-gradient(80deg, rgb(36, 40, 65) 0%, rgb(37, 41, 71) 26%, rgb(24, 27, 42) 73%, rgb(13, 14, 19) 100%);
 }
