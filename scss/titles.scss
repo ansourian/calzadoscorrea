@@ -68,9 +68,17 @@ h3{
 }
 
 .model-titles{
-    margin: auto 1rem;
+    margin: auto;
     justify-content: center;
     align-items: center;
+}
+
+.model-subtitles{
+    margin: auto 1rem;
+    text-align: center;
+    font-size: 1.3vw;
+    font-family: 'EB Garamond', serif;
+    color: #595959;
 }
 
 h4{
