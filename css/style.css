@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap");
@@ -172,7 +173,7 @@ ul {
 }
 
 .img-model_var {
-  width: 40vw;
+  width: 30vw;
   align-items: center;
   justify-content: center;
   margin: 4vw;
@@ -354,6 +355,8 @@ p {
   align-items: center;
   flex-wrap: wrap;
   margin-bottom: 3rem;
+  background-color: white;
+  border: 0;
 }
 
 .container-notas {
@@ -362,6 +365,8 @@ p {
   justify-content: center;
   align-items: center;
   margin: 4rem 5rem 4rem;
+  background-color: white;
+  border: 0;
 }
 .container-notas .notas-periodisticas {
   display: flex;
@@ -499,6 +504,27 @@ p {
     opacity: 1;
   }
 }
+/* Estilo base de las secciones */
+.fade-section {
+  opacity: 0;
+  transform: translateY(20px); /* Efecto de desplazamiento hacia arriba */
+  transition: opacity 1.5s, transform 0.5s;
+}
+
+/* Estilo de las secciones cuando son visibles */
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Añade estilos adicionales según tus necesidades */
+section {
+  padding: 20px;
+  background-color: #f0f0f0;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+}
+
 .div-section {
   display: flex;
   flex-direction: column;
@@ -572,6 +598,8 @@ hr {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  background-color: white;
+  border: 0;
 }
 
 .contenedor-mantenimiento {
@@ -606,6 +634,8 @@ hr {
   align-items: center;
   flex-wrap: wrap;
   margin-bottom: 3rem;
+  background-color: white;
+  border: 0;
 }
 
 h1 {
@@ -1271,6 +1301,9 @@ footer .derechos-reservados {
     flex-direction: column;
     justify-content: space-around;
   }
+  .fade-section {
+    opacity: 1;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   html {
@@ -1718,6 +1751,9 @@ footer .derechos-reservados {
     width: 450px;
     transition: 0.5s;
     filter: brightness(70%) grayscale(100%);
+  }
+  .fade-section {
+    opacity: 1;
   }
 }
 .estilo-x {

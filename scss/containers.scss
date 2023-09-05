@@ -13,6 +13,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    background-color: white;
+    border: 0;
 }
 
 .contenedor-mantenimiento{
@@ -47,4 +49,6 @@
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 3rem;
+    background-color: white;
+    border: 0;
 }
