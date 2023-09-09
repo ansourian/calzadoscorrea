@@ -137,11 +137,11 @@ ul {
   margin: 1rem;
   transition: 0.5s;
   filter: brightness(100%) grayscale(0%);
-}
-.img-models:hover {
-  width: 300px;
-  transition: 0.5s;
-  filter: brightness(70%) grayscale(100%);
+  /*    &:hover{
+          width: 300px;
+          transition: 0.5s;
+          filter: brightness(70%) grayscale(100%);
+      } */
 }
 
 .img-modeltype {
@@ -176,7 +176,7 @@ ul {
   width: 30vw;
   align-items: center;
   justify-content: center;
-  margin: 4vw;
+  margin: 0vw 4vw;
   display: block;
   border-radius: 0.5vw;
 }
@@ -351,7 +351,7 @@ p {
 .container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   margin-bottom: 3rem;
@@ -393,6 +393,14 @@ p {
   font-size: 1.1vw;
   text-align: center;
   margin: 3.5vw 1vw 3.7vw;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
 }
 
 .div-button {
@@ -536,7 +544,7 @@ section {
 .div-model {
   display: flex;
   justify-content: center;
-  margin: 4vw 0;
+  margin: 4vw 3vw 4vw;
 }
 
 .div-biografia {
@@ -652,7 +660,7 @@ h1 {
 
 .h1-model {
   text-align: center;
-  font-size: 4vw;
+  font-size: 3.3vw;
   margin: 3vw 0 0 0;
 }
 
@@ -711,6 +719,7 @@ h3 {
   margin: auto;
   justify-content: center;
   align-items: center;
+  font-size: 1.2vw;
 }
 
 .model-subtitles {

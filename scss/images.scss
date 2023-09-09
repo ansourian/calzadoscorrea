@@ -21,11 +21,11 @@
     transition: 0.5s;
     filter: brightness(100%) grayscale(0%);
 
-    &:hover{
+/*    &:hover{
         width: 300px;
         transition: 0.5s;
         filter: brightness(70%) grayscale(100%);
-    }
+    } */
 }
 
 .img-modeltype{
@@ -61,7 +61,7 @@
     width: 30vw;
     align-items: center;
     justify-content: center;
-    margin: 4vw;
+    margin: 0vw 4vw;
     display: block;
     border-radius: 0.5vw;
 }
