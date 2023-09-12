@@ -128,7 +128,7 @@ document.addEventListener('DOMContentLoaded', function () {
             titulo: 'Oxford (Maíz)',
             estilo: 'READY TO WEAR',
             descripcion: 'Descripción del Sneaker.',
-            color: 'Azul',
+            color: 'Maíz',
             tipoCuero: 'Cuero vacuno',
             imagenPrincipal: "../assets/img/ready to wear/122 - 29.jpg",
             imagenes: ["../assets/img/ready to wear/122 - 29.jpg", "../assets/img/ready to wear/119 - 18.jpg", "../assets/img/ready to wear/119 - 19.jpg", "../assets/img/ready to wear/119 - 20.jpg"]
@@ -138,7 +138,7 @@ document.addEventListener('DOMContentLoaded', function () {
             titulo: 'Oxford (Verde)',
             estilo: 'READY TO WEAR',
             descripcion: 'Descripción del Sneaker.',
-            color: 'Negro',
+            color: 'Verde',
             tipoCuero: 'Cuero vacuno',
             imagenPrincipal: "../assets/img/ready to wear/123 - 1.jpg",
             imagenes: ["../assets/img/ready to wear/123 - 1.jpg", "../assets/img/ready to wear/119 - 22.jpg", "../assets/img/ready to wear/119 - 23.jpg", "../assets/img/ready to wear/119 - 24.jpg"]
@@ -148,10 +148,10 @@ document.addEventListener('DOMContentLoaded', function () {
             titulo: 'Oxford (Natural)',
             estilo: 'READY TO WEAR',
             descripcion: 'Descripción del Sneaker.',
-            color: 'Negro',
+            color: 'Natural',
             tipoCuero: 'Cuero vacuno',
             imagenPrincipal: "../assets/img/ready to wear/123 - 5.jpg",
-            imagenes: ["../assets/img/ready to wear/123 - 5.jpg", "../assets/img/ready to wear/121 - 2.jpg", "../assets/img/ready to wear/121 - 3.jpg", "../assets/img/ready to wear/121 - 4.jpg"]
+            imagenes: ["../assets/img/ready to wear/123 - 5.jpg", "../assets/img/ready to wear/123 - 6.jpg", "../assets/img/ready to wear/123 - 7.jpg", "../assets/img/ready to wear/123 - 8.jpg"]
         },
         {
             id: 'Oxford-Chocolate',
@@ -168,8 +168,8 @@ document.addEventListener('DOMContentLoaded', function () {
             titulo: 'Mocasín IOAN',
             estilo: 'READY TO WEAR',
             descripcion: 'Descripción del Sneaker.',
-            color: 'Marrón',
-            tipoCuero: 'Cuero vacuno',
+            color: 'Maíz',
+            tipoCuero: 'Cuero Vegetal',
             imagenPrincipal: "../assets/img/ready to wear/123 - 32.jpg",
             imagenes: ["../assets/img/ready to wear/123 - 32.jpg", "../assets/img/ready to wear/121 - 9.jpg", "../assets/img/ready to wear/121 - 10.jpg", "../assets/img/ready to wear/121 - 11.jpg"]
         },
@@ -441,7 +441,7 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Museum',
             tipoCuero: 'Vacuno',
             imagenPrincipal: "../assets/img/bespoke/123 - 16.jpg",
-            imagenes: ["../assets/img/bespoke/123 - 16.jpg", "../assets/img/made by order/113 - 2.jpg", "../assets/img/made by order/113 - 3.jpg", "../assets/img/made by order/113 - 4.jpg"]
+            imagenes: ["../assets/img/bespoke/123 - 16.jpg", "../assets/img/bespoke/123 - 17.jpg", "../assets/img/bespoke/123 - 18.jpg", "../assets/img/bespoke/123 - 19.jpg"]
         },
         {
             id: 'Untitled',
@@ -451,7 +451,7 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Marrón',
             tipoCuero: 'Vacuno',
             imagenPrincipal: "../assets/img/bespoke/123 - 24.jpg",
-            imagenes: ["../assets/img/bespoke/123 - 24.jpg", "../assets/img/bespoke/123 - 24.jpg", "../assets/img/bespoke/123 - 24.jpg", "../assets/img/bespoke/123 - 24.jpg"]
+            imagenes: ["../assets/img/bespoke/123 - 24.jpg", "../assets/img/bespoke/123 - 25.jpg", "../assets/img/bespoke/123 - 26.jpg", "../assets/img/bespoke/123 - 27.jpg"]
         },
         {
             id: 'Bota-Chelsea-Marron',
@@ -461,7 +461,7 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Marrón',
             tipoCuero: 'Vacuno',
             imagenPrincipal: "../assets/img/bespoke/123 - 28.jpg",
-            imagenes: ["../assets/img/bespoke/123 - 28.jpg", "../assets/img/bespoke/123 - 28.jpg", "../assets/img/bespoke/123 - 28.jpg", "../assets/img/bespoke/123 - 28.jpg"]
+            imagenes: ["../assets/img/bespoke/123 - 28.jpg", "../assets/img/bespoke/123 - 29.jpg", "../assets/img/bespoke/123 - 30.jpg", "../assets/img/bespoke/123 - 31.jpg"]
         },
         {
             id: 'Bota-Chelsea-Marron-Oscuro',
@@ -471,7 +471,7 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Marrón Oscuro',
             tipoCuero: 'Vacuno',
             imagenPrincipal: "../assets/img/bespoke/123 - 36.jpg",
-            imagenes: ["../assets/img/bespoke/123 - 36.jpg", "../assets/img/bespoke/123 - 36.jpg", "../assets/img/bespoke/123 - 36.jpg", "../assets/img/bespoke/123 - 36.jpg"]
+            imagenes: ["../assets/img/bespoke/123 - 36.jpg", "../assets/img/bespoke/123 - 37.jpg", "../assets/img/bespoke/123 - 38.jpg", "../assets/img/bespoke/123 - 39.jpg"]
         }
         
         // Aca puedo meter mas modelos

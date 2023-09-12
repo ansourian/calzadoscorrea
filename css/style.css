@@ -1121,21 +1121,21 @@ footer .derechos-reservados {
     z-index: -1;
     margin: 0;
     width: 100%;
-    height: 40vw;
+    height: 60vw;
     object-fit: cover;
   }
   .video-intro .div-bienvenida {
-    margin: 0 0 10vw;
+    margin: 0 0 20vw;
     animation: fadein 3s;
   }
   .video-intro .div-bienvenida .h1-index {
-    padding: 14vw 0 0;
+    padding: 20vw 0 0;
     font-size: 3vw;
     color: #ffffff;
     margin: 0;
   }
   .video-intro .div-bienvenida .h1-index2 {
-    padding: 0vw 0 0vw;
+    padding: 2vw 0 0vw;
     color: #fff7b7;
     font-size: 4.5vw;
   }
