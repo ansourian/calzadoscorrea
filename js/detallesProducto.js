@@ -20,8 +20,8 @@ document.addEventListener('DOMContentLoaded', function () {
             descripcion: 'Descripción del Sneaker.',
             color: 'Suela',
             tipoCuero: 'Cuero vacuno.',
-            imagenPrincipal: "../assets/img/ready to wear/117 - 16.jpg",
-            imagenes: ["../assets/img/ready to wear/117 - 16.jpg", "../assets/img/ready to wear/117 - 17.jpg", "../assets/img/ready to wear/117 - 18.jpg", "../assets/img/ready to wear/117 - 19.jpg"]
+            imagenPrincipal: "../assets/img/ready to wear/122 - 26.jpg",
+            imagenes: ["../assets/img/ready to wear/122 - 26.jpg", "../assets/img/ready to wear/122 - 27.jpg", "../assets/img/ready to wear/122 - 28.jpg", "../assets/img/ready to wear/117 - 19.jpg"]
         },
         {
             id: 'Sneaker-Marron',
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Negro',
             tipoCuero: 'Cuero vacuno',
             imagenPrincipal: "../assets/img/ready to wear/122 - 20.jpg",
-            imagenes: ["../assets/img/ready to wear/122 - 20.jpg", "../assets/img/ready to wear/122 - 21.jpg", "../assets/img/ready to wear/122 - 22.jpg", "../assets/img/ready to wear/122 - 19.jpg"]
+            imagenes: ["../assets/img/ready to wear/122 - 20.jpg", "../assets/img/ready to wear/122 - 21.jpg", "../assets/img/ready to wear/122 - 22.jpg", "../assets/img/ready to wear/117 - 19.jpg"]
         },
         {
             id: 'Sneaker-Azul',
@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Maíz',
             tipoCuero: 'Cuero vacuno',
             imagenPrincipal: "../assets/img/ready to wear/122 - 29.jpg",
-            imagenes: ["../assets/img/ready to wear/122 - 29.jpg", "../assets/img/ready to wear/119 - 18.jpg", "../assets/img/ready to wear/119 - 19.jpg", "../assets/img/ready to wear/119 - 20.jpg"]
+            imagenes: ["../assets/img/ready to wear/122 - 29.jpg", "../assets/img/ready to wear/122 - 30.jpg", "../assets/img/ready to wear/122 - 31.jpg", "../assets/img/ready to wear/122 - 32.jpg"]
         },
         {
             id: 'Oxford-Verde',
@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Verde',
             tipoCuero: 'Cuero vacuno',
             imagenPrincipal: "../assets/img/ready to wear/123 - 1.jpg",
-            imagenes: ["../assets/img/ready to wear/123 - 1.jpg", "../assets/img/ready to wear/119 - 22.jpg", "../assets/img/ready to wear/119 - 23.jpg", "../assets/img/ready to wear/119 - 24.jpg"]
+            imagenes: ["../assets/img/ready to wear/123 - 1.jpg", "../assets/img/ready to wear/123 - 2.jpg", "../assets/img/ready to wear/123 - 3.jpg", "../assets/img/ready to wear/123 - 4.jpg"]
         },
         {
             id: 'Oxford-Natural',
@@ -154,14 +154,14 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenes: ["../assets/img/ready to wear/123 - 5.jpg", "../assets/img/ready to wear/123 - 6.jpg", "../assets/img/ready to wear/123 - 7.jpg", "../assets/img/ready to wear/123 - 8.jpg"]
         },
         {
-            id: 'Oxford-Chocolate',
-            titulo: 'Oxford (Chocolate)',
+            id: 'Oxford-Tabaco',
+            titulo: 'Oxford (Tabaco)',
             estilo: 'READY TO WEAR',
             descripcion: 'Descripción del Sneaker.',
-            color: 'Chocolate',
+            color: 'Tabaco',
             tipoCuero: 'Cuero vacuno',
             imagenPrincipal: "../assets/img/ready to wear/123 - 9.jpg",
-            imagenes: ["../assets/img/ready to wear/123 - 9.jpg", "../assets/img/ready to wear/121 - 5.jpg", "../assets/img/ready to wear/121 - 6.jpg", "../assets/img/ready to wear/121 - 7.jpg"]
+            imagenes: ["../assets/img/ready to wear/123 - 9.jpg", "../assets/img/ready to wear/123 - 10.jpg", "../assets/img/ready to wear/123 - 11.jpg", "../assets/img/ready to wear/123 - .jpg"]
         },
         {
             id: 'Mocasin-IOAN',
@@ -171,7 +171,7 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Maíz',
             tipoCuero: 'Cuero Vegetal',
             imagenPrincipal: "../assets/img/ready to wear/123 - 32.jpg",
-            imagenes: ["../assets/img/ready to wear/123 - 32.jpg", "../assets/img/ready to wear/121 - 9.jpg", "../assets/img/ready to wear/121 - 10.jpg", "../assets/img/ready to wear/121 - 11.jpg"]
+            imagenes: ["../assets/img/ready to wear/123 - 32.jpg", "../assets/img/ready to wear/123 - 33.jpg", "../assets/img/ready to wear/123 - 34.jpg", "../assets/img/ready to wear/123 - 35.jpg"]
         },
         {
             id: 'Swann-Maiz',
