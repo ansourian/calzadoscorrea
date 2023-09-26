@@ -1087,11 +1087,11 @@ footer .derechos-reservados {
     width: 70vw;
     justify-content: center;
   }
-  .h1-model {
+  .h2-model {
     font-size: 250%;
     text-align: center;
   }
-  .h2-model {
+  .h3-model {
     font-size: 4vw;
     margin: 0 0 1vw;
     text-align: center;
@@ -1100,8 +1100,8 @@ footer .derechos-reservados {
     color: white;
     margin: 0px 10px 10px;
   }
-  .h3-model {
-    font-size: 3vw;
+  .h4-model {
+    font-size: 4vw;
     text-align: center;
   }
   .p-model {
@@ -1262,7 +1262,7 @@ footer .derechos-reservados {
   .button-slide {
     font-size: 7vw;
     padding: 0 8vw;
-    margin: -1vw 0 0;
+    margin: 10vw 0 0;
   }
   .contenedor-recomendaciones {
     margin: 0vw 4vw 2vw;
@@ -1614,16 +1614,16 @@ footer .derechos-reservados {
     width: 70vw;
     justify-content: center;
   }
-  .h1-model {
+  .h2-model {
     font-size: 400%;
     text-align: center;
   }
-  .h2-model {
-    font-size: 4vw;
+  .h3-model {
+    font-size: 3vw;
     margin: 0 0 1vw;
     text-align: center;
   }
-  .h3-model {
+  .h4-model {
     font-size: 3vw;
     text-align: center;
   }
@@ -1752,7 +1752,7 @@ footer .derechos-reservados {
   .button-slide {
     font-size: 5vw;
     padding: 0 10vw;
-    margin: -0.5vw 0 0;
+    margin: 5vw 0 0;
   }
   .contenedor-recomendaciones {
     margin: 0vw 4vw 2vw;
