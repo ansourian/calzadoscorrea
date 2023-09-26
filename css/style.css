@@ -1144,6 +1144,11 @@ footer .derechos-reservados {
     color: #fff7b7;
     margin: 0;
   }
+  .video-intro .div-bienvenida .h2-titulo {
+    color: #ffffff;
+    font-size: 3.2vw;
+    margin: 0 0 0;
+  }
   .contenedor-modelos {
     margin: 0vw 10vw;
     padding: 6vw 0 2vw;
@@ -1662,15 +1667,15 @@ footer .derechos-reservados {
     animation: fadein 3s;
   }
   .video-intro .div-bienvenida .h1-index {
-    padding: 14vw 0 0;
-    font-size: 3vw;
-    color: #ffffff;
+    padding: 11vw 0 0;
+    font-size: 7vw;
+    color: #fff7b7;
     margin: 0;
   }
-  .video-intro .div-bienvenida .h1-index2 {
-    padding: 0vw 0 0vw;
-    color: #fff7b7;
-    font-size: 4.5vw;
+  .video-intro .div-bienvenida .h2-titulo {
+    color: #ffffff;
+    font-size: 2.3vw;
+    margin: 0 0 0;
   }
   .contenedor-modelos {
     margin: 0vw 10vw;
