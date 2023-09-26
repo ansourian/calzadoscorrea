@@ -99,11 +99,11 @@ ul {
 }
 .div-bienvenida .h1-index {
   text-align: center;
-  margin: 0 0 2vw 0;
+  margin: 0 0 0 0;
   font-family: "EB Garamond", serif;
-  padding: 12vw 0 3vw;
+  padding: 14vw 0 0;
   color: #fff7b7;
-  font-size: 8vw;
+  font-size: 4vw;
 }
 .div-bienvenida .flecha-index {
   margin: 12vw auto 0;
@@ -668,6 +668,11 @@ h2 {
 
 .h2_quienes_somos {
   color: #ffffff;
+}
+
+.h2-titulo {
+  color: #ffffff;
+  font-size: 2vw;
 }
 
 .h2-model {
