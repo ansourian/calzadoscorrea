@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Negro',
             tipoCuero: 'Cuero vacuno',
             imagenPrincipal: "../assets/img/ready to wear/121 - 1.jpg",
-            imagenes: ["../assets/img/ready to wear/121 - 1.jpg", "../assets/img/ready to wear/121 - 2.jpg", "../assets/img/ready to wear/121 - 3.jpg", "../assets/img/ready to wear/121 - 4.jpg"]
+            imagenes: ["../assets/img/ready to wear/121 - 1.jpg", "../assets/img/ready to wear/121 - 2.jpg", "../assets/img/ready to wear/121 - 3.jpg", "../assets/img/ready to wear/121 - 11.jpg"]
         },
         {
             id: '1103-Chocolate',
@@ -321,7 +321,7 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Marrón',
             tipoCuero: 'Cuero vacuno',
             imagenPrincipal: "../assets/img/made by order/123 - 12.jpg",
-            imagenes: ["../assets/img/made by order/123 - 12.jpg", "../assets/img/ready to wear/121 - 9.jpg", "../assets/img/ready to wear/121 - 10.jpg", "../assets/img/ready to wear/121 - 11.jpg"]
+            imagenes: ["../assets/img/made by order/123 - 12.jpg", "../assets/img/made by order/123 - 13.jpg", "../assets/img/made by order/123 - 14.jpg"]
         },
         {
             id: 'Oxford-Wingtip-Full-Brogued-Maiz',

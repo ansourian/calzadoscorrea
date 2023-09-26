@@ -98,15 +98,12 @@ ul {
   animation: fadein 3s;
 }
 .div-bienvenida .h1-index {
-  padding: 14vw 0 0;
-  font-size: 3vw;
-  color: #ffffff;
-  margin: 0;
-}
-.div-bienvenida .h1-index2 {
-  padding: 0vw 0 0vw;
+  text-align: center;
+  margin: 0 0 2vw 0;
+  font-family: "EB Garamond", serif;
+  padding: 12vw 0 3vw;
   color: #fff7b7;
-  font-size: 4.5vw;
+  font-size: 8vw;
 }
 .div-bienvenida .flecha-index {
   margin: 12vw auto 0;
@@ -661,7 +658,7 @@ hr {
   border: 0;
 }
 
-h1 {
+h2 {
   color: #000000;
   text-align: center;
   font-size: 4vw;
@@ -669,17 +666,17 @@ h1 {
   font-family: "EB Garamond", serif;
 }
 
-.h1_quienes_somos {
+.h2_quienes_somos {
   color: #ffffff;
 }
 
-.h1-model {
+.h2-model {
   text-align: center;
   font-size: 3.3vw;
   margin: 3vw 0 0 0;
 }
 
-h2 {
+h4 {
   color: #000000;
   margin: 40px 10px 40px;
   font-size: 1.5vw;
@@ -688,12 +685,12 @@ h2 {
   font-family: "Outfit", sans-serif;
 }
 
-.h2-descripcion {
+.h4-descripcion {
   text-align: left;
   margin: 1vw 0 5vw;
 }
 
-.h2-modelos {
+.h4-modelos {
   color: #000000;
   font-size: 1.4rem;
   text-align: center;
@@ -701,7 +698,7 @@ h2 {
   margin: 0;
 }
 
-.h2-biografia {
+.h4-biografia {
   color: #fff7b7;
   font-size: 1.1vw;
   text-align: center;
@@ -709,7 +706,7 @@ h2 {
   margin: 1vw;
 }
 
-.h2-model {
+.h4-model {
   margin: 0;
   text-align: start;
 }
@@ -745,7 +742,7 @@ h3 {
   color: #595959;
 }
 
-h4 {
+h5 {
   color: #000000;
   text-align: left;
   font-size: 3vw;
@@ -753,7 +750,7 @@ h4 {
   font-family: "EB Garamond", serif;
 }
 
-.h4-right {
+.h5-right {
   color: #000000;
   text-align: right;
   font-size: 3vw;
@@ -761,7 +758,7 @@ h4 {
   font-family: "EB Garamond", serif;
 }
 
-.h4-number {
+.h5-number {
   color: #e7e7e7;
   text-align: center;
   font-size: 20vw;
@@ -801,7 +798,7 @@ footer h3 {
 footer .row-seguinos_ig {
   justify-content: center;
 }
-footer .row-seguinos_ig .h1-footer {
+footer .row-seguinos_ig .h2-footer {
   color: white;
   display: flex;
   margin: 2vw -4vw 0 11vw;
@@ -857,12 +854,12 @@ footer .derechos-reservados {
   }
   h2 {
     margin: 40px 10px 40px;
-    font-size: 3vw;
+    font-size: 7vw;
   }
   h3 {
     font-size: 80%;
   }
-  .h2-biografia {
+  .h4-biografia {
     color: #fff7b7;
     font-size: 2.5vw;
     text-align: center;
@@ -888,7 +885,7 @@ footer .derechos-reservados {
     text-align: left;
     font-size: 3.5vw;
     padding: 0px;
-    margin: 1vw 7vw;
+    margin: 10vw 7vw;
     align-self: center;
   }
   .button-index {
@@ -1001,7 +998,7 @@ footer .derechos-reservados {
     justify-content: center;
     flex-direction: column;
   }
-  footer .row .h1-footer {
+  footer .row .h2-footer {
     color: white;
     display: flex;
     margin: 3vw 0vw 0 17vw;
@@ -1042,7 +1039,11 @@ footer .derechos-reservados {
     margin: 5vw 0;
   }
   footer .row .footer-maps {
-    margin: 0 3vw 3vw 0;
+    margin: 6vw 6vw 6vw 0;
+  }
+  footer .row .footer-maps .maps {
+    width: 300px;
+    height: 300px;
   }
   footer .vertical-hr {
     visibility: hidden;
@@ -1095,6 +1096,10 @@ footer .derechos-reservados {
     margin: 0 0 1vw;
     text-align: center;
   }
+  .h2_quienes_somos {
+    color: white;
+    margin: 0px 10px 10px;
+  }
   .h3-model {
     font-size: 3vw;
     text-align: center;
@@ -1130,14 +1135,9 @@ footer .derechos-reservados {
   }
   .video-intro .div-bienvenida .h1-index {
     padding: 20vw 0 0;
-    font-size: 3vw;
-    color: #ffffff;
-    margin: 0;
-  }
-  .video-intro .div-bienvenida .h1-index2 {
-    padding: 2vw 0 0vw;
+    font-size: 10vw;
     color: #fff7b7;
-    font-size: 4.5vw;
+    margin: 0;
   }
   .contenedor-modelos {
     margin: 0vw 10vw;
@@ -1148,9 +1148,13 @@ footer .derechos-reservados {
     font-family: "EB Garamond", serif;
     font-size: 3.5vw;
   }
+  .div-button-send {
+    display: flex;
+    justify-content: center;
+  }
   .button-send {
     border-width: 0.5vw;
-    padding: 3vw 20.5vw;
+    padding: 3vw 22vw;
     font-size: 3vw;
     margin: 2vw 0 4vw;
   }
@@ -1163,14 +1167,18 @@ footer .derechos-reservados {
     margin: 6vw 1rem 2vw;
   }
   h4 {
-    font-size: 5vw;
+    font-size: 6vw;
     margin: 2vw 0 4vw;
   }
-  .h4-right {
+  h5 {
+    font-size: 6vw;
+    margin: 2vw 0 4vw;
+  }
+  .h5-right {
     font-size: 5vw;
     margin: 2vw 0 0;
   }
-  .h4-number {
+  .h5-number {
     font-size: 30vw;
     margin: 0 2vw 0 0;
     padding: 0 0 0 6vw;
@@ -1275,8 +1283,8 @@ footer .derechos-reservados {
     flex-direction: row;
     justify-content: center;
   }
-  .h4-recomendaciones {
-    font-size: 4.5vw;
+  .h5-recomendaciones {
+    font-size: 5vw;
     display: flex;
     justify-content: center;
   }
@@ -1354,6 +1362,9 @@ footer .derechos-reservados {
     text-decoration: none;
     font-size: 3.5vw;
   }
+  .blue-section {
+    margin: 10vw 0 0;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   html {
@@ -1365,12 +1376,12 @@ footer .derechos-reservados {
   }
   h2 {
     margin: 40px 10px 40px;
-    font-size: 3vw;
+    font-size: 7vw;
   }
   h3 {
-    font-size: 120%;
+    font-size: 200%;
   }
-  .h2-biografia {
+  .h4-biografia {
     color: #fff7b7;
     font-size: 2.5vw;
     text-align: center;
@@ -1396,7 +1407,7 @@ footer .derechos-reservados {
     text-align: left;
     font-size: 2.5vw;
     padding: 0px;
-    margin: 1vw 7vw;
+    margin: 10vw 7vw;
     align-self: center;
   }
   .button-index {
@@ -1469,7 +1480,7 @@ footer .derechos-reservados {
   }
   .div-section .p-sub {
     flex-direction: column;
-    font-size: 2vw;
+    font-size: 3vw;
     margin: 2vw 7vw 2vw;
   }
   .container-notas {
@@ -1488,17 +1499,17 @@ footer .derechos-reservados {
     margin: 3vw;
   }
   .container-notas .notas-periodisticas .p-notas {
-    font-size: 2vw;
+    font-size: 3vw;
     text-align: center;
     margin: 5vw 0 5vw;
   }
   .container-notas .notas-periodisticas .p-lanacion {
-    font-size: 2vw;
+    font-size: 3vw;
     text-align: center;
     margin: 5vw 0 5vw;
   }
   .container-notas .notas-periodisticas .p-natgeo {
-    font-size: 2vw;
+    font-size: 3vw;
     text-align: center;
     margin: 5vw 0 5vw;
   }
@@ -1509,7 +1520,7 @@ footer .derechos-reservados {
     justify-content: center;
     flex-direction: column;
   }
-  footer .row .h1-footer {
+  footer .row .h2-footer {
     color: white;
     display: flex;
     margin: 3.5vw 0vw 0 33vw;
@@ -1526,7 +1537,7 @@ footer .derechos-reservados {
     object-fit: fill;
   }
   footer .row .p-footer {
-    font-size: 2vw;
+    font-size: 3vw;
     margin: 5vw 0 0;
   }
   footer .derechos-reservados {
@@ -1552,14 +1563,18 @@ footer .derechos-reservados {
     margin: 2vw 0 0 1vw;
   }
   footer .row .footer-content .p-footerinfo {
-    font-size: 2vw;
+    font-size: 3vw;
     text-align: center !important;
     justify-content: center;
     align-items: center;
     margin: 5vw 0;
   }
   footer .row .footer-maps {
-    margin: 0 3vw 3vw 0;
+    margin: 4vw 4vw 4vw 0;
+  }
+  footer .row .footer-maps .maps {
+    width: 800px;
+    height: 500px;
   }
   footer .vertical-hr {
     visibility: hidden;
@@ -1661,29 +1676,40 @@ footer .derechos-reservados {
     font-family: "EB Garamond", serif;
     font-size: 2.5vw;
   }
+  .div-button-send {
+    display: flex;
+    justify-content: center;
+  }
   .button-send {
     border-width: 0.5vw;
-    padding: 2vw 6vw;
+    padding: 2vw 24vw;
     font-size: 2vw;
     margin: 2vw 0 4vw;
   }
   .p-mantenimiento {
-    font-size: 2vw;
+    font-size: 3vw;
     margin: 6vw 1rem 2vw;
   }
   .p-aclaracion {
-    font-size: 2vw;
+    font-size: 3vw;
     margin: 6vw 1rem 2vw;
   }
+  .h5-number {
+    font-size: 40vw;
+  }
   h4 {
-    font-size: 3vw;
+    font-size: 6vw;
     margin: 2vw 0;
   }
-  .h4-right {
+  h5 {
+    font-size: 6vw;
+    margin: 2vw 0;
+  }
+  .h5-right {
     font-size: 3vw;
     margin: 2vw 0 0;
   }
-  .h4-number {
+  .h5-number {
     font-size: 30vw;
     margin: 0 2vw 0 0;
     padding: 0 0 0 6vw;
@@ -1735,20 +1761,19 @@ footer .derechos-reservados {
   .p-recomendaciones {
     display: flex;
     text-align: left;
-    font-size: 2vw;
+    font-size: 2.5vw;
     padding: 0px;
     margin: 0 3vw 0 3vw;
     font-family: "EB Garamond", serif;
     align-self: center;
-    justify-content: center;
   }
   .slide-styles {
     display: flex;
     flex-direction: row;
     justify-content: center;
   }
-  .h4-recomendaciones {
-    font-size: 3.5vw;
+  .h5-recomendaciones {
+    font-size: 6vw;
     display: flex;
     justify-content: center;
   }
@@ -1825,6 +1850,9 @@ footer .derechos-reservados {
     padding: 0.5vw;
     text-decoration: none;
     font-size: 3vw;
+  }
+  .blue-section {
+    margin: 10vw 0 0;
   }
 }
 .estilo-x {
