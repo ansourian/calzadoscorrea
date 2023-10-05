@@ -12,38 +12,11 @@
 
 header {
   position: sticky;
-  top: 0;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.9254901961);
-  backdrop-filter: blur(5px);
-  z-index: 1000;
-}
-header .item-nav {
-  color: #1F2337;
-  display: block;
-  text-align: center;
-  padding: 0.3vw 1.5vw 0vw;
-  text-decoration: none;
-  font-weight: 600;
-  font-family: "Josefin Sans", sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-header .item-nav:hover {
-  background-color: rgba(10, 17, 44, 0.7647058824);
-  border-radius: 0.5vw;
-  font-weight: 500;
-  color: #fff9b7;
-}
-
-.header-index {
-  position: sticky;
   background-color: rgba(28, 31, 49, 0.9254901961);
   backdrop-filter: blur(5px);
   z-index: 1000;
 }
-.header-index .item-nav-index {
+header .item-nav {
   color: #ffffff;
   display: block;
   text-align: center;
@@ -54,7 +27,7 @@ header .item-nav:hover {
   justify-content: center;
   align-items: center;
 }
-.header-index .item-nav-index:hover {
+header .item-nav:hover {
   background-color: rgba(55, 58, 69, 0.6666666667);
   border-radius: 0.5vw;
   color: #fff9b7;
@@ -108,7 +81,7 @@ ul {
   font-size: 7vw;
 }
 .div-bienvenida .flecha-index {
-  margin: 12vw auto 0;
+  margin: 9vw auto 0;
   justify-content: center;
   align-items: center;
   width: 4vw;
@@ -327,6 +300,12 @@ p {
   margin: 0 1rem;
   font-family: "EB Garamond", serif;
   align-self: center;
+}
+
+.aclaracion-colores {
+  font-size: 1.2vw;
+  font-style: italic;
+  color: rgb(158, 42, 42);
 }
 
 .div-section {

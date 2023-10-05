@@ -1,39 +1,10 @@
 header{
     position: sticky;
-    top: 0;
-    width: 100%;
-    background-color: #ffffffec;
-    backdrop-filter: blur(5px);
-    z-index: 1000;
-
-    .item-nav{
-        color: #1F2337;
-        display: block;
-        text-align: center;
-        padding: 0.3vw 1.5vw 0vw;
-        text-decoration: none;
-        font-weight: 600;
-        font-family: 'Josefin Sans', sans-serif;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    
-        &:hover{
-            background-color: #0a112cc3;
-            border-radius: 0.5vw;
-            font-weight: 500;
-            color: #fff9b7;
-        }
-    }
-}
-
-.header-index{
-    position: sticky;
     background-color: #1c1f31ec;
     backdrop-filter: blur(5px);
     z-index: 1000;
 
-    .item-nav-index{
+    .item-nav{
         color: #ffffff;
         display: block;
         text-align: center;

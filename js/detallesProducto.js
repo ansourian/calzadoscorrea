@@ -4,100 +4,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const productos = [
         {
-            id: 'Borcego-Corto',
-            titulo: 'Borcego Corto',
-            estilo: 'READY TO WEAR',
-            descripcion: 'Borcego de tipo corto.',
-            color: 'Diamante Piedra',
-            tipoCuero: 'Cuero vacuno',
-            imagenPrincipal: "../assets/img/ready to wear/115 - 13.jpg",
-            imagenes: ["../assets/img/ready to wear/115 - 13.jpg", "../assets/img/ready to wear/115 - 14.jpg", "../assets/img/ready to wear/115 - 15.jpg", "../assets/img/ready to wear/115 - 16.jpg"]
-        },
-        {
-            id: 'Sneaker-Suela',
-            titulo: 'Sneakers (Suela)',
-            estilo: 'READY TO WEAR',
-            descripcion: 'Descripción del Sneaker.',
-            color: 'Suela',
-            tipoCuero: 'Cuero vacuno.',
-            imagenPrincipal: "../assets/img/ready to wear/122 - 26.jpg",
-            imagenes: ["../assets/img/ready to wear/122 - 26.jpg", "../assets/img/ready to wear/122 - 27.jpg", "../assets/img/ready to wear/122 - 28.jpg", "../assets/img/ready to wear/117 - 19.jpg"]
-        },
-        {
-            id: 'Sneaker-Marron',
-            titulo: 'Sneakers (Marrón)',
-            estilo: 'READY TO WEAR',
-            descripcion: 'Descripción del Sneaker.',
-            color: 'Marrón',
-            tipoCuero: 'Cuero vacuno',
-            imagenPrincipal: "../assets/img/ready to wear/117 - 10.jpg",
-            imagenes: ["../assets/img/ready to wear/117 - 10.jpg", "../assets/img/ready to wear/117 - 11.jpg", "../assets/img/ready to wear/117 - 12.jpg", "../assets/img/ready to wear/117 - 19.jpg"]
-        },
-        {
-            id: 'Sneaker-Negro',
-            titulo: 'Sneakers (Negro)',
-            estilo: 'READY TO WEAR',
-            descripcion: 'Descripción del Sneaker.',
-            color: 'Negro',
-            tipoCuero: 'Cuero vacuno',
-            imagenPrincipal: "../assets/img/ready to wear/122 - 20.jpg",
-            imagenes: ["../assets/img/ready to wear/122 - 20.jpg", "../assets/img/ready to wear/122 - 21.jpg", "../assets/img/ready to wear/122 - 22.jpg", "../assets/img/ready to wear/117 - 19.jpg"]
-        },
-        {
-            id: 'Sneaker-Azul',
-            titulo: 'Sneakers (Azul)',
-            estilo: 'READY TO WEAR',
-            descripcion: 'Descripción del Sneaker.',
-            color: 'Azul',
-            tipoCuero: 'Cuero vacuno',
-            imagenPrincipal: "../assets/img/ready to wear/117 - 20.jpg",
-            imagenes: ["../assets/img/ready to wear/117 - 20.jpg", "../assets/img/ready to wear/117 - 21.jpg", "../assets/img/ready to wear/117 - 22.jpg", "../assets/img/ready to wear/117 - 19.jpg"]
-        },
-        {
-            id: 'Sneaker-Verde-Claro',
-            titulo: 'Sneakers (Verde Claro)',
-            estilo: 'READY TO WEAR',
-            descripcion: 'Descripción del Sneaker.',
-            color: 'Verde Claro',
-            tipoCuero: 'Cuero vacuno',
-            imagenPrincipal: "../assets/img/ready to wear/117 - 13.jpg",
-            imagenes: ["../assets/img/ready to wear/117 - 13.jpg", "../assets/img/ready to wear/117 - 14.jpg", "../assets/img/ready to wear/117 - 15.jpg", "../assets/img/ready to wear/117 - 19.jpg"]
-        },
-        {
-            id: 'Slippers-123-Gamuza-Suela',
-            titulo: 'Slippers 123',
-            estilo: 'READY TO WEAR',
-            descripcion: 'Descripción del Sneaker.',
-            color: 'Suela',
-            tipoCuero: 'Gamuza',
-            imagenPrincipal: "../assets/img/ready to wear/117 - 23.jpg",
-            imagenes: ["../assets/img/ready to wear/117 - 23.jpg", "../assets/img/ready to wear/117 - 24.jpg", "../assets/img/ready to wear/117 - 25.jpg", "../assets/img/ready to wear/117 - 26.jpg"]
-        },
-        {
-            id: 'Mocasin-Archivaldo-Azul',
-            titulo: 'Mocasín Archivaldo (Azul)',
-            estilo: 'READY TO WEAR',
-            descripcion: 'Descripción del Sneaker.',
-            color: 'Azul',
-            tipoCuero: 'Cuero vacuno',
-            imagenPrincipal: "../assets/img/ready to wear/119 - 17.jpg",
-            imagenes: ["../assets/img/ready to wear/119 - 17.jpg", "../assets/img/ready to wear/119 - 18.jpg", "../assets/img/ready to wear/119 - 19.jpg", "../assets/img/ready to wear/119 - 20.jpg"]
-        },
-        {
-            id: 'Mocasin-Archivaldo-Negro',
-            titulo: 'Mocasín Archivaldo (Negro)',
-            estilo: 'READY TO WEAR',
-            descripcion: 'Descripción del Sneaker.',
-            color: 'Negro',
-            tipoCuero: 'Cuero vacuno',
-            imagenPrincipal: "../assets/img/ready to wear/119 - 21.jpg",
-            imagenes: ["../assets/img/ready to wear/119 - 21.jpg", "../assets/img/ready to wear/119 - 22.jpg", "../assets/img/ready to wear/119 - 23.jpg", "../assets/img/ready to wear/119 - 24.jpg"]
-        },
-        {
             id: '1103-Negro',
             titulo: '1103 (Negro)',
             estilo: 'READY TO WEAR',
-            descripcion: 'Descripción del Sneaker.',
+            descripcion: 'Zapato abotinado de vestir, sobrio y elegante. Recomendado para una expresión más discreta y formal.',
             color: 'Negro',
             tipoCuero: 'Cuero vacuno',
             imagenPrincipal: "../assets/img/ready to wear/121 - 1.jpg",
@@ -107,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
             id: '1103-Chocolate',
             titulo: '1103 (Chocolate)',
             estilo: 'READY TO WEAR',
-            descripcion: 'Descripción del Sneaker.',
+            descripcion: 'Zapato abotinado de vestir, sobrio y elegante. Recomendado para una expresión más discreta y formal.',
             color: 'Chocolate',
             tipoCuero: 'Cuero vacuno',
             imagenPrincipal: "../assets/img/ready to wear/121 - 4.jpg",
@@ -117,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
             id: '1103-Marron',
             titulo: '1103 (Marrón)',
             estilo: 'READY TO WEAR',
-            descripcion: 'Descripción del Sneaker.',
+            descripcion: 'Zapato abotinado de vestir, sobrio y elegante. Recomendado para una expresión más discreta y formal.',
             color: 'Marrón',
             tipoCuero: 'Cuero vacuno',
             imagenPrincipal: "../assets/img/ready to wear/121 - 8.jpg",
@@ -127,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
             id: 'Oxford-Maiz',
             titulo: 'Oxford (Maíz)',
             estilo: 'READY TO WEAR',
-            descripcion: 'Descripción del Sneaker.',
+            descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
             color: 'Maíz',
             tipoCuero: 'Cuero vacuno',
             imagenPrincipal: "../assets/img/ready to wear/122 - 29.jpg",
@@ -137,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
             id: 'Oxford-Verde',
             titulo: 'Oxford (Verde)',
             estilo: 'READY TO WEAR',
-            descripcion: 'Descripción del Sneaker.',
+            descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
             color: 'Verde',
             tipoCuero: 'Cuero vacuno',
             imagenPrincipal: "../assets/img/ready to wear/123 - 1.jpg",
@@ -147,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
             id: 'Oxford-Natural',
             titulo: 'Oxford (Natural)',
             estilo: 'READY TO WEAR',
-            descripcion: 'Descripción del Sneaker.',
+            descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
             color: 'Natural',
             tipoCuero: 'Cuero vacuno',
             imagenPrincipal: "../assets/img/ready to wear/123 - 5.jpg",
@@ -157,21 +67,141 @@ document.addEventListener('DOMContentLoaded', function () {
             id: 'Oxford-Tabaco',
             titulo: 'Oxford (Tabaco)',
             estilo: 'READY TO WEAR',
-            descripcion: 'Descripción del Sneaker.',
+            descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
             color: 'Tabaco',
             tipoCuero: 'Cuero vacuno',
             imagenPrincipal: "../assets/img/ready to wear/123 - 9.jpg",
-            imagenes: ["../assets/img/ready to wear/123 - 9.jpg", "../assets/img/ready to wear/123 - 10.jpg", "../assets/img/ready to wear/123 - 11.jpg", "../assets/img/ready to wear/123 - .jpg"]
+            imagenes: ["../assets/img/ready to wear/123 - 9.jpg", "../assets/img/ready to wear/216 - 2.jpg ", "../assets/img/ready to wear/123 - 10.jpg", "../assets/img/ready to wear/123 - 11.jpg"]
+        },
+        {
+            id: 'Borcego-Corto',
+            titulo: 'Borcego Corto',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un borcego suelto y robusto de caña baja a la altura del tobillo. Las suelas cuentan con una combinación de cuero y goma apta para diversos tipos de terreno.',
+            color: 'Piedra',
+            tipoCuero: 'Cuero vacuno granulado',
+            imagenPrincipal: "../assets/img/ready to wear/115 - 13.jpg",
+            imagenes: ["../assets/img/ready to wear/115 - 13.jpg", "../assets/img/ready to wear/115 - 14.jpg", "../assets/img/ready to wear/115 - 15.jpg", "../assets/img/ready to wear/115 - 16.jpg"]
+        },
+        {
+            id: 'Sneaker-Suela',
+            titulo: 'Sneakers (Suela)',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Zapatillas de uso urbano confeccionadas en cuero 100% vacuno argentino tanto en su exterior como en su interior. La boca del calzado cuenta con un refuerzo acolchonado agradable al uso cotidiano.',
+            color: 'Suela',
+            tipoCuero: 'Cuero vacuno granulado',
+            imagenPrincipal: "../assets/img/ready to wear/122 - 26.jpg",
+            imagenes: ["../assets/img/ready to wear/122 - 26.jpg", "../assets/img/ready to wear/122 - 27.jpg", "../assets/img/ready to wear/122 - 28.jpg", "../assets/img/ready to wear/117 - 19.jpg"]
+        },
+        {
+            id: 'Sneaker-Marron',
+            titulo: 'Sneakers (Marrón)',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Zapatillas de uso urbano confeccionadas en cuero 100% vacuno argentino tanto en su exterior como en su interior. La boca del calzado cuenta con un refuerzo acolchonado agradable al uso cotidiano.',
+            color: 'Marrón',
+            tipoCuero: 'Cuero vacuno granulado',
+            imagenPrincipal: "../assets/img/ready to wear/117 - 10.jpg",
+            imagenes: ["../assets/img/ready to wear/117 - 10.jpg", "../assets/img/ready to wear/117 - 11.jpg", "../assets/img/ready to wear/117 - 12.jpg", "../assets/img/ready to wear/117 - 19.jpg"]
+        },
+        {
+            id: 'Sneaker-Negro',
+            titulo: 'Sneakers (Negro)',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Zapatillas de uso urbano confeccionadas en cuero 100% vacuno argentino tanto en su exterior como en su interior. La boca del calzado cuenta con un refuerzo acolchonado agradable al uso cotidiano.',
+            color: 'Negro',
+            tipoCuero: 'Cuero vacuno granulado',
+            imagenPrincipal: "../assets/img/ready to wear/122 - 20.jpg",
+            imagenes: ["../assets/img/ready to wear/122 - 20.jpg", "../assets/img/ready to wear/122 - 21.jpg", "../assets/img/ready to wear/122 - 22.jpg", "../assets/img/ready to wear/117 - 19.jpg"]
+        },
+        {
+            id: 'Sneaker-Azul',
+            titulo: 'Sneakers (Azul)',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Zapatillas de uso urbano confeccionadas en cuero 100% vacuno argentino tanto en su exterior como en su interior. La boca del calzado cuenta con un refuerzo acolchonado agradable al uso cotidiano.',
+            color: 'Azul',
+            tipoCuero: 'Cuero vacuno granulado',
+            imagenPrincipal: "../assets/img/ready to wear/117 - 20.jpg",
+            imagenes: ["../assets/img/ready to wear/117 - 20.jpg", "../assets/img/ready to wear/117 - 21.jpg", "../assets/img/ready to wear/117 - 22.jpg", "../assets/img/ready to wear/117 - 19.jpg"]
+        },
+        {
+            id: 'Sneaker-Verde-Claro',
+            titulo: 'Sneakers (Verde Claro)',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Zapatillas de uso urbano confeccionadas en cuero 100% vacuno argentino tanto en su exterior como en su interior. La boca del calzado cuenta con un refuerzo acolchonado agradable al uso cotidiano.',
+            color: 'Verde Claro',
+            tipoCuero: 'Cuero vacuno granulado',
+            imagenPrincipal: "../assets/img/ready to wear/117 - 13.jpg",
+            imagenes: ["../assets/img/ready to wear/117 - 13.jpg", "../assets/img/ready to wear/117 - 14.jpg", "../assets/img/ready to wear/117 - 15.jpg", "../assets/img/ready to wear/117 - 19.jpg"]
+        },
+        {
+            id: 'Slippers-123-Gamuza-Arena',
+            titulo: 'Slippers 123',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Mocasín fresco, liviano y flexible ideal para las temporadas primavera/verano.',
+            color: 'Arena',
+            tipoCuero: 'Gamuza',
+            imagenPrincipal: "../assets/img/ready to wear/216 - 4.jpg",
+            imagenes: ["../assets/img/ready to wear/216 - 4.jpg", "../assets/img/ready to wear/216 - 5.jpg", "../assets/img/ready to wear/216 - 6.jpg", "../assets/img/ready to wear/216 - 7.jpg"]
+        },
+        {
+            id: 'Slippers-123-Gamuza-Suela',
+            titulo: 'Slippers 123',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Mocasín fresco, liviano y flexible ideal para las temporadas primavera/verano.',
+            color: 'Suela',
+            tipoCuero: 'Gamuza',
+            imagenPrincipal: "../assets/img/ready to wear/117 - 23.jpg",
+            imagenes: ["../assets/img/ready to wear/117 - 23.jpg", "../assets/img/ready to wear/117 - 24.jpg", "../assets/img/ready to wear/117 - 25.jpg", "../assets/img/ready to wear/117 - 26.jpg"]
+        },
+        {
+            id: 'Slippers-123-Gamuza-Verde-Musgo',
+            titulo: 'Slippers 123',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Mocasín fresco, liviano y flexible ideal para las temporadas primavera/verano.',
+            color: 'Verde Musgo',
+            tipoCuero: 'Gamuza',
+            imagenPrincipal: "../assets/img/ready to wear/216 - 8.jpg",
+            imagenes: ["../assets/img/ready to wear/216 - 8.jpg", "../assets/img/ready to wear/216 - 9.jpg", "../assets/img/ready to wear/216 - 10.jpg", "../assets/img/ready to wear/216 - 11.jpg"]
+        },
+        {
+            id: 'Mocasin-Archivaldo-Azul',
+            titulo: 'Mocasín Archivaldo (Azul)',
+            estilo: 'READY TO WEAR',
+            descripcion: 'El mocasín más fresco y liviano de nuestro catálogo. Su costura frontal, al no ser sellada, proporciona mayor ventilación, convirtiéndolo en el mocasín ideal para los días de calor.',
+            color: 'Azul',
+            tipoCuero: 'Cuero vacuno',
+            imagenPrincipal: "../assets/img/ready to wear/119 - 17.jpg",
+            imagenes: ["../assets/img/ready to wear/119 - 17.jpg", "../assets/img/ready to wear/119 - 18.jpg", "../assets/img/ready to wear/119 - 19.jpg", "../assets/img/ready to wear/119 - 20.jpg"]
+        },
+        {
+            id: 'Mocasin-Archivaldo-Negro',
+            titulo: 'Mocasín Archivaldo (Negro)',
+            estilo: 'READY TO WEAR',
+            descripcion: 'El mocasín más fresco y liviano de nuestro catálogo. Su costura frontal, al no ser sellada, proporciona mayor ventilación, convirtiéndolo en el mocasín ideal para los días de calor.',
+            color: 'Negro',
+            tipoCuero: 'Cuero vacuno',
+            imagenPrincipal: "../assets/img/ready to wear/119 - 21.jpg",
+            imagenes: ["../assets/img/ready to wear/119 - 21.jpg", "../assets/img/ready to wear/119 - 22.jpg", "../assets/img/ready to wear/119 - 23.jpg", "../assets/img/ready to wear/119 - 24.jpg"]
         },
         {
             id: 'Mocasin-IOAN',
             titulo: 'Mocasín IOAN',
             estilo: 'READY TO WEAR',
-            descripcion: 'Descripción del Sneaker.',
+            descripcion: 'Esta colaboración entre Calzados Correa e Industry Of All Nations, tiene como resultado un mocasín de cuero curtido vegetal con un enfoque ecológico.',
             color: 'Maíz',
             tipoCuero: 'Cuero Vegetal',
             imagenPrincipal: "../assets/img/ready to wear/123 - 32.jpg",
             imagenes: ["../assets/img/ready to wear/123 - 32.jpg", "../assets/img/ready to wear/123 - 33.jpg", "../assets/img/ready to wear/123 - 34.jpg", "../assets/img/ready to wear/123 - 35.jpg"]
+        },
+        {
+            id: 'Oxford-Untitled',
+            titulo: 'Oxford Untitled',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Descripción del modelo.',
+            color: 'Negro',
+            tipoCuero: 'Cuero Vacuno',
+            imagenPrincipal: "../assets/img/ready to wear/216 - 12.jpg",
+            imagenes: ["../assets/img/ready to wear/216 - 12.jpg", "../assets/img/ready to wear/216 - 13.jpg", "../assets/img/ready to wear/216 - 14.jpg", "../assets/img/ready to wear/216 - 15.jpg"]
         },
         {
             id: 'Swann-Maiz',
@@ -221,7 +251,7 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Marrón',
             tipoCuero: 'Cuero vacuno',
             imagenPrincipal: "../assets/img/made by order/117 - 01.jpg",
-            imagenes: ["../assets/img/made by order/117 - 01.jpg", "../assets/img/made by order/117 - 02.jpg", "../assets/img/made by order/112 - 35.jpg", "../assets/img/made by order/112 - 36.jpg"]
+            imagenes: ["../assets/img/made by order/117 - 01.jpg", "../assets/img/made by order/117 - 02.jpg", "../assets/img/made by order/216 - 1.jpg", "../assets/img/made by order/112 - 36.jpg"]
         },
         {
             id: 'Bota-Chelsea-Gamuza-Gris',
@@ -321,7 +351,7 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Marrón',
             tipoCuero: 'Cuero vacuno',
             imagenPrincipal: "../assets/img/made by order/123 - 12.jpg",
-            imagenes: ["../assets/img/made by order/123 - 12.jpg", "../assets/img/made by order/123 - 13.jpg", "../assets/img/made by order/123 - 14.jpg"]
+            imagenes: ["../assets/img/made by order/123 - 12.jpg", "../assets/img/made by order/216 - 3.jpg", "../assets/img/made by order/123 - 13.jpg", "../assets/img/made by order/123 - 14.jpg"]
         },
         {
             id: 'Oxford-Wingtip-Full-Brogued-Maiz',
@@ -473,8 +503,6 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenPrincipal: "../assets/img/bespoke/123 - 36.jpg",
             imagenes: ["../assets/img/bespoke/123 - 36.jpg", "../assets/img/bespoke/123 - 37.jpg", "../assets/img/bespoke/123 - 38.jpg", "../assets/img/bespoke/123 - 39.jpg"]
         }
-        
-        // Aca puedo meter mas modelos
     ];
 
     const producto = productos.find(p => p.id === productoID);

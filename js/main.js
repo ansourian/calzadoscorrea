@@ -35,9 +35,8 @@ function isElementInViewport(element) {
     });
   }
   
-  // Llama a checkSections al cargar la página
   window.addEventListener('load', checkSections);
-  // Llama a checkSections cuando se hace scroll
+  
   window.addEventListener('scroll', checkSections);
 
   document.addEventListener('DOMContentLoaded', function () {
