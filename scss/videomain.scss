@@ -7,6 +7,11 @@
     object-fit: cover;
 }
 
+.video-intro{
+    height: 90vh;
+    overflow: hidden;
+}
+
 .div-bienvenida{
     margin: 0 0 5vw;
     animation: fadein 3s;

@@ -69,6 +69,11 @@ ul {
   object-fit: cover;
 }
 
+.video-intro {
+  height: 90vh;
+  overflow: hidden;
+}
+
 .div-bienvenida {
   margin: 0 0 5vw;
   animation: fadein 3s;
@@ -417,7 +422,7 @@ a:visited {
 .volver-button {
   font-family: "Outfit", sans-serif;
   color: #1F2337;
-  display: block;
+  display: flex;
   text-align: left;
   margin: 1vw 2vw -3.5vw;
   padding: 0.5vw;
