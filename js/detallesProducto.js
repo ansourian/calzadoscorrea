@@ -144,11 +144,11 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenes: ["../assets/img/ready to wear/216 - 4.jpg", "../assets/img/ready to wear/216 - 5.jpg", "../assets/img/ready to wear/216 - 6.jpg", "../assets/img/ready to wear/216 - 7.jpg"]
         },
         {
-            id: 'Slippers-123-Gamuza-Suela',
+            id: 'Slippers-123-Gamuza-Tostado',
             titulo: 'Slippers 123',
             estilo: 'READY TO WEAR',
             descripcion: 'Mocasín fresco, liviano y flexible ideal para las temporadas primavera/verano.',
-            color: 'Suela',
+            color: 'Tostado',
             tipoCuero: 'Gamuza',
             imagenPrincipal: "../assets/img/ready to wear/117 - 23.jpg",
             imagenes: ["../assets/img/ready to wear/117 - 23.jpg", "../assets/img/ready to wear/117 - 24.jpg", "../assets/img/ready to wear/117 - 25.jpg", "../assets/img/ready to wear/117 - 26.jpg"]
@@ -205,7 +205,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             id: 'Swann-Maiz',
-            titulo: 'Swann (Maíz)',
+            titulo: 'Swann',
             estilo: 'MADE TO ORDER',
             descripcion: 'Descripción del Sneaker.',
             color: 'Maíz',
@@ -215,7 +215,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             id: 'Swann-Marron',
-            titulo: 'Swann (Marrón)',
+            titulo: 'Swann',
             estilo: 'MADE TO ORDER',
             descripcion: 'Descripción del Sneaker.',
             color: 'Marrón',
@@ -225,7 +225,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             id: 'Swann-Imperio-Negro',
-            titulo: 'Swann (Imperio Negro)',
+            titulo: 'Swann',
             estilo: 'MADE TO ORDER',
             descripcion: 'Descripción del Sneaker.',
             color: 'Imperio Negro',
@@ -255,7 +255,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             id: 'Bota-Chelsea-Gamuza-Gris',
-            titulo: 'Bota Chelsea (Gamuza Gris)',
+            titulo: 'Bota Chelsea',
             estilo: 'MADE TO ORDER',
             descripcion: 'Descripción del Sneaker.',
             color: 'Gris',
@@ -265,7 +265,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             id: 'Bota-Chelsea-Gamuza-Negro',
-            titulo: 'Bota Chelsea (Gamuza Negro)',
+            titulo: 'Bota Chelsea',
             estilo: 'MADE TO ORDER',
             descripcion: 'Descripción del Sneaker.',
             color: 'Negro',
@@ -275,7 +275,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             id: 'Bota-Chelsea-Gamuza-Marron',
-            titulo: 'Bota Chelsea (Gamuza Marrón)',
+            titulo: 'Bota Chelsea',
             estilo: 'MADE TO ORDER',
             descripcion: 'Descripción del Sneaker.',
             color: 'Marrón',
@@ -285,7 +285,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             id: 'Bota-Chelsea-Gamuza-Verde',
-            titulo: 'Bota Chelsea (Gamuza Verde)',
+            titulo: 'Bota Chelsea',
             estilo: 'MADE TO ORDER',
             descripcion: 'Descripción del Sneaker.',
             color: 'Verde',
@@ -315,7 +315,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             id: 'Escarpin-MP-Chocolate',
-            titulo: 'Escarpin MP (Chocolate)',
+            titulo: 'Escarpin MP',
             estilo: 'MADE TO ORDER',
             descripcion: 'Descripción del Sneaker.',
             color: 'Chocolate',
@@ -325,7 +325,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             id: 'Escarpin-MP-Verde',
-            titulo: 'Escarpin MP (Verde)',
+            titulo: 'Escarpin MP',
             estilo: 'MADE TO ORDER',
             descripcion: 'Descripción del Sneaker.',
             color: 'Verde',
@@ -335,7 +335,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             id: 'Escarpin-MP-Maiz',
-            titulo: 'Escarpin MP (Maíz)',
+            titulo: 'Escarpin MP',
             estilo: 'MADE TO ORDER',
             descripcion: 'Descripción del Sneaker.',
             color: 'Maíz',
@@ -345,17 +345,17 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             id: 'Borcego-Texano-Natural',
-            titulo: 'Borcego Texano (Natural)',
+            titulo: 'Borcego Texano',
             estilo: 'MADE TO ORDER',
             descripcion: 'Descripción del Sneaker.',
-            color: 'Marrón',
+            color: 'Natural',
             tipoCuero: 'Cuero vacuno',
             imagenPrincipal: "../assets/img/made by order/123 - 12.jpg",
             imagenes: ["../assets/img/made by order/123 - 12.jpg", "../assets/img/made by order/216 - 3.jpg", "../assets/img/made by order/123 - 13.jpg", "../assets/img/made by order/123 - 14.jpg"]
         },
         {
             id: 'Oxford-Wingtip-Full-Brogued-Maiz',
-            titulo: 'Oxford Wingtip Full Brogued (Maíz)',
+            titulo: 'Oxford Wingtip Full Brogued',
             estilo: 'BESPOKE',
             descripcion: 'Descripción del Sneaker.',
             color: 'Maíz',
@@ -365,7 +365,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             id: 'Oxford-Wingtip-Full-Brogued-Gamuza-Verde',
-            titulo: 'Oxford Wingtip Full Brogued (Gamuza Verde)',
+            titulo: 'Oxford Wingtip Full Brogued',
             estilo: 'BESPOKE',
             descripcion: 'Descripción del Sneaker.',
             color: 'Verde Inglés',
@@ -375,7 +375,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             id: 'Oxford-Captoe-Semi-Brogued-Marron',
-            titulo: 'Oxford Captoe Semi-Brogued (Marrón)',
+            titulo: 'Oxford Captoe Semi-Brogued',
             estilo: 'BESPOKE',
             descripcion: 'Descripción del Sneaker.',
             color: 'Marrón',
@@ -385,7 +385,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             id: 'Derby-1116-Maiz',
-            titulo: 'Derby 1116 (Maíz)',
+            titulo: 'Derby 1116',
             estilo: 'BESPOKE',
             descripcion: 'Descripción del Sneaker.',
             color: 'Maíz',
@@ -395,7 +395,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             id: 'Derby-1116-Cognac',
-            titulo: 'Derby 1116 (Cognac)',
+            titulo: 'Derby 1116',
             estilo: 'BESPOKE',
             descripcion: 'Descripción del Sneaker.',
             color: 'Cognac',
@@ -405,7 +405,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             id: 'Derby-1116-Suela',
-            titulo: 'Derby 1116 (Suela)',
+            titulo: 'Derby 1116',
             estilo: 'BESPOKE',
             descripcion: 'Descripción del Sneaker.',
             color: 'Suela',
@@ -415,7 +415,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             id: 'Swann-Wholecut-Cafe',
-            titulo: 'Swann Wholecut (Café)',
+            titulo: 'Swann Wholecut',
             estilo: 'BESPOKE',
             descripcion: 'Descripción del Sneaker.',
             color: 'Café',
@@ -465,7 +465,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             id: 'Swann-Museum',
-            titulo: 'Swann (Museum)',
+            titulo: 'Swann',
             estilo: 'BESPOKE',
             descripcion: 'Descripción del Sneaker.',
             color: 'Museum',
