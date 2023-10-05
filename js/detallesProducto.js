@@ -4,6 +4,47 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const productos = [
         {
+            id: 'Oxford-Natural',
+            titulo: 'Oxford (Natural)',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
+            color: 'Natural',
+            tipoCuero: 'Cuero vacuno',
+            imagenPrincipal: "../assets/img/ready to wear/123 - 5.jpg",
+            imagenes: ["../assets/img/ready to wear/123 - 5.jpg", "../assets/img/ready to wear/123 - 6.jpg", "../assets/img/ready to wear/123 - 7.jpg", "../assets/img/ready to wear/123 - 8.jpg"]
+        },
+        {
+            id: 'Oxford-Maiz',
+            titulo: 'Oxford (Maíz)',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
+            color: 'Maíz',
+            tipoCuero: 'Cuero vacuno',
+            codigo: '1122',
+            imagenPrincipal: "../assets/img/ready to wear/122 - 29.jpg",
+            imagenes: ["../assets/img/ready to wear/122 - 29.jpg", "../assets/img/ready to wear/122 - 30.jpg", "../assets/img/ready to wear/122 - 31.jpg", "../assets/img/ready to wear/122 - 32.jpg"]
+        },
+        {
+            id: 'Oxford-Verde',
+            titulo: 'Oxford (Verde)',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
+            color: 'Verde',
+            tipoCuero: 'Cuero vacuno',
+            imagenPrincipal: "../assets/img/ready to wear/123 - 1.jpg",
+            imagenes: ["../assets/img/ready to wear/123 - 1.jpg", "../assets/img/ready to wear/123 - 2.jpg", "../assets/img/ready to wear/123 - 3.jpg", "../assets/img/ready to wear/123 - 4.jpg"]
+        },
+        {
+            id: 'Oxford-Tabaco',
+            titulo: 'Oxford (Tabaco)',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
+            color: 'Tabaco',
+            tipoCuero: 'Cuero vacuno',
+            imagenPrincipal: "../assets/img/ready to wear/123 - 9.jpg",
+            imagenes: ["../assets/img/ready to wear/123 - 9.jpg", "../assets/img/ready to wear/216 - 2.jpg ", "../assets/img/ready to wear/123 - 10.jpg", "../assets/img/ready to wear/123 - 11.jpg"]
+        },
+        {
             id: '1103-Negro',
             titulo: '1103 (Negro)',
             estilo: 'READY TO WEAR',
@@ -32,46 +73,6 @@ document.addEventListener('DOMContentLoaded', function () {
             tipoCuero: 'Cuero vacuno',
             imagenPrincipal: "../assets/img/ready to wear/121 - 8.jpg",
             imagenes: ["../assets/img/ready to wear/121 - 8.jpg", "../assets/img/ready to wear/121 - 9.jpg", "../assets/img/ready to wear/121 - 10.jpg", "../assets/img/ready to wear/121 - 11.jpg"]
-        },
-        {
-            id: 'Oxford-Maiz',
-            titulo: 'Oxford (Maíz)',
-            estilo: 'READY TO WEAR',
-            descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
-            color: 'Maíz',
-            tipoCuero: 'Cuero vacuno',
-            imagenPrincipal: "../assets/img/ready to wear/122 - 29.jpg",
-            imagenes: ["../assets/img/ready to wear/122 - 29.jpg", "../assets/img/ready to wear/122 - 30.jpg", "../assets/img/ready to wear/122 - 31.jpg", "../assets/img/ready to wear/122 - 32.jpg"]
-        },
-        {
-            id: 'Oxford-Verde',
-            titulo: 'Oxford (Verde)',
-            estilo: 'READY TO WEAR',
-            descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
-            color: 'Verde',
-            tipoCuero: 'Cuero vacuno',
-            imagenPrincipal: "../assets/img/ready to wear/123 - 1.jpg",
-            imagenes: ["../assets/img/ready to wear/123 - 1.jpg", "../assets/img/ready to wear/123 - 2.jpg", "../assets/img/ready to wear/123 - 3.jpg", "../assets/img/ready to wear/123 - 4.jpg"]
-        },
-        {
-            id: 'Oxford-Natural',
-            titulo: 'Oxford (Natural)',
-            estilo: 'READY TO WEAR',
-            descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
-            color: 'Natural',
-            tipoCuero: 'Cuero vacuno',
-            imagenPrincipal: "../assets/img/ready to wear/123 - 5.jpg",
-            imagenes: ["../assets/img/ready to wear/123 - 5.jpg", "../assets/img/ready to wear/123 - 6.jpg", "../assets/img/ready to wear/123 - 7.jpg", "../assets/img/ready to wear/123 - 8.jpg"]
-        },
-        {
-            id: 'Oxford-Tabaco',
-            titulo: 'Oxford (Tabaco)',
-            estilo: 'READY TO WEAR',
-            descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
-            color: 'Tabaco',
-            tipoCuero: 'Cuero vacuno',
-            imagenPrincipal: "../assets/img/ready to wear/123 - 9.jpg",
-            imagenes: ["../assets/img/ready to wear/123 - 9.jpg", "../assets/img/ready to wear/216 - 2.jpg ", "../assets/img/ready to wear/123 - 10.jpg", "../assets/img/ready to wear/123 - 11.jpg"]
         },
         {
             id: 'Borcego-Corto',
@@ -514,6 +515,7 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('descripcion-modelo').textContent = producto.descripcion;
         document.getElementById('color-modelo').textContent = `${producto.color}`;
         document.getElementById('cuero-modelo').textContent = `${producto.tipoCuero}`;
+        document.getElementById('codigo-modelo').textContent = `${producto.codigo}`;
         document.getElementById('img1').src = producto.imagenes[0];
         document.getElementById('img2').src = producto.imagenes[1];
         document.getElementById('img3').src = producto.imagenes[2];
