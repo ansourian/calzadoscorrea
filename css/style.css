@@ -123,8 +123,8 @@ ul {
 }
 
 .img-modeltype {
-  width: 400px;
-  height: 400px;
+  width: 21vw;
+  height: 21vw;
   margin: 1rem;
   transition: 0.5s;
   filter: brightness(100%) grayscale(0%);
@@ -132,8 +132,8 @@ ul {
   object-fit: cover;
 }
 .img-modeltype:hover {
-  width: 400px;
-  height: 400px;
+  width: 21vw;
+  height: 21vw;
   transition: 0.5s;
   filter: brightness(70%) grayscale(100%);
 }
@@ -1116,11 +1116,11 @@ footer .derechos-reservados {
     margin: 0 0 6vw;
   }
   .logo {
-    width: 25vw;
+    width: 30vw;
     align-items: center;
     justify-content: center;
     display: flex;
-    margin: 0 0 0 7rem;
+    margin: 0 0 0 6rem;
   }
   .div-biografia {
     flex-direction: column;
@@ -1255,7 +1255,7 @@ footer .derechos-reservados {
     margin: 0 0 0 4vw;
     background-color: transparent;
     color: white;
-    font-size: 1.5rem;
+    font-size: 7vw;
   }
   .close-menu {
     display: block;
@@ -1263,7 +1263,7 @@ footer .derechos-reservados {
     margin: 3vw 0 0 4vw;
     background-color: transparent;
     color: white;
-    font-size: 1.3rem;
+    font-size: 6vw;
   }
   .navigation {
     visibility: hidden;
@@ -1278,6 +1278,7 @@ footer .derechos-reservados {
   }
   .nav-logo {
     display: flex;
+    padding: 1vw 0;
   }
   .nav-list {
     flex-direction: column;

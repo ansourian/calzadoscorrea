@@ -254,11 +254,11 @@
     }
     
     .logo{
-        width: 25vw;
+        width: 30vw;
         align-items: center;
         justify-content: center;
         display: flex;
-        margin: 0 0 0 7rem;
+        margin: 0 0 0 6rem;
 
     }
     .div-biografia{
@@ -414,7 +414,7 @@
         margin: 0 0 0 4vw;
         background-color: transparent;
         color: white;
-        font-size: 1.5rem;
+        font-size: 7vw;
     }
 
     .close-menu{
@@ -423,7 +423,7 @@
         margin: 3vw 0 0 4vw;
         background-color: transparent;
         color: white;
-        font-size: 1.3rem;
+        font-size: 6vw;
     }
 
     .navigation {
@@ -440,6 +440,7 @@
 
     .nav-logo{
         display: flex;
+        padding: 1vw 0;
     }
 
     .nav-list{
@@ -1275,5 +1276,4 @@
         height: auto;
         overflow: hidden;
     }
-
 }

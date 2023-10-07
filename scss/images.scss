@@ -29,8 +29,8 @@
 }
 
 .img-modeltype{
-    width: 400px;
-    height: 400px;
+    width: 21vw;
+    height: 21vw;
     margin: 1rem;
     transition: 0.5s;
     filter: brightness(100%) grayscale(0%);
@@ -38,8 +38,8 @@
     object-fit: cover;
 
     &:hover{
-        width: 400px;
-        height: 400px;
+        width: 21vw;
+        height: 21vw;
         transition: 0.5s;
         filter: brightness(70%) grayscale(100%);
     }
