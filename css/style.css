@@ -217,6 +217,11 @@ ul {
   border-radius: 0vw;
 }
 
+.img-carousel {
+  object-fit: cover;
+  aspect-ratio: 25/9;
+}
+
 p {
   text-align: left;
   font-size: 1.2vw;
@@ -645,6 +650,23 @@ hr {
   border: 0;
 }
 
+.model-carousel {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  aspect-ratio: 25/9;
+  object-fit: cover;
+}
+
+.carousel-modelos {
+  border-radius: 1vw;
+}
+
+.carousel-caption {
+  bottom: 10rem !important;
+}
+
 h2 {
   color: #000000;
   text-align: center;
@@ -741,6 +763,23 @@ h3 {
   font-size: 1.3vw;
   font-family: "EB Garamond", serif;
   color: #595959;
+}
+
+.model-titles_car {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  font-family: "EB Garamond", serif;
+  font-size: 5vw;
+  color: rgb(255, 219, 140);
+}
+
+.model-subtitles_car {
+  margin: auto 1rem;
+  text-align: center;
+  font-size: 2vw;
+  font-family: "Outfit", sans-serif;
+  color: #ffffff;
 }
 
 h5 {
@@ -1382,6 +1421,40 @@ footer .derechos-reservados {
     font-size: 3.5vw;
     text-align: center;
   }
+  .model-carousel {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+  }
+  .carousel-modelos {
+    border-radius: 1vw;
+  }
+  .img-carousel {
+    object-fit: cover;
+    aspect-ratio: 3/4;
+  }
+  .model-titles_car {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    font-family: "EB Garamond", serif;
+    font-size: 8vw;
+    color: rgb(255, 219, 140);
+  }
+  .model-subtitles_car {
+    margin: auto 1rem;
+    text-align: center;
+    font-size: 3.5vw;
+    font-family: "Outfit", sans-serif;
+    color: #ffffff;
+  }
+  .carousel-caption {
+    bottom: 10rem !important;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   html {
@@ -1881,6 +1954,40 @@ footer .derechos-reservados {
   .aclaracion-colores {
     font-size: 3.5vw;
     text-align: center;
+  }
+  .model-carousel {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+  }
+  .carousel-modelos {
+    border-radius: 1vw;
+  }
+  .img-carousel {
+    object-fit: cover;
+    aspect-ratio: 3/4;
+  }
+  .model-titles_car {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    font-family: "EB Garamond", serif;
+    font-size: 8vw;
+    color: rgb(255, 219, 140);
+  }
+  .model-subtitles_car {
+    margin: auto 1rem;
+    text-align: center;
+    font-size: 3.5vw;
+    font-family: "Outfit", sans-serif;
+    color: #ffffff;
+  }
+  .carousel-caption {
+    bottom: 27rem !important;
   }
 }
 .estilo-x {

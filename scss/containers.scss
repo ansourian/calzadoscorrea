@@ -52,3 +52,20 @@
     background-color: white;
     border: 0;
 }
+
+.model-carousel{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    aspect-ratio: 25/9;
+    object-fit: cover;
+}
+
+.carousel-modelos{
+    border-radius: 1vw;
+}
+
+.carousel-caption{
+    bottom: 10rem !important;
+}

@@ -605,6 +605,47 @@
         font-size: 3.5vw;
         text-align: center;
     }
+
+    .model-carousel{
+        width: 75%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        aspect-ratio: 3/4;
+        object-fit: cover;
+    }
+    
+    .carousel-modelos{
+        border-radius: 1vw;
+    }
+
+    .img-carousel{
+        object-fit: cover;
+        aspect-ratio: 3/4;
+    }
+
+    .model-titles_car{
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        font-family: 'EB Garamond', serif;
+        font-size: 8vw;
+        color: rgb(255, 219, 140);
+    }
+    
+    .model-subtitles_car{
+        margin: auto 1rem;
+        text-align: center;
+        font-size: 3.5vw;
+        font-family: 'Outfit', sans-serif;
+        color: #ffffff;
+    }
+
+    .carousel-caption{
+        bottom: 10rem !important;
+    }
+    
     
 }
 
@@ -1174,6 +1215,46 @@
     .aclaracion-colores{
         font-size: 3.5vw;
         text-align: center;
+    }
+
+    .model-carousel{
+        width: 75%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        aspect-ratio: 3/4;
+        object-fit: cover;
+    }
+    
+    .carousel-modelos{
+        border-radius: 1vw;
+    }
+
+    .img-carousel{
+        object-fit: cover;
+        aspect-ratio: 3/4;
+    }
+
+    .model-titles_car{
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        font-family: 'EB Garamond', serif;
+        font-size: 8vw;
+        color: rgb(255, 219, 140);
+    }
+    
+    .model-subtitles_car{
+        margin: auto 1rem;
+        text-align: center;
+        font-size: 3.5vw;
+        font-family: 'Outfit', sans-serif;
+        color: #ffffff;
+    }
+
+    .carousel-caption{
+        bottom: 27rem !important;
     }
 
 }

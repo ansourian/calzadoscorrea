@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
             descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
             color: 'Natural',
             tipoCuero: 'Cuero vacuno',
+            codigo: '1122',
             imagenPrincipal: "../assets/img/ready to wear/123 - 5.jpg",
             imagenes: ["../assets/img/ready to wear/123 - 5.jpg", "../assets/img/ready to wear/123 - 6.jpg", "../assets/img/ready to wear/123 - 7.jpg", "../assets/img/ready to wear/123 - 8.jpg"]
         },
@@ -31,6 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
             descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
             color: 'Verde',
             tipoCuero: 'Cuero vacuno',
+            codigo: '1122',
             imagenPrincipal: "../assets/img/ready to wear/123 - 1.jpg",
             imagenes: ["../assets/img/ready to wear/123 - 1.jpg", "../assets/img/ready to wear/123 - 2.jpg", "../assets/img/ready to wear/123 - 3.jpg", "../assets/img/ready to wear/123 - 4.jpg"]
         },
@@ -41,8 +43,20 @@ document.addEventListener('DOMContentLoaded', function () {
             descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
             color: 'Tabaco',
             tipoCuero: 'Cuero vacuno',
+            codigo: '1122',
             imagenPrincipal: "../assets/img/ready to wear/123 - 9.jpg",
             imagenes: ["../assets/img/ready to wear/123 - 9.jpg", "../assets/img/ready to wear/216 - 2.jpg ", "../assets/img/ready to wear/123 - 10.jpg", "../assets/img/ready to wear/123 - 11.jpg"]
+        },
+        {
+            id: '1122-Guinda',
+            titulo: 'Oxford 1122',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Descripción del modelo.',
+            color: 'Guinda',
+            tipoCuero: 'Cuero Vacuno',
+            codigo: '1122',
+            imagenPrincipal: "../assets/img/ready to wear/127 - 5.jpg",
+            imagenes: ["../assets/img/ready to wear/127 - 5.jpg", "../assets/img/ready to wear/127 - 6.jpg", "../assets/img/ready to wear/127 - 7.jpg", "../assets/img/ready to wear/127 - 8.jpg"]
         },
         {
             id: '1103-Negro',
@@ -51,6 +65,7 @@ document.addEventListener('DOMContentLoaded', function () {
             descripcion: 'Zapato abotinado de vestir, sobrio y elegante. Recomendado para una expresión más discreta y formal.',
             color: 'Negro',
             tipoCuero: 'Cuero vacuno',
+            codigo: '1103',
             imagenPrincipal: "../assets/img/ready to wear/121 - 1.jpg",
             imagenes: ["../assets/img/ready to wear/121 - 1.jpg", "../assets/img/ready to wear/121 - 2.jpg", "../assets/img/ready to wear/121 - 3.jpg", "../assets/img/ready to wear/121 - 11.jpg"]
         },
@@ -61,6 +76,7 @@ document.addEventListener('DOMContentLoaded', function () {
             descripcion: 'Zapato abotinado de vestir, sobrio y elegante. Recomendado para una expresión más discreta y formal.',
             color: 'Chocolate',
             tipoCuero: 'Cuero vacuno',
+            codigo: '1103',
             imagenPrincipal: "../assets/img/ready to wear/121 - 4.jpg",
             imagenes: ["../assets/img/ready to wear/121 - 4.jpg", "../assets/img/ready to wear/121 - 5.jpg", "../assets/img/ready to wear/121 - 6.jpg", "../assets/img/ready to wear/121 - 7.jpg"]
         },
@@ -71,8 +87,53 @@ document.addEventListener('DOMContentLoaded', function () {
             descripcion: 'Zapato abotinado de vestir, sobrio y elegante. Recomendado para una expresión más discreta y formal.',
             color: 'Marrón',
             tipoCuero: 'Cuero vacuno',
+            codigo: '1103',
             imagenPrincipal: "../assets/img/ready to wear/121 - 8.jpg",
             imagenes: ["../assets/img/ready to wear/121 - 8.jpg", "../assets/img/ready to wear/121 - 9.jpg", "../assets/img/ready to wear/121 - 10.jpg", "../assets/img/ready to wear/121 - 11.jpg"]
+        },
+        {
+            id: '1103-Guinda',
+            titulo: 'Oxford 1103',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Descripción del modelo.',
+            color: 'Guinda',
+            tipoCuero: 'Cuero Vacuno',
+            codigo: '1103',
+            imagenPrincipal: "../assets/img/ready to wear/127 - 1.jpg",
+            imagenes: ["../assets/img/ready to wear/127 - 1.jpg", "../assets/img/ready to wear/127 - 2.jpg", "../assets/img/ready to wear/127 - 3.jpg", "../assets/img/ready to wear/127 - 4.jpg"]
+        },
+        {
+            id: 'Untitled1-Tabaco',
+            titulo: 'Untitled',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Descripción del modelo.',
+            color: 'Tabaco',
+            tipoCuero: 'Cuero Vacuno',
+            codigo: '1103',
+            imagenPrincipal: "../assets/img/ready to wear/127 - 9.jpg",
+            imagenes: ["../assets/img/ready to wear/127 - 9.jpg", "../assets/img/ready to wear/127 - 10.jpg", "../assets/img/ready to wear/127 - 11.jpg", "../assets/img/ready to wear/127 - 12.jpg"]
+        },
+        {
+            id: 'Untitled2-Tabaco',
+            titulo: 'Untitled',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Descripción del modelo.',
+            color: 'Tabaco',
+            tipoCuero: 'Cuero Vacuno',
+            codigo: '1103',
+            imagenPrincipal: "../assets/img/ready to wear/127 - 13.jpg",
+            imagenes: ["../assets/img/ready to wear/127 - 13.jpg", "../assets/img/ready to wear/127 - 14.jpg", "../assets/img/ready to wear/127 - 15.jpg", "../assets/img/ready to wear/127 - 16.jpg"]
+        },
+        {
+            id: 'Untitled3-Negro',
+            titulo: 'Untitled',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Descripción del modelo.',
+            color: 'Negro',
+            tipoCuero: 'Cuero Vacuno',
+            codigo: '1103',
+            imagenPrincipal: "../assets/img/ready to wear/127 - 17.jpg",
+            imagenes: ["../assets/img/ready to wear/127 - 17.jpg", "../assets/img/ready to wear/127 - 18.jpg", "../assets/img/ready to wear/127 - 19.jpg", "../assets/img/ready to wear/127 - 20.jpg"]
         },
         {
             id: 'Borcego-Corto',
@@ -353,6 +414,16 @@ document.addEventListener('DOMContentLoaded', function () {
             tipoCuero: 'Cuero vacuno',
             imagenPrincipal: "../assets/img/made by order/123 - 12.jpg",
             imagenes: ["../assets/img/made by order/123 - 12.jpg", "../assets/img/made by order/216 - 3.jpg", "../assets/img/made by order/123 - 13.jpg", "../assets/img/made by order/123 - 14.jpg"]
+        },
+        {
+            id: 'Borcego-Texano-Natural2',
+            titulo: 'Borcego Texano',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'Descripción del Sneaker.',
+            color: 'Natural',
+            tipoCuero: 'Cuero vacuno',
+            imagenPrincipal: "../assets/img/made by order/127 - 25.jpg",
+            imagenes: ["../assets/img/made by order/127 - 25.jpg", "../assets/img/made by order/127 - 26.jpg", "../assets/img/made by order/127 - 27.jpg", "../assets/img/made by order/127 - 28.jpg"]
         },
         {
             id: 'Oxford-Wingtip-Full-Brogued-Maiz',
