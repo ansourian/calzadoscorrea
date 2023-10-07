@@ -1374,7 +1374,7 @@ footer .derechos-reservados {
   .contenedor-modelos {
     margin: 0vw 10vw;
     padding: 0vw 0 2vw;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: space-around;
   }
@@ -1902,7 +1902,7 @@ footer .derechos-reservados {
   .contenedor-modelos {
     margin: 0vw 10vw;
     padding: 0vw 0 2vw;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: space-around;
   }
