@@ -664,7 +664,10 @@ hr {
 }
 
 .carousel-caption {
-  bottom: 10rem !important;
+  display: flex !important;
+  flex-direction: column !important;
+  margin: 8vw auto !important;
+  justify-content: center !important;
 }
 
 h2 {
@@ -1453,7 +1456,14 @@ footer .derechos-reservados {
     color: #ffffff;
   }
   .carousel-caption {
-    bottom: 10rem !important;
+    display: flex !important;
+    flex-direction: column !important;
+    margin: 33vw auto !important;
+    justify-content: center !important;
+  }
+  .video-intro {
+    height: auto;
+    overflow: hidden;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -1987,7 +1997,14 @@ footer .derechos-reservados {
     color: #ffffff;
   }
   .carousel-caption {
-    bottom: 27rem !important;
+    display: flex !important;
+    flex-direction: column !important;
+    margin: 41vw auto !important;
+    justify-content: center !important;
+  }
+  .video-intro {
+    height: auto;
+    overflow: hidden;
   }
 }
 .estilo-x {

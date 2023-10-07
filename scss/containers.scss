@@ -67,5 +67,8 @@
 }
 
 .carousel-caption{
-    bottom: 10rem !important;
+    display: flex !important;
+    flex-direction: column !important;
+    margin: 8vw auto !important;
+    justify-content: center !important;
 }
