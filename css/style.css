@@ -614,6 +614,16 @@ hr {
   border: 0;
 }
 
+.contenedor-tipo_modelos {
+  margin: 0vw 10vw;
+  padding: 0vw 0 2vw;
+  display: none;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: white;
+  border: 0;
+}
+
 .contenedor-mantenimiento {
   margin: 0vw 10vw;
   padding: 2vw 0 2vw;
@@ -1096,7 +1106,7 @@ footer .derechos-reservados {
   }
   footer .derechos-reservados {
     font-size: 3vw;
-    padding: 3vw;
+    padding: 3vw 10vw;
     overflow: hidden;
   }
   .p-modelos {
@@ -1376,6 +1386,13 @@ footer .derechos-reservados {
     color: #595959;
   }
   .contenedor-modelos {
+    margin: 0vw 10vw;
+    padding: 0vw 0 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .contenedor-tipo_modelos {
     margin: 0vw 10vw;
     padding: 0vw 0 2vw;
     display: none;
@@ -1914,6 +1931,13 @@ footer .derechos-reservados {
     color: #595959;
   }
   .contenedor-modelos {
+    margin: 0vw 10vw;
+    padding: 0vw 0 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .contenedor-tipo_modelos {
     margin: 0vw 10vw;
     padding: 0vw 0 2vw;
     display: none;

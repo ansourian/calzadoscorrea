@@ -229,7 +229,7 @@
         }
         .derechos-reservados {
             font-size: 3vw;
-            padding: 3vw;
+            padding: 3vw 10vw;
             overflow: hidden;
         }
     }
@@ -552,11 +552,17 @@
     .contenedor-modelos{
         margin: 0vw 10vw;
         padding: 0vw 0 2vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .contenedor-tipo_modelos{
+        margin: 0vw 10vw;
+        padding: 0vw 0 2vw;
         display: none;
         flex-direction: column;
         justify-content: space-around;
     }
-
     .fade-section {
         opacity: 1;
       }
@@ -1166,6 +1172,13 @@
         color: #595959;
     }
     .contenedor-modelos{
+        margin: 0vw 10vw;
+        padding: 0vw 0 2vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .contenedor-tipo_modelos{
         margin: 0vw 10vw;
         padding: 0vw 0 2vw;
         display: none;

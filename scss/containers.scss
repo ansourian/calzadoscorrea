@@ -17,6 +17,17 @@
     border: 0;
 }
 
+.contenedor-tipo_modelos{
+    margin: 0vw 10vw;
+    padding: 0vw 0 2vw;
+    display: none;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    border: 0;
+}
+
+
 .contenedor-mantenimiento{
     margin: 0vw 10vw;
     padding: 2vw 0 2vw;
