@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const productos = [
         {
             id: 'Oxford-Natural',
-            titulo: 'Oxford (Natural)',
+            titulo: 'Oxford Mod. 1122',
             estilo: 'READY TO WEAR',
             descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
             color: 'Natural',
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             id: 'Oxford-Maiz',
-            titulo: 'Oxford (Maíz)',
+            titulo: 'Oxford Mod. 1122',
             estilo: 'READY TO WEAR',
             descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
             color: 'Maíz',
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             id: 'Oxford-Verde',
-            titulo: 'Oxford (Verde)',
+            titulo: 'Oxford Mod. 1122',
             estilo: 'READY TO WEAR',
             descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
             color: 'Verde',
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             id: 'Oxford-Tabaco',
-            titulo: 'Oxford (Tabaco)',
+            titulo: 'Oxford Mod. 1122',
             estilo: 'READY TO WEAR',
             descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
             color: 'Tabaco',
@@ -49,9 +49,9 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             id: '1122-Guinda',
-            titulo: 'Oxford 1122',
+            titulo: 'Oxford Mod. 1122',
             estilo: 'READY TO WEAR',
-            descripcion: 'Descripción del modelo.',
+            descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
             color: 'Guinda',
             tipoCuero: 'Cuero Vacuno',
             codigo: '1122',
@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             id: '1103-Negro',
-            titulo: '1103 (Negro)',
+            titulo: 'Oxford Mod. 1103',
             estilo: 'READY TO WEAR',
             descripcion: 'Zapato abotinado de vestir, sobrio y elegante. Recomendado para una expresión más discreta y formal.',
             color: 'Negro',
@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             id: '1103-Chocolate',
-            titulo: '1103 (Chocolate)',
+            titulo: 'Oxford Mod. 1103',
             estilo: 'READY TO WEAR',
             descripcion: 'Zapato abotinado de vestir, sobrio y elegante. Recomendado para una expresión más discreta y formal.',
             color: 'Chocolate',
@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             id: '1103-Marron',
-            titulo: '1103 (Marrón)',
+            titulo: 'Oxford Mod. 1103',
             estilo: 'READY TO WEAR',
             descripcion: 'Zapato abotinado de vestir, sobrio y elegante. Recomendado para una expresión más discreta y formal.',
             color: 'Marrón',
@@ -93,9 +93,9 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             id: '1103-Guinda',
-            titulo: 'Oxford 1103',
+            titulo: 'Oxford Mod. 1103',
             estilo: 'READY TO WEAR',
-            descripcion: 'Descripción del modelo.',
+            descripcion: 'Zapato abotinado de vestir, sobrio y elegante. Recomendado para una expresión más discreta y formal.',
             color: 'Guinda',
             tipoCuero: 'Cuero Vacuno',
             codigo: '1103',
@@ -103,35 +103,35 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenes: ["../assets/img/ready to wear/127 - 1.jpg", "../assets/img/ready to wear/127 - 2.jpg", "../assets/img/ready to wear/127 - 3.jpg", "../assets/img/ready to wear/127 - 4.jpg"]
         },
         {
-            id: 'Untitled1-Tabaco',
-            titulo: 'Untitled',
+            id: '1107-Tabaco',
+            titulo: 'Oxford Mod. 1107',
             estilo: 'READY TO WEAR',
-            descripcion: 'Descripción del modelo.',
+            descripcion: 'Un zapato sencillo y elegante. Su aspecto liso y sin picar, lo convierten en un modelo adecuado para ámbitos formales.',
             color: 'Tabaco',
             tipoCuero: 'Cuero Vacuno',
-            codigo: '1103',
+            codigo: '1107',
             imagenPrincipal: "../assets/img/ready to wear/127 - 9.jpg",
             imagenes: ["../assets/img/ready to wear/127 - 9.jpg", "../assets/img/ready to wear/127 - 10.jpg", "../assets/img/ready to wear/127 - 11.jpg", "../assets/img/ready to wear/127 - 12.jpg"]
         },
         {
-            id: 'Untitled2-Tabaco',
-            titulo: 'Untitled',
+            id: '1107-Tabaco-Picado-Flor',
+            titulo: 'Oxford Mod. 1107',
             estilo: 'READY TO WEAR',
-            descripcion: 'Descripción del modelo.',
+            descripcion: 'Un zapato sencillo y elegante. Cuenta con flor en la punta y una tira picada.',
             color: 'Tabaco',
             tipoCuero: 'Cuero Vacuno',
-            codigo: '1103',
+            codigo: '1107',
             imagenPrincipal: "../assets/img/ready to wear/127 - 13.jpg",
             imagenes: ["../assets/img/ready to wear/127 - 13.jpg", "../assets/img/ready to wear/127 - 14.jpg", "../assets/img/ready to wear/127 - 15.jpg", "../assets/img/ready to wear/127 - 16.jpg"]
         },
         {
-            id: 'Untitled3-Negro',
-            titulo: 'Untitled',
+            id: '1107-Negro-Picado',
+            titulo: 'Oxford Mod. 1107',
             estilo: 'READY TO WEAR',
-            descripcion: 'Descripción del modelo.',
+            descripcion: 'Un zapato sencillo y elegante. Cuenta con una tira semi picada.',
             color: 'Negro',
             tipoCuero: 'Cuero Vacuno',
-            codigo: '1103',
+            codigo: '1107',
             imagenPrincipal: "../assets/img/ready to wear/127 - 17.jpg",
             imagenes: ["../assets/img/ready to wear/127 - 17.jpg", "../assets/img/ready to wear/127 - 18.jpg", "../assets/img/ready to wear/127 - 19.jpg", "../assets/img/ready to wear/127 - 20.jpg"]
         },
@@ -142,56 +142,62 @@ document.addEventListener('DOMContentLoaded', function () {
             descripcion: 'Un borcego suelto y robusto de caña baja a la altura del tobillo. Las suelas cuentan con una combinación de cuero y goma apta para diversos tipos de terreno.',
             color: 'Piedra',
             tipoCuero: 'Cuero vacuno granulado',
+            codigo: 'Borcego Corto',
             imagenPrincipal: "../assets/img/ready to wear/115 - 13.jpg",
             imagenes: ["../assets/img/ready to wear/115 - 13.jpg", "../assets/img/ready to wear/115 - 14.jpg", "../assets/img/ready to wear/115 - 15.jpg", "../assets/img/ready to wear/115 - 16.jpg"]
         },
         {
             id: 'Sneaker-Suela',
-            titulo: 'Sneakers (Suela)',
+            titulo: 'Sneakers Urbanas',
             estilo: 'READY TO WEAR',
             descripcion: 'Zapatillas de uso urbano confeccionadas en cuero 100% vacuno argentino tanto en su exterior como en su interior. La boca del calzado cuenta con un refuerzo acolchonado agradable al uso cotidiano.',
             color: 'Suela',
             tipoCuero: 'Cuero vacuno granulado',
+            codigo: 'Zap',
             imagenPrincipal: "../assets/img/ready to wear/122 - 26.jpg",
             imagenes: ["../assets/img/ready to wear/122 - 26.jpg", "../assets/img/ready to wear/122 - 27.jpg", "../assets/img/ready to wear/122 - 28.jpg", "../assets/img/ready to wear/117 - 19.jpg"]
         },
         {
             id: 'Sneaker-Marron',
-            titulo: 'Sneakers (Marrón)',
+            titulo: 'Sneakers Urbanas',
             estilo: 'READY TO WEAR',
             descripcion: 'Zapatillas de uso urbano confeccionadas en cuero 100% vacuno argentino tanto en su exterior como en su interior. La boca del calzado cuenta con un refuerzo acolchonado agradable al uso cotidiano.',
             color: 'Marrón',
             tipoCuero: 'Cuero vacuno granulado',
+            codigo: 'Zap',
             imagenPrincipal: "../assets/img/ready to wear/117 - 10.jpg",
             imagenes: ["../assets/img/ready to wear/117 - 10.jpg", "../assets/img/ready to wear/117 - 11.jpg", "../assets/img/ready to wear/117 - 12.jpg", "../assets/img/ready to wear/117 - 19.jpg"]
         },
         {
             id: 'Sneaker-Negro',
-            titulo: 'Sneakers (Negro)',
+            titulo: 'Sneakers Urbanas',
             estilo: 'READY TO WEAR',
             descripcion: 'Zapatillas de uso urbano confeccionadas en cuero 100% vacuno argentino tanto en su exterior como en su interior. La boca del calzado cuenta con un refuerzo acolchonado agradable al uso cotidiano.',
             color: 'Negro',
             tipoCuero: 'Cuero vacuno granulado',
+            codigo: 'Zap',
             imagenPrincipal: "../assets/img/ready to wear/122 - 20.jpg",
             imagenes: ["../assets/img/ready to wear/122 - 20.jpg", "../assets/img/ready to wear/122 - 21.jpg", "../assets/img/ready to wear/122 - 22.jpg", "../assets/img/ready to wear/117 - 19.jpg"]
         },
         {
             id: 'Sneaker-Azul',
-            titulo: 'Sneakers (Azul)',
+            titulo: 'Sneakers Urbanas',
             estilo: 'READY TO WEAR',
             descripcion: 'Zapatillas de uso urbano confeccionadas en cuero 100% vacuno argentino tanto en su exterior como en su interior. La boca del calzado cuenta con un refuerzo acolchonado agradable al uso cotidiano.',
             color: 'Azul',
             tipoCuero: 'Cuero vacuno granulado',
+            codigo: 'Zap',
             imagenPrincipal: "../assets/img/ready to wear/117 - 20.jpg",
             imagenes: ["../assets/img/ready to wear/117 - 20.jpg", "../assets/img/ready to wear/117 - 21.jpg", "../assets/img/ready to wear/117 - 22.jpg", "../assets/img/ready to wear/117 - 19.jpg"]
         },
         {
             id: 'Sneaker-Verde-Claro',
-            titulo: 'Sneakers (Verde Claro)',
+            titulo: 'Sneakers Urbanas',
             estilo: 'READY TO WEAR',
             descripcion: 'Zapatillas de uso urbano confeccionadas en cuero 100% vacuno argentino tanto en su exterior como en su interior. La boca del calzado cuenta con un refuerzo acolchonado agradable al uso cotidiano.',
             color: 'Verde Claro',
             tipoCuero: 'Cuero vacuno granulado',
+            codigo: 'Zap',
             imagenPrincipal: "../assets/img/ready to wear/117 - 13.jpg",
             imagenes: ["../assets/img/ready to wear/117 - 13.jpg", "../assets/img/ready to wear/117 - 14.jpg", "../assets/img/ready to wear/117 - 15.jpg", "../assets/img/ready to wear/117 - 19.jpg"]
         },
@@ -256,8 +262,8 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenes: ["../assets/img/ready to wear/123 - 32.jpg", "../assets/img/ready to wear/123 - 33.jpg", "../assets/img/ready to wear/123 - 34.jpg", "../assets/img/ready to wear/123 - 35.jpg"]
         },
         {
-            id: 'Oxford-Untitled',
-            titulo: 'Oxford Untitled',
+            id: 'Oxford-1100-Negro-3hojales',
+            titulo: 'Oxford Mod. 1100',
             estilo: 'READY TO WEAR',
             descripcion: 'Descripción del modelo.',
             color: 'Negro',

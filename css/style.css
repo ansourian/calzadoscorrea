@@ -124,16 +124,17 @@ ul {
 
 .img-modeltype {
   width: 21vw;
-  height: 21vw;
+  height: 15vw;
   margin: 1rem;
   transition: 0.5s;
   filter: brightness(100%) grayscale(0%);
   border-radius: 0.4vw;
   object-fit: cover;
+  filter: brightness(0.7);
 }
 .img-modeltype:hover {
   width: 21vw;
-  height: 21vw;
+  height: 15vw;
   transition: 0.5s;
   filter: brightness(70%) grayscale(100%);
 }
@@ -595,6 +596,15 @@ hr {
   justify-content: center;
 }
 
+.div-model_type_texts {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 7vw;
+}
+
 .container-variant {
   justify-content: left;
 }
@@ -617,7 +627,7 @@ hr {
 .contenedor-tipo_modelos {
   margin: 0vw 10vw;
   padding: 0vw 0 2vw;
-  display: none;
+  display: flex;
   flex-direction: row;
   justify-content: space-around;
   background-color: white;
@@ -678,6 +688,14 @@ hr {
   flex-direction: column !important;
   margin: 8vw auto !important;
   justify-content: center !important;
+}
+
+.container-tipo_modelos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  flex: 1;
 }
 
 h2 {
@@ -755,11 +773,19 @@ h3 {
   margin: 0 0 2vw;
 }
 
+.h3-style {
+  color: #000000;
+  font-size: 1.1vw;
+  text-align: center;
+  margin: 0 0 0;
+  letter-spacing: 0;
+}
+
 .h3-color {
   color: #595959;
   font-size: 1.1vw;
   text-align: center;
-  margin: 0 0 2vw;
+  margin: 0 0 0;
   letter-spacing: 0;
 }
 
@@ -767,7 +793,7 @@ h3 {
   margin: auto;
   justify-content: center;
   align-items: center;
-  font-size: 1.2vw;
+  font-size: 1.5vw;
 }
 
 .model-subtitles {
@@ -776,6 +802,22 @@ h3 {
   font-size: 1.3vw;
   font-family: "EB Garamond", serif;
   color: #595959;
+}
+
+.model-type_titles {
+  margin: auto -1vw;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2vw;
+  color: white;
+}
+
+.model-type_subtitles {
+  margin: auto -1vw;
+  text-align: center;
+  font-size: 1.3vw;
+  font-family: "EB Garamond", serif;
+  color: #d8d8d8;
 }
 
 .model-titles_car {
@@ -1435,7 +1477,14 @@ footer .derechos-reservados {
     color: #595959;
     font-size: 3.5vw;
     text-align: center;
-    margin: 0 0 2vw;
+    margin: 0 0 0;
+    letter-spacing: 0;
+  }
+  .h3-style {
+    color: #000000;
+    font-size: 3.5vw;
+    text-align: center;
+    margin: 0 0 0;
     letter-spacing: 0;
   }
   .aclaracion-colores {
@@ -1986,7 +2035,14 @@ footer .derechos-reservados {
     color: #595959;
     font-size: 3.5vw;
     text-align: center;
-    margin: 0 0 2vw;
+    margin: 0 0 0;
+    letter-spacing: 0;
+  }
+  .h3-style {
+    color: #000000;
+    font-size: 3.5vw;
+    text-align: center;
+    margin: 0 0 0;
     letter-spacing: 0;
   }
   .aclaracion-colores {

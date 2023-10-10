@@ -20,7 +20,7 @@
 .contenedor-tipo_modelos{
     margin: 0vw 10vw;
     padding: 0vw 0 2vw;
-    display: none;
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
     background-color: white;
@@ -82,4 +82,12 @@
     flex-direction: column !important;
     margin: 8vw auto !important;
     justify-content: center !important;
+}
+
+.container-tipo_modelos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    flex: 1;
 }

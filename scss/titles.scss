@@ -73,11 +73,19 @@ h3{
     margin: 0 0 2vw;
 }
 
+.h3-style{
+    color: #000000;
+    font-size: 1.1vw;
+    text-align: center;
+    margin: 0 0 0;
+    letter-spacing: 0;
+}
+
 .h3-color{
     color: #595959;
     font-size: 1.1vw;
     text-align: center;
-    margin: 0 0 2vw;
+    margin: 0 0 0;
     letter-spacing: 0;
 }
 
@@ -85,7 +93,7 @@ h3{
     margin: auto;
     justify-content: center;
     align-items: center;
-    font-size: 1.2vw;
+    font-size: 1.5vw;
 }
 
 .model-subtitles{
@@ -94,6 +102,22 @@ h3{
     font-size: 1.3vw;
     font-family: 'EB Garamond', serif;
     color: #595959;
+}
+
+.model-type_titles{
+    margin: auto -1vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2vw;
+    color: white;
+}
+
+.model-type_subtitles{
+    margin: auto -1vw;
+    text-align: center;
+    font-size: 1.3vw;
+    font-family: 'EB Garamond', serif;
+    color: #d8d8d8;
 }
 
 .model-titles_car{
