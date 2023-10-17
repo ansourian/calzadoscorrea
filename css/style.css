@@ -221,6 +221,7 @@ ul {
 .img-carousel {
   object-fit: cover;
   aspect-ratio: 25/9;
+  filter: brightness(0.7);
 }
 
 p {
@@ -553,7 +554,7 @@ section {
 }
 
 .div-biografia {
-  margin: 2rem 0rem;
+  margin: 0 0;
 }
 
 hr {
@@ -1506,6 +1507,7 @@ footer .derechos-reservados {
   .img-carousel {
     object-fit: cover;
     aspect-ratio: 3/4;
+    filter: brightness(0.7);
   }
   .model-titles_car {
     margin: auto;
