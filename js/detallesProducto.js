@@ -202,6 +202,17 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenes: ["../assets/img/ready to wear/130 - 48.jpg", "../assets/img/ready to wear/130 - 49.jpg", "../assets/img/ready to wear/130 - 50.jpg", "../assets/img/ready to wear/130 - 44.jpg"]
         },
         {
+            id: '2-Hebillas-Marron',
+            titulo: '2 Hebillas',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Descripción.',
+            color: 'Marrón',
+            tipoCuero: 'Cuero Vacuno',
+            codigo: '2 Hebillas',
+            imagenPrincipal: "../assets/img/ready to wear/130 - 54.jpg",
+            imagenes: ["../assets/img/ready to wear/130 - 54.jpg", "../assets/img/ready to wear/130 - 55.jpg", "../assets/img/ready to wear/130 - 56.jpg", "../assets/img/ready to wear/130 - 44.jpg"]
+        },
+        {
             id: '2-Hebillas-Gamuza-Marron',
             titulo: '2 Hebillas',
             estilo: 'READY TO WEAR',
@@ -209,8 +220,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Marrón',
             tipoCuero: 'Gamuza',
             codigo: '2 Hebillas',
-            imagenPrincipal: "../assets/img/ready to wear/130 - 54.jpg",
-            imagenes: ["../assets/img/ready to wear/130 - 54.jpg", "../assets/img/ready to wear/130 - 55.jpg", "../assets/img/ready to wear/130 - 56.jpg", "../assets/img/ready to wear/130 - 44.jpg"]
+            imagenPrincipal: "../assets/img/ready to wear/130 - 51.jpg",
+            imagenes: ["../assets/img/ready to wear/130 - 51.jpg", "../assets/img/ready to wear/130 - 52.jpg", "../assets/img/ready to wear/130 - 53.jpg", "../assets/img/ready to wear/130 - 44.jpg"]
         },
         {
             id: 'Borcego-Corto',
