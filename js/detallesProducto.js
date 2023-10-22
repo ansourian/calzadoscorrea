@@ -168,7 +168,50 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenPrincipal: "../assets/img/ready to wear/216 - 12.jpg",
             imagenes: ["../assets/img/ready to wear/216 - 12.jpg", "../assets/img/ready to wear/216 - 13.jpg", "../assets/img/ready to wear/216 - 14.jpg", "../assets/img/ready to wear/216 - 15.jpg"]
         },
-
+        {
+            id: '2-Hebillas-Negro',
+            titulo: '2 Hebillas',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Descripción.',
+            color: 'Negro',
+            tipoCuero: 'Cuero Vacuno',
+            codigo: '2 Hebillas',
+            imagenPrincipal: "../assets/img/ready to wear/130 - 41.jpg",
+            imagenes: ["../assets/img/ready to wear/130 - 41.jpg", "../assets/img/ready to wear/130 - 42.jpg", "../assets/img/ready to wear/130 - 43.jpg", "../assets/img/ready to wear/130 - 44.jpg"]
+        },
+        {
+            id: '2-Hebillas-Maiz',
+            titulo: '2 Hebillas',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Descripción.',
+            color: 'Maíz',
+            tipoCuero: 'Cuero Vacuno',
+            codigo: '2 Hebillas',
+            imagenPrincipal: "../assets/img/ready to wear/130 - 45.jpg",
+            imagenes: ["../assets/img/ready to wear/130 - 45.jpg", "../assets/img/ready to wear/130 - 46.jpg", "../assets/img/ready to wear/130 - 47.jpg", "../assets/img/ready to wear/130 - 44.jpg"]
+        },
+        {
+            id: '2-Hebillas-Cafe',
+            titulo: '2 Hebillas',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Descripción.',
+            color: 'Café',
+            tipoCuero: 'Cuero Vacuno',
+            codigo: '2 Hebillas',
+            imagenPrincipal: "../assets/img/ready to wear/130 - 48.jpg",
+            imagenes: ["../assets/img/ready to wear/130 - 48.jpg", "../assets/img/ready to wear/130 - 49.jpg", "../assets/img/ready to wear/130 - 50.jpg", "../assets/img/ready to wear/130 - 44.jpg"]
+        },
+        {
+            id: '2-Hebillas-Gamuza-Marron',
+            titulo: '2 Hebillas',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Descripción.',
+            color: 'Marrón',
+            tipoCuero: 'Gamuza',
+            codigo: '2 Hebillas',
+            imagenPrincipal: "../assets/img/ready to wear/130 - 54.jpg",
+            imagenes: ["../assets/img/ready to wear/130 - 54.jpg", "../assets/img/ready to wear/130 - 55.jpg", "../assets/img/ready to wear/130 - 56.jpg", "../assets/img/ready to wear/130 - 44.jpg"]
+        },
         {
             id: 'Borcego-Corto',
             titulo: 'Borcego Corto',
@@ -289,6 +332,39 @@ document.addEventListener('DOMContentLoaded', function () {
             codigo: '226',
             imagenPrincipal: "../assets/img/ready to wear/119 - 21.jpg",
             imagenes: ["../assets/img/ready to wear/119 - 21.jpg", "../assets/img/ready to wear/119 - 22.jpg", "../assets/img/ready to wear/119 - 23.jpg", "../assets/img/ready to wear/119 - 24.jpg"]
+        },
+        {
+            id: 'Mocasin-Archibaldo-Maiz',
+            titulo: 'Mocasín Archibaldo 226',
+            estilo: 'READY TO WEAR',
+            descripcion: 'El mocasín más fresco y liviano de nuestro catálogo. Su costura frontal, al no ser sellada, proporciona mayor ventilación, convirtiéndolo en el mocasín ideal para los días de calor.',
+            color: 'Maíz',
+            tipoCuero: 'Cuero vacuno',
+            codigo: '226',
+            imagenPrincipal: "../assets/img/ready to wear/130 - 25.jpg",
+            imagenes: ["../assets/img/ready to wear/130 - 25.jpg", "../assets/img/ready to wear/130 - 26.jpg", "../assets/img/ready to wear/130 - 27.jpg", "../assets/img/ready to wear/130 - 28.jpg"]
+        },
+        {
+            id: 'Mocasin-Archibaldo-Verde',
+            titulo: 'Mocasín Archibaldo 226',
+            estilo: 'READY TO WEAR',
+            descripcion: 'El mocasín más fresco y liviano de nuestro catálogo. Su costura frontal, al no ser sellada, proporciona mayor ventilación, convirtiéndolo en el mocasín ideal para los días de calor.',
+            color: 'Verde',
+            tipoCuero: 'Cuero vacuno',
+            codigo: '226',
+            imagenPrincipal: "../assets/img/ready to wear/130 - 29.jpg",
+            imagenes: ["../assets/img/ready to wear/130 - 29.jpg", "../assets/img/ready to wear/130 - 30.jpg", "../assets/img/ready to wear/119 - 23.jpg", "../assets/img/ready to wear/119 - 24.jpg"]
+        },
+        {
+            id: 'Mocasin-Archibaldo-Marron-Cocodrilo',
+            titulo: 'Mocasín Archibaldo 226',
+            estilo: 'READY TO WEAR',
+            descripcion: 'El mocasín más fresco y liviano de nuestro catálogo. Su costura frontal, al no ser sellada, proporciona mayor ventilación, convirtiéndolo en el mocasín ideal para los días de calor.',
+            color: 'Verde',
+            tipoCuero: 'Cuero vacuno',
+            codigo: '226',
+            imagenPrincipal: "../assets/img/ready to wear/130 - 33.jpg",
+            imagenes: ["../assets/img/ready to wear/130 - 33.jpg", "../assets/img/ready to wear/130 - 34.jpg", "../assets/img/ready to wear/130 - 35.jpg", "../assets/img/ready to wear/130 - 36.jpg"]
         },
         {
             id: 'Mocasin-Industry',
