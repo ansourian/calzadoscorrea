@@ -631,6 +631,17 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenes: ["../assets/img/made by order/130 - 19.jpg", "../assets/img/made by order/130 - 20.jpg", "../assets/img/made by order/130 - 21.jpg", "../assets/img/made by order/130 - 8.jpg"]
         },
         {
+            id: 'Derby-Coll-Guinda',
+            titulo: 'Derby Mod. Coll',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'Un zapato rígido y robusto. Su construcción incorpora bases de Goma Rural FEBO. Un modelo ideal para el uso urbano y aptas para caminos rurales.',
+            color: 'Guinda',
+            tipoCuero: 'Cuero Vacuno',
+            codigo: 'Derby Coll',
+            imagenPrincipal: "../assets/img/made by order/128 - 10.jpg",
+            imagenes: ["../assets/img/made by order/128 - 10.jpg", "../assets/img/made by order/128 - 11.jpg", "../assets/img/made by order/128 - 12.jpg", "../assets/img/made by order/128 - 13.jpg"]
+        },
+        {
             id: 'Oxford-1122-Bespoke-Maiz',
             titulo: 'Oxford Mod. 1122',
             estilo: 'BESPOKE',
