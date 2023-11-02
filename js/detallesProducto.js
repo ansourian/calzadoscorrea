@@ -11,8 +11,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Natural',
             tipoCuero: 'Cuero vacuno',
             codigo: '1122',
-            imagenPrincipal: "../assets/img/ready to wear/123 - 5.jpg",
-            imagenes: ["../assets/img/ready to wear/123 - 5.jpg", "../assets/img/ready to wear/123 - 6.jpg", "../assets/img/ready to wear/123 - 7.jpg", "../assets/img/ready to wear/123 - 8.jpg"]
+            imagenPrincipal: "../assets/img/ready to wear/123 - 5.webp",
+            imagenes: ["../assets/img/ready to wear/123 - 5.webp", "../assets/img/ready to wear/123 - 6.webp", "../assets/img/ready to wear/123 - 7.webp", "../assets/img/ready to wear/123 - 8.webp"]
         },
         {
             id: 'Oxford-Maiz',
@@ -22,19 +22,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Maíz',
             tipoCuero: 'Cuero vacuno',
             codigo: '1122',
-            imagenPrincipal: "../assets/img/ready to wear/122 - 29.jpg",
-            imagenes: ["../assets/img/ready to wear/122 - 29.jpg", "../assets/img/ready to wear/122 - 30.jpg", "../assets/img/ready to wear/122 - 31.jpg", "../assets/img/ready to wear/122 - 32.jpg"]
-        },
-        {
-            id: 'Oxford-Verde',
-            titulo: 'Oxford Mod. 1122',
-            estilo: 'READY TO WEAR',
-            descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
-            color: 'Verde',
-            tipoCuero: 'Cuero vacuno',
-            codigo: '1122',
-            imagenPrincipal: "../assets/img/ready to wear/123 - 1.jpg",
-            imagenes: ["../assets/img/ready to wear/123 - 1.jpg", "../assets/img/ready to wear/123 - 2.jpg", "../assets/img/ready to wear/123 - 3.jpg", "../assets/img/ready to wear/123 - 4.jpg"]
+            imagenPrincipal: "../assets/img/ready to wear/122 - 29.webp",
+            imagenes: ["../assets/img/ready to wear/122 - 29.webp", "../assets/img/ready to wear/122 - 30.webp", "../assets/img/ready to wear/122 - 31.webp", "../assets/img/ready to wear/122 - 32.webp"]
         },
         {
             id: 'Oxford-Tabaco',
@@ -44,8 +33,19 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Tabaco',
             tipoCuero: 'Cuero vacuno',
             codigo: '1122',
-            imagenPrincipal: "../assets/img/ready to wear/123 - 9.jpg",
-            imagenes: ["../assets/img/ready to wear/123 - 9.jpg", "../assets/img/ready to wear/216 - 2.jpg ", "../assets/img/ready to wear/123 - 10.jpg", "../assets/img/ready to wear/123 - 11.jpg"]
+            imagenPrincipal: "../assets/img/ready to wear/123 - 9.webp",
+            imagenes: ["../assets/img/ready to wear/123 - 9.webp", "../assets/img/ready to wear/126 - 2.webp", "../assets/img/ready to wear/123 - 10.webp", "../assets/img/ready to wear/123 - 11.webp"]
+        },
+        {
+            id: 'Oxford-Verde',
+            titulo: 'Oxford Mod. 1122',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
+            color: 'Verde',
+            tipoCuero: 'Cuero vacuno',
+            codigo: '1122',
+            imagenPrincipal: "../assets/img/ready to wear/123 - 1.webp",
+            imagenes: ["../assets/img/ready to wear/123 - 1.webp", "../assets/img/ready to wear/123 - 2.webp", "../assets/img/ready to wear/123 - 3.webp", "../assets/img/ready to wear/123 - 4.webp"]
         },
         {
             id: 'Oxford-1122-Negro-Marron',
@@ -55,8 +55,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Negro - Marrón',
             tipoCuero: 'Cuero vacuno combinado',
             codigo: '1122',
-            imagenPrincipal: "../assets/img/ready to wear/114 - 4.jpg",
-            imagenes: ["../assets/img/ready to wear/114 - 4.jpg", "../assets/img/ready to wear/114 - 5.jpg ", "../assets/img/ready to wear/114 - 6.jpg", "../assets/img/ready to wear/114 - 7.jpg"]
+            imagenPrincipal: "../assets/img/ready to wear/114 - 4.webp",
+            imagenes: ["../assets/img/ready to wear/114 - 4.webp", "../assets/img/ready to wear/114 - 5.webp", "../assets/img/ready to wear/114 - 6.webp", "../assets/img/ready to wear/114 - 7.webp"]
         },
         {
             id: 'Oxford-1122-Negro-Rojo',
@@ -66,8 +66,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Negro - Rojo',
             tipoCuero: 'Combinado de Cuero Vacuno y Cabretilla',
             codigo: '1122',
-            imagenPrincipal: "../assets/img/ready to wear/114 - 15.jpg",
-            imagenes: ["../assets/img/ready to wear/114 - 15.jpg", "../assets/img/ready to wear/114 - 16.jpg ", "../assets/img/ready to wear/114 - 17.jpg", "../assets/img/ready to wear/114 - 18.jpg"]
+            imagenPrincipal: "../assets/img/ready to wear/114 - 15.webp",
+            imagenes: ["../assets/img/ready to wear/114 - 15.webp", "../assets/img/ready to wear/114 - 16.webp", "../assets/img/ready to wear/114 - 17.webp", "../assets/img/ready to wear/114 - 18.webp"]
         },
         {
             id: '1108-Guinda',
@@ -77,8 +77,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Guinda',
             tipoCuero: 'Cuero Vacuno',
             codigo: '1108',
-            imagenPrincipal: "../assets/img/ready to wear/127 - 5.jpg",
-            imagenes: ["../assets/img/ready to wear/127 - 5.jpg", "../assets/img/ready to wear/127 - 6.jpg", "../assets/img/ready to wear/127 - 7.jpg", "../assets/img/ready to wear/127 - 8.jpg"]
+            imagenPrincipal: "../assets/img/ready to wear/127 - 5.webp",
+            imagenes: ["../assets/img/ready to wear/127 - 5.webp", "../assets/img/ready to wear/127 - 6.webp", "../assets/img/ready to wear/127 - 7.webp", "../assets/img/ready to wear/127 - 8.webp"]
         },
         {
             id: '1107-Tabaco',
@@ -88,8 +88,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Tabaco',
             tipoCuero: 'Cuero Vacuno',
             codigo: '1107',
-            imagenPrincipal: "../assets/img/ready to wear/127 - 9.jpg",
-            imagenes: ["../assets/img/ready to wear/127 - 9.jpg", "../assets/img/ready to wear/127 - 10.jpg", "../assets/img/ready to wear/127 - 11.jpg", "../assets/img/ready to wear/127 - 12.jpg"]
+            imagenPrincipal: "../assets/img/ready to wear/127 - 9.webp",
+            imagenes: ["../assets/img/ready to wear/127 - 9.webp", "../assets/img/ready to wear/127 - 10.webp", "../assets/img/ready to wear/127 - 11.webp", "../assets/img/ready to wear/127 - 12.webp"]
         },
         {
             id: '1107-Tabaco-Picado-Flor',
@@ -99,8 +99,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Tabaco',
             tipoCuero: 'Cuero Vacuno',
             codigo: '1107',
-            imagenPrincipal: "../assets/img/ready to wear/127 - 13.jpg",
-            imagenes: ["../assets/img/ready to wear/127 - 13.jpg", "../assets/img/ready to wear/127 - 14.jpg", "../assets/img/ready to wear/127 - 15.jpg", "../assets/img/ready to wear/127 - 16.jpg"]
+            imagenPrincipal: "../assets/img/ready to wear/127 - 13.webp",
+            imagenes: ["../assets/img/ready to wear/127 - 13.webp", "../assets/img/ready to wear/127 - 14.webp", "../assets/img/ready to wear/127 - 15.webp", "../assets/img/ready to wear/127 - 16.webp"]
         },
         {
             id: '1107-Negro-Picado',
