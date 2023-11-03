@@ -110,8 +110,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Negro',
             tipoCuero: 'Cuero Vacuno',
             codigo: '1107',
-            imagenPrincipal: "../assets/img/ready to wear/127 - 17.jpg",
-            imagenes: ["../assets/img/ready to wear/127 - 17.jpg", "../assets/img/ready to wear/127 - 18.jpg", "../assets/img/ready to wear/127 - 19.jpg", "../assets/img/ready to wear/127 - 20.jpg"]
+            imagenPrincipal: "../assets/img/ready to wear/127 - 17.webp",
+            imagenes: ["../assets/img/ready to wear/127 - 17.webp", "../assets/img/ready to wear/127 - 18.webp", "../assets/img/ready to wear/127 - 19.webp", "../assets/img/ready to wear/127 - 20.webp"]
         },
         {
             id: '1103-Negro',
@@ -121,8 +121,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Negro',
             tipoCuero: 'Cuero vacuno',
             codigo: '1103',
-            imagenPrincipal: "../assets/img/ready to wear/121 - 1.jpg",
-            imagenes: ["../assets/img/ready to wear/121 - 1.jpg", "../assets/img/ready to wear/121 - 2.jpg", "../assets/img/ready to wear/121 - 3.jpg", "../assets/img/ready to wear/121 - 11.jpg"]
+            imagenPrincipal: "../assets/img/ready to wear/121 - 1.webp",
+            imagenes: ["../assets/img/ready to wear/121 - 1.webp", "../assets/img/ready to wear/121 - 2.webp", "../assets/img/ready to wear/121 - 3.webp", "../assets/img/ready to wear/121 - 11.webp"]
         },
         {
             id: '1103-Chocolate',
@@ -132,8 +132,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Chocolate',
             tipoCuero: 'Cuero vacuno',
             codigo: '1103',
-            imagenPrincipal: "../assets/img/ready to wear/121 - 4.jpg",
-            imagenes: ["../assets/img/ready to wear/121 - 4.jpg", "../assets/img/ready to wear/121 - 5.jpg", "../assets/img/ready to wear/121 - 6.jpg", "../assets/img/ready to wear/121 - 7.jpg"]
+            imagenPrincipal: "../assets/img/ready to wear/121 - 4.webp",
+            imagenes: ["../assets/img/ready to wear/121 - 4.webp", "../assets/img/ready to wear/121 - 5.webp", "../assets/img/ready to wear/121 - 6.webp", "../assets/img/ready to wear/121 - 7.webp"]
         },
         {
             id: '1103-Marron',
@@ -143,8 +143,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Marrón',
             tipoCuero: 'Cuero vacuno',
             codigo: '1103',
-            imagenPrincipal: "../assets/img/ready to wear/121 - 8.jpg",
-            imagenes: ["../assets/img/ready to wear/121 - 8.jpg", "../assets/img/ready to wear/121 - 9.jpg", "../assets/img/ready to wear/121 - 10.jpg", "../assets/img/ready to wear/121 - 11.jpg"]
+            imagenPrincipal: "../assets/img/ready to wear/121 - 8.webp",
+            imagenes: ["../assets/img/ready to wear/121 - 8.webp", "../assets/img/ready to wear/121 - 9.webp", "../assets/img/ready to wear/121 - 10.webp", "../assets/img/ready to wear/121 - 11.webp"]
         },
         {
             id: '1103-Guinda',
@@ -154,8 +154,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Guinda',
             tipoCuero: 'Cuero Vacuno',
             codigo: '1103',
-            imagenPrincipal: "../assets/img/ready to wear/127 - 1.jpg",
-            imagenes: ["../assets/img/ready to wear/127 - 1.jpg", "../assets/img/ready to wear/127 - 2.jpg", "../assets/img/ready to wear/127 - 3.jpg", "../assets/img/ready to wear/127 - 4.jpg"]
+            imagenPrincipal: "../assets/img/ready to wear/127 - 1.webp",
+            imagenes: ["../assets/img/ready to wear/127 - 1.webp", "../assets/img/ready to wear/127 - 2.webp", "../assets/img/ready to wear/127 - 3.webp", "../assets/img/ready to wear/127 - 4.webp"]
         },
         {
             id: 'Derby-1100-Negro-3ojales',
@@ -165,8 +165,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Negro',
             tipoCuero: 'Cuero Vacuno',
             codigo: '1100 3 ojales',
-            imagenPrincipal: "../assets/img/ready to wear/216 - 12.jpg",
-            imagenes: ["../assets/img/ready to wear/216 - 12.jpg", "../assets/img/ready to wear/216 - 13.jpg", "../assets/img/ready to wear/216 - 14.jpg", "../assets/img/ready to wear/216 - 15.jpg"]
+            imagenPrincipal: "../assets/img/ready to wear/126 - 12.webp",
+            imagenes: ["../assets/img/ready to wear/126 - 12.webp", "../assets/img/ready to wear/126 - 13.webp", "../assets/img/ready to wear/126 - 14.webp", "../assets/img/ready to wear/126 - 15.webp"]
         },
         {
             id: '2-Hebillas-Negro',
@@ -176,8 +176,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Negro',
             tipoCuero: 'Cuero Vacuno',
             codigo: '2 Hebillas',
-            imagenPrincipal: "../assets/img/ready to wear/130 - 41.jpg",
-            imagenes: ["../assets/img/ready to wear/130 - 41.jpg", "../assets/img/ready to wear/130 - 42.jpg", "../assets/img/ready to wear/130 - 43.jpg", "../assets/img/ready to wear/130 - 44.jpg"]
+            imagenPrincipal: "../assets/img/ready to wear/130 - 41.webp",
+            imagenes: ["../assets/img/ready to wear/130 - 41.webp", "../assets/img/ready to wear/130 - 42.webp", "../assets/img/ready to wear/130 - 43.webp", "../assets/img/ready to wear/130 - 44.webp"]
         },
         {
             id: '2-Hebillas-Maiz',
@@ -187,8 +187,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Maíz',
             tipoCuero: 'Cuero Vacuno',
             codigo: '2 Hebillas',
-            imagenPrincipal: "../assets/img/ready to wear/130 - 45.jpg",
-            imagenes: ["../assets/img/ready to wear/130 - 45.jpg", "../assets/img/ready to wear/130 - 46.jpg", "../assets/img/ready to wear/130 - 47.jpg", "../assets/img/ready to wear/130 - 44.jpg"]
+            imagenPrincipal: "../assets/img/ready to wear/130 - 45.webp",
+            imagenes: ["../assets/img/ready to wear/130 - 45.webp", "../assets/img/ready to wear/130 - 46.webp", "../assets/img/ready to wear/130 - 47.webp", "../assets/img/ready to wear/130 - 44.webp"]
         },
         {
             id: '2-Hebillas-Cafe',
@@ -198,8 +198,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Café',
             tipoCuero: 'Cuero Vacuno',
             codigo: '2 Hebillas',
-            imagenPrincipal: "../assets/img/ready to wear/130 - 48.jpg",
-            imagenes: ["../assets/img/ready to wear/130 - 48.jpg", "../assets/img/ready to wear/130 - 49.jpg", "../assets/img/ready to wear/130 - 50.jpg", "../assets/img/ready to wear/130 - 44.jpg"]
+            imagenPrincipal: "../assets/img/ready to wear/130 - 48.webp",
+            imagenes: ["../assets/img/ready to wear/130 - 48.webp", "../assets/img/ready to wear/130 - 49.webp", "../assets/img/ready to wear/130 - 50.webp", "../assets/img/ready to wear/130 - 44.webp"]
         },
         {
             id: '2-Hebillas-Marron',
@@ -209,8 +209,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Marrón',
             tipoCuero: 'Cuero Vacuno',
             codigo: '2 Hebillas',
-            imagenPrincipal: "../assets/img/ready to wear/130 - 54.jpg",
-            imagenes: ["../assets/img/ready to wear/130 - 54.jpg", "../assets/img/ready to wear/130 - 55.jpg", "../assets/img/ready to wear/130 - 56.jpg", "../assets/img/ready to wear/130 - 44.jpg"]
+            imagenPrincipal: "../assets/img/ready to wear/130 - 54.webp",
+            imagenes: ["../assets/img/ready to wear/130 - 54.webp", "../assets/img/ready to wear/130 - 55.webp", "../assets/img/ready to wear/130 - 56.webp", "../assets/img/ready to wear/130 - 44.webp"]
         },
         {
             id: '2-Hebillas-Gamuza-Marron',
@@ -220,8 +220,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Marrón',
             tipoCuero: 'Gamuza',
             codigo: '2 Hebillas',
-            imagenPrincipal: "../assets/img/ready to wear/130 - 51.jpg",
-            imagenes: ["../assets/img/ready to wear/130 - 51.jpg", "../assets/img/ready to wear/130 - 52.jpg", "../assets/img/ready to wear/130 - 53.jpg", "../assets/img/ready to wear/130 - 44.jpg"]
+            imagenPrincipal: "../assets/img/ready to wear/130 - 51.webp",
+            imagenes: ["../assets/img/ready to wear/130 - 51.webp", "../assets/img/ready to wear/130 - 52.webp", "../assets/img/ready to wear/130 - 53.webp", "../assets/img/ready to wear/130 - 44.webp"]
         },
         {
             id: 'Borcego-Corto',
@@ -231,8 +231,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Piedra',
             tipoCuero: 'Cuero vacuno granulado',
             codigo: 'Borcego Corto',
-            imagenPrincipal: "../assets/img/ready to wear/115 - 13.jpg",
-            imagenes: ["../assets/img/ready to wear/115 - 13.jpg", "../assets/img/ready to wear/115 - 14.jpg", "../assets/img/ready to wear/115 - 15.jpg", "../assets/img/ready to wear/115 - 16.jpg"]
+            imagenPrincipal: "../assets/img/ready to wear/115 - 13.webp",
+            imagenes: ["../assets/img/ready to wear/115 - 13.webp", "../assets/img/ready to wear/115 - 14.webp", "../assets/img/ready to wear/115 - 15.webp", "../assets/img/ready to wear/115 - 16.webp"]
         },
         {
             id: 'Sneaker-Suela',
@@ -242,8 +242,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Suela',
             tipoCuero: 'Cuero vacuno granulado',
             codigo: 'Zap',
-            imagenPrincipal: "../assets/img/ready to wear/122 - 26.jpg",
-            imagenes: ["../assets/img/ready to wear/122 - 26.jpg", "../assets/img/ready to wear/122 - 27.jpg", "../assets/img/ready to wear/122 - 28.jpg", "../assets/img/ready to wear/117 - 19.jpg"]
+            imagenPrincipal: "../assets/img/ready to wear/122 - 26.webp",
+            imagenes: ["../assets/img/ready to wear/122 - 26.webp", "../assets/img/ready to wear/122 - 27.webp", "../assets/img/ready to wear/122 - 28.webp", "../assets/img/ready to wear/117 - 19.webp"]
         },
         {
             id: 'Sneaker-Marron',
@@ -253,8 +253,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Marrón',
             tipoCuero: 'Cuero vacuno granulado',
             codigo: 'Zap',
-            imagenPrincipal: "../assets/img/ready to wear/117 - 10.jpg",
-            imagenes: ["../assets/img/ready to wear/117 - 10.jpg", "../assets/img/ready to wear/117 - 11.jpg", "../assets/img/ready to wear/117 - 12.jpg", "../assets/img/ready to wear/117 - 19.jpg"]
+            imagenPrincipal: "../assets/img/ready to wear/117 - 10.webp",
+            imagenes: ["../assets/img/ready to wear/117 - 10.webp", "../assets/img/ready to wear/117 - 11.webp", "../assets/img/ready to wear/117 - 12.webp", "../assets/img/ready to wear/117 - 19.webp"]
         },
         {
             id: 'Sneaker-Negro',
@@ -264,8 +264,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Negro',
             tipoCuero: 'Cuero vacuno granulado',
             codigo: 'Zap',
-            imagenPrincipal: "../assets/img/ready to wear/122 - 20.jpg",
-            imagenes: ["../assets/img/ready to wear/122 - 20.jpg", "../assets/img/ready to wear/122 - 21.jpg", "../assets/img/ready to wear/122 - 22.jpg", "../assets/img/ready to wear/117 - 19.jpg"]
+            imagenPrincipal: "../assets/img/ready to wear/122 - 20.webp",
+            imagenes: ["../assets/img/ready to wear/122 - 20.webp", "../assets/img/ready to wear/122 - 21.webp", "../assets/img/ready to wear/122 - 22.webp", "../assets/img/ready to wear/117 - 19.webp"]
         },
         {
             id: 'Sneaker-Azul',
@@ -275,8 +275,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Azul',
             tipoCuero: 'Cuero vacuno granulado',
             codigo: 'Zap',
-            imagenPrincipal: "../assets/img/ready to wear/117 - 20.jpg",
-            imagenes: ["../assets/img/ready to wear/117 - 20.jpg", "../assets/img/ready to wear/117 - 21.jpg", "../assets/img/ready to wear/117 - 22.jpg", "../assets/img/ready to wear/117 - 19.jpg"]
+            imagenPrincipal: "../assets/img/ready to wear/122 - 17.webp",
+            imagenes: ["../assets/img/ready to wear/122 - 17.webp", "../assets/img/ready to wear/122 - 18.webp", "../assets/img/ready to wear/122 - 19.webp", "../assets/img/ready to wear/117 - 19.webp"]
         },
         {
             id: 'Sneaker-Verde-Claro',
@@ -286,8 +286,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Verde Claro',
             tipoCuero: 'Cuero vacuno granulado',
             codigo: 'Zap',
-            imagenPrincipal: "../assets/img/ready to wear/117 - 13.jpg",
-            imagenes: ["../assets/img/ready to wear/117 - 13.jpg", "../assets/img/ready to wear/117 - 14.jpg", "../assets/img/ready to wear/117 - 15.jpg", "../assets/img/ready to wear/117 - 19.jpg"]
+            imagenPrincipal: "../assets/img/ready to wear/117 - 13.webp",
+            imagenes: ["../assets/img/ready to wear/117 - 13.webp", "../assets/img/ready to wear/117 - 14.webp", "../assets/img/ready to wear/117 - 15.webp", "../assets/img/ready to wear/117 - 19.webp"]
         },
         {
             id: 'Slippers-123-Gamuza-Arena',
@@ -297,8 +297,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Arena',
             tipoCuero: 'Gamuza',
             codigo: 'Slipper 123',
-            imagenPrincipal: "../assets/img/ready to wear/216 - 4.jpg",
-            imagenes: ["../assets/img/ready to wear/216 - 4.jpg", "../assets/img/ready to wear/216 - 5.jpg", "../assets/img/ready to wear/216 - 6.jpg", "../assets/img/ready to wear/216 - 7.jpg"]
+            imagenPrincipal: "../assets/img/ready to wear/126 - 4.webp",
+            imagenes: ["../assets/img/ready to wear/126 - 4.webp", "../assets/img/ready to wear/126 - 5.webp", "../assets/img/ready to wear/126 - 6.webp", "../assets/img/ready to wear/126 - 7.webp"]
         },
         {
             id: 'Slippers-123-Gamuza-Tostado',
@@ -308,8 +308,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Tostado',
             tipoCuero: 'Gamuza',
             codigo: 'Slipper 123',
-            imagenPrincipal: "../assets/img/ready to wear/117 - 23.jpg",
-            imagenes: ["../assets/img/ready to wear/117 - 23.jpg", "../assets/img/ready to wear/117 - 24.jpg", "../assets/img/ready to wear/117 - 25.jpg", "../assets/img/ready to wear/117 - 26.jpg"]
+            imagenPrincipal: "../assets/img/ready to wear/117 - 23.webp",
+            imagenes: ["../assets/img/ready to wear/117 - 23.webp", "../assets/img/ready to wear/117 - 24.webp", "../assets/img/ready to wear/117 - 25.webp", "../assets/img/ready to wear/117 - 26.webp"]
         },
         {
             id: 'Slippers-123-Gamuza-Verde-Musgo',
@@ -319,8 +319,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Verde Musgo',
             tipoCuero: 'Gamuza',
             codigo: 'Slipper 123',
-            imagenPrincipal: "../assets/img/ready to wear/216 - 8.jpg",
-            imagenes: ["../assets/img/ready to wear/216 - 8.jpg", "../assets/img/ready to wear/216 - 9.jpg", "../assets/img/ready to wear/216 - 10.jpg", "../assets/img/ready to wear/216 - 11.jpg"]
+            imagenPrincipal: "../assets/img/ready to wear/126 - 8.webp",
+            imagenes: ["../assets/img/ready to wear/126 - 8.webp", "../assets/img/ready to wear/126 - 9.webp", "../assets/img/ready to wear/126 - 10.webp", "../assets/img/ready to wear/126 - 11.webp"]
         },
         {
             id: 'Mocasin-Archibaldo-Azul',
@@ -330,8 +330,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Azul',
             tipoCuero: 'Cuero vacuno',
             codigo: '226',
-            imagenPrincipal: "../assets/img/ready to wear/119 - 17.jpg",
-            imagenes: ["../assets/img/ready to wear/119 - 17.jpg", "../assets/img/ready to wear/119 - 18.jpg", "../assets/img/ready to wear/119 - 19.jpg", "../assets/img/ready to wear/119 - 20.jpg"]
+            imagenPrincipal: "../assets/img/ready to wear/119 - 17.webp",
+            imagenes: ["../assets/img/ready to wear/119 - 17.webp", "../assets/img/ready to wear/119 - 18.webp", "../assets/img/ready to wear/119 - 19.webp", "../assets/img/ready to wear/119 - 20.webp"]
         },
         {
             id: 'Mocasin-Archibaldo-Negro',
@@ -341,8 +341,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Negro',
             tipoCuero: 'Cuero vacuno',
             codigo: '226',
-            imagenPrincipal: "../assets/img/ready to wear/119 - 21.jpg",
-            imagenes: ["../assets/img/ready to wear/119 - 21.jpg", "../assets/img/ready to wear/119 - 22.jpg", "../assets/img/ready to wear/119 - 23.jpg", "../assets/img/ready to wear/119 - 24.jpg"]
+            imagenPrincipal: "../assets/img/ready to wear/119 - 21.webp",
+            imagenes: ["../assets/img/ready to wear/119 - 21.webp", "../assets/img/ready to wear/119 - 22.webp", "../assets/img/ready to wear/119 - 23.webp", "../assets/img/ready to wear/119 - 24.webp"]
         },
         {
             id: 'Mocasin-Archibaldo-Maiz',
@@ -352,8 +352,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Maíz',
             tipoCuero: 'Cuero vacuno',
             codigo: '226',
-            imagenPrincipal: "../assets/img/ready to wear/130 - 25.jpg",
-            imagenes: ["../assets/img/ready to wear/130 - 25.jpg", "../assets/img/ready to wear/130 - 26.jpg", "../assets/img/ready to wear/130 - 27.jpg", "../assets/img/ready to wear/130 - 28.jpg"]
+            imagenPrincipal: "../assets/img/ready to wear/130 - 25.webp",
+            imagenes: ["../assets/img/ready to wear/130 - 25.webp", "../assets/img/ready to wear/130 - 26.webp", "../assets/img/ready to wear/130 - 27.webp", "../assets/img/ready to wear/130 - 28.webp"]
         },
         {
             id: 'Mocasin-Archibaldo-Verde',
@@ -363,8 +363,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Verde',
             tipoCuero: 'Cuero vacuno',
             codigo: '226',
-            imagenPrincipal: "../assets/img/ready to wear/130 - 29.jpg",
-            imagenes: ["../assets/img/ready to wear/130 - 29.jpg", "../assets/img/ready to wear/130 - 30.jpg", "../assets/img/ready to wear/119 - 23.jpg", "../assets/img/ready to wear/119 - 24.jpg"]
+            imagenPrincipal: "../assets/img/ready to wear/130 - 29.webp",
+            imagenes: ["../assets/img/ready to wear/130 - 29.webp", "../assets/img/ready to wear/130 - 30.webp"]
         },
         {
             id: 'Mocasin-Archibaldo-Marron-Cocodrilo',
@@ -374,8 +374,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Verde',
             tipoCuero: 'Cuero vacuno',
             codigo: '226',
-            imagenPrincipal: "../assets/img/ready to wear/130 - 33.jpg",
-            imagenes: ["../assets/img/ready to wear/130 - 33.jpg", "../assets/img/ready to wear/130 - 34.jpg", "../assets/img/ready to wear/130 - 35.jpg", "../assets/img/ready to wear/130 - 36.jpg"]
+            imagenPrincipal: "../assets/img/ready to wear/130 - 33.webp",
+            imagenes: ["../assets/img/ready to wear/130 - 33.webp", "../assets/img/ready to wear/130 - 34.webp", "../assets/img/ready to wear/130 - 35.webp", "../assets/img/ready to wear/130 - 36.webp"]
         },
         {
             id: 'Mocasin-Industry',
@@ -385,8 +385,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Maíz',
             tipoCuero: 'Cuero Vegetal',
             codigo: 'Mocasín Industry',
-            imagenPrincipal: "../assets/img/ready to wear/123 - 32.jpg",
-            imagenes: ["../assets/img/ready to wear/123 - 32.jpg", "../assets/img/ready to wear/123 - 33.jpg", "../assets/img/ready to wear/123 - 34.jpg", "../assets/img/ready to wear/123 - 35.jpg"]
+            imagenPrincipal: "../assets/img/ready to wear/123 - 32.webp",
+            imagenes: ["../assets/img/ready to wear/123 - 32.webp", "../assets/img/ready to wear/123 - 33.webp", "../assets/img/ready to wear/123 - 34.webp", "../assets/img/ready to wear/123 - 35.webp"]
         },
         {
             id: 'Swann-Maiz',
