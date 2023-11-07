@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function () {
             tipoCuero: 'Cuero Vacuno',
             codigo: '1107',
             imagenPrincipal: "../assets/img/ready to wear/127 - 13.webp",
-            imagenes: ["../assets/img/ready to wear/127 - 13.webp", "../assets/img/ready to wear/127 - 14.webp", "../assets/img/ready to wear/127 - 15.webp", "../assets/img/ready to wear/127 - 16.webp"]
+            imagenes: ["../assets/img/ready to wear/127 - 13.webp", "../assets/img/ready to wear/127 - 14.webp", "../assets/img/ready to wear/131 - 34.webp", "../assets/img/ready to wear/131 - 35.webp"]
         },
         {
             id: '1107-Negro-Picado',
@@ -167,6 +167,83 @@ document.addEventListener('DOMContentLoaded', function () {
             codigo: '1100 3 ojales',
             imagenPrincipal: "../assets/img/ready to wear/126 - 12.webp",
             imagenes: ["../assets/img/ready to wear/126 - 12.webp", "../assets/img/ready to wear/126 - 13.webp", "../assets/img/ready to wear/126 - 14.webp", "../assets/img/ready to wear/126 - 15.webp"]
+        },
+        {
+            id: 'Derby-1100-Diamante-Negro',
+            titulo: 'Derby Mod. 1100',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un clásico liso de cordonera abierta. Una versión que logra un atractivo estilizado sin romper sus líneas tradicionales. Este modelo se recomienda para personas con empeine alto.',
+            color: 'Diamante Negro',
+            tipoCuero: 'Cuero Vacuno',
+            codigo: '1100',
+            imagenPrincipal: "../assets/img/ready to wear/131 - 8.webp",
+            imagenes: ["../assets/img/ready to wear/131 - 8.webp", "../assets/img/ready to wear/131 - 9.webp", "../assets/img/ready to wear/131 - 10.webp", "../assets/img/ready to wear/131 - 11.webp"]
+        },
+        {
+            id: 'Derby-1100-Diamante-Castaña',
+            titulo: 'Derby Mod. 1100',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un clásico liso de cordonera abierta. Una versión que logra un atractivo estilizado sin romper sus líneas tradicionales. Este modelo se recomienda para personas con empeine alto.',
+            color: 'Diamante Castaña',
+            tipoCuero: 'Cuero Vacuno',
+            codigo: '1100',
+            imagenPrincipal: "../assets/img/ready to wear/131 - 4.webp",
+            imagenes: ["../assets/img/ready to wear/131 - 4.webp", "../assets/img/ready to wear/131 - 5.webp", "../assets/img/ready to wear/131 - 6.webp", "../assets/img/ready to wear/131 - 7.webp"]
+        },
+        {
+            id: 'Derby-1100-Gamuza-Marron',
+            titulo: 'Derby Mod. 1100',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un clásico liso de cordonera abierta. Una versión que logra un atractivo estilizado sin romper sus líneas tradicionales. Este modelo se recomienda para personas con empeine alto.',
+            color: 'Gamuza Marrón',
+            tipoCuero: 'Cuero Vacuno',
+            codigo: '1100',
+            imagenPrincipal: "../assets/img/ready to wear/131 - 12.webp",
+            imagenes: ["../assets/img/ready to wear/131 - 12.webp", "../assets/img/ready to wear/131 - 13.webp", "../assets/img/ready to wear/131 - 14.webp", "../assets/img/ready to wear/131 - 7.webp"]
+        },
+        {
+            id: 'Bota-Derby-1100-Diamante-Negro',
+            titulo: 'Bota Inglesa Dandy',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un clásico liso de cordonera abierta. Una versión que logra un atractivo estilizado sin romper sus líneas tradicionales. Este modelo se recomienda para personas con empeine alto.',
+            color: 'Diamante Negro',
+            tipoCuero: 'Cuero Vacuno',
+            codigo: 'Bota Derby 1100',
+            imagenPrincipal: "../assets/img/ready to wear/131 - 18.webp",
+            imagenes: ["../assets/img/ready to wear/131 - 18.webp", "../assets/img/ready to wear/131 - 19.webp", "../assets/img/ready to wear/131 - 20.webp", "../assets/img/ready to wear/131 - 11.webp"]
+        },
+        {
+            id: 'Bota-Derby-1100-Diamante-Castaña',
+            titulo: 'Bota Inglesa Dandy',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un clásico liso de cordonera abierta. Una versión que logra un atractivo estilizado sin romper sus líneas tradicionales. Este modelo se recomienda para personas con empeine alto.',
+            color: 'Diamante Castaña',
+            tipoCuero: 'Cuero Vacuno',
+            codigo: 'Bota Derby 1100',
+            imagenPrincipal: "../assets/img/ready to wear/131 - 15.webp",
+            imagenes: ["../assets/img/ready to wear/131 - 15.webp", "../assets/img/ready to wear/131 - 16.webp", "../assets/img/ready to wear/131 - 17.webp", "../assets/img/ready to wear/131 - 7.webp"]
+        },
+        {
+            id: 'Bota-Derby-1100-Gamuza-Marron',
+            titulo: 'Bota Inglesa Dandy',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un clásico liso de cordonera abierta. Una versión que logra un atractivo estilizado sin romper sus líneas tradicionales. Este modelo se recomienda para personas con empeine alto.',
+            color: 'Marrón',
+            tipoCuero: 'Gamuza',
+            codigo: 'Bota Derby 1100',
+            imagenPrincipal: "../assets/img/ready to wear/131 - 21.webp",
+            imagenes: ["../assets/img/ready to wear/131 - 21.webp", "../assets/img/ready to wear/131 - 22.webp", "../assets/img/ready to wear/131 - 23.webp", "../assets/img/ready to wear/131 - 7.webp"]
+        },
+        {
+            id: 'Bota-Carioca-Gamuza-Arena',
+            titulo: 'Bota Carioca',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un clásico liso de cordonera abierta. Una versión que logra un atractivo estilizado sin romper sus líneas tradicionales. Este modelo se recomienda para personas con empeine alto.',
+            color: 'Gamuza Arena',
+            tipoCuero: 'Gamuza',
+            codigo: 'Bot. Carioca',
+            imagenPrincipal: "../assets/img/ready to wear/131 - 24.webp",
+            imagenes: ["../assets/img/ready to wear/131 - 24.webp", "../assets/img/ready to wear/131 - 25.webp", "../assets/img/ready to wear/131 - 26.webp", "../assets/img/ready to wear/131 - 27.webp"]
         },
         {
             id: '2-Hebillas-Negro',
@@ -396,8 +473,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Maíz',
             tipoCuero: 'Cuero vacuno',
             codigo: 'Swann',
-            imagenPrincipal: "../assets/img/made by order/112 - 21.jpg",
-            imagenes: ["../assets/img/made by order/112 - 21.jpg", "../assets/img/made by order/112 - 22.jpg", "../assets/img/made by order/112 - 23.jpg", "../assets/img/made by order/112 - 24.jpg"]
+            imagenPrincipal: "../assets/img/made by order/112 - 21.webp",
+            imagenes: ["../assets/img/made by order/112 - 21.webp", "../assets/img/made by order/112 - 22.webp", "../assets/img/made by order/112 - 23.webp", "../assets/img/made by order/112 - 24.webp"]
         },
         {
             id: 'Swann-Marron',
@@ -407,8 +484,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Marrón',
             tipoCuero: 'Cuero vacuno',
             codigo: 'Swann',
-            imagenPrincipal: "../assets/img/made by order/119 - 5.jpg",
-            imagenes: ["../assets/img/made by order/119 - 5.jpg", "../assets/img/made by order/119 - 6.jpg", "../assets/img/made by order/119 - 7.jpg", "../assets/img/made by order/119 - 8.jpg"]
+            imagenPrincipal: "../assets/img/made by order/119 - 5.webp",
+            imagenes: ["../assets/img/made by order/119 - 5.webp", "../assets/img/made by order/119 - 6.webp", "../assets/img/made by order/119 - 7.webp", "../assets/img/made by order/119 - 8.webp"]
         },
         {
             id: 'Swann-Negro',
@@ -418,8 +495,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Negro',
             tipoCuero: 'Cuero vacuno',
             codigo: 'Swann',
-            imagenPrincipal: "../assets/img/made by order/112 - 13.jpg",
-            imagenes: ["../assets/img/made by order/112 - 13.jpg", "../assets/img/made by order/112 - 14.jpg", "../assets/img/made by order/112 - 15.jpg", "../assets/img/made by order/112 - 16.jpg"]
+            imagenPrincipal: "../assets/img/made by order/112 - 13.webp",
+            imagenes: ["../assets/img/made by order/112 - 13.webp", "../assets/img/made by order/112 - 14.webp", "../assets/img/made by order/112 - 15.webp", "../assets/img/made by order/112 - 16.webp"]
         },
         {
             id: 'Bota-Alpina-1101-Negro',
@@ -429,8 +506,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Negro',
             tipoCuero: 'Cuero vacuno',
             codigo: 'Bota Alpina',
-            imagenPrincipal: "../assets/img/made by order/123 - 15.jpg",
-            imagenes: ["../assets/img/made by order/123 - 15.jpg", "../assets/img/made by order/112 - 34.jpg", "../assets/img/made by order/112 - 35.jpg", "../assets/img/made by order/112 - 36.jpg"]
+            imagenPrincipal: "../assets/img/made by order/123 - 15.webp",
+            imagenes: ["../assets/img/made by order/123 - 15.webp", "../assets/img/made by order/112 - 34.webp", "../assets/img/made by order/112 - 35.webp", "../assets/img/made by order/112 - 36.webp"]
         },
         {
             id: 'Bota-Alpina-1101-Marron',
@@ -440,8 +517,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Marrón',
             tipoCuero: 'Cuero vacuno',
             codigo: 'Bota Alpina',
-            imagenPrincipal: "../assets/img/made by order/117 - 01.jpg",
-            imagenes: ["../assets/img/made by order/117 - 01.jpg", "../assets/img/made by order/117 - 02.jpg", "../assets/img/made by order/216 - 1.jpg", "../assets/img/made by order/112 - 36.jpg"]
+            imagenPrincipal: "../assets/img/made by order/117 - 01.webp",
+            imagenes: ["../assets/img/made by order/117 - 01.webp", "../assets/img/made by order/117 - 02.webp", "../assets/img/made by order/126 - 1.webp", "../assets/img/made by order/112 - 36.webp"]
         },
         {
             id: 'Bota-Alpina-1101-Marron-Oscuro',
@@ -451,8 +528,30 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Marrón Oscuro',
             tipoCuero: 'Cuero vacuno',
             codigo: 'Bota Alpina',
-            imagenPrincipal: "../assets/img/made by order/130 - 22.jpg",
-            imagenes: ["../assets/img/made by order/130 - 22.jpg", "../assets/img/made by order/130 - 23.jpg", "../assets/img/made by order/130 - 24.jpg", "../assets/img/made by order/112 - 36.jpg"]
+            imagenPrincipal: "../assets/img/made by order/130 - 22.webp",
+            imagenes: ["../assets/img/made by order/130 - 22.webp", "../assets/img/made by order/130 - 23.webp", "../assets/img/made by order/130 - 24.webp", "../assets/img/made by order/112 - 36.webp"]
+        },
+        {
+            id: 'Bota-Chelsea-Negro',
+            titulo: 'Bota Chelsea',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'Un calzado versátil, adecuado tanto para ocasiones casuales como formales. Es fácil de combinar con una amplia gama de atuendos, desde jeans hasta trajes elegantes. Su diseño sin cordones y elástico la hacen cómoda y conveniente para el uso diario.',
+            color: 'Negro',
+            tipoCuero: 'Cuero Vacuno',
+            codigo: 'Bota Elástico',
+            imagenPrincipal: "../assets/img/made by order/131 - 28.webp",
+            imagenes: ["../assets/img/made by order/131 - 28.webp", "../assets/img/made by order/131 - 29.webp", "../assets/img/made by order/131 - 30.webp", "../assets/img/made by order/113 - 27.jpg"]
+        },
+        {
+            id: 'Bota-Chelsea-Marron',
+            titulo: 'Bota Chelsea',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'Un calzado versátil, adecuado tanto para ocasiones casuales como formales. Es fácil de combinar con una amplia gama de atuendos, desde jeans hasta trajes elegantes. Su diseño sin cordones y elástico la hacen cómoda y conveniente para el uso diario.',
+            color: 'Marrón',
+            tipoCuero: 'Cuero Vacuno',
+            codigo: 'Bota Elástico',
+            imagenPrincipal: "../assets/img/made by order/131 - 31.webp",
+            imagenes: ["../assets/img/made by order/131 - 31.webp", "../assets/img/made by order/131 - 32.webp", "../assets/img/made by order/131 - 33.webp", "../assets/img/made by order/113 - 27.jpg"]
         },
         {
             id: 'Bota-Chelsea-Gamuza-Gris',
@@ -462,8 +561,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Gris',
             tipoCuero: 'Gamuza',
             codigo: 'Bota Elástico',
-            imagenPrincipal: "../assets/img/made by order/85 - 11.jpg",
-            imagenes: ["../assets/img/made by order/85 - 11.jpg", "../assets/img/made by order/113 - 21.jpg", "../assets/img/made by order/113 - 22.jpg", "../assets/img/made by order/113 - 23.jpg"]
+            imagenPrincipal: "../assets/img/made by order/85 - 11.webp",
+            imagenes: ["../assets/img/made by order/85 - 11.webp", "../assets/img/made by order/113 - 21.webp", "../assets/img/made by order/113 - 22.webp", "../assets/img/made by order/113 - 23.webp"]
         },
         {
             id: 'Bota-Chelsea-Gamuza-Negro',
@@ -473,8 +572,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Negro',
             tipoCuero: 'Gamuza',
             codigo: 'Bota Elástico',
-            imagenPrincipal: "../assets/img/made by order/113 - 24.jpg",
-            imagenes: ["../assets/img/made by order/113 - 24.jpg", "../assets/img/made by order/113 - 25.jpg", "../assets/img/made by order/113 - 26.jpg", "../assets/img/made by order/113 - 27.jpg"]
+            imagenPrincipal: "../assets/img/made by order/113 - 24.webp",
+            imagenes: ["../assets/img/made by order/113 - 24.webp", "../assets/img/made by order/113 - 25.webp", "../assets/img/made by order/113 - 26.webp", "../assets/img/made by order/113 - 27.webp"]
         },
         {
             id: 'Bota-Chelsea-Gamuza-Marron',
@@ -484,8 +583,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Marrón',
             tipoCuero: 'Gamuza',
             codigo: 'Bota Elástico',
-            imagenPrincipal: "../assets/img/made by order/114 - 1.jpg",
-            imagenes: ["../assets/img/made by order/114 - 1.jpg", "../assets/img/made by order/114 - 2.jpg", "../assets/img/made by order/114 - 3.jpg", "../assets/img/made by order/113 - 27.jpg"]
+            imagenPrincipal: "../assets/img/made by order/114 - 1.webp",
+            imagenes: ["../assets/img/made by order/114 - 1.webp", "../assets/img/made by order/114 - 2.webp", "../assets/img/made by order/114 - 3.webp", "../assets/img/made by order/113 - 27.webp"]
         },
         {
             id: 'Bota-Chelsea-Gamuza-Verde',
@@ -495,8 +594,19 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Verde Musgo',
             tipoCuero: 'Gamuza',
             codigo: 'Bota Elástico',
-            imagenPrincipal: "../assets/img/made by order/117 - 03.jpg",
-            imagenes: ["../assets/img/made by order/117 - 03.jpg", "../assets/img/made by order/117 - 04.jpg", "../assets/img/made by order/117 - 05.jpg", "../assets/img/made by order/113 - 27.jpg"]
+            imagenPrincipal: "../assets/img/made by order/117 - 03.webp",
+            imagenes: ["../assets/img/made by order/117 - 03.webp", "../assets/img/made by order/117 - 04.webp", "../assets/img/made by order/117 - 05.webp", "../assets/img/made by order/113 - 27.webp"]
+        },
+        {
+            id: 'Bota-Chelsea-Gamuza-Arena',
+            titulo: 'Bota Chelsea',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'Un calzado versátil, adecuado tanto para ocasiones casuales como formales. Es fácil de combinar con una amplia gama de atuendos, desde jeans hasta trajes elegantes. Su diseño sin cordones y elástico la hacen cómoda y conveniente para el uso diario.',
+            color: 'Arena',
+            tipoCuero: 'Gamuza',
+            codigo: 'Bota Elástico',
+            imagenPrincipal: "../assets/img/made by order/131 - 1.webp",
+            imagenes: ["../assets/img/made by order/131 - 1.webp", "../assets/img/made by order/131 - 2.webp", "../assets/img/made by order/131 - 3.webp", "../assets/img/made by order/113 - 27.webp"]
         },
         {
             id: 'Oxford-Wingtips',
@@ -506,8 +616,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Marrón - Maíz',
             tipoCuero: 'Cuero vacuno',
             codigo: '1122 Liso',
-            imagenPrincipal: "../assets/img/made by order/112 - 25.jpg",
-            imagenes: ["../assets/img/made by order/112 - 25.jpg", "../assets/img/made by order/112 - 26.jpg", "../assets/img/made by order/112 - 27.jpg", "../assets/img/made by order/112 - 28.jpg"]
+            imagenPrincipal: "../assets/img/made by order/112 - 25.webp",
+            imagenes: ["../assets/img/made by order/112 - 25.webp", "../assets/img/made by order/112 - 26.webp", "../assets/img/made by order/112 - 27.webp", "../assets/img/made by order/112 - 28.webp"]
         },
         {
             id: 'Derby-Split-Toes',
@@ -517,8 +627,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Verde - Blanco',
             tipoCuero: 'Cuero vacuno',
             codigo: '1115 Copete Aparado',
-            imagenPrincipal: "../assets/img/made by order/113 - 1.jpg",
-            imagenes: ["../assets/img/made by order/113 - 1.jpg", "../assets/img/made by order/113 - 2.jpg", "../assets/img/made by order/113 - 3.jpg", "../assets/img/made by order/113 - 4.jpg"]
+            imagenPrincipal: "../assets/img/made by order/113 - 1.webp",
+            imagenes: ["../assets/img/made by order/113 - 1.webp", "../assets/img/made by order/113 - 2.webp", "../assets/img/made by order/113 - 3.webp", "../assets/img/made by order/112 - 28.webp"]
         },
         {
             id: 'Escarpin-123-Diamante-Castaña',
@@ -528,8 +638,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Diamante Castaña',
             tipoCuero: 'Cuero vacuno',
             codigo: '123 con Costurín y Vincha',
-            imagenPrincipal: "../assets/img/made by order/112 - 29.jpg",
-            imagenes: ["../assets/img/made by order/112 - 29.jpg", "../assets/img/made by order/112 - 30.jpg", "../assets/img/made by order/112 - 31.jpg", "../assets/img/made by order/112 - 32.jpg"]
+            imagenPrincipal: "../assets/img/made by order/112 - 29.webp",
+            imagenes: ["../assets/img/made by order/112 - 29.webp", "../assets/img/made by order/112 - 30.webp", "../assets/img/made by order/112 - 31.webp", "../assets/img/made by order/112 - 32.webp"]
         },
         {
             id: 'Escarpin-MP-Verde',
@@ -539,8 +649,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Verde',
             tipoCuero: 'Cuero vacuno',
             codigo: 'MP con Costurín',
-            imagenPrincipal: "../assets/img/made by order/119 - 25.jpg",
-            imagenes: ["../assets/img/made by order/119 - 25.jpg", "../assets/img/made by order/119 - 26.jpg", "../assets/img/made by order/119 - 27.jpg", "../assets/img/made by order/119 - 28.jpg"]
+            imagenPrincipal: "../assets/img/made by order/119 - 25.webp",
+            imagenes: ["../assets/img/made by order/119 - 25.webp", "../assets/img/made by order/119 - 26.webp", "../assets/img/made by order/119 - 27.webp", "../assets/img/made by order/119 - 28.webp"]
         },
         {
             id: 'Escarpin-MP-Maiz',
@@ -550,8 +660,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Maíz',
             tipoCuero: 'Cuero vacuno',
             codigo: 'MP sin Costurín',
-            imagenPrincipal: "../assets/img/made by order/119 - 9.jpg",
-            imagenes: ["../assets/img/made by order/119 - 9.jpg", "../assets/img/made by order/119 - 10.jpg", "../assets/img/made by order/119 - 11.jpg", "../assets/img/made by order/119 - 12.jpg"]
+            imagenPrincipal: "../assets/img/made by order/119 - 9.webp",
+            imagenes: ["../assets/img/made by order/119 - 9.webp", "../assets/img/made by order/119 - 10.webp", "../assets/img/made by order/119 - 11.webp", "../assets/img/made by order/119 - 12.webp"]
         },
         {
             id: 'Borcego-Texano-Natural',
@@ -561,8 +671,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Natural',
             tipoCuero: 'Búfalo',
             codigo: 'Borcego Texano',
-            imagenPrincipal: "../assets/img/made by order/123 - 12.jpg",
-            imagenes: ["../assets/img/made by order/123 - 12.jpg", "../assets/img/made by order/216 - 3.jpg", "../assets/img/made by order/123 - 13.jpg", "../assets/img/made by order/123 - 14.jpg"]
+            imagenPrincipal: "../assets/img/made by order/123 - 12.webp",
+            imagenes: ["../assets/img/made by order/123 - 12.webp", "../assets/img/made by order/126 - 3.webp", "../assets/img/made by order/123 - 13.webp", "../assets/img/made by order/123 - 14.webp"]
         },
         {
             id: 'Borcego-Texano-Bufalo-Pecas',
@@ -572,8 +682,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Búfalo con pecas',
             tipoCuero: 'Búfalo',
             codigo: 'Borcego Texano',
-            imagenPrincipal: "../assets/img/made by order/127 - 25.jpg",
-            imagenes: ["../assets/img/made by order/127 - 25.jpg", "../assets/img/made by order/127 - 26.jpg", "../assets/img/made by order/127 - 27.jpg", "../assets/img/made by order/127 - 28.jpg"]
+            imagenPrincipal: "../assets/img/made by order/127 - 25.webp",
+            imagenes: ["../assets/img/made by order/127 - 25.webp", "../assets/img/made by order/127 - 26.webp", "../assets/img/made by order/127 - 27.webp", "../assets/img/made by order/127 - 28.webp"]
         },
         {
             id: 'Borcego-Texano-Bufalo-Negro',
@@ -583,8 +693,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Negro',
             tipoCuero: 'Búfalo',
             codigo: 'Borcego Texano',
-            imagenPrincipal: "../assets/img/made by order/130 - 5.jpg",
-            imagenes: ["../assets/img/made by order/130 - 5.jpg", "../assets/img/made by order/130 - 6.jpg", "../assets/img/made by order/130 - 7.jpg", "../assets/img/made by order/130 - 8.jpg"]
+            imagenPrincipal: "../assets/img/made by order/130 - 5.webp",
+            imagenes: ["../assets/img/made by order/130 - 5.webp", "../assets/img/made by order/130 - 6.webp", "../assets/img/made by order/130 - 7.webp", "../assets/img/made by order/130 - 8.webp"]
         },
         {
             id: 'Borcego-Texano-Bufalo-Maiz',
@@ -594,8 +704,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Maíz',
             tipoCuero: 'Búfalo',
             codigo: 'Borcego Texano',
-            imagenPrincipal: "../assets/img/made by order/130 - 9.jpg",
-            imagenes: ["../assets/img/made by order/130 - 9.jpg", "../assets/img/made by order/130 - 10.jpg", "../assets/img/made by order/130 - 11.jpg", "../assets/img/made by order/130 - 8.jpg"]
+            imagenPrincipal: "../assets/img/made by order/130 - 9.webp",
+            imagenes: ["../assets/img/made by order/130 - 9.webp", "../assets/img/made by order/130 - 10.webp", "../assets/img/made by order/130 - 11.webp", "../assets/img/made by order/130 - 8.webp"]
         },
         {
             id: 'Borcego-Texano-Bufalo-Marron',
@@ -605,8 +715,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Marrón',
             tipoCuero: 'Búfalo',
             codigo: 'Borcego Texano',
-            imagenPrincipal: "../assets/img/made by order/130 - 12.jpg",
-            imagenes: ["../assets/img/made by order/130 - 12.jpg", "../assets/img/made by order/130 - 13.jpg", "../assets/img/made by order/130 - 14.jpg", "../assets/img/made by order/130 - 8.jpg"]
+            imagenPrincipal: "../assets/img/made by order/130 - 12.webp",
+            imagenes: ["../assets/img/made by order/130 - 12.webp", "../assets/img/made by order/130 - 13.webp", "../assets/img/made by order/130 - 14.webp", "../assets/img/made by order/130 - 8.webp"]
         },
         {
             id: 'Borcego-Texano-Bufalo-Guinda',
@@ -616,8 +726,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Guinda',
             tipoCuero: 'Búfalo',
             codigo: 'Borcego Texano',
-            imagenPrincipal: "../assets/img/made by order/130 - 15.jpg",
-            imagenes: ["../assets/img/made by order/130 - 15.jpg", "../assets/img/made by order/130 - 16.jpg", "../assets/img/made by order/130 - 17.jpg", "../assets/img/made by order/130 - 18.jpg"]
+            imagenPrincipal: "../assets/img/made by order/130 - 15.webp",
+            imagenes: ["../assets/img/made by order/130 - 15.webp", "../assets/img/made by order/130 - 16.webp", "../assets/img/made by order/130 - 17.webp", "../assets/img/made by order/130 - 18.webp"]
         },
         {
             id: 'Borcego-Texano-Bufalo-Gamuza-Natural',
@@ -627,8 +737,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Natural',
             tipoCuero: 'Gamuza',
             codigo: 'Borcego Texano',
-            imagenPrincipal: "../assets/img/made by order/130 - 19.jpg",
-            imagenes: ["../assets/img/made by order/130 - 19.jpg", "../assets/img/made by order/130 - 20.jpg", "../assets/img/made by order/130 - 21.jpg", "../assets/img/made by order/130 - 8.jpg"]
+            imagenPrincipal: "../assets/img/made by order/130 - 19.webp",
+            imagenes: ["../assets/img/made by order/130 - 19.webp", "../assets/img/made by order/130 - 20.webp", "../assets/img/made by order/130 - 21.webp", "../assets/img/made by order/130 - 8.webp"]
         },
         {
             id: 'Derby-Coll-Guinda',
@@ -638,8 +748,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Guinda',
             tipoCuero: 'Cuero Vacuno',
             codigo: 'Derby Coll',
-            imagenPrincipal: "../assets/img/made by order/128 - 10.jpg",
-            imagenes: ["../assets/img/made by order/128 - 10.jpg", "../assets/img/made by order/128 - 11.jpg", "../assets/img/made by order/128 - 12.jpg", "../assets/img/made by order/128 - 13.jpg"]
+            imagenPrincipal: "../assets/img/made by order/128 - 10.webp",
+            imagenes: ["../assets/img/made by order/128 - 10.webp", "../assets/img/made by order/128 - 11.webp", "../assets/img/made by order/128 - 12.webp", "../assets/img/made by order/128 - 13.webp"]
         },
         {
             id: 'Oxford-1122-Bespoke-Maiz',
