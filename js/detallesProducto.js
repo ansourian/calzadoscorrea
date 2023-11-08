@@ -759,8 +759,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Maíz',
             tipoCuero: 'Cuero vacuno',
             codigo: '1122 Bespoke',
-            imagenPrincipal: "../assets/img/bespoke/112 - 1.jpg",
-            imagenes: ["../assets/img/bespoke/112 - 1.jpg", "../assets/img/bespoke/112 - 2.jpg", "../assets/img/bespoke/112 - 3.jpg", "../assets/img/bespoke/112 - 4.jpg"]
+            imagenPrincipal: "../assets/img/bespoke/112 - 1.webp",
+            imagenes: ["../assets/img/bespoke/112 - 1.webp", "../assets/img/bespoke/112 - 2.webp", "../assets/img/bespoke/112 - 3.webp", "../assets/img/bespoke/112 - 4.webp"]
         },
         {
             id: 'Oxford-1122-Bespoke-Gamuza-Verde',
@@ -770,8 +770,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Verde Inglés',
             tipoCuero: 'Gamuza',
             codigo: '1122 Bespoke',
-            imagenPrincipal: "../assets/img/bespoke/112 - 17.jpg",
-            imagenes: ["../assets/img/bespoke/112 - 17.jpg", "../assets/img/bespoke/112 - 18.jpg", "../assets/img/bespoke/112 - 19.jpg", "../assets/img/bespoke/112 - 20.jpg"]
+            imagenPrincipal: "../assets/img/bespoke/112 - 17.webp",
+            imagenes: ["../assets/img/bespoke/112 - 17.webp", "../assets/img/bespoke/112 - 18.webp", "../assets/img/bespoke/112 - 19.webp", "../assets/img/bespoke/112 - 20.webp"]
         },
         {
             id: 'Oxford-1108-Bespoke-Marron',
@@ -781,8 +781,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Marrón Oscuro',
             tipoCuero: 'Cuero vacuno',
             codigo: '1108 Bespoke',
-            imagenPrincipal: "../assets/img/bespoke/112 - 5.jpg",
-            imagenes: ["../assets/img/bespoke/112 - 5.jpg", "../assets/img/bespoke/112 - 6.jpg", "../assets/img/bespoke/112 - 7.jpg", "../assets/img/bespoke/112 - 8.jpg"]
+            imagenPrincipal: "../assets/img/bespoke/112 - 5.webp",
+            imagenes: ["../assets/img/bespoke/112 - 5.webp", "../assets/img/bespoke/112 - 6.webp", "../assets/img/bespoke/112 - 7.webp", "../assets/img/bespoke/112 - 8.webp"]
         },
         {
             id: 'Derby-1116-Maiz',
@@ -792,8 +792,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Maíz',
             tipoCuero: 'Cuero vacuno',
             codigo: '1116 Bespoke',
-            imagenPrincipal: "../assets/img/bespoke/113 - 5.jpg",
-            imagenes: ["../assets/img/bespoke/113 - 5.jpg", "../assets/img/bespoke/113 - 6.jpg", "../assets/img/bespoke/113 - 7.jpg", "../assets/img/bespoke/113 - 8.jpg"]
+            imagenPrincipal: "../assets/img/bespoke/113 - 5.webp",
+            imagenes: ["../assets/img/bespoke/113 - 5.webp", "../assets/img/bespoke/113 - 6.webp", "../assets/img/bespoke/113 - 7.webp", "../assets/img/bespoke/113 - 8.webp"]
         },
         {
             id: 'Derby-1116-Cognac',
@@ -803,8 +803,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Cognac',
             tipoCuero: 'Cuero vacuno',
             codigo: '1116 Bespoke',
-            imagenPrincipal: "../assets/img/bespoke/113 - 9.jpg",
-            imagenes: ["../assets/img/bespoke/113 - 9.jpg", "../assets/img/bespoke/113 - 10.jpg", "../assets/img/bespoke/113 - 11.jpg", "../assets/img/bespoke/113 - 8.jpg"]
+            imagenPrincipal: "../assets/img/bespoke/113 - 9.webp",
+            imagenes: ["../assets/img/bespoke/113 - 9.webp", "../assets/img/bespoke/113 - 10.webp", "../assets/img/bespoke/113 - 11.webp", "../assets/img/bespoke/113 - 8.webp"]
         },
         {
             id: 'Derby-1116-Suela',
@@ -814,8 +814,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Suela',
             tipoCuero: 'Cuero vacuno',
             codigo: '1116 Bespoke',
-            imagenPrincipal: "../assets/img/bespoke/123 - 20.jpg",
-            imagenes: ["../assets/img/bespoke/123 - 20.jpg", "../assets/img/bespoke/123 - 21.jpg", "../assets/img/bespoke/123 - 22.jpg", "../assets/img/bespoke/113 - 8.jpg"]
+            imagenPrincipal: "../assets/img/bespoke/123 - 20.webp",
+            imagenes: ["../assets/img/bespoke/123 - 20.webp", "../assets/img/bespoke/123 - 21.webp", "../assets/img/bespoke/123 - 22.webp", "../assets/img/bespoke/113 - 8.webp"]
         },
         {
             id: 'Swann-Wholecut-Cafe',
@@ -825,8 +825,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Café',
             tipoCuero: 'Vacuno',
             codigo: "Swann",
-            imagenPrincipal: "../assets/img/bespoke/113 - 12.jpg",
-            imagenes: ["../assets/img/bespoke/113 - 12.jpg", "../assets/img/bespoke/113 - 13.jpg", "../assets/img/bespoke/113 - 14.jpg", "../assets/img/bespoke/113 - 15.jpg"]
+            imagenPrincipal: "../assets/img/bespoke/113 - 12.webp",
+            imagenes: ["../assets/img/bespoke/113 - 12.webp", "../assets/img/bespoke/113 - 13.webp", "../assets/img/bespoke/113 - 14.webp", "../assets/img/bespoke/113 - 15.webp"]
         },
         {
             id: 'Swann-Museum',
@@ -836,8 +836,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Museum',
             tipoCuero: 'Vacuno',
             codigo: "Swann",
-            imagenPrincipal: "../assets/img/bespoke/123 - 16.jpg",
-            imagenes: ["../assets/img/bespoke/123 - 16.jpg", "../assets/img/bespoke/123 - 17.jpg", "../assets/img/bespoke/123 - 18.jpg", "../assets/img/bespoke/123 - 19.jpg"]
+            imagenPrincipal: "../assets/img/bespoke/123 - 16.webp",
+            imagenes: ["../assets/img/bespoke/123 - 16.webp", "../assets/img/bespoke/123 - 17.webp", "../assets/img/bespoke/112 - 11.webp", "../assets/img/bespoke/112 - 12.webp"]
         },
         {
             id: '1116-Bespoke',
@@ -846,8 +846,8 @@ document.addEventListener('DOMContentLoaded', function () {
             descripcion: 'Un modelo plantillado a mano realizado 100% en cuero vacuno argentino.',
             color: 'Marrón',
             tipoCuero: 'Vacuno',
-            imagenPrincipal: "../assets/img/bespoke/114 - 19.jpg",
-            imagenes: ["../assets/img/bespoke/114 - 19.jpg", "../assets/img/bespoke/114 - 20.jpg", "../assets/img/bespoke/114 - 21.jpg", "../assets/img/bespoke/114 - 22.jpg"]
+            imagenPrincipal: "../assets/img/bespoke/114 - 19.webp",
+            imagenes: ["../assets/img/bespoke/114 - 19.webp", "../assets/img/bespoke/114 - 20.webp", "../assets/img/bespoke/114 - 21.webp", "../assets/img/bespoke/114 - 22.webp"]
         },
         {
             id: 'Borcego-GC-Texano-Negro',
@@ -856,8 +856,8 @@ document.addEventListener('DOMContentLoaded', function () {
             descripcion: 'Un modelo plantillado a mano realizado 100% en cuero vacuno argentino.',
             color: 'Negro',
             tipoCuero: 'Vacuno',
-            imagenPrincipal: "../assets/img/bespoke/115 - 17.jpg",
-            imagenes: ["../assets/img/bespoke/115 - 17.jpg", "../assets/img/bespoke/115 - 18.jpg", "../assets/img/bespoke/115 - 19.jpg", "../assets/img/bespoke/115 - 20.jpg"]
+            imagenPrincipal: "../assets/img/bespoke/115 - 17.webp",
+            imagenes: ["../assets/img/bespoke/115 - 17.webp", "../assets/img/bespoke/115 - 18.webp", "../assets/img/bespoke/115 - 19.webp", "../assets/img/bespoke/115 - 20.webp"]
         },
         {
             id: 'Bota-Inglesa-Ñandu',
@@ -866,8 +866,8 @@ document.addEventListener('DOMContentLoaded', function () {
             descripcion: 'Un modelo plantillado a mano realizado 100% en cuero vacuno argentino.',
             color: 'Natural',
             tipoCuero: 'Ñandú Argentino',
-            imagenPrincipal: "../assets/img/bespoke/115 - 9.jpg",
-            imagenes: ["../assets/img/bespoke/115 - 9.jpg", "../assets/img/bespoke/115 - 10.jpg", "../assets/img/bespoke/115 - 11.jpg", "../assets/img/bespoke/115 - 12.jpg"]
+            imagenPrincipal: "../assets/img/bespoke/115 - 9.webp",
+            imagenes: ["../assets/img/bespoke/115 - 9.webp", "../assets/img/bespoke/115 - 10.webp", "../assets/img/bespoke/115 - 11.webp", "../assets/img/bespoke/115 - 12.webp"]
         },
         {
             id: 'Bota-Inglesa-Negro',
@@ -876,8 +876,8 @@ document.addEventListener('DOMContentLoaded', function () {
             descripcion: 'Un modelo plantillado a mano realizado 100% en cuero vacuno argentino.',
             color: 'Negro',
             tipoCuero: 'Vacuno',
-            imagenPrincipal: "../assets/img/bespoke/114 - 8.jpg",
-            imagenes: ["../assets/img/bespoke/114 - 8.jpg", "../assets/img/bespoke/114 - 9.jpg", "../assets/img/bespoke/114 - 10.jpg", "../assets/img/bespoke/113 - 19.jpg"]
+            imagenPrincipal: "../assets/img/bespoke/114 - 8.webp",
+            imagenes: ["../assets/img/bespoke/114 - 8.webp", "../assets/img/bespoke/114 - 9.webp", "../assets/img/bespoke/114 - 10.webp", "../assets/img/bespoke/113 - 19.webp"]
         },
         {
             id: '1100-Wholecut-Marron',
@@ -887,28 +887,28 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Marrón',
             tipoCuero: 'Vacuno',
             codigo: "1100",
-            imagenPrincipal: "../assets/img/bespoke/123 - 24.jpg",
-            imagenes: ["../assets/img/bespoke/123 - 24.jpg", "../assets/img/bespoke/123 - 25.jpg", "../assets/img/bespoke/123 - 26.jpg", "../assets/img/bespoke/123 - 27.jpg"]
+            imagenPrincipal: "../assets/img/bespoke/123 - 24.webp",
+            imagenes: ["../assets/img/bespoke/123 - 24.webp", "../assets/img/bespoke/123 - 25.webp", "../assets/img/bespoke/123 - 26.webp", "../assets/img/bespoke/123 - 27.webp"]
         },
         {
-            id: 'Bota-Chelsea-Marron',
-            titulo: 'Bota Chelsea',
+            id: 'Bota-Inglesa-Marron',
+            titulo: 'Bota Inglesa',
             estilo: 'BESPOKE',
             descripcion: 'Un modelo plantillado a mano realizado 100% en cuero vacuno argentino.',
             color: 'Marrón',
             tipoCuero: 'Vacuno',
-            imagenPrincipal: "../assets/img/bespoke/123 - 28.jpg",
-            imagenes: ["../assets/img/bespoke/123 - 28.jpg", "../assets/img/bespoke/123 - 29.jpg", "../assets/img/bespoke/123 - 30.jpg", "../assets/img/bespoke/123 - 31.jpg"]
+            imagenPrincipal: "../assets/img/bespoke/123 - 28.webp",
+            imagenes: ["../assets/img/bespoke/123 - 28.webp", "../assets/img/bespoke/123 - 29.webp", "../assets/img/bespoke/123 - 30.webp", "../assets/img/bespoke/123 - 31.webp"]
         },
         {
-            id: 'Bota-Chelsea-Elefante',
-            titulo: 'Bota Chelsea',
+            id: 'Bota-Inglesa-Elefante',
+            titulo: 'Bota Inglesa',
             estilo: 'BESPOKE',
             descripcion: 'Un modelo plantillado a mano realizado 100% en cuero vacuno argentino.',
             color: 'Marrón Oscuro',
             tipoCuero: 'Elefante (Elephant)',
-            imagenPrincipal: "../assets/img/bespoke/123 - 36.jpg",
-            imagenes: ["../assets/img/bespoke/123 - 36.jpg", "../assets/img/bespoke/123 - 37.jpg", "../assets/img/bespoke/123 - 38.jpg", "../assets/img/bespoke/123 - 39.jpg"]
+            imagenPrincipal: "../assets/img/bespoke/123 - 36.webp",
+            imagenes: ["../assets/img/bespoke/123 - 36.webp", "../assets/img/bespoke/123 - 37.webp", "../assets/img/bespoke/123 - 38.webp", "../assets/img/bespoke/123 - 39.webp"]
         },
         {
             id: 'Derby-1100-Elefante',
@@ -918,8 +918,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Marrón Oscuro',
             tipoCuero: 'Elefante (Elephant)',
             codigo: "1100 Bespoke",
-            imagenPrincipal: "../assets/img/bespoke/130 - 1.jpg",
-            imagenes: ["../assets/img/bespoke/130 - 1.jpg", "../assets/img/bespoke/130 - 2.jpg", "../assets/img/bespoke/130 - 3.jpg", "../assets/img/bespoke/130 - 4.jpg"]
+            imagenPrincipal: "../assets/img/bespoke/130 - 1.webp",
+            imagenes: ["../assets/img/bespoke/130 - 1.webp", "../assets/img/bespoke/130 - 2.webp", "../assets/img/bespoke/130 - 3.webp", "../assets/img/bespoke/130 - 4.webp"]
         },
         {
             id: 'Derby-1100-Cocodrilo',
@@ -929,8 +929,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Negro',
             tipoCuero: 'Caimán (Alligator)',
             codigo: "1100 Bespoke",
-            imagenPrincipal: "../assets/img/bespoke/113 - 16.jpg",
-            imagenes: ["../assets/img/bespoke/113 - 16.jpg", "../assets/img/bespoke/113 - 17.jpg", "../assets/img/bespoke/113 - 18.jpg", "../assets/img/bespoke/113 - 19.jpg"]
+            imagenPrincipal: "../assets/img/bespoke/113 - 16.webp",
+            imagenes: ["../assets/img/bespoke/113 - 16.webp", "../assets/img/bespoke/113 - 17.webp", "../assets/img/bespoke/113 - 18.webp", "../assets/img/bespoke/113 - 19.webp"]
         },
         {
             id: 'Swann-Tatuado-Natural',
@@ -940,8 +940,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Natural',
             tipoCuero: 'Vacuno',
             codigo: "Swann Bespoke",
-            imagenPrincipal: "../assets/img/bespoke/117 - 6.jpg",
-            imagenes: ["../assets/img/bespoke/117 - 6.jpg", "../assets/img/bespoke/117 - 7.jpg", "../assets/img/bespoke/117 - 8.jpg", "../assets/img/bespoke/117 - 9.jpg"]
+            imagenPrincipal: "../assets/img/bespoke/117 - 6.webp",
+            imagenes: ["../assets/img/bespoke/117 - 6.webp", "../assets/img/bespoke/117 - 7.webp", "../assets/img/bespoke/117 - 8.webp", "../assets/img/bespoke/117 - 9.webp"]
         }
     ];
 
