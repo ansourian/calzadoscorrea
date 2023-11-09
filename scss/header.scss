@@ -1,7 +1,5 @@
 header{
     position: sticky;
-    background-color: #1c1f31ec;
-    backdrop-filter: blur(5px);
     z-index: 1000;
     top: 0;
 
@@ -48,6 +46,11 @@ ul{
     border-style: solid;
     padding: 0.2vw;
     position: relative;
+}
+
+.background-header{
+    background-color: #1c1f31ec;
+    backdrop-filter: blur(5px);
 }
 
 
