@@ -353,7 +353,7 @@ p {
   align-items: center;
   flex-wrap: wrap;
   margin-bottom: 3rem;
-  background-color: #fdfdfd;
+  background-color: #ffffff;
   border: 0;
 }
 
@@ -363,7 +363,7 @@ p {
   justify-content: center;
   align-items: center;
   margin: 4rem 5rem 4rem;
-  background-color: #fdfdfd;
+  background-color: #ffffff;
   border: 0;
 }
 .container-notas .notas-periodisticas {
@@ -624,7 +624,7 @@ hr {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: #fdfdfd;
+  background-color: #ffffff;
   border: 0;
 }
 
@@ -634,7 +634,7 @@ hr {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: #fdfdfd;
+  background-color: #ffffff;
   border: 0;
 }
 
@@ -670,7 +670,7 @@ hr {
   align-items: center;
   flex-wrap: wrap;
   margin-bottom: 3rem;
-  background-color: #fdfdfd;
+  background-color: #ffffff;
   border: 0;
 }
 
