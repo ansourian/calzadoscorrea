@@ -939,6 +939,13 @@ footer .row .footer-content .p-footerinfo {
 footer .row .footer-maps {
   margin: 0 3vw 0 0;
 }
+footer .row .p-footerinfo_horario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2.5vw 0 0;
+  font-size: 1.5vw;
+}
 footer .derechos-reservados {
   font-family: "Josefin Sans", sans-serif;
   font-size: 0.8vw;
@@ -1543,6 +1550,11 @@ footer .derechos-reservados {
   .carousel-modelos {
     border-radius: 2vw;
   }
+  .p-footerinfo_horario {
+    margin: 2vw 0vw 6vw 2vw !important;
+    padding: 0vw 6vw !important;
+    font-size: 5vw !important;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   html {
@@ -2097,6 +2109,12 @@ footer .derechos-reservados {
   .video-intro {
     height: auto;
     overflow: hidden;
+  }
+  .p-footerinfo_horario {
+    margin: 2vw 0vw 6vw 0vw !important;
+    padding: 0vw 11vw !important;
+    font-size: 4vw !important;
+    text-align: center;
   }
 }
 .estilo-x {

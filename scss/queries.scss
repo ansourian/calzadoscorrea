@@ -674,6 +674,12 @@
         border-radius: 2vw;
     }
 
+    .p-footerinfo_horario{
+        margin: 2vw 0vw 6vw 2vw !important;
+        padding: 0vw 6vw !important;
+        font-size: 5vw !important;
+    }
+
 }
 
 @media screen and (min-width: 768px) and (max-width:1024px) {
@@ -1305,5 +1311,12 @@
     .video-intro{
         height: auto;
         overflow: hidden;
+    }
+
+    .p-footerinfo_horario{
+        margin: 2vw 0vw 6vw 0vw !important;
+        padding: 0vw 11vw !important;
+        font-size: 4vw !important;
+        text-align: center;
     }
 }
