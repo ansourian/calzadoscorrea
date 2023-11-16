@@ -912,8 +912,8 @@
                 margin: 4vw 4vw 4vw 0;
                 
                 .maps{
-                    width: 800px;
-                    height: 500px;
+                    width: 450px !important;
+                    height: 450px !important;
                 }
 
             }
@@ -1116,7 +1116,7 @@
         display: flex;
         justify-content: center;
         margin: 1vw auto 4vw;
-        width: 750px;
+        width: 650px;
         height: 300px;
         object-fit: cover;
     }

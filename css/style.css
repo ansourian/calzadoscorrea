@@ -1763,8 +1763,8 @@ footer .derechos-reservados {
     margin: 4vw 4vw 4vw 0;
   }
   footer .row .footer-maps .maps {
-    width: 800px;
-    height: 500px;
+    width: 450px !important;
+    height: 450px !important;
   }
   footer .vertical-hr {
     visibility: hidden;
@@ -1935,7 +1935,7 @@ footer .derechos-reservados {
     display: flex;
     justify-content: center;
     margin: 1vw auto 4vw;
-    width: 750px;
+    width: 650px;
     height: 300px;
     object-fit: cover;
   }
