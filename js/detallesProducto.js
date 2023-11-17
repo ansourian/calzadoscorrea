@@ -353,7 +353,7 @@ document.addEventListener('DOMContentLoaded', function () {
             tipoCuero: 'Gamuza',
             codigo: '2 Hebillas',
             imagenPrincipal: "../assets/img/ready to wear/130 - 51.webp",
-            imagenes: ["../assets/img/ready to wear/130 - 51.webp", "../assets/img/ready to wear/130 - 52.webp", "../assets/img/ready to wear/130 - 53.webp", "../assets/img/ready to wear/130 - 44.webp"]
+            imagenes: ["../assets/img/ready to wear/130 - 51.webp", "../assets/img/ready to wear/130 - 52.webp", "../assets/img/ready to wear/133 - 15.webp", "../assets/img/ready to wear/130 - 44.webp"]
         },
         {
             id: 'Borcego-Corto',
@@ -420,6 +420,28 @@ document.addEventListener('DOMContentLoaded', function () {
             codigo: 'Zap',
             imagenPrincipal: "../assets/img/ready to wear/117 - 13.webp",
             imagenes: ["../assets/img/ready to wear/117 - 13.webp", "../assets/img/ready to wear/117 - 14.webp", "../assets/img/ready to wear/117 - 15.webp", "../assets/img/ready to wear/117 - 19.webp"]
+        },
+        {
+            id: 'Sneaker-Blanco-Negro',
+            titulo: 'Sneakers Urbanas',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Zapatillas de uso urbano confeccionadas en cuero 100% vacuno argentino tanto en su exterior como en su interior. La boca del calzado cuenta con un refuerzo acolchonado agradable al uso cotidiano.',
+            color: 'Blanco con talón negro',
+            tipoCuero: 'Cuero vacuno',
+            codigo: 'Zap',
+            imagenPrincipal: "../assets/img/ready to wear/133 - 19.webp",
+            imagenes: ["../assets/img/ready to wear/133 - 19.webp", "../assets/img/ready to wear/133 - 20.webp", "../assets/img/ready to wear/133 - 21.webp", "../assets/img/ready to wear/133 - 22.webp"]
+        },
+        {
+            id: 'Sneaker-Blanco-Rojo',
+            titulo: 'Sneakers Urbanas',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Zapatillas de uso urbano confeccionadas en cuero 100% vacuno argentino tanto en su exterior como en su interior. La boca del calzado cuenta con un refuerzo acolchonado agradable al uso cotidiano.',
+            color: 'Blanco con talón rojo',
+            tipoCuero: 'Cuero vacuno',
+            codigo: 'Zap',
+            imagenPrincipal: "../assets/img/ready to wear/133 - 23.webp",
+            imagenes: ["../assets/img/ready to wear/133 - 23.webp", "../assets/img/ready to wear/133 - 24.webp", "../assets/img/ready to wear/133 - 25.webp", "../assets/img/ready to wear/133 - 22.webp"]
         },
         {
             id: 'Slippers-123-Gamuza-Arena',
@@ -595,7 +617,7 @@ document.addEventListener('DOMContentLoaded', function () {
             tipoCuero: 'Cuero Vacuno',
             codigo: 'Bota Elástico',
             imagenPrincipal: "../assets/img/made by order/131 - 28.webp",
-            imagenes: ["../assets/img/made by order/131 - 28.webp", "../assets/img/made by order/131 - 29.webp", "../assets/img/made by order/131 - 30.webp", "../assets/img/made by order/113 - 27.jpg"]
+            imagenes: ["../assets/img/made by order/131 - 28.webp", "../assets/img/made by order/131 - 29.webp", "../assets/img/made by order/131 - 30.webp", "../assets/img/made by order/113 - 27.webp"]
         },
         {
             id: 'Bota-Chelsea-Marron',
@@ -606,7 +628,7 @@ document.addEventListener('DOMContentLoaded', function () {
             tipoCuero: 'Cuero Vacuno',
             codigo: 'Bota Elástico',
             imagenPrincipal: "../assets/img/made by order/131 - 31.webp",
-            imagenes: ["../assets/img/made by order/131 - 31.webp", "../assets/img/made by order/131 - 32.webp", "../assets/img/made by order/131 - 33.webp", "../assets/img/made by order/113 - 27.jpg"]
+            imagenes: ["../assets/img/made by order/131 - 31.webp", "../assets/img/made by order/131 - 32.webp", "../assets/img/made by order/131 - 33.webp", "../assets/img/made by order/113 - 27.webp"]
         },
         {
             id: 'Bota-Chelsea-Gamuza-Gris',
@@ -662,6 +684,17 @@ document.addEventListener('DOMContentLoaded', function () {
             codigo: 'Bota Elástico',
             imagenPrincipal: "../assets/img/made by order/131 - 1.webp",
             imagenes: ["../assets/img/made by order/131 - 1.webp", "../assets/img/made by order/131 - 2.webp", "../assets/img/made by order/131 - 3.webp", "../assets/img/made by order/113 - 27.webp"]
+        },
+        {
+            id: 'Bota-Chelsea-Gamuza-Azul',
+            titulo: 'Bota Chelsea',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'Un calzado versátil, adecuado tanto para ocasiones casuales como formales. Es fácil de combinar con una amplia gama de atuendos, desde jeans hasta trajes elegantes. Su diseño sin cordones y elástico la hacen cómoda y conveniente para el uso diario.',
+            color: 'Azul',
+            tipoCuero: 'Gamuza',
+            codigo: 'Bota Elástico',
+            imagenPrincipal: "../assets/img/made by order/133 - 16.webp",
+            imagenes: ["../assets/img/made by order/133 - 16.webp", "../assets/img/made by order/133 - 17.webp", "../assets/img/made by order/133 - 18.webp", "../assets/img/made by order/113 - 27.webp"]
         },
         {
             id: 'Oxford-Wingtips',
