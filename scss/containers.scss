@@ -91,3 +91,21 @@
     margin: 0;
     flex: 1;
 }
+
+.container-info_modelos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 5rem;
+    background-color: #ffffff;
+    border: 0;
+
+    .notas-periodisticas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        flex: 1;
+    }
+}

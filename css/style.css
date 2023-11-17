@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap");
@@ -255,6 +254,17 @@ p {
   font-size: 1rem;
   text-align: center;
   margin: 3vw 2vw;
+  box-sizing: content-box;
+  height: 200px;
+  padding: 2rem 0rem;
+  align-items: center;
+  display: flex;
+}
+
+.p-info_modelos {
+  font-size: 1rem;
+  text-align: center;
+  margin: 0vw 2vw;
   box-sizing: content-box;
   height: 200px;
   padding: 2rem 0rem;
@@ -521,20 +531,17 @@ a:visited {
     opacity: 1;
   }
 }
-/* Estilo base de las secciones */
 .fade-section {
   opacity: 0;
   transform: translateY(20px); /* Efecto de desplazamiento hacia arriba */
   transition: opacity 1.5s, transform 0.5s;
 }
 
-/* Estilo de las secciones cuando son visibles */
 .visible {
   opacity: 1;
   transform: translateY(0);
 }
 
-/* Añade estilos adicionales según tus necesidades */
 section {
   padding: 20px;
   background-color: #f0f0f0;
@@ -695,6 +702,23 @@ hr {
 }
 
 .container-tipo_modelos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  flex: 1;
+}
+
+.container-info_modelos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 5rem;
+  background-color: #ffffff;
+  border: 0;
+}
+.container-info_modelos .notas-periodisticas {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1100,6 +1124,17 @@ footer .derechos-reservados {
     text-align: center;
     margin: 5vw 0 5vw;
   }
+  .container-info_modelos {
+    flex-direction: column;
+    margin: 3rem 5rem 3rem;
+  }
+  .container-info_modelos .notas-periodisticas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2vw 0;
+    flex: 1;
+  }
   .div-button-nota {
     margin: 4vw 0 20vw;
   }
@@ -1166,6 +1201,15 @@ footer .derechos-reservados {
     overflow: hidden;
   }
   .p-modelos {
+    display: flex;
+    font-size: 3.5vw;
+    text-align: center;
+    margin: 2rem 0rem;
+    box-sizing: content-box;
+    height: 200px;
+    align-items: center;
+  }
+  .p-info_modelos {
     display: flex;
     font-size: 3.5vw;
     text-align: center;
@@ -1703,6 +1747,17 @@ footer .derechos-reservados {
     text-align: center;
     margin: 5vw 0 5vw;
   }
+  .container-info_modelos {
+    flex-direction: column;
+    margin: 3rem 5rem 3rem;
+  }
+  .container-info_modelos .notas-periodisticas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2vw 0;
+    flex: 1;
+  }
   .div-button-nota {
     margin: 4vw 0 20vw;
   }
@@ -1777,6 +1832,15 @@ footer .derechos-reservados {
     padding: 3vw;
   }
   .p-modelos {
+    display: flex;
+    font-size: 2.5vw;
+    text-align: center;
+    margin: 2rem 0rem;
+    box-sizing: content-box;
+    height: 200px;
+    align-items: center;
+  }
+  .p-info_modelos {
     display: flex;
     font-size: 2.5vw;
     text-align: center;

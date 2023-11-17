@@ -151,6 +151,19 @@
             }
         }
     }
+
+    .container-info_modelos{
+        flex-direction: column;
+        margin: 3rem 5rem 3rem;
+        
+        .notas-periodisticas{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 2vw 0;
+            flex: 1;
+        }
+    }
     
     .div-button-nota{
         margin: 4vw 0 20vw;
@@ -235,6 +248,16 @@
     }
 
     .p-modelos {
+        display: flex;
+        font-size: 3.5vw;
+        text-align: center;
+        margin: 2rem 0rem;
+        box-sizing: content-box;
+        height: 200px;
+        align-items: center;
+    }
+
+    .p-info_modelos {
         display: flex;
         font-size: 3.5vw;
         text-align: center;
@@ -840,6 +863,19 @@
             }
         }
     }
+
+    .container-info_modelos{
+        flex-direction: column;
+        margin: 3rem 5rem 3rem;
+        
+        .notas-periodisticas{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 2vw 0;
+            flex: 1;
+        }
+    }
     
     .div-button-nota{
         margin: 4vw 0 20vw;
@@ -933,6 +969,16 @@
     }
 
     .p-modelos {
+        display: flex;
+        font-size: 2.5vw;
+        text-align: center;
+        margin: 2rem 0rem;
+        box-sizing: content-box;
+        height: 200px;
+        align-items: center;
+    }
+
+    .p-info_modelos {
         display: flex;
         font-size: 2.5vw;
         text-align: center;

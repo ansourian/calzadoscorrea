@@ -50,3 +50,18 @@ function isElementInViewport(element) {
         }
     });
 });
+
+function checkSections() {
+  const sections = document.querySelectorAll('.fade-section');
+
+  sections.forEach((section) => {
+    const rect = section.getBoundingClientRect();
+    const isVisible = (rect.top <= window.innerHeight * 0.90);
+
+    if (isVisible) {
+      section.classList.add('visible');
+    } else {
+      section.classList.remove('visible');
+    }
+  });
+}

@@ -8,20 +8,17 @@
     }
   }
 
-/* Estilo base de las secciones */
 .fade-section {
   opacity: 0;
   transform: translateY(20px); /* Efecto de desplazamiento hacia arriba */
   transition: opacity 1.5s, transform 0.5s;
 }
 
-/* Estilo de las secciones cuando son visibles */
 .visible {
   opacity: 1;
   transform: translateY(0);
 }
 
-/* Añade estilos adicionales según tus necesidades */
 section {
   padding: 20px;
   background-color: #f0f0f0;
