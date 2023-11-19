@@ -712,6 +712,80 @@
         font-size: 5vw !important;
     }
 
+    .card-frecuentes{
+        border-radius: 2vw;
+        margin: 4vw;
+        padding: 1vw;
+        box-shadow: 0px 0px 0px 3px rgb(45 48 64);        
+    }
+    
+    .card-frecuentes2{
+        padding: 0rem;
+        background-color: rgba(28, 31, 49, 0.9254901961);
+        border-radius: 2vw !important;
+    }
+
+    .p-preguntas{
+        text-align: center;
+        font-size: 5vw;
+        font-family: 'EB Garamond', serif;
+        color: rgb(255, 255, 255);
+        display: flex;
+        text-decoration: none;
+        width: 80%;
+
+        &:hover{
+            color: #ffffff;
+        }
+    }
+    
+    .p-respuestas{
+        text-align: center;
+        font-size: 5vw;
+        font-family: 'EB Garamond', serif;
+        color: rgb(0, 0, 0);
+        display: flex;
+        text-decoration: none;
+        justify-content: center;
+    }
+
+    .p-preguntas_frecuentes{
+        text-align: center;
+        font-size: 5vw;
+        font-family: 'EB Garamond', serif;
+        color: rgb(0, 0, 0);
+        display: flex;
+        text-decoration: none;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0vw 3vw;
+    }
+
+    .h5-preguntas{
+        text-align: left;
+        font-size: 3vw;
+        font-family: 'EB Garamond', serif;
+        display: flex;
+        justify-content: center;
+    }
+
+    .h2-preguntas_frecuentes{
+        color: #000000;
+        text-align: center;
+        font-size: 6vw;
+        margin: 6vw 0;
+        font-family: 'EB Garamond', serif;
+    }
+    
+    .h2-preguntas_frecuentes_link{
+        color: #29395c;
+        text-align: center;
+        font-size: 5vw;
+        margin: 4vw 0;
+        font-family: 'EB Garamond', serif;
+        text-decoration: underline;
+    }
+
 }
 
 @media screen and (min-width: 768px) and (max-width:1024px) {
@@ -1374,4 +1448,80 @@
         font-size: 4vw !important;
         text-align: center;
     }
+
+    .card-frecuentes{
+        border-radius: 2vw;
+        margin: 4vw;
+        padding: 1vw;
+        box-shadow: 0px 0px 0px 3px rgb(45 48 64);        
+    }
+    
+    .card-frecuentes2{
+        padding: 0rem;
+        background-color: rgba(28, 31, 49, 0.9254901961);
+        border-radius: 2vw !important;
+    }
+
+    .p-preguntas{
+        text-align: center;
+        font-size: 3.5vw;
+        font-family: 'EB Garamond', serif;
+        color: rgb(255, 255, 255);
+        display: flex;
+        text-decoration: none;
+        width: 80%;
+
+        &:hover{
+            color: #ffffff;
+        }
+    }
+    
+    .p-respuestas{
+        text-align: center;
+        font-size: 3.5vw;
+        font-family: 'EB Garamond', serif;
+        color: rgb(0, 0, 0);
+        display: flex;
+        text-decoration: none;
+        justify-content: center;
+    }
+
+    .p-preguntas_frecuentes{
+        text-align: center;
+        font-size: 3.5vw;
+        font-family: 'EB Garamond', serif;
+        color: rgb(0, 0, 0);
+        display: flex;
+        text-decoration: none;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0vw 3vw;
+    }
+
+    .h5-preguntas{
+        text-align: left;
+        font-size: 3vw;
+        font-family: 'EB Garamond', serif;
+        display: flex;
+        justify-content: center;
+        padding: 2vw 0vw;
+    }
+
+    .h2-preguntas_frecuentes{
+        color: #000000;
+        text-align: center;
+        font-size: 5vw;
+        margin: 6vw 0;
+        font-family: 'EB Garamond', serif;
+    }
+    
+    .h2-preguntas_frecuentes_link{
+        color: #29395c;
+        text-align: center;
+        font-size: 3.5vw;
+        margin: 4vw 0;
+        font-family: 'EB Garamond', serif;
+        text-decoration: underline;
+    }
+
 }

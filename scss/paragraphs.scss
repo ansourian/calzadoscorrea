@@ -104,3 +104,40 @@ p{
     font-style: italic;
     color: rgb(124 124 124);
 }
+
+.p-preguntas{
+    font-size: 1.2vw;
+    font-family: 'EB Garamond', serif;
+    color: rgb(255, 255, 255);
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    width: 67vw;
+
+    &:hover{
+        color: #fff9b7;
+    }
+}
+
+.p-respuestas{
+    text-align: center;
+    font-size: 1vw;
+    font-family: 'EB Garamond', serif;
+    color: rgb(0, 0, 0);
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.p-preguntas_frecuentes{
+    text-align: center;
+    font-size: 1vw;
+    font-family: 'EB Garamond', serif;
+    color: rgb(0, 0, 0);
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0vw 3vw;
+}
