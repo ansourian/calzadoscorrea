@@ -341,7 +341,7 @@ p {
   display: flex;
   text-decoration: none;
   justify-content: center;
-  width: 67vw;
+  width: 83vw;
 }
 .p-preguntas:hover {
   color: #fff9b7;
@@ -537,6 +537,18 @@ a:visited {
   padding: 0 8vw;
   margin: 0.5vw 0 0;
   color: #101225;
+}
+
+.search-bar {
+  display: flex;
+  width: 50vw;
+  padding: 10px;
+  border: 3px solid #1F2337;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-family: "Outfit", sans-serif;
 }
 
 .form-style {
@@ -779,6 +791,17 @@ hr {
   border-radius: 0.5vw !important;
 }
 
+.anuncio {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: rgba(12, 14, 26, 0.93);
+  border-width: 0 0 3px;
+  border-style: solid;
+  border-color: black;
+}
+
 h2 {
   color: #000000;
   text-align: center;
@@ -802,6 +825,14 @@ h2 {
   font-size: 3.3vw;
   margin: 2vw 0 0 0;
   color: #29395c;
+}
+
+.h2-anuncio {
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.5vw;
+  margin: 1vw 0;
+  font-family: "EB Garamond", serif;
 }
 
 .h2-preguntas_frecuentes {
@@ -1747,6 +1778,26 @@ footer .derechos-reservados {
     font-family: "EB Garamond", serif;
     text-decoration: underline;
   }
+  .anuncio {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(11, 12, 20, 0.93);
+    border-width: 2px 0 2px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+  }
+  .h2-anuncio {
+    color: #ffffff;
+    text-align: center;
+    font-size: 4vw;
+    margin: 1vw 0;
+    font-family: "EB Garamond", serif;
+  }
+  .search-bar {
+    width: 70vw;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   html {
@@ -2393,6 +2444,9 @@ footer .derechos-reservados {
     margin: 4vw 0;
     font-family: "EB Garamond", serif;
     text-decoration: underline;
+  }
+  .search-bar {
+    width: 60vw;
   }
 }
 .estilo-x {

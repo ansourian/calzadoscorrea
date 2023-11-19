@@ -786,6 +786,29 @@
         text-decoration: underline;
     }
 
+    .anuncio{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        background-color: rgb(11 12 20 / 93%);
+        border-width: 2px 0 2px;
+        border-style: solid;
+        border-color: rgb(0, 0, 0);
+    }
+
+    .h2-anuncio{
+        color: #ffffff;
+        text-align: center;
+        font-size: 4vw;
+        margin: 1vw 0;
+        font-family: 'EB Garamond', serif;
+    }
+
+    .search-bar{
+        width: 70vw;
+    }
+
 }
 
 @media screen and (min-width: 768px) and (max-width:1024px) {
@@ -1522,6 +1545,10 @@
         margin: 4vw 0;
         font-family: 'EB Garamond', serif;
         text-decoration: underline;
+    }
+
+    .search-bar{
+        width: 60vw;
     }
 
 }

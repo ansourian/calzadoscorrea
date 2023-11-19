@@ -122,3 +122,14 @@
     background-color: rgba(28, 31, 49, 0.9254901961);
     border-radius: 0.5vw !important;
 }
+
+.anuncio{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(12 14 26 / 93%);
+    border-width: 0 0 3px;
+    border-style: solid;
+    border-color: black;
+}

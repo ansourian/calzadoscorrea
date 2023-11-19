@@ -65,3 +65,22 @@ function checkSections() {
     }
   });
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  const searchInput = document.getElementById("searchInput");
+  const modelos = document.querySelectorAll(".producto");
+
+  searchInput.addEventListener("input", function () {
+    const term = searchInput.value.trim().toLowerCase();
+
+    modelos.forEach(function (modelo) {
+      const modeloText = modelo.innerText.toLowerCase();
+
+      if (modeloText.includes(term)) {
+        modelo.style.display = "block";
+      } else {
+        modelo.style.display = "none";
+      }
+    });
+  });
+});
