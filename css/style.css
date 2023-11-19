@@ -370,6 +370,10 @@ p {
   margin: 0vw 3vw;
 }
 
+.link_instagram {
+  margin: none;
+}
+
 .div-section {
   display: flex;
   flex-direction: column;
