@@ -42,13 +42,15 @@ function isElementInViewport(element) {
   document.addEventListener('DOMContentLoaded', function () {
     const listaProductos = document.getElementById('lista-productos');
 
-    listaProductos.addEventListener('click', function (event) {
+    if (listaProductos) {
+      listaProductos.addEventListener('click', function (event) {
         const producto = event.target.closest('article.producto');
         if (producto) {
-            const productoId = producto.getAttribute('data-producto-id');
-            window.location.href = `modelo.html?productoId=${productoId}`;
+          const productoId = producto.getAttribute('data-producto-id');
+          window.location.href = `modelo.html?productoId=${productoId}`;
         }
-    });
+      });
+    }
 });
 
 function checkSections() {
