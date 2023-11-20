@@ -240,6 +240,14 @@ p {
   font-family: "EB Garamond", serif;
 }
 
+.p-general_center {
+  text-align: center;
+  font-size: 1.3vw;
+  padding: 0 11vw;
+  margin: 3vw 8vw;
+  font-family: "EB Garamond", serif;
+}
+
 .p-biografia {
   text-align: left;
   font-size: 1.3vw;
@@ -453,6 +461,9 @@ a:visited {
 
 .div-button {
   margin: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .div-button-nota {
@@ -1117,6 +1128,12 @@ footer .derechos-reservados {
   }
   .p-general {
     text-align: left;
+    font-size: 3.5vw;
+    padding: 0 5vw;
+    margin: 6vw 8vw;
+  }
+  .p-general_center {
+    text-align: center;
     font-size: 3.5vw;
     padding: 0 5vw;
     margin: 6vw 8vw;
@@ -1832,6 +1849,12 @@ footer .derechos-reservados {
   }
   .p-general {
     text-align: left;
+    font-size: 2.5vw;
+    padding: 0 5vw;
+    margin: 6vw 8vw;
+  }
+  .p-general_center {
+    text-align: center;
     font-size: 2.5vw;
     padding: 0 5vw;
     margin: 6vw 8vw;
