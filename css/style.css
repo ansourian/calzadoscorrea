@@ -375,7 +375,7 @@ p {
   text-decoration: none;
   justify-content: center;
   flex-direction: column;
-  margin: 0vw 3vw;
+  margin: 1vw 3vw;
 }
 
 .link_instagram {
@@ -849,7 +849,7 @@ h2 {
 .h2-preguntas_frecuentes {
   color: #000000;
   text-align: center;
-  font-size: 2vw;
+  font-size: 1.5vw;
   margin: 1vw 0;
   font-family: "EB Garamond", serif;
 }
@@ -1771,7 +1771,7 @@ footer .derechos-reservados {
     text-decoration: none;
     justify-content: center;
     flex-direction: column;
-    margin: 0vw 3vw;
+    margin: 2vw 3vw;
   }
   .h5-preguntas {
     text-align: left;
@@ -2443,7 +2443,7 @@ footer .derechos-reservados {
     text-decoration: none;
     justify-content: center;
     flex-direction: column;
-    margin: 0vw 3vw;
+    margin: 2vw 3vw;
   }
   .h5-preguntas {
     text-align: left;
