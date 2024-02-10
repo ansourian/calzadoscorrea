@@ -4,7 +4,19 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const productos = [
         {
-            id: 'Oxford-Natural',
+            id: '1122-Negro',
+            titulo: 'Oxford Mod. 1122',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
+            color: 'Negro',
+            tipoCuero: 'Cuero vacuno',
+            tipoModelo: 'Zapatos',
+            codigo: '1122',
+            imagenPrincipal: "../assets/img/ready to wear/135 - 21.webp",
+            imagenes: ["../assets/img/ready to wear/135 - 21.webp", "../assets/img/ready to wear/135 - 22.webp", "../assets/img/ready to wear/135 - 23.webp", "../assets/img/ready to wear/123 - 8.webp"]
+        },
+        {
+            id: '1122-Natural',
             titulo: 'Oxford Mod. 1122',
             estilo: 'READY TO WEAR',
             descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
@@ -15,18 +27,18 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenes: ["../assets/img/ready to wear/123 - 5.webp", "../assets/img/ready to wear/123 - 6.webp", "../assets/img/ready to wear/123 - 7.webp", "../assets/img/ready to wear/123 - 8.webp"]
         },
         {
-            id: 'Oxford-Maiz',
+            id: '1122-Marron',
             titulo: 'Oxford Mod. 1122',
             estilo: 'READY TO WEAR',
             descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
-            color: 'Maíz',
+            color: 'Marrón',
             tipoCuero: 'Cuero vacuno',
             codigo: '1122',
-            imagenPrincipal: "../assets/img/ready to wear/122 - 29.webp",
-            imagenes: ["../assets/img/ready to wear/122 - 29.webp", "../assets/img/ready to wear/122 - 30.webp", "../assets/img/ready to wear/122 - 31.webp", "../assets/img/ready to wear/122 - 32.webp"]
+            imagenPrincipal: "../assets/img/ready to wear/135 - 24.webp",
+            imagenes: ["../assets/img/ready to wear/135 - 24.webp", "../assets/img/ready to wear/135 - 25.webp", "../assets/img/ready to wear/135 - 26.webp", "../assets/img/ready to wear/123 - 11.webp"]
         },
         {
-            id: 'Oxford-Tabaco',
+            id: '1122-Tabaco',
             titulo: 'Oxford Mod. 1122',
             estilo: 'READY TO WEAR',
             descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
@@ -37,7 +49,29 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenes: ["../assets/img/ready to wear/123 - 9.webp", "../assets/img/ready to wear/126 - 2.webp", "../assets/img/ready to wear/123 - 10.webp", "../assets/img/ready to wear/123 - 11.webp"]
         },
         {
-            id: 'Oxford-Verde',
+            id: '1122-Cafe',
+            titulo: 'Oxford Mod. 1122',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
+            color: 'Café',
+            tipoCuero: 'Cuero vacuno',
+            codigo: '1122',
+            imagenPrincipal: "../assets/img/ready to wear/138 - 4.webp",
+            imagenes: ["../assets/img/ready to wear/138 - 4.webp", "../assets/img/ready to wear/138 - 5.webp", "../assets/img/ready to wear/138 - 6.webp", "../assets/img/ready to wear/123 - 11.webp"]
+        },
+        {
+            id: '1122-Suela',
+            titulo: 'Oxford Mod. 1122',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
+            color: 'Suela',
+            tipoCuero: 'Cuero vacuno',
+            codigo: '1122',
+            imagenPrincipal: "../assets/img/ready to wear/122 - 29.webp",
+            imagenes: ["../assets/img/ready to wear/122 - 29.webp", "../assets/img/ready to wear/122 - 30.webp", "../assets/img/ready to wear/122 - 31.webp", "../assets/img/ready to wear/122 - 32.webp"]
+        },
+        {
+            id: '1122-Verde',
             titulo: 'Oxford Mod. 1122',
             estilo: 'READY TO WEAR',
             descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
@@ -48,26 +82,81 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenes: ["../assets/img/ready to wear/123 - 1.webp", "../assets/img/ready to wear/123 - 2.webp", "../assets/img/ready to wear/123 - 3.webp", "../assets/img/ready to wear/123 - 4.webp"]
         },
         {
-            id: 'Oxford-1122-Negro-Marron',
-            titulo: 'Oxford Mod. 1122',
+            id: '1119-Negro',
+            titulo: 'Derby Mod. 1119',
             estilo: 'READY TO WEAR',
             descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
-            color: 'Negro - Marrón',
-            tipoCuero: 'Cuero vacuno combinado',
-            codigo: '1122',
-            imagenPrincipal: "../assets/img/ready to wear/114 - 4.webp",
-            imagenes: ["../assets/img/ready to wear/114 - 4.webp", "../assets/img/ready to wear/114 - 5.webp", "../assets/img/ready to wear/114 - 6.webp", "../assets/img/ready to wear/114 - 7.webp"]
+            color: 'Negro',
+            tipoCuero: 'Cuero vacuno',
+            codigo: '1119',
+            imagenPrincipal: "../assets/img/ready to wear/136 - 9.webp",
+            imagenes: ["../assets/img/ready to wear/136 - 9.webp", "../assets/img/ready to wear/136 - 10.webp", "../assets/img/ready to wear/136 - 11.webp", "../assets/img/ready to wear/123 - 4.webp"]
         },
         {
-            id: 'Oxford-1122-Negro-Rojo',
-            titulo: 'Oxford Mod. 1122',
+            id: '1119-Guinda',
+            titulo: 'Derby Mod. 1119',
             estilo: 'READY TO WEAR',
             descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
-            color: 'Negro - Rojo',
-            tipoCuero: 'Combinado de Cuero Vacuno y Cabretilla',
-            codigo: '1122',
-            imagenPrincipal: "../assets/img/ready to wear/114 - 15.webp",
-            imagenes: ["../assets/img/ready to wear/114 - 15.webp", "../assets/img/ready to wear/114 - 16.webp", "../assets/img/ready to wear/114 - 17.webp", "../assets/img/ready to wear/114 - 18.webp"]
+            color: 'Guinda',
+            tipoCuero: 'Cuero vacuno',
+            codigo: '1119',
+            imagenPrincipal: "../assets/img/ready to wear/136 - 12.webp",
+            imagenes: ["../assets/img/ready to wear/136 - 12.webp", "../assets/img/ready to wear/136 - 13.webp", "../assets/img/ready to wear/136 - 14.webp", "../assets/img/ready to wear/123 - 4.webp"]
+        },
+        {
+            id: '1119-Marron',
+            titulo: 'Derby Mod. 1119',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
+            color: 'Marrón',
+            tipoCuero: 'Cuero vacuno',
+            codigo: '1119',
+            imagenPrincipal: "../assets/img/ready to wear/136 - 15.webp",
+            imagenes: ["../assets/img/ready to wear/136 - 15.webp", "../assets/img/ready to wear/136 - 16.webp", "../assets/img/ready to wear/136 - 17.webp", "../assets/img/ready to wear/123 - 4.webp"]
+        },
+        {
+            id: '1119-Cafe',
+            titulo: 'Derby Mod. 1119',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
+            color: 'Café',
+            tipoCuero: 'Cuero vacuno',
+            codigo: '1119',
+            imagenPrincipal: "../assets/img/ready to wear/136 - 18.webp",
+            imagenes: ["../assets/img/ready to wear/136 - 18.webp", "../assets/img/ready to wear/136 - 19.webp", "../assets/img/ready to wear/136 - 20.webp", "../assets/img/ready to wear/123 - 4.webp"]
+        },
+        {
+            id: '1116-Diamante-Cafe',
+            titulo: 'Derby Mod. 1116',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
+            color: 'Diamante Café',
+            tipoCuero: 'Cuero vacuno graneado',
+            codigo: '1116',
+            imagenPrincipal: "../assets/img/ready to wear/136 - 22.webp",
+            imagenes: ["../assets/img/ready to wear/136 - 22.webp", "../assets/img/ready to wear/136 - 23.webp", "../assets/img/ready to wear/136 - 24.webp", "../assets/img/ready to wear/123 - 4.webp"]
+        },
+        {
+            id: '1116-Diamante-Castaña',
+            titulo: 'Derby Mod. 1116',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
+            color: 'Diamante Castaña',
+            tipoCuero: 'Cuero vacuno graneado',
+            codigo: '1116',
+            imagenPrincipal: "../assets/img/ready to wear/136 - 25.webp",
+            imagenes: ["../assets/img/ready to wear/136 - 25.webp", "../assets/img/ready to wear/136 - 26.webp", "../assets/img/ready to wear/136 - 27.webp", "../assets/img/ready to wear/123 - 4.webp"]
+        },
+        {
+            id: '1116-Verde',
+            titulo: 'Derby Mod. 1116',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
+            color: 'Verde',
+            tipoCuero: 'Cuero vacuno',
+            codigo: '1116',
+            imagenPrincipal: "../assets/img/ready to wear/136 - 28.webp",
+            imagenes: ["../assets/img/ready to wear/136 - 28.webp", "../assets/img/ready to wear/136 - 29.webp", "../assets/img/ready to wear/136 - 30.webp", "../assets/img/ready to wear/123 - 4.webp"]
         },
         {
             id: '1108-Negro',
@@ -92,6 +181,61 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenes: ["../assets/img/ready to wear/127 - 5.webp", "../assets/img/ready to wear/127 - 6.webp", "../assets/img/ready to wear/127 - 7.webp", "../assets/img/ready to wear/127 - 8.webp"]
         },
         {
+            id: '1108-Natural',
+            titulo: 'Oxford Mod. 1108',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
+            color: 'Natural',
+            tipoCuero: 'Cuero Vacuno',
+            codigo: '1108',
+            imagenPrincipal: "../assets/img/ready to wear/137 - 1.webp",
+            imagenes: ["../assets/img/ready to wear/137 - 1.webp", "../assets/img/ready to wear/137 - 2.webp", "../assets/img/ready to wear/137 - 3.webp", "../assets/img/ready to wear/127 - 8.webp"]
+        },
+        {
+            id: '1108-Marron',
+            titulo: 'Oxford Mod. 1108',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
+            color: 'Marrón',
+            tipoCuero: 'Cuero Vacuno',
+            codigo: '1108',
+            imagenPrincipal: "../assets/img/ready to wear/137 - 4.webp",
+            imagenes: ["../assets/img/ready to wear/137 - 4.webp", "../assets/img/ready to wear/137 - 5.webp", "../assets/img/ready to wear/137 - 6.webp", "../assets/img/ready to wear/127 - 8.webp"]
+        },
+        {
+            id: '1108-SB-Guinda',
+            titulo: 'Oxford Mod. 1108',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
+            color: 'Guinda',
+            tipoCuero: 'Cuero Vacuno',
+            codigo: '1108',
+            imagenPrincipal: "../assets/img/ready to wear/137 - 10.webp",
+            imagenes: ["../assets/img/ready to wear/137 - 10.webp", "../assets/img/ready to wear/137 - 11.webp", "../assets/img/ready to wear/137 - 12.webp", "../assets/img/ready to wear/127 - 8.webp"]
+        },
+        {
+            id: '1108-SB-Suela',
+            titulo: 'Oxford Mod. 1108',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
+            color: 'Suela',
+            tipoCuero: 'Cuero Vacuno',
+            codigo: '1108',
+            imagenPrincipal: "../assets/img/ready to wear/137 - 7.webp",
+            imagenes: ["../assets/img/ready to wear/137 - 7.webp", "../assets/img/ready to wear/137 - 8.webp", "../assets/img/ready to wear/137 - 9.webp", "../assets/img/ready to wear/127 - 8.webp"]
+        },
+        {
+            id: '1108-SB-Cafe',
+            titulo: 'Oxford Mod. 1108',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
+            color: 'Café',
+            tipoCuero: 'Cuero Vacuno',
+            codigo: '1108',
+            imagenPrincipal: "../assets/img/ready to wear/137 - 13.webp",
+            imagenes: ["../assets/img/ready to wear/137 - 13.webp", "../assets/img/ready to wear/137 - 14.webp", "../assets/img/ready to wear/137 - 15.webp", "../assets/img/ready to wear/127 - 8.webp"]
+        },
+        {
             id: '1107-Tabaco',
             titulo: 'Oxford Mod. 1107',
             estilo: 'READY TO WEAR',
@@ -101,6 +245,50 @@ document.addEventListener('DOMContentLoaded', function () {
             codigo: '1107',
             imagenPrincipal: "../assets/img/ready to wear/127 - 9.webp",
             imagenes: ["../assets/img/ready to wear/127 - 9.webp", "../assets/img/ready to wear/127 - 10.webp", "../assets/img/ready to wear/127 - 11.webp", "../assets/img/ready to wear/127 - 12.webp"]
+        },
+        {
+            id: '1107-Guinda',
+            titulo: 'Oxford Mod. 1107',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un zapato sencillo y elegante. Su aspecto liso y sin picar, lo convierten en un modelo adecuado para ámbitos formales.',
+            color: 'Guinda',
+            tipoCuero: 'Cuero Vacuno',
+            codigo: '1107',
+            imagenPrincipal: "../assets/img/ready to wear/135 - 13.webp",
+            imagenes: ["../assets/img/ready to wear/135 - 13.webp", "../assets/img/ready to wear/135 - 14.webp", "../assets/img/ready to wear/135 - 15.webp", "../assets/img/ready to wear/127 - 12.webp"]
+        },
+        {
+            id: '1107-Marron',
+            titulo: 'Oxford Mod. 1107',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un zapato sencillo y elegante. Su aspecto liso y sin picar, lo convierten en un modelo adecuado para ámbitos formales.',
+            color: 'Marrón',
+            tipoCuero: 'Cuero Vacuno',
+            codigo: '1107',
+            imagenPrincipal: "../assets/img/ready to wear/137 - 20.webp",
+            imagenes: ["../assets/img/ready to wear/137 - 20.webp", "../assets/img/ready to wear/137 - 21.webp", "../assets/img/ready to wear/137 - 22.webp", "../assets/img/ready to wear/127 - 12.webp"]
+        },
+        {
+            id: '1107-Suela',
+            titulo: 'Oxford Mod. 1107',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un zapato sencillo y elegante. Su aspecto liso y sin picar, lo convierten en un modelo adecuado para ámbitos formales.',
+            color: 'Suela',
+            tipoCuero: 'Cuero Vacuno',
+            codigo: '1107',
+            imagenPrincipal: "../assets/img/ready to wear/137 - 23.webp",
+            imagenes: ["../assets/img/ready to wear/137 - 23.webp", "../assets/img/ready to wear/137 - 24.webp", "../assets/img/ready to wear/137 - 25.webp", "../assets/img/ready to wear/127 - 12.webp"]
+        },
+        {
+            id: '1107-Marron-Picado-Flor',
+            titulo: 'Oxford Mod. 1107',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un zapato sencillo y elegante. Cuenta con flor en la punta y una tira picada.',
+            color: 'Marrón',
+            tipoCuero: 'Cuero Vacuno',
+            codigo: '1107',
+            imagenPrincipal: "../assets/img/ready to wear/135 - 10.webp",
+            imagenes: ["../assets/img/ready to wear/135 - 10.webp", "../assets/img/ready to wear/135 - 11.webp", "../assets/img/ready to wear/135 - 12.webp", "../assets/img/ready to wear/131 - 35.webp"]
         },
         {
             id: '1107-Tabaco-Picado-Flor',
@@ -134,6 +322,17 @@ document.addEventListener('DOMContentLoaded', function () {
             codigo: '1103',
             imagenPrincipal: "../assets/img/ready to wear/121 - 1.webp",
             imagenes: ["../assets/img/ready to wear/121 - 1.webp", "../assets/img/ready to wear/121 - 2.webp", "../assets/img/ready to wear/121 - 3.webp", "../assets/img/ready to wear/121 - 11.webp"]
+        },
+        {
+            id: '1103-Suela',
+            titulo: 'Oxford Mod. 1103',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Zapato abotinado de vestir, sobrio y elegante. Recomendado para una expresión más discreta y formal.',
+            color: 'Suela',
+            tipoCuero: 'Cuero vacuno',
+            codigo: '1103',
+            imagenPrincipal: "../assets/img/ready to wear/135 - 7.webp",
+            imagenes: ["../assets/img/ready to wear/135 - 7.webp", "../assets/img/ready to wear/135 - 8.webp", "../assets/img/ready to wear/135 - 9.webp", "../assets/img/ready to wear/121 - 11.webp"]
         },
         {
             id: '1103-Cafe',
@@ -180,11 +379,22 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenes: ["../assets/img/ready to wear/126 - 12.webp", "../assets/img/ready to wear/126 - 13.webp", "../assets/img/ready to wear/126 - 14.webp", "../assets/img/ready to wear/126 - 15.webp"]
         },
         {
-            id: 'Derby-1100-Maiz-3ojales',
+            id: 'Derby-1100-Natural-3ojales',
             titulo: 'Derby Mod. 1100',
             estilo: 'READY TO WEAR',
             descripcion: 'Un clásico liso de cordonera abierta. Una versión modernizada de 3 ojales que logra un atractivo estilizado sin romper sus líneas tradicionales. Este modelo se recomienda para personas con empeine alto.',
-            color: 'Maíz',
+            color: 'Natural',
+            tipoCuero: 'Cuero Vacuno',
+            codigo: '1100 3 ojales',
+            imagenPrincipal: "../assets/img/ready to wear/135 - 1.webp",
+            imagenes: ["../assets/img/ready to wear/135 - 1.webp", "../assets/img/ready to wear/135 - 2.webp", "../assets/img/ready to wear/135 - 3.webp", "../assets/img/ready to wear/126 - 15.webp"]
+        },
+        {
+            id: 'Derby-1100-Suela-3ojales',
+            titulo: 'Derby Mod. 1100',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un clásico liso de cordonera abierta. Una versión modernizada de 3 ojales que logra un atractivo estilizado sin romper sus líneas tradicionales. Este modelo se recomienda para personas con empeine alto.',
+            color: 'Suela',
             tipoCuero: 'Cuero Vacuno',
             codigo: '1100 3 ojales',
             imagenPrincipal: "../assets/img/ready to wear/132 - 9.webp",
@@ -200,6 +410,17 @@ document.addEventListener('DOMContentLoaded', function () {
             codigo: '1100 3 ojales',
             imagenPrincipal: "../assets/img/ready to wear/132 - 12.webp",
             imagenes: ["../assets/img/ready to wear/132 - 12.webp", "../assets/img/ready to wear/132 - 13.webp", "../assets/img/ready to wear/132 - 14.webp", "../assets/img/ready to wear/126 - 15.webp"]
+        },
+        {
+            id: 'Derby-1100-Marron-3ojales',
+            titulo: 'Derby Mod. 1100',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un clásico liso de cordonera abierta. Una versión modernizada de 3 ojales que logra un atractivo estilizado sin romper sus líneas tradicionales. Este modelo se recomienda para personas con empeine alto.',
+            color: 'Marrón',
+            tipoCuero: 'Cuero Vacuno',
+            codigo: '1100 3 ojales',
+            imagenPrincipal: "../assets/img/ready to wear/135 - 4.webp",
+            imagenes: ["../assets/img/ready to wear/135 - 4.webp", "../assets/img/ready to wear/135 - 5.webp", "../assets/img/ready to wear/135 - 6.webp", "../assets/img/ready to wear/126 - 15.webp"]
         },
         {
             id: 'Derby-1100-Tabaco-3ojales',
@@ -257,6 +478,28 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenes: ["../assets/img/ready to wear/131 - 12.webp", "../assets/img/ready to wear/131 - 13.webp", "../assets/img/ready to wear/131 - 14.webp", "../assets/img/ready to wear/131 - 7.webp"]
         },
         {
+            id: 'Swann-Tabaco',
+            titulo: 'Mod. Swann',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Este modelo se caracteriza por estar confeccionado a partir de una sola pieza de cuero, lo que le confiere un aspecto elegante y limpio, ya que no tiene costuras visibles en la parte superior del zapato. ',
+            color: 'Tabaco',
+            tipoCuero: 'Vacuno',
+            codigo: 'Swann',
+            imagenPrincipal: "../assets/img/ready to wear/139 - 4.webp",
+            imagenes: ["../assets/img/ready to wear/139 - 4.webp", "../assets/img/ready to wear/139 - 5.webp", "../assets/img/ready to wear/139 - 6.webp", "../assets/img/made by order/112 - 24.webp"]
+        },
+        {
+            id: 'Swann-Negro',
+            titulo: 'Mod. Swann',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Este modelo se caracteriza por estar confeccionado a partir de una sola pieza de cuero, lo que le confiere un aspecto elegante y limpio, ya que no tiene costuras visibles en la parte superior del zapato. ',
+            color: 'Negro',
+            tipoCuero: 'Vacuno',
+            codigo: 'Swann',
+            imagenPrincipal: "../assets/img/ready to wear/139 - 1.webp",
+            imagenes: ["../assets/img/ready to wear/139 - 1.webp", "../assets/img/ready to wear/139 - 2.webp", "../assets/img/ready to wear/139 - 3.webp", "../assets/img/made by order/112 - 24.webp"]
+        },
+        {
             id: 'Bota-Dandy-Diamante-Negro',
             titulo: 'Bota Inglesa Dandy',
             estilo: 'READY TO WEAR',
@@ -312,11 +555,11 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenes: ["../assets/img/ready to wear/130 - 41.webp", "../assets/img/ready to wear/130 - 42.webp", "../assets/img/ready to wear/130 - 43.webp", "../assets/img/ready to wear/130 - 44.webp"]
         },
         {
-            id: '2-Hebillas-Maiz',
+            id: '2-Hebillas-Suela',
             titulo: '2 Hebillas',
             estilo: 'READY TO WEAR',
             descripcion: 'Este es un modelo de estilo elegante que se distingue por sus dos hebillas en lugar de cordones (de las cuales una cuenta con un elástico), lo que le confiere una apariencia sofisticada y versátil, adecuada tanto para ocasiones formales como informales.',
-            color: 'Maíz',
+            color: 'Suela',
             tipoCuero: 'Cuero Vacuno',
             codigo: '2 Hebillas',
             imagenPrincipal: "../assets/img/ready to wear/130 - 45.webp",
@@ -343,17 +586,6 @@ document.addEventListener('DOMContentLoaded', function () {
             codigo: '2 Hebillas',
             imagenPrincipal: "../assets/img/ready to wear/130 - 54.webp",
             imagenes: ["../assets/img/ready to wear/130 - 54.webp", "../assets/img/ready to wear/130 - 55.webp", "../assets/img/ready to wear/130 - 56.webp", "../assets/img/ready to wear/130 - 44.webp"]
-        },
-        {
-            id: '2-Hebillas-Gamuza-Marron',
-            titulo: '2 Hebillas',
-            estilo: 'READY TO WEAR',
-            descripcion: 'Este es un modelo de estilo elegante que se distingue por sus dos hebillas en lugar de cordones (de las cuales una cuenta con un elástico), lo que le confiere una apariencia sofisticada y versátil, adecuada tanto para ocasiones formales como informales.',
-            color: 'Marrón',
-            tipoCuero: 'Gamuza',
-            codigo: '2 Hebillas',
-            imagenPrincipal: "../assets/img/ready to wear/130 - 51.webp",
-            imagenes: ["../assets/img/ready to wear/130 - 51.webp", "../assets/img/ready to wear/130 - 52.webp", "../assets/img/ready to wear/133 - 15.webp", "../assets/img/ready to wear/130 - 44.webp"]
         },
         {
             id: 'Borcego-Corto',
@@ -466,6 +698,17 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenes: ["../assets/img/ready to wear/117 - 23.webp", "../assets/img/ready to wear/117 - 24.webp", "../assets/img/ready to wear/117 - 25.webp", "../assets/img/ready to wear/117 - 26.webp"]
         },
         {
+            id: 'Slippers-123-Gamuza-Violeta',
+            titulo: 'Escarpín Slipper Mod. 123',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Mocasín fresco, liviano y flexible ideal para las temporadas primavera/verano.',
+            color: 'Violeta',
+            tipoCuero: 'Gamuza',
+            codigo: 'Slipper 123',
+            imagenPrincipal: "../assets/img/ready to wear/142 - 27.webp",
+            imagenes: ["../assets/img/ready to wear/142 - 27.webp", "../assets/img/ready to wear/142 - 28.webp", "../assets/img/ready to wear/142 - 29.webp", "../assets/img/ready to wear/142 - 30.webp"]
+        },
+        {
             id: 'Slippers-123-Gamuza-Verde-Musgo',
             titulo: 'Escarpín Slipper Mod. 123',
             estilo: 'READY TO WEAR',
@@ -475,6 +718,28 @@ document.addEventListener('DOMContentLoaded', function () {
             codigo: 'Slipper 123',
             imagenPrincipal: "../assets/img/ready to wear/126 - 8.webp",
             imagenes: ["../assets/img/ready to wear/126 - 8.webp", "../assets/img/ready to wear/126 - 9.webp", "../assets/img/ready to wear/126 - 10.webp", "../assets/img/ready to wear/126 - 11.webp"]
+        },     
+        {
+            id: 'Mocasin-Mengueche',
+            titulo: 'Mocasín Mengueche',
+            estilo: 'READY TO WEAR',
+            descripcion: 'El mocasín más fresco y liviano de nuestro catálogo. Su costura frontal, al no ser sellada, proporciona mayor ventilación, convirtiéndolo en el mocasín ideal para los días de calor.',
+            color: 'Marrón',
+            tipoCuero: 'Cuero vacuno',
+            codigo: 'Mengueche',
+            imagenPrincipal: "../assets/img/ready to wear/141 - 21.webp",
+            imagenes: ["../assets/img/ready to wear/141 - 21.webp", "../assets/img/ready to wear/141 - 22.webp", "../assets/img/ready to wear/141 - 23.webp", "../assets/img/ready to wear/119 - 20.webp"]
+        },   
+        {
+            id: 'Mocasin-Archibaldo-Marron',
+            titulo: 'Mocasín Archibaldo 226',
+            estilo: 'READY TO WEAR',
+            descripcion: 'El mocasín más fresco y liviano de nuestro catálogo. Su costura frontal, al no ser sellada, proporciona mayor ventilación, convirtiéndolo en el mocasín ideal para los días de calor.',
+            color: 'Marrón',
+            tipoCuero: 'Cuero vacuno',
+            codigo: '226',
+            imagenPrincipal: "../assets/img/ready to wear/141 - 15.webp",
+            imagenes: ["../assets/img/ready to wear/141 - 15.webp", "../assets/img/ready to wear/141 - 16.webp", "../assets/img/ready to wear/141 - 17.webp", "../assets/img/ready to wear/119 - 20.webp"]
         },
         {
             id: 'Mocasin-Archibaldo-Azul',
@@ -521,6 +786,17 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenes: ["../assets/img/ready to wear/130 - 29.webp", "../assets/img/ready to wear/130 - 30.webp"]
         },
         {
+            id: 'Mocasin-Archibaldo-Carpincho',
+            titulo: 'Mocasín Archibaldo 226',
+            estilo: 'READY TO WEAR',
+            descripcion: 'El mocasín más fresco y liviano de nuestro catálogo. Su costura frontal, al no ser sellada, proporciona mayor ventilación, convirtiéndolo en el mocasín ideal para los días de calor.',
+            color: 'Marrón',
+            tipoCuero: 'Carpincho',
+            codigo: '226',
+            imagenPrincipal: "../assets/img/ready to wear/141 - 18.webp",
+            imagenes: ["../assets/img/ready to wear/141 - 18.webp", "../assets/img/ready to wear/141 - 19.webp", "../assets/img/ready to wear/141 - 20.webp", "../assets/img/ready to wear/119 - 20.webp"]
+        },
+        {
             id: 'Mocasin-Archibaldo-Marron-Cocodrilo',
             titulo: 'Mocasín Archibaldo 226',
             estilo: 'READY TO WEAR',
@@ -541,6 +817,83 @@ document.addEventListener('DOMContentLoaded', function () {
             codigo: 'Mocasín Industry',
             imagenPrincipal: "../assets/img/ready to wear/123 - 32.webp",
             imagenes: ["../assets/img/ready to wear/123 - 32.webp", "../assets/img/ready to wear/123 - 33.webp", "../assets/img/ready to wear/123 - 34.webp", "../assets/img/ready to wear/123 - 35.webp"]
+        },
+        {
+            id: 'Oxford-Wingtips',
+            titulo: 'Oxford Mod. 1122',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'Un zapato sencillo y elegante gracias a su aspecto liso y sin picar. Su combinación de colores le otorgan mucha presencia. ',
+            color: 'Marrón - Maíz',
+            tipoCuero: 'Cuero vacuno',
+            codigo: '1122 Liso',
+            imagenPrincipal: "../assets/img/made by order/112 - 25.webp",
+            imagenes: ["../assets/img/made by order/112 - 25.webp", "../assets/img/made by order/112 - 26.webp", "../assets/img/made by order/112 - 27.webp", "../assets/img/made by order/112 - 28.webp"]
+        },
+        {
+            id: 'Oxford-1122-Negro-Marron',
+            titulo: 'Oxford Mod. 1122',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
+            color: 'Negro - Marrón',
+            tipoCuero: 'Cuero vacuno combinado',
+            codigo: '1122',
+            imagenPrincipal: "../assets/img/made by order/114 - 4.webp",
+            imagenes: ["../assets/img/made by order/114 - 4.webp", "../assets/img/made by order/114 - 5.webp", "../assets/img/made by order/114 - 6.webp", "../assets/img/made by order/114 - 7.webp"]
+        },
+        {
+            id: 'Oxford-1122-Azul-Maiz',
+            titulo: 'Oxford Mod. 1122',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
+            color: 'Azul - Maíz',
+            tipoCuero: 'Combinado de Cuero Vacuno y Cabretilla',
+            codigo: '1122',
+            imagenPrincipal: "../assets/img/made by order/142 - 18.webp",
+            imagenes: ["../assets/img/made by order/142 - 18.webp", "../assets/img/made by order/142 - 19.webp", "../assets/img/made by order/142 - 20.webp", "../assets/img/made by order/114 - 7.webp"]
+        },
+        {
+            id: 'Oxford-1122-Negro-Rojo',
+            titulo: 'Oxford Mod. 1122',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
+            color: 'Negro - Rojo',
+            tipoCuero: 'Combinado de Cuero Vacuno y Cabretilla',
+            codigo: '1122',
+            imagenPrincipal: "../assets/img/made by order/114 - 15.webp",
+            imagenes: ["../assets/img/made by order/114 - 15.webp", "../assets/img/made by order/114 - 16.webp", "../assets/img/made by order/114 - 17.webp", "../assets/img/made by order/114 - 18.webp"]
+        },
+        {
+            id: 'Oxford-1122-Suela-Gamuza-Marron',
+            titulo: 'Oxford Mod. 1122',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
+            color: 'Suela - Marrón',
+            tipoCuero: 'Combinado de Cuero Vacuno y Gamuza',
+            codigo: '1122',
+            imagenPrincipal: "../assets/img/made by order/142 - 31.webp",
+            imagenes: ["../assets/img/made by order/142 - 31.webp", "../assets/img/made by order/142 - 32.webp", "../assets/img/made by order/142 - 33.webp", "../assets/img/made by order/114 - 18.webp"]
+        },
+        {
+            id: 'Oxford-1122-Guinda-2-tonos',
+            titulo: 'Oxford Mod. 1122',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
+            color: 'Guinda (Claro y Oscuro)',
+            tipoCuero: 'Cuero vacuno',
+            codigo: '1122',
+            imagenPrincipal: "../assets/img/made by order/142 - 15.webp",
+            imagenes: ["../assets/img/made by order/142 - 15.webp", "../assets/img/made by order/142 - 16.webp", "../assets/img/made by order/142 - 17.webp", "../assets/img/made by order/114 - 18.webp"]
+        },
+        {
+            id: 'Oxford-1103-Marron-Verde',
+            titulo: 'Oxford Mod. 1103',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
+            color: 'Marrón - Verde',
+            tipoCuero: 'Combinado de Anca de Potro, Gamuza y Cuero Vacuno',
+            codigo: '1103',
+            imagenPrincipal: "../assets/img/made by order/137 - 16.webp",
+            imagenes: ["../assets/img/made by order/137 - 16.webp", "../assets/img/made by order/137 - 17.webp", "../assets/img/made by order/137 - 18.webp", "../assets/img/made by order/137 - 19.webp"]
         },
         {
             id: 'Swann-Maiz',
@@ -574,6 +927,17 @@ document.addEventListener('DOMContentLoaded', function () {
             codigo: 'Swann',
             imagenPrincipal: "../assets/img/made by order/112 - 13.webp",
             imagenes: ["../assets/img/made by order/112 - 13.webp", "../assets/img/made by order/112 - 14.webp", "../assets/img/made by order/112 - 15.webp", "../assets/img/made by order/112 - 16.webp"]
+        },
+        {
+            id: '2-Hebillas-Gamuza-Marron',
+            titulo: '2 Hebillas',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'Este es un modelo de estilo elegante que se distingue por sus dos hebillas en lugar de cordones (de las cuales una cuenta con un elástico), lo que le confiere una apariencia sofisticada y versátil, adecuada tanto para ocasiones formales como informales.',
+            color: 'Marrón',
+            tipoCuero: 'Gamuza',
+            codigo: '2 Hebillas',
+            imagenPrincipal: "../assets/img/ready to wear/130 - 51.webp",
+            imagenes: ["../assets/img/ready to wear/130 - 51.webp", "../assets/img/ready to wear/130 - 52.webp", "../assets/img/ready to wear/133 - 15.webp", "../assets/img/ready to wear/130 - 44.webp"]
         },
         {
             id: 'Bota-Alpina-1101-Negro',
@@ -611,7 +975,7 @@ document.addEventListener('DOMContentLoaded', function () {
         {
             id: 'Bota-Chelsea-Negro',
             titulo: 'Bota Chelsea',
-            estilo: 'MADE TO ORDER',
+            estilo: 'READY TO WEAR',
             descripcion: 'Un calzado versátil, adecuado tanto para ocasiones casuales como formales. Es fácil de combinar con una amplia gama de atuendos, desde jeans hasta trajes elegantes. Su diseño sin cordones y elástico la hacen cómoda y conveniente para el uso diario.',
             color: 'Negro',
             tipoCuero: 'Cuero Vacuno',
@@ -622,7 +986,7 @@ document.addEventListener('DOMContentLoaded', function () {
         {
             id: 'Bota-Chelsea-Marron',
             titulo: 'Bota Chelsea',
-            estilo: 'MADE TO ORDER',
+            estilo: 'READY TO WEAR',
             descripcion: 'Un calzado versátil, adecuado tanto para ocasiones casuales como formales. Es fácil de combinar con una amplia gama de atuendos, desde jeans hasta trajes elegantes. Su diseño sin cordones y elástico la hacen cómoda y conveniente para el uso diario.',
             color: 'Marrón',
             tipoCuero: 'Cuero Vacuno',
@@ -697,17 +1061,6 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenes: ["../assets/img/made by order/133 - 16.webp", "../assets/img/made by order/133 - 17.webp", "../assets/img/made by order/133 - 18.webp", "../assets/img/made by order/113 - 27.webp"]
         },
         {
-            id: 'Oxford-Wingtips',
-            titulo: 'Oxford Mod. 1122',
-            estilo: 'MADE TO ORDER',
-            descripcion: 'Un zapato sencillo y elegante gracias a su aspecto liso y sin picar. Su combinación de colores le otorgan mucha presencia. ',
-            color: 'Marrón - Maíz',
-            tipoCuero: 'Cuero vacuno',
-            codigo: '1122 Liso',
-            imagenPrincipal: "../assets/img/made by order/112 - 25.webp",
-            imagenes: ["../assets/img/made by order/112 - 25.webp", "../assets/img/made by order/112 - 26.webp", "../assets/img/made by order/112 - 27.webp", "../assets/img/made by order/112 - 28.webp"]
-        },
-        {
             id: 'Derby-Split-Toes',
             titulo: 'Derby Mod. 1115',
             estilo: 'MADE TO ORDER',
@@ -728,6 +1081,105 @@ document.addEventListener('DOMContentLoaded', function () {
             codigo: '123 con Costurín y Vincha',
             imagenPrincipal: "../assets/img/made by order/112 - 29.webp",
             imagenes: ["../assets/img/made by order/112 - 29.webp", "../assets/img/made by order/112 - 30.webp", "../assets/img/made by order/112 - 31.webp", "../assets/img/made by order/112 - 32.webp"]
+        },
+        {
+            id: 'Escarpin-123-Negro-Blanco',
+            titulo: 'Escarpin Mod. 123',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'El mocasín escarpín es una fusión entre un mocasín y un zapato de vestir, con una suela más delgada y detalles de costura en la parte delantera. Este modelo cuenta con campanillas.',
+            color: 'Negro - Blanco',
+            tipoCuero: 'Cuero vacuno',
+            codigo: '123 Liguria',
+            imagenPrincipal: "../assets/img/made by order/142 - 37.webp",
+            imagenes: ["../assets/img/made by order/142 - 37.webp", "../assets/img/made by order/142 - 38.webp", "../assets/img/made by order/142 - 39.webp", "../assets/img/made by order/119 - 28.webp"]
+        },
+        {
+            id: 'Escarpin-123-Guinda-Blanco',
+            titulo: 'Escarpin Mod. 123',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'El mocasín escarpín es una fusión entre un mocasín y un zapato de vestir, con una suela más delgada y detalles de costura en la parte delantera. Este modelo cuenta con campanillas.',
+            color: 'Guinda - Blanco',
+            tipoCuero: 'Cuero vacuno',
+            codigo: '123 Liguria',
+            imagenPrincipal: "../assets/img/made by order/141 - 6.webp",
+            imagenes: ["../assets/img/made by order/141 - 6.webp", "../assets/img/made by order/141 - 7.webp", "../assets/img/made by order/141 - 8.webp", "../assets/img/made by order/119 - 28.webp"]
+        },
+        {
+            id: 'Escarpin-123-Natural',
+            titulo: 'Escarpin Mod. 123',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'El mocasín escarpín es una fusión entre un mocasín y un zapato de vestir, con una suela más delgada y detalles de costura en la parte delantera.',
+            color: 'Natural',
+            tipoCuero: 'Cuero vacuno',
+            codigo: '123 con Costurín Recto y Vincha',
+            imagenPrincipal: "../assets/img/made by order/141 - 9.webp",
+            imagenes: ["../assets/img/made by order/141 - 9.webp", "../assets/img/made by order/141 - 10.webp", "../assets/img/made by order/141 - 11.webp", "../assets/img/made by order/119 - 28.webp"]
+        },
+        {
+            id: 'Escarpin-123-Verde',
+            titulo: 'Escarpin Mod. 123',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'El mocasín escarpín es una fusión entre un mocasín y un zapato de vestir, con una suela más delgada y detalles de costura en la parte delantera.',
+            color: 'Verde',
+            tipoCuero: 'Cuero vacuno',
+            codigo: '123 con Costurín Recto y Vincha',
+            imagenPrincipal: "../assets/img/made by order/142 - 34.webp",
+            imagenes: ["../assets/img/made by order/142 - 34.webp", "../assets/img/made by order/142 - 35.webp", "../assets/img/made by order/142 - 36.webp", "../assets/img/made by order/119 - 28.webp"]
+        },
+        {
+            id: 'Escarpin-123-Gamuza-Arena',
+            titulo: 'Escarpin Mod. 123',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'El mocasín escarpín es una fusión entre un mocasín y un zapato de vestir, con una suela más delgada y detalles de costura en la parte delantera.',
+            color: 'Arena',
+            tipoCuero: 'Gamuza',
+            codigo: '123 con Costurín Recto y Vincha',
+            imagenPrincipal: "../assets/img/made by order/142 - 6.webp",
+            imagenes: ["../assets/img/made by order/142 - 6.webp", "../assets/img/made by order/142 - 7.webp", "../assets/img/made by order/142 - 8.webp", "../assets/img/made by order/119 - 28.webp"]
+        },
+        {
+            id: 'Escarpin-123-Gamuza-Azul',
+            titulo: 'Escarpin Mod. 123',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'El mocasín escarpín es una fusión entre un mocasín y un zapato de vestir, con una suela más delgada y detalles de costura en la parte delantera.',
+            color: 'Azul',
+            tipoCuero: 'Gamuza',
+            codigo: '123 con Costurín Recto y Vincha',
+            imagenPrincipal: "../assets/img/made by order/142 - 9.webp",
+            imagenes: ["../assets/img/made by order/142 - 9.webp", "../assets/img/made by order/142 - 10.webp", "../assets/img/made by order/142 - 11.webp", "../assets/img/made by order/119 - 28.webp"]
+        },
+        {
+            id: 'Escarpin-MP-Gamuza-Arena',
+            titulo: 'Escarpin MP',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'El mocasín escarpín es una fusión entre un mocasín y un zapato de vestir, con una suela más delgada y detalles de costura en la parte delantera. Este modelo cuenta con campanillas.',
+            color: 'Arena',
+            tipoCuero: 'Gamuza',
+            codigo: 'MP con Costurín Recto y Campanillas',
+            imagenPrincipal: "../assets/img/made by order/141 - 24.webp",
+            imagenes: ["../assets/img/made by order/141 - 24.webp", "../assets/img/made by order/141 - 25.webp", "../assets/img/made by order/141 - 26.webp", "../assets/img/made by order/119 - 28.webp"]
+        },
+        {
+            id: 'Escarpin-MP-Gamuza-Marron',
+            titulo: 'Escarpin MP',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'El mocasín escarpín es una fusión entre un mocasín y un zapato de vestir, con una suela más delgada y detalles de costura en la parte delantera. Este modelo cuenta con campanillas.',
+            color: 'Marrón',
+            tipoCuero: 'Gamuza',
+            codigo: 'MP con Costurín Recto y Campanillas',
+            imagenPrincipal: "../assets/img/made by order/141 - 27.webp",
+            imagenes: ["../assets/img/made by order/141 - 27.webp", "../assets/img/made by order/141 - 28.webp", "../assets/img/made by order/141 - 29.webp", "../assets/img/made by order/119 - 28.webp"]
+        },
+        {
+            id: 'Escarpin-MP-Gamuza-Azul',
+            titulo: 'Escarpin MP',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'El mocasín escarpín es una fusión entre un mocasín y un zapato de vestir, con una suela más delgada y detalles de costura en la parte delantera. Este modelo cuenta con campanillas.',
+            color: 'Azul',
+            tipoCuero: 'Gamuza',
+            codigo: 'MP con Costurín y Campanillas',
+            imagenPrincipal: "../assets/img/made by order/141 - 12.webp",
+            imagenes: ["../assets/img/made by order/141 - 12.webp", "../assets/img/made by order/141 - 13.webp", "../assets/img/made by order/141 - 14.webp", "../assets/img/made by order/119 - 28.webp"]
         },
         {
             id: 'Escarpin-MP-Verde',
@@ -807,11 +1259,11 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenes: ["../assets/img/made by order/130 - 5.webp", "../assets/img/made by order/130 - 6.webp", "../assets/img/made by order/130 - 7.webp", "../assets/img/made by order/130 - 8.webp"]
         },
         {
-            id: 'Borcego-Texano-Bufalo-Maiz',
+            id: 'Borcego-Texano-Bufalo-Suela',
             titulo: 'Borcego Texano',
             estilo: 'MADE TO ORDER',
             descripcion: 'Un borcego rígido y robusto. Su construcción incorpora bases de Goma Rural FEBO. Unas botas ideales para el uso urbano y aptas para caminos rurales.',
-            color: 'Maíz',
+            color: 'Suela',
             tipoCuero: 'Búfalo',
             codigo: 'Borcego Texano',
             imagenPrincipal: "../assets/img/made by order/130 - 9.webp",
@@ -862,6 +1314,17 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenes: ["../assets/img/bespoke/112 - 1.webp", "../assets/img/bespoke/112 - 2.webp", "../assets/img/bespoke/112 - 3.webp", "../assets/img/bespoke/112 - 4.webp"]
         },
         {
+            id: 'Oxford-1122-Museum',
+            titulo: 'Oxford Mod. 1122',
+            estilo: 'BESPOKE',
+            descripcion: 'Este modelo es una versión exclusiva de realización a medida. Puede existir el mismo modelo o similar en versiones estándar. Este modelo puede ser customizado a gusto del cliente.',
+            color: 'Pátina Museum',
+            tipoCuero: 'Cuero vacuno',
+            codigo: '1122 Bespoke',
+            imagenPrincipal: "../assets/img/bespoke/142 - 24.webp",
+            imagenes: ["../assets/img/bespoke/142 - 24.webp", "../assets/img/bespoke/142 - 25.webp", "../assets/img/bespoke/142 - 26.webp", "../assets/img/bespoke/142 - 27.webp"]
+        },
+        {
             id: 'Oxford-1122-Bespoke-Gamuza-Verde',
             titulo: 'Oxford Mod. 1122',
             estilo: 'BESPOKE',
@@ -869,8 +1332,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Verde Inglés',
             tipoCuero: 'Gamuza',
             codigo: '1122 Bespoke',
-            imagenPrincipal: "../assets/img/bespoke/112 - 17.webp",
-            imagenes: ["../assets/img/bespoke/112 - 17.webp", "../assets/img/bespoke/112 - 18.webp", "../assets/img/bespoke/112 - 19.webp", "../assets/img/bespoke/112 - 20.webp"]
+            imagenPrincipal: "../assets/img/bespoke/139 - 7.webp",
+            imagenes: ["../assets/img/bespoke/139 - 7.webp", "../assets/img/bespoke/112 - 18.webp", "../assets/img/bespoke/112 - 19.webp", "../assets/img/bespoke/112 - 20.webp"]
         },
         {
             id: 'Oxford-1108-Bespoke-Marron',
@@ -882,6 +1345,17 @@ document.addEventListener('DOMContentLoaded', function () {
             codigo: '1108 Bespoke',
             imagenPrincipal: "../assets/img/bespoke/112 - 5.webp",
             imagenes: ["../assets/img/bespoke/112 - 5.webp", "../assets/img/bespoke/112 - 6.webp", "../assets/img/bespoke/112 - 7.webp", "../assets/img/bespoke/112 - 8.webp"]
+        },
+        {
+            id: 'Oxford-1103-Bespoke-Negro',
+            titulo: 'Oxford Mod. 1103',
+            estilo: 'BESPOKE',
+            descripcion: 'Este modelo es una versión exclusiva de realización a medida. Puede existir el mismo modelo o similar en versiones estándar. Este modelo puede ser customizado a gusto del cliente.',
+            color: 'Negro',
+            tipoCuero: 'Cuero vacuno',
+            codigo: '1103 Bespoke',
+            imagenPrincipal: "../assets/img/bespoke/140 - 31.webp",
+            imagenes: ["../assets/img/bespoke/140 - 31.webp", "../assets/img/bespoke/140 - 32.webp", "../assets/img/bespoke/140 - 33.webp", "../assets/img/bespoke/140 - 34.webp"]
         },
         {
             id: 'Derby-1116-Maiz',
@@ -1036,7 +1510,147 @@ document.addEventListener('DOMContentLoaded', function () {
             codigo: "Swann Bespoke",
             imagenPrincipal: "../assets/img/bespoke/117 - 6.webp",
             imagenes: ["../assets/img/bespoke/117 - 6.webp", "../assets/img/bespoke/117 - 7.webp", "../assets/img/bespoke/117 - 8.webp", "../assets/img/bespoke/117 - 9.webp"]
-        }
+        },
+        {
+            id: 'Cinturon-Rustico-Maiz',
+            titulo: 'Cinturón Rústico',
+            estilo: 'ACCESORIOS',
+            descripcion: 'Este modelo es un cinturón de estilo rústico Se caracteriza por su textura más áspera y su ancho de 5,5 centímetros.',
+            color: 'Maíz',
+            tipoCuero: 'Vacuno',
+            codigo: "Cinturón Rústico",
+            imagenPrincipal: "../assets/img/cinturones/140 - 38.webp",
+        },
+        {
+            id: 'Cinturon-Rustico-Marron-Oscuro',
+            titulo: 'Cinturón Rústico',
+            estilo: 'ACCESORIOS',
+            descripcion: 'Este modelo es un cinturón de estilo rústico Se caracteriza por su textura más áspera y su ancho de 5,5 centímetros.',
+            color: 'Marrón Oscuro',
+            tipoCuero: 'Vacuno',
+            codigo: "Cinturón Rústico",
+            imagenPrincipal: "../assets/img/cinturones/140 - 46.webp",
+        },
+        {
+            id: 'Cinturon-Rustico-Blanco',
+            titulo: 'Cinturón Rústico',
+            estilo: 'ACCESORIOS',
+            descripcion: 'Este modelo es un cinturón de estilo rústico Se caracteriza por su textura más áspera y su ancho de 5,5 centímetros.',
+            color: 'Blanco',
+            tipoCuero: 'Vacuno',
+            codigo: "Cinturón Rústico",
+            imagenPrincipal: "../assets/img/cinturones/141 - 5.webp",
+        },
+        {
+            id: 'Cinturon-Clasico-Guinda',
+            titulo: 'Cinturón Clásico',
+            estilo: 'ACCESORIOS',
+            descripcion: 'Este modelo es un cinturón de estilo clásico que cuenta con una hebilla plateada y un ancho de 5 centímetros.',
+            color: 'Guinda',
+            tipoCuero: 'Vacuno',
+            codigo: "Cinturón Clásico",
+            imagenPrincipal: "../assets/img/cinturones/140 - 39.webp",
+        },
+        {
+            id: 'Cinturon-Clasico-Maiz',
+            titulo: 'Cinturón Clásico',
+            estilo: 'ACCESORIOS',
+            descripcion: 'Este modelo es un cinturón de estilo clásico que cuenta con una hebilla plateada y un ancho de 5 centímetros.',
+            color: 'Maíz',
+            tipoCuero: 'Vacuno',
+            codigo: "Cinturón Clásico",
+            imagenPrincipal: "../assets/img/cinturones/140 - 41.webp",
+        },
+        {
+            id: 'Cinturon-Clasico-Graneado-Marron',
+            titulo: 'Cinturón Clásico',
+            estilo: 'ACCESORIOS',
+            descripcion: 'Este modelo es un cinturón de estilo clásico que cuenta con una hebilla plateada y un ancho de 5 centímetros.',
+            color: 'Marrón',
+            tipoCuero: 'Vacuno Graneado',
+            codigo: "Cinturón Clásico",
+            imagenPrincipal: "../assets/img/cinturones/140 - 42.webp",
+        },
+        {
+            id: 'Cinturon-Clasico-Rojo',
+            titulo: 'Cinturón Clásico',
+            estilo: 'ACCESORIOS',
+            descripcion: 'Este modelo es un cinturón de estilo clásico que cuenta con una hebilla plateada y un ancho de 5 centímetros.',
+            color: 'Rojo',
+            tipoCuero: 'Vacuno',
+            codigo: "Cinturón Clásico",
+            imagenPrincipal: "../assets/img/cinturones/140 - 43.webp",
+        },
+        {
+            id: 'Cinturon-Clasico-Negro',
+            titulo: 'Cinturón Clásico',
+            estilo: 'ACCESORIOS',
+            descripcion: 'Este modelo es un cinturón de estilo clásico que cuenta con una hebilla plateada y un ancho de 5 centímetros.',
+            color: 'Negro',
+            tipoCuero: 'Vacuno',
+            codigo: "Cinturón Clásico",
+            imagenPrincipal: "../assets/img/cinturones/140 - 44.webp",
+        },
+        {
+            id: 'Cinturon-Clasico-Verde',
+            titulo: 'Cinturón Clásico',
+            estilo: 'ACCESORIOS',
+            descripcion: 'Este modelo es un cinturón de estilo clásico que cuenta con una hebilla plateada y un ancho de 5 centímetros.',
+            color: 'Verde',
+            tipoCuero: 'Vacuno',
+            codigo: "Cinturón Clásico",
+            imagenPrincipal: "../assets/img/cinturones/140 - 45.webp",
+        },
+        {
+            id: 'Cinturon-Clasico-Azul',
+            titulo: 'Cinturón Clásico',
+            estilo: 'ACCESORIOS',
+            descripcion: 'Este modelo es un cinturón de estilo clásico que cuenta con una hebilla plateada y un ancho de 5 centímetros.',
+            color: 'Azul',
+            tipoCuero: 'Vacuno',
+            codigo: "Cinturón Clásico",
+            imagenPrincipal: "../assets/img/cinturones/140 - 47.webp",
+        },
+        {
+            id: 'Cinturon-Clasico-Gamuza-Marron',
+            titulo: 'Cinturón Clásico',
+            estilo: 'ACCESORIOS',
+            descripcion: 'Este modelo es un cinturón de estilo clásico que cuenta con una hebilla plateada y un ancho de 5 centímetros.',
+            color: 'Marrón',
+            tipoCuero: 'Gamuza',
+            codigo: "Cinturón Clásico",
+            imagenPrincipal: "../assets/img/cinturones/141 - 2.webp",
+        },
+        {
+            id: 'Cinturon-Clasico-Gamuza-Rojo',
+            titulo: 'Cinturón Clásico',
+            estilo: 'ACCESORIOS',
+            descripcion: 'Este modelo es un cinturón de estilo clásico que cuenta con una hebilla plateada y un ancho de 5 centímetros.',
+            color: 'Rojo',
+            tipoCuero: 'Gamuza',
+            codigo: "Cinturón Clásico",
+            imagenPrincipal: "../assets/img/cinturones/140 - 40.webp",
+        },
+        {
+            id: 'Cinturon-Clasico-Gamuza-Azul',
+            titulo: 'Cinturón Clásico',
+            estilo: 'ACCESORIOS',
+            descripcion: 'Este modelo es un cinturón de estilo clásico que cuenta con una hebilla plateada y un ancho de 5 centímetros.',
+            color: 'Azul',
+            tipoCuero: 'Gamuza',
+            codigo: "Cinturón Clásico",
+            imagenPrincipal: "../assets/img/cinturones/141 - 1.webp",
+        },
+        {
+            id: 'Cinturon-Clasico-Gamuza-Amarillo',
+            titulo: 'Cinturón Clásico',
+            estilo: 'ACCESORIOS',
+            descripcion: 'Este modelo es un cinturón de estilo clásico que cuenta con una hebilla plateada y un ancho de 5 centímetros.',
+            color: 'Amarillo',
+            tipoCuero: 'Gamuza',
+            codigo: "Cinturón Clásico",
+            imagenPrincipal: "../assets/img/cinturones/141 - 4.webp",
+        },
     ];
 
     const producto = productos.find(p => p.id === productoID);

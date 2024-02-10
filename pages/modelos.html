@@ -16,7 +16,7 @@
             <div class="background-header">
                 <div class="nav-logo">
                     <button id="abrir" class="open-menu"><i class="bi bi-list"></i></button>
-                    <a id="redireccion" href="#top"><img class="logo" src="../assets/img/logo correa index.png" alt="Logotipo de Calzados Correa"></a>
+                    <a id="redireccion" href="#" onclick="scrollToTop()"><img class="logo" src="../assets/img/logo correa index.png" alt="Logotipo de Calzados Correa"></a>
                 </div>
                 <nav class="navigation" id="nav">
                     <button id="cerrar" class="close-menu"><i class="bi bi-x-lg"></i></button>
@@ -45,13 +45,14 @@
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
                 </div>
                 <div class="carousel-inner carousel-modelos">
                   <a href="../pages/ready to wear.html" class="carousel-item active">
                     <img src="../assets/img/ready to wear car.webp" class="d-block w-100 img-carousel" alt="...">
                     <div class="carousel-caption">
                       <h4 class="model-titles_car">Ready to Wear</h4>
-                      <h5 class="model-subtitles_car">(Modelos Listos para usar)</h5>
+                      <h5 class="model-subtitles_car">(Listos para usar)</h5>
                     </div>
                   </a>
                   <a href="../pages/made by order.html" class="carousel-item">
@@ -68,6 +69,13 @@
                       <h5 class="model-subtitles_car">(Exclusivos de medida)</h5>
                     </div>
                   </a>
+                  <a href="../pages/cinturones.html" class="carousel-item">
+                    <img src="../assets/img/cinturones car.webp" class="d-block w-100 img-carousel" alt="...">
+                    <div class="carousel-caption">
+                      <h4 class="model-titles_car">Cinturones</h4>
+                      <h5 class="model-subtitles_car">(Modelos exclusivos)</h5>
+                    </div>
+                  </a>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -78,7 +86,6 @@
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
-
               <section class="contenedor-tipo_modelos fade-section">
                 <a href="./ready to wear.html" class="model">
                     <img class="img-modeltype" src="../assets/img/Ready to Wear.webp" alt="modelo ready to wear">
@@ -95,10 +102,17 @@
                     </div>
                 </a>
                 <a href="./bespoke.html" class="model">
-                    <img class="img-modeltype" src="../assets/img/Bespoke.webp" alt="modelo">
+                    <img class="img-modeltype" src="../assets/img/Bespoke.webp" alt="modelo bespoke">
                     <div class="div-model_type_texts">
                         <h4 class="model-type_titles">Modelos Bespoke</h4>
                         <h5 class="model-type_subtitles">(Exclusivos de medida)</h5>    
+                    </div>
+                </a>
+                <a href="./cinturones.html" class="model">
+                    <img class="img-modeltype" src="../assets/img/cinturones.webp" alt="modelos de cinturones">
+                    <div class="div-model_type_texts">
+                        <h4 class="model-type_titles">Cinturones</h4>
+                        <h5 class="model-type_subtitles">(Modelos exclusivos)</h5>    
                     </div>
                 </a>
             </section>
@@ -147,7 +161,7 @@
                 <div class="vertical-hr">
                 </div>
                 <div class="col">
-                    <h3>INFO CONTACTO</h3>
+                    <h3>CONTACTO</h3>
                         <div class="row">
                             <div class="col footer-content">
                                 <p class="p-footerinfo">Dirección: Mario Bravo 750</p>
@@ -165,6 +179,7 @@
                <p class="derechos-reservados"> © COPYRIGHT 2023 CALZADOS CORREA / WEB CUSTOM & PHOTO PRODUCTION DESIGN BY JAIR ANSOURIAN</p>
             </div>
           </footer>
+          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
           <script src="../js/bootstrap.min.js"></script>
           <script src="../js/main.js"></script>
     </body>

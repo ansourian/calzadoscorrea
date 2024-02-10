@@ -128,8 +128,28 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-    background-color: rgb(12 14 26 / 93%);
-    border-width: 0 0 3px;
-    border-style: solid;
+    background-color: rgb(0 0 0 / 80%);
     border-color: black;
+    border-radius: 10px;
+    position: absolute;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 2vw;
+    left:35vw;
+    right:35vw;
+}
+
+.contenedor-card_models{
+    margin: 2vw 0vw 0vw;
+    padding: 0vw 0 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ffffff;
+    border: 0;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgba(255, 255, 255, 0);
+    color: #47629e;
 }

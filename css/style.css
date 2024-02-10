@@ -125,8 +125,8 @@ ul {
 }
 
 .img-modeltype {
-  width: 21vw;
-  height: 15vw;
+  width: 16vw;
+  height: 9vw;
   margin: 1rem;
   transition: 0.5s;
   filter: brightness(100%) grayscale(0%);
@@ -135,8 +135,8 @@ ul {
   filter: brightness(0.7);
 }
 .img-modeltype:hover {
-  width: 21vw;
-  height: 15vw;
+  width: 16vw;
+  height: 9vw;
   transition: 0.5s;
   filter: brightness(70%) grayscale(100%);
 }
@@ -146,6 +146,7 @@ ul {
   flex-direction: column;
   align-items: center;
   margin: 2vw 0 0 0;
+  cursor: pointer;
 }
 
 .img-model {
@@ -382,6 +383,13 @@ p {
   margin: none;
 }
 
+.p-filters {
+  font-size: 1vw;
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+  color: #464646;
+}
+
 .div-section {
   display: flex;
   flex-direction: column;
@@ -554,12 +562,43 @@ a:visited {
   display: flex;
   width: 50vw;
   padding: 10px;
-  border: 3px solid #1F2337;
+  border: 1px solid #1F2337;
   border-radius: 5px;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
+  margin: 1vw auto;
   font-family: "Outfit", sans-serif;
+}
+
+.button-card_models {
+  padding: 0.5vw 3vw;
+  border-radius: 0.5vw;
+  background-color: rgba(28, 31, 49, 0.9254901961);
+  border: none;
+}
+
+.acordion-filters {
+  margin: 0 24vw;
+  border: none;
+}
+
+.accordion-button {
+  background-color: #e9e9e9 !important;
+  border-radius: 7px !important;
+  border: 2px solid !important;
+}
+.accordion-button:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #2d303d !important;
+}
+
+button:focus:not(:focus-visible) {
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 .form-style {
@@ -676,7 +715,13 @@ hr {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 7vw;
+  margin: 4vw;
+}
+
+.div-acordion_filters {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .container-variant {
@@ -807,10 +852,30 @@ hr {
   justify-content: center;
   text-align: center;
   align-items: center;
-  background-color: rgba(12, 14, 26, 0.93);
-  border-width: 0 0 3px;
-  border-style: solid;
+  background-color: rgba(0, 0, 0, 0.8);
   border-color: black;
+  border-radius: 10px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2vw;
+  left: 35vw;
+  right: 35vw;
+}
+
+.contenedor-card_models {
+  margin: 2vw 0vw 0vw;
+  padding: 0vw 0 2vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #ffffff;
+  border: 0;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: rgba(255, 255, 255, 0);
+  color: #47629e;
 }
 
 h2 {
@@ -839,11 +904,23 @@ h2 {
 }
 
 .h2-anuncio {
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   text-align: center;
-  font-size: 1.5vw;
-  margin: 1vw 0;
-  font-family: "EB Garamond", serif;
+  font-size: 0.9vw;
+  margin: 1vw;
+  font-family: "Outfit", sans-serif;
+}
+
+.abierto {
+  color: #74ff79;
+}
+
+.cerrado {
+  color: rgb(255, 55, 55);
+}
+
+.link-anuncio {
+  color: #ffe8b7;
 }
 
 .h2-preguntas_frecuentes {
@@ -1009,6 +1086,14 @@ h5 {
   margin: 0vw;
 }
 
+.card-title_models {
+  margin: auto -1vw;
+  justify-content: center;
+  align-items: center;
+  font-size: 1vw;
+  color: white;
+}
+
 .all-sections {
   display: flex;
   flex-direction: column;
@@ -1090,8 +1175,9 @@ footer .row .p-footerinfo_horario {
 }
 footer .derechos-reservados {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 0.8vw;
+  font-size: 0.7vw;
   text-align: center;
+  color: #b1b1b1;
   background-color: #101225;
   padding: 1vw 0;
   margin-top: 2vw;
@@ -1161,9 +1247,12 @@ footer .derechos-reservados {
     margin: 10vw;
   }
   .volver-button {
-    padding: 0.5vw;
+    padding: 2.5vw;
     font-size: 3vw;
-    margin: 2vw 85vw -3vw 2vw;
+    margin: 2vw 80vw -3vw 2vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
   }
   hr {
     border-width: 0.4vw;
@@ -1797,23 +1886,65 @@ footer .derechos-reservados {
   }
   .anuncio {
     display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    background-color: rgba(11, 12, 20, 0.93);
-    border-width: 2px 0 2px;
-    border-style: solid;
-    border-color: rgb(0, 0, 0);
+    background-color: rgba(11, 12, 20, 0.73);
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vw;
+    border-radius: 5vw;
+    left: 15vw;
+    right: 15vw;
   }
   .h2-anuncio {
-    color: #ffffff;
     text-align: center;
-    font-size: 4vw;
-    margin: 1vw 0;
-    font-family: "EB Garamond", serif;
+    font-size: 3.5vw;
+    margin: 2vw 0;
   }
   .search-bar {
     width: 70vw;
+    margin: 3vw auto;
+  }
+  .contenedor-card_models {
+    margin: 7vw 15vw;
+    padding: 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ffffff;
+    border: 0;
+    flex-direction: column;
+  }
+  .button-card_models {
+    margin: 3vw;
+    padding: 1vw 0;
+    border-radius: 5px;
+    border: none;
+    background-color: #29395c;
+  }
+  .card-title_models {
+    margin: auto -1vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+    color: white;
+  }
+  .acordion-filters {
+    margin: 0 12vw;
+    border: none;
+  }
+  .p-filters {
+    font-size: 4vw;
+    margin: 0;
+  }
+  .hr-rtw {
+    margin: 12.5vw 15vw 0;
+  }
+  .accordion-button:not(.collapsed) {
+    background-color: rgba(255, 255, 255, 0);
+    color: #47629e;
+  }
+  .accordion-button {
+    padding: 3vw;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -2470,6 +2601,65 @@ footer .derechos-reservados {
   }
   .search-bar {
     width: 60vw;
+    margin: 3vw auto;
+  }
+  .contenedor-card_models {
+    margin: 3vw 8vw;
+    padding: 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ffffff;
+    border: 0;
+    flex-direction: column;
+  }
+  .button-card_models {
+    margin: 1.5vw;
+    padding: 1vw 0;
+    border-radius: 5px;
+    border: none;
+    background-color: #1F2337;
+  }
+  .card-title_models {
+    margin: auto -1vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    color: white;
+  }
+  .acordion-filters {
+    margin: 0 17vw;
+    border: none;
+  }
+  .p-filters {
+    font-size: 2vw;
+    margin: 0;
+  }
+  .hr-rtw {
+    margin: 12.5vw 15vw 0;
+  }
+  .accordion-button:not(.collapsed) {
+    background-color: rgba(255, 255, 255, 0);
+    color: #47629e;
+  }
+  .anuncio {
+    display: flex;
+    background-color: rgba(11, 12, 20, 0.73);
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vw;
+    border-radius: 5vw;
+    left: 30vw;
+    right: 30vw;
+  }
+  .h2-anuncio {
+    text-align: center;
+    font-size: 2vw;
+    margin: 1vw 0;
+  }
+  .accordion-button {
+    padding: 1.5vw 2vw;
   }
 }
 .estilo-x {

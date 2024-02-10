@@ -72,11 +72,18 @@ document.addEventListener("DOMContentLoaded", function () {
   const searchInput = document.getElementById("searchInput");
   const modelos = document.querySelectorAll(".producto");
 
+  function quitarTildes(texto) {
+    return texto
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase();
+  }
+
   searchInput.addEventListener("input", function () {
-    const term = searchInput.value.trim().toLowerCase();
+    const term = quitarTildes(searchInput.value.trim().toLowerCase());
 
     modelos.forEach(function (modelo) {
-      const modeloText = modelo.innerText.toLowerCase();
+      const modeloText = quitarTildes(modelo.innerText.toLowerCase());
 
       if (modeloText.includes(term)) {
         modelo.style.display = "block";
@@ -86,3 +93,13 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+function scrollToTop() {
+  let velocidad = 100;
+
+  if (window.innerWidth < 768) {
+      velocidad = 800;
+  }
+
+  $('html, body').animate({scrollTop: 0}, velocidad);
+}

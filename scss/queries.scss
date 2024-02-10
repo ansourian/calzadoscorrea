@@ -63,9 +63,12 @@
         margin: 10vw;
     }
     .volver-button{
-        padding: 0.5vw;
+        padding: 2.5vw;
         font-size: 3vw;
-        margin: 2vw 85vw -3vw 2vw;
+        margin: 2vw 80vw -3vw 2vw;
+        display: flex;
+        text-align: center;
+        justify-content: center;
     }
     hr{
         border-width: 0.4vw;
@@ -794,27 +797,76 @@
 
     .anuncio{
         display: flex;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        background-color: rgb(11 12 20 / 93%);
-        border-width: 2px 0 2px;
-        border-style: solid;
-        border-color: rgb(0, 0, 0);
+        background-color: rgb(11 12 20 / 73%);
+        position: absolute;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: 5vw;
+        border-radius: 5vw;
+        left:15vw;
+        right:15vw;
     }
 
     .h2-anuncio{
-        color: #ffffff;
         text-align: center;
-        font-size: 4vw;
-        margin: 1vw 0;
-        font-family: 'EB Garamond', serif;
+        font-size: 3.5vw;
+        margin: 2vw 0;
     }
 
     .search-bar{
-        width: 70vw;
+        width: 70vw;   
+        margin: 3vw auto;
     }
 
+    .contenedor-card_models{
+        margin: 7vw 15vw;
+        padding: 0 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #ffffff;
+        border: 0;
+        flex-direction: column;
+    }
+
+    .button-card_models{
+        margin: 3vw;
+        padding: 1vw 0;
+        border-radius: 5px;
+        border: none;
+        background-color: #29395c;
+    }
+
+    .card-title_models{
+        margin: auto -1vw;
+        justify-content: center;
+        align-items: center;
+        font-size: 4vw;
+        color: white;
+    }
+
+    .acordion-filters{
+        margin: 0 12vw;
+        border: none;
+    }
+
+    .p-filters{
+        font-size: 4vw;
+        margin: 0;
+    }
+
+    .hr-rtw{
+        margin: 12.5vw 15vw 0;
+    }
+
+    .accordion-button:not(.collapsed) {
+        background-color: rgba(255, 255, 255, 0);
+        color: #47629e;
+    }
+
+    .accordion-button{
+        padding: 3vw;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width:1024px) {
@@ -1561,6 +1613,75 @@
 
     .search-bar{
         width: 60vw;
+        margin: 3vw auto;
+    }
+
+    .contenedor-card_models{
+        margin: 3vw 8vw;
+        padding: 0 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #ffffff;
+        border: 0;
+        flex-direction: column;
+    }
+
+    .button-card_models{
+        margin: 1.5vw;
+        padding: 1vw 0;
+        border-radius: 5px;
+        border: none;
+        background-color: #1F2337;
+    }
+
+    .card-title_models{
+        margin: auto -1vw;
+        justify-content: center;
+        align-items: center;
+        font-size: 2vw;
+        color: white;
+    }
+
+    .acordion-filters{
+        margin: 0 17vw;
+        border: none;
+    }
+
+    .p-filters{
+        font-size: 2vw;
+        margin: 0;
+    }
+
+    .hr-rtw{
+        margin: 12.5vw 15vw 0;
+    }
+
+    .accordion-button:not(.collapsed) {
+        background-color: rgba(255, 255, 255, 0);
+        color: #47629e;
+    }
+
+    .anuncio{
+        display: flex;
+        background-color: rgb(11 12 20 / 73%);
+        position: absolute;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: 2vw;
+        border-radius: 5vw;
+        left:30vw;
+        right:30vw;
+    }
+
+    .h2-anuncio{
+        text-align: center;
+        font-size: 2vw;
+        margin: 1vw 0;
+    }
+
+    .accordion-button{
+        padding: 1.5vw 2vw;
     }
 
 }
