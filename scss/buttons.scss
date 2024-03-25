@@ -110,6 +110,29 @@
     border: none;
 }
 
+.button-card_shoe_models{
+    padding: 0.5vw 3vw;
+    border-radius: 0.5vw;
+    background-color:  rgb(103 106 124 / 93%);
+    border: none;
+    margin: 0 0.5vw;
+}
+
+.button-card_allmodels{
+    padding: 0.5vw 4vw;
+    border-radius: 0.5vw;
+    border: none;
+}
+
+
+.button-card_models.seleccionado {
+    background-color: #7783af;
+}
+
+.button-card_shoe_models.seleccionado {
+    background-color: rgb(119 131 175);
+}
+
 .acordion-filters{
     margin: 0 24vw;
     border: none;
@@ -133,4 +156,12 @@
 button:focus:not(:focus-visible){
     outline: none !important;
     box-shadow: none !important;
+}
+
+.carousel-control-prev-icon2,
+.carousel-control-next-icon2 {
+    filter: invert(1); /* Invertir los colores del ícono */
+    opacity: .8;
+    width: 6vw;
+    margin-top: 111vw;
 }

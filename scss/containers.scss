@@ -27,6 +27,16 @@
     border: 0;
 }
 
+.contenedor-acerca_de{
+    margin: 0vw 10vw 3vw;
+    padding: 0vw 0 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #ffffff;
+    border: 0;
+}
+
 
 .contenedor-mantenimiento{
     margin: 0vw 10vw;
@@ -140,8 +150,48 @@
 }
 
 .contenedor-card_models{
-    margin: 2vw 0vw 0vw;
-    padding: 0vw 0 2vw;
+    margin: 1vw 0vw 0vw;
+    padding: 0vw 0 0vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ffffff;
+    border: 0;
+}
+
+.contenedor-card_shoe_models{
+    margin: 1vw 0vw 0vw;
+    padding: 0vw 0 0vw;
+    display: none;
+    flex-direction: row;
+    background-color: #ffffff;
+    border: 0;
+    visibility: hidden;
+}
+
+.contenedor-card_shoe_models_mobile{
+    display: none;
+    visibility: hidden;
+}
+
+.contenedor-card_shoe_models_mocasines{
+    margin: 1vw 0vw 0vw;
+    padding: 0vw;
+    display: none;
+    flex-direction: row;
+    background-color: #ffffff;
+    border: 0;
+    visibility: hidden;
+}
+
+.contenedor-card_shoe_models_mocasines_mobile{
+    display: none;
+    visibility: hidden;
+}
+
+.contenedor-card_clean_filters{
+    margin: 1vw 0vw 0vw;
+    padding: 0vw 0 0vw;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -152,4 +202,8 @@
 .accordion-button:not(.collapsed) {
     background-color: rgba(255, 255, 255, 0);
     color: #47629e;
+}
+
+.carousel-container {
+    display: none;
 }

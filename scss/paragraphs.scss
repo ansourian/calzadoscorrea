@@ -56,6 +56,14 @@ p{
     text-align: start;
 }
 
+.p-price{
+    margin: 0 0 1vw; 
+    text-align: start;
+    font-size: 1.4vw;
+    font-family: "Outfit", sans-serif;
+    color: #2a2a2a;
+}
+
 .p-descripcion{
     text-align: left;
     font-size: 1.3vw;
@@ -159,4 +167,19 @@ p{
     margin: 0;
     font-family: "Outfit", sans-serif;
     color: #464646;
+}
+
+.p-aclaracion_filtros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2vw;
+    margin: 2vw 26vw;
+    color: #df1616;
+}
+
+.p-nuestro_trabajo{
+    font-size: 1.2vw;
+    margin: 0;
 }

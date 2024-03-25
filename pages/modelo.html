@@ -22,9 +22,9 @@
                     <button id="cerrar" class="close-menu"><i class="bi bi-x-lg"></i></button>
                     <ul class="nav-list">
                         <li><a class="item-nav" href="../index.html">INICIO</a></li>
-                        <li><a class="item-nav" href="./quienes_somos.html">QUIENES SOMOS</a></li>
                         <li><a class="item-nav" href="./modelos.html">MODELOS</a></li>
                         <li><a class="item-nav" href="./mantenimiento.html">MANTENIMIENTO</a></li>
+                        <li><a class="item-nav" href="./acerca_de.html">ACERCA DE</a></li>
                         <li><a class="item-nav" href="./preguntas_frecuentes.html">AYUDA</a></li>
                         <li><a class="item-nav" href="./contacto.html">CONTACTO</a></li>
                     </ul>
@@ -33,6 +33,37 @@
             <a class="volver-button" href="javascript:history.back()"> VOLVER</a>
         </header>
         <main>
+            <div id="carouselExampleIndicators" class="carousel slide carousel-container" data-bs-ride="carousel" data-bs-interval="false">
+                <div class="carousel-pages carousel-indicators carousel-models">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item2 carousel-item active">
+                    <img src="" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item carousel-item2">
+                    <img src="" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item carousel-item2">
+                    <img src="" class="d-block w-100" alt="...">
+                  </div>                  
+                  <div class="carousel-item carousel-item2">
+                    <img src="" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon carousel-control-prev-icon2" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon carousel-control-prev-icon2" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
             <div class="contenedor-modelos">
                 <div class="div-biografia d-flex">
                     <img class="img-model" id="imagen-modelo" src="" alt="modelo ready to wear">
@@ -48,6 +79,10 @@
                             <p class="p-model" id="color-modelo"></p>
                             <h4 class="h4-model">Código de Modelo</h4>
                             <p class="p-model" id="codigo-modelo"></p>
+                            <div id="div-precio_modelo">
+                                <h4 class="h4-model">Precio</h4>
+                                <p class="p-price" id="precio-modelo"></p>    
+                            </div>
                             <p class="aclaracion-colores">Calzados 100% plantillados a mano. Nuestros cueros poseen un curtido artesanal el cual puede variar sutilmente de tono según la partida de producción.</p>
                             <a class="imagenes-button" href="#hr-var_modelos">MÁS IMÁGENES</a>
                         </div>

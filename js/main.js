@@ -103,3 +103,19 @@ function scrollToTop() {
 
   $('html, body').animate({scrollTop: 0}, velocidad);
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+  const divAcercaDeTexts = document.querySelectorAll('.div-acerca_de_texts');
+
+  divAcercaDeTexts.forEach(div => {
+    div.addEventListener('mouseover', function() {
+      const img = div.parentElement.querySelector('.img-acerca_de');
+      img.classList.add('hovered');
+    });
+
+    div.addEventListener('mouseout', function() {
+      const img = div.parentElement.querySelector('.img-acerca_de');
+      img.classList.remove('hovered');
+    });
+  });
+});

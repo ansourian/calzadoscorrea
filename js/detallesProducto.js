@@ -6,12 +6,12 @@ document.addEventListener('DOMContentLoaded', function () {
         {
             id: '1122-Negro',
             titulo: 'Oxford Mod. 1122',
+            subtitulo: "Wingtip Full Brogued",
             estilo: 'READY TO WEAR',
             descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
             color: 'Negro',
             tipoCuero: 'Cuero vacuno',
-            tipoModelo: 'Zapatos',
-            codigo: '1122',
+            codigo: '1122', 
             imagenPrincipal: "../assets/img/ready to wear/135 - 21.webp",
             imagenes: ["../assets/img/ready to wear/135 - 21.webp", "../assets/img/ready to wear/135 - 22.webp", "../assets/img/ready to wear/135 - 23.webp", "../assets/img/ready to wear/123 - 8.webp"]
         },
@@ -80,6 +80,28 @@ document.addEventListener('DOMContentLoaded', function () {
             codigo: '1122',
             imagenPrincipal: "../assets/img/ready to wear/123 - 1.webp",
             imagenes: ["../assets/img/ready to wear/123 - 1.webp", "../assets/img/ready to wear/123 - 2.webp", "../assets/img/ready to wear/123 - 3.webp", "../assets/img/ready to wear/123 - 4.webp"]
+        },
+        {
+            id: '1122-Rojo',
+            titulo: 'Oxford Mod. 1122',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
+            color: 'Rojo',
+            tipoCuero: 'Cuero vacuno',
+            codigo: '1122',
+            imagenPrincipal: "../assets/img/ready to wear/147 - 3.webp",
+            imagenes: ["../assets/img/ready to wear/147 - 3.webp", "../assets/img/ready to wear/147 - 4.webp", "../assets/img/ready to wear/147 - 5.webp", "../assets/img/ready to wear/123 - 4.webp"]
+        },
+        {
+            id: '1122-Azul',
+            titulo: 'Oxford Mod. 1122',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
+            color: 'Azul',
+            tipoCuero: 'Cuero vacuno',
+            codigo: '1122',
+            imagenPrincipal: "../assets/img/ready to wear/147 - 6.webp",
+            imagenes: ["../assets/img/ready to wear/147 - 6.webp", "../assets/img/ready to wear/147 - 7.webp", "../assets/img/ready to wear/147 - 8.webp", "../assets/img/ready to wear/123 - 4.webp"]
         },
         {
             id: '1119-Negro',
@@ -544,6 +566,17 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenes: ["../assets/img/ready to wear/131 - 24.webp", "../assets/img/ready to wear/131 - 25.webp", "../assets/img/ready to wear/131 - 26.webp", "../assets/img/ready to wear/131 - 27.webp"]
         },
         {
+            id: 'Bota-Carioca-Gamuza-Negro',
+            titulo: 'Bota Carioca',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un clásico liso de cordonera abierta. Una versión que logra un atractivo estilizado sin romper sus líneas tradicionales. Este modelo se recomienda para personas con empeine alto.',
+            color: 'Negro',
+            tipoCuero: 'Gamuza',
+            codigo: 'Bot. Carioca',
+            imagenPrincipal: "../assets/img/ready to wear/148 - 12.webp",
+            imagenes: ["../assets/img/ready to wear/148 - 12.webp", "../assets/img/ready to wear/148 - 13.webp", "../assets/img/ready to wear/148 - 14.webp", "../assets/img/ready to wear/148 - 15.webp"]
+        },
+        {
             id: '2-Hebillas-Negro',
             titulo: '2 Hebillas',
             estilo: 'READY TO WEAR',
@@ -597,6 +630,39 @@ document.addEventListener('DOMContentLoaded', function () {
             codigo: 'Borcego Corto',
             imagenPrincipal: "../assets/img/ready to wear/115 - 13.webp",
             imagenes: ["../assets/img/ready to wear/115 - 13.webp", "../assets/img/ready to wear/115 - 14.webp", "../assets/img/ready to wear/115 - 15.webp", "../assets/img/ready to wear/115 - 16.webp"]
+        },
+        {
+            id: 'Borcego-Texano-Bufalo-Negro',
+            titulo: 'Borcego Texano',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un borcego rígido y robusto. Su construcción incorpora bases de Goma Rural FEBO. Unas botas ideales para el uso urbano y aptas para caminos rurales.',
+            color: 'Negro',
+            tipoCuero: 'Búfalo',
+            codigo: 'Borcego Texano',
+            imagenPrincipal: "../assets/img/made by order/130 - 5.webp",
+            imagenes: ["../assets/img/made by order/130 - 5.webp", "../assets/img/made by order/130 - 6.webp", "../assets/img/made by order/130 - 7.webp", "../assets/img/made by order/130 - 8.webp"]
+        },
+        {
+            id: 'Borcego-Texano-Bufalo-Suela',
+            titulo: 'Borcego Texano',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un borcego rígido y robusto. Su construcción incorpora bases de Goma Rural FEBO. Unas botas ideales para el uso urbano y aptas para caminos rurales.',
+            color: 'Suela',
+            tipoCuero: 'Búfalo',
+            codigo: 'Borcego Texano',
+            imagenPrincipal: "../assets/img/made by order/130 - 9.webp",
+            imagenes: ["../assets/img/made by order/130 - 9.webp", "../assets/img/made by order/130 - 10.webp", "../assets/img/made by order/130 - 11.webp", "../assets/img/made by order/130 - 8.webp"]
+        },
+        {
+            id: 'Borcego-Texano-Bufalo-Marron',
+            titulo: 'Borcego Texano',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un borcego rígido y robusto. Su construcción incorpora bases de Goma Rural FEBO. Unas botas ideales para el uso urbano y aptas para caminos rurales.',
+            color: 'Marrón',
+            tipoCuero: 'Búfalo',
+            codigo: 'Borcego Texano',
+            imagenPrincipal: "../assets/img/made by order/130 - 12.webp",
+            imagenes: ["../assets/img/made by order/130 - 12.webp", "../assets/img/made by order/130 - 13.webp", "../assets/img/made by order/130 - 14.webp", "../assets/img/made by order/130 - 8.webp"]
         },
         {
             id: 'Sneaker-Suela',
@@ -676,6 +742,50 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenes: ["../assets/img/ready to wear/133 - 23.webp", "../assets/img/ready to wear/133 - 24.webp", "../assets/img/ready to wear/133 - 25.webp", "../assets/img/ready to wear/133 - 22.webp"]
         },
         {
+            id: 'Sneaker-Bota-Gamuza-Azul',
+            titulo: 'Bota Chukka Sneaker',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Zapatillas de uso urbano confeccionadas en cuero 100% vacuno argentino tanto en su exterior como en su interior.',
+            color: 'Azul',
+            tipoCuero: 'Gamuza',
+            codigo: 'Zap',
+            imagenPrincipal: "../assets/img/ready to wear/148 - 5.webp",
+            imagenes: ["../assets/img/ready to wear/148 - 5.webp", "../assets/img/ready to wear/148 - 6.webp", "../assets/img/ready to wear/148 - 7.webp", "../assets/img/ready to wear/148 - 8.webp"]
+        },
+        {
+            id: 'Sneaker-Bota-Gamuza-Rojo',
+            titulo: 'Bota Chukka Sneaker',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Zapatillas de uso urbano confeccionadas en cuero 100% vacuno argentino tanto en su exterior como en su interior.',
+            color: 'Rojo',
+            tipoCuero: 'Gamuza',
+            codigo: 'Zap',
+            imagenPrincipal: "../assets/img/ready to wear/148 - 16.webp",
+            imagenes: ["../assets/img/ready to wear/148 - 16.webp", "../assets/img/ready to wear/148 - 17.webp", "../assets/img/ready to wear/148 - 18.webp", "../assets/img/ready to wear/148 - 8.webp"]
+        },
+        {
+            id: 'Sneaker-Bota-Gamuza-Amarillo',
+            titulo: 'Bota Chukka Sneaker',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Zapatillas de uso urbano confeccionadas en cuero 100% vacuno argentino tanto en su exterior como en su interior.',
+            color: 'Amarillo',
+            tipoCuero: 'Gamuza',
+            codigo: 'Zap',
+            imagenPrincipal: "../assets/img/ready to wear/149 - 12.webp",
+            imagenes: ["../assets/img/ready to wear/149 - 12.webp", "../assets/img/ready to wear/149 - 13.webp", "../assets/img/ready to wear/149 - 14.webp", "../assets/img/ready to wear/148 - 8.webp"]
+        },
+        {
+            id: 'Sneaker-Bota-Verde',
+            titulo: 'Bota Chukka Sneaker',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Zapatillas de uso urbano confeccionadas en cuero 100% vacuno argentino tanto en su exterior como en su interior.',
+            color: 'Verde',
+            tipoCuero: 'Cuero vacuno',
+            codigo: 'Zap',
+            imagenPrincipal: "../assets/img/ready to wear/148 - 9.webp",
+            imagenes: ["../assets/img/ready to wear/148 - 9.webp", "../assets/img/ready to wear/148 - 10.webp", "../assets/img/ready to wear/148 - 11.webp", "../assets/img/ready to wear/148 - 8.webp"]
+        },
+        {
             id: 'Slippers-123-Gamuza-Arena',
             titulo: 'Escarpín Slipper Mod. 123',
             estilo: 'READY TO WEAR',
@@ -718,15 +828,81 @@ document.addEventListener('DOMContentLoaded', function () {
             codigo: 'Slipper 123',
             imagenPrincipal: "../assets/img/ready to wear/126 - 8.webp",
             imagenes: ["../assets/img/ready to wear/126 - 8.webp", "../assets/img/ready to wear/126 - 9.webp", "../assets/img/ready to wear/126 - 10.webp", "../assets/img/ready to wear/126 - 11.webp"]
-        },     
+        },   
         {
-            id: 'Mocasin-Mengueche',
-            titulo: 'Mocasín Mengueche',
+            id: 'Escarpin-MP-Suela_rtw',
+            titulo: 'Escarpin MP',
             estilo: 'READY TO WEAR',
-            descripcion: 'El mocasín más fresco y liviano de nuestro catálogo. Su costura frontal, al no ser sellada, proporciona mayor ventilación, convirtiéndolo en el mocasín ideal para los días de calor.',
+            descripcion: 'El mocasín escarpín es una fusión entre un mocasín y un zapato de vestir, con una suela más delgada y detalles de costura en la parte delantera. Este modelo cuenta con campanillas.',
+            color: 'Suela',
+            tipoCuero: 'Cuero vacuno',
+            codigo: 'MP con Costurín',
+            imagenPrincipal: "../assets/img/ready to wear/145 - 17.webp",
+            imagenes: ["../assets/img/ready to wear/145 - 17.webp", "../assets/img/ready to wear/145 - 18.webp", "../assets/img/ready to wear/145 - 19.webp", "../assets/img/made by order/119 - 28.webp"]
+        },
+        {
+            id: 'Escarpin-MP-Marron_rtw',
+            titulo: 'Escarpin MP',
+            estilo: 'READY TO WEAR',
+            descripcion: 'El mocasín escarpín es una fusión entre un mocasín y un zapato de vestir, con una suela más delgada y detalles de costura en la parte delantera. Este modelo cuenta con campanillas.',
             color: 'Marrón',
             tipoCuero: 'Cuero vacuno',
-            codigo: 'Mengueche',
+            codigo: 'MP con Costurín',
+            imagenPrincipal: "../assets/img/ready to wear/147 - 12.webp",
+            imagenes: ["../assets/img/ready to wear/147 - 12.webp", "../assets/img/ready to wear/147 - 13.webp", "../assets/img/ready to wear/147 - 14.webp", "../assets/img/made by order/119 - 28.webp"]
+        },
+        {
+            id: 'Escarpin-MP-Verde_rtw',
+            titulo: 'Escarpin MP',
+            estilo: 'READY TO WEAR',
+            descripcion: 'El mocasín escarpín es una fusión entre un mocasín y un zapato de vestir, con una suela más delgada y detalles de costura en la parte delantera. Este modelo cuenta con campanillas.',
+            color: 'Verde',
+            tipoCuero: 'Cuero vacuno',
+            codigo: 'MP con Costurín',
+            imagenPrincipal: "../assets/img/ready to wear/147 - 16.webp",
+            imagenes: ["../assets/img/ready to wear/147 - 16.webp", "../assets/img/ready to wear/147 - 17.webp", "../assets/img/ready to wear/147 - 18.webp", "../assets/img/made by order/119 - 28.webp"]
+        },
+        {
+            id: 'Escarpin-MP-Cafe_rtw',
+            titulo: 'Escarpin MP',
+            estilo: 'READY TO WEAR',
+            descripcion: 'El mocasín escarpín es una fusión entre un mocasín y un zapato de vestir, con una suela más delgada y detalles de costura en la parte delantera. Este modelo cuenta con campanillas.',
+            color: 'Café',
+            tipoCuero: 'Cuero vacuno',
+            codigo: 'MP con Costurín',
+            imagenPrincipal: "../assets/img/ready to wear/147 - 19.webp",
+            imagenes: ["../assets/img/ready to wear/147 - 19.webp", "../assets/img/ready to wear/147 - 20.webp", "../assets/img/ready to wear/147 - 21.webp", "../assets/img/made by order/119 - 28.webp"]
+        },
+        {
+            id: 'Escarpin-MP-Negro_rtw',
+            titulo: 'Escarpin MP',
+            estilo: 'READY TO WEAR',
+            descripcion: 'El mocasín escarpín es una fusión entre un mocasín y un zapato de vestir, con una suela más delgada y detalles de costura en la parte delantera. Este modelo cuenta con campanillas.',
+            color: 'Negro',
+            tipoCuero: 'Cuero vacuno',
+            codigo: 'MP con Costurín',
+            imagenPrincipal: "../assets/img/ready to wear/147 - 22.webp",
+            imagenes: ["../assets/img/ready to wear/147 - 22.webp", "../assets/img/ready to wear/147 - 23.webp", "../assets/img/ready to wear/147 - 24.webp", "../assets/img/made by order/119 - 28.webp"]
+        },
+        {
+            id: 'Mocasin-800-Negro',
+            titulo: 'Mocasín Mod. 800',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Aún no tenemos una descripción de este producto.',
+            color: 'Negro',
+            tipoCuero: 'Cuero vacuno',
+            codigo: 'Mocasín',
+            imagenPrincipal: "../assets/img/ready to wear/150 - 29.webp",
+            imagenes: ["../assets/img/ready to wear/150 - 29.webp", "../assets/img/ready to wear/150 - 30.webp", "../assets/img/ready to wear/150 - 31.webp", "../assets/img/made by order/119 - 28.webp"]
+        }, 
+        {
+            id: 'Mocasin-Clasico',
+            titulo: 'Mocasín',
+            estilo: 'READY TO WEAR',
+            descripcion: 'El mocasín más fresco y liviano de nuestro catálogo. Su costura frontal, al no ser sellada, proporciona mayor ventilación, convirtiéndolo en el mocasín ideal para los días de calor.',
+            color: 'Suela',
+            tipoCuero: 'Cuero vacuno',
+            codigo: 'Mocasín',
             imagenPrincipal: "../assets/img/ready to wear/141 - 21.webp",
             imagenes: ["../assets/img/ready to wear/141 - 21.webp", "../assets/img/ready to wear/141 - 22.webp", "../assets/img/ready to wear/141 - 23.webp", "../assets/img/ready to wear/119 - 20.webp"]
         },   
@@ -817,6 +993,138 @@ document.addEventListener('DOMContentLoaded', function () {
             codigo: 'Mocasín Industry',
             imagenPrincipal: "../assets/img/ready to wear/123 - 32.webp",
             imagenes: ["../assets/img/ready to wear/123 - 32.webp", "../assets/img/ready to wear/123 - 33.webp", "../assets/img/ready to wear/123 - 34.webp", "../assets/img/ready to wear/123 - 35.webp"]
+        },
+        {
+            id: 'Mocasin-Nautico-Suela',
+            titulo: 'Mocasín Náutico',
+            estilo: 'READY TO WEAR',
+            descripcion: 'El mocasín más fresco y liviano de nuestro catálogo. Su costura frontal, al no ser sellada, proporciona mayor ventilación, convirtiéndolo en el mocasín ideal para los días de calor.',
+            color: 'Suela',
+            tipoCuero: 'Cuero vacuno',
+            codigo: 'Náutico',
+            imagenPrincipal: "../assets/img/ready to wear/145 - 21.webp",
+            imagenes: ["../assets/img/ready to wear/145 - 21.webp", "../assets/img/ready to wear/145 - 22.webp", "../assets/img/ready to wear/145 - 23.webp", "../assets/img/ready to wear/145 - 24.webp"]
+        },
+        {
+            id: 'Mocasin-Nautico-Azul',
+            titulo: 'Mocasín Náutico',
+            estilo: 'READY TO WEAR',
+            descripcion: 'El mocasín más fresco y liviano de nuestro catálogo. Su costura frontal, al no ser sellada, proporciona mayor ventilación, convirtiéndolo en el mocasín ideal para los días de calor.',
+            color: 'Azul',
+            tipoCuero: 'Cuero vacuno',
+            codigo: 'Náutico',
+            imagenPrincipal: "../assets/img/ready to wear/149 - 5.webp",
+            imagenes: ["../assets/img/ready to wear/149 - 5.webp", "../assets/img/ready to wear/149 - 6.webp", "../assets/img/ready to wear/149 - 7.webp", "../assets/img/ready to wear/149 - 8.webp"]
+        },
+        {
+            id: 'Mocasin-Nautico-Marron',
+            titulo: 'Mocasín Náutico',
+            estilo: 'READY TO WEAR',
+            descripcion: 'El mocasín más fresco y liviano de nuestro catálogo. Su costura frontal, al no ser sellada, proporciona mayor ventilación, convirtiéndolo en el mocasín ideal para los días de calor.',
+            color: 'Marrón',
+            tipoCuero: 'Cuero vacuno',
+            codigo: 'Náutico',
+            imagenPrincipal: "../assets/img/ready to wear/149 - 9.webp",
+            imagenes: ["../assets/img/ready to wear/149 - 9.webp", "../assets/img/ready to wear/149 - 10.webp", "../assets/img/ready to wear/149 - 11.webp", "../assets/img/ready to wear/149 - 8.webp"]
+        },
+        {
+            id: 'Mocasin-Nautico-Marron-2',
+            titulo: 'Mocasín Náutico',
+            estilo: 'READY TO WEAR',
+            descripcion: 'El mocasín más fresco y liviano de nuestro catálogo. Su costura frontal, al no ser sellada, proporciona mayor ventilación, convirtiéndolo en el mocasín ideal para los días de calor.',
+            color: 'Marrón (Detalles Marrón)',
+            tipoCuero: 'Cuero vacuno',
+            codigo: 'Náutico',
+            imagenPrincipal: "../assets/img/ready to wear/149 - 1.webp",
+            imagenes: ["../assets/img/ready to wear/149 - 1.webp", "../assets/img/ready to wear/149 - 2.webp", "../assets/img/ready to wear/149 - 3.webp", "../assets/img/ready to wear/149 - 4.webp"]
+        },
+        {
+            id: 'Bota-Inglesa-Marron',
+            titulo: 'Bota Inglesa',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Una bota clásica, cómoda y atemporal. Desde paseos por la ciudad hasta eventos formales, la bota inglesa ofrece un toque de sofisticación a cualquier conjunto.',
+            color: 'Marrón',
+            tipoCuero: 'Cuero Vacuno',
+            codigo: 'Bota Inglesa',
+            imagenPrincipal: "../assets/img/ready to wear/144 - 1.webp",
+            imagenes: ["../assets/img/ready to wear/144 - 1.webp", "../assets/img/ready to wear/144 - 2.webp", "../assets/img/ready to wear/144 - 3.webp", "../assets/img/ready to wear/144 - 4.webp"]
+        },
+        {
+            id: 'Bota-Inglesa-Negro',
+            titulo: 'Bota Inglesa',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Una bota clásica, cómoda y atemporal. Desde paseos por la ciudad hasta eventos formales, la bota inglesa ofrece un toque de sofisticación a cualquier conjunto.',
+            color: 'Negro',
+            tipoCuero: 'Cuero Vacuno',
+            codigo: 'Bota Inglesa',
+            imagenPrincipal: "../assets/img/ready to wear/144 - 5.webp",
+            imagenes: ["../assets/img/ready to wear/144 - 5.webp", "../assets/img/ready to wear/144 - 6.webp", "../assets/img/ready to wear/144 - 7.webp", "../assets/img/ready to wear/144 - 4.webp"]
+        },
+        {
+            id: 'Bota-Petta-Suela',
+            titulo: 'Bota Petta',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un clásico de la casa. Esta bota cuenta con una costura redondeada y presenta un diseño clásico con un toque más suave y contemporáneo. Ofrece un equilibrio perfecto entre estilo tradicional y comodidad moderna.',
+            color: 'Suela',
+            tipoCuero: 'Cuero Vacuno Graneado',
+            codigo: 'Bota Petta',
+            imagenPrincipal: "../assets/img/ready to wear/144 - 8.webp",
+            imagenes: ["../assets/img/ready to wear/144 - 8.webp", "../assets/img/ready to wear/144 - 9.webp", "../assets/img/ready to wear/144 - 10.webp", "../assets/img/ready to wear/144 - 4.webp"]
+        },
+        {
+            id: 'Bota-Petta-Negro',
+            titulo: 'Bota Petta',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un clásico de la casa. Esta bota cuenta con una costura redondeada y presenta un diseño clásico con un toque más suave y contemporáneo. Ofrece un equilibrio perfecto entre estilo tradicional y comodidad moderna.',
+            color: 'Negro',
+            tipoCuero: 'Cuero Vacuno Graneado',
+            codigo: 'Bota Petta',
+            imagenPrincipal: "../assets/img/ready to wear/144 - 12.webp",
+            imagenes: ["../assets/img/ready to wear/144 - 12.webp", "../assets/img/ready to wear/144 - 13.webp", "../assets/img/ready to wear/144 - 14.webp", "../assets/img/ready to wear/144 - 4.webp"]
+        },
+        {
+            id: 'Bota-Petta-Verde',
+            titulo: 'Bota Petta',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Un clásico de la casa. Esta bota cuenta con una costura redondeada y presenta un diseño clásico con un toque más suave y contemporáneo. Ofrece un equilibrio perfecto entre estilo tradicional y comodidad moderna.',
+            color: 'Verde',
+            tipoCuero: 'Cuero Vacuno Graneado',
+            codigo: 'Bota Petta',
+            imagenPrincipal: "../assets/img/ready to wear/144 - 15.webp",
+            imagenes: ["../assets/img/ready to wear/144 - 15.webp", "../assets/img/ready to wear/144 - 16.webp", "../assets/img/ready to wear/144 - 17.webp", "../assets/img/ready to wear/144 - 4.webp"]
+        },
+        {
+            id: 'Bota-ET-Negro',
+            titulo: 'Bota ET',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Una bota moderna y elegante ideal para combinar con jeans y con pantalones de vestir.',
+            color: 'Negro',
+            tipoCuero: 'Cuero Vacuno',
+            codigo: 'Bota ET',
+            imagenPrincipal: "../assets/img/ready to wear/143 - 8.webp",
+            imagenes: ["../assets/img/ready to wear/143 - 8.webp", "../assets/img/ready to wear/143 - 9.webp", "../assets/img/ready to wear/143 - 10.webp", "../assets/img/ready to wear/143 - 7.webp"]
+        },
+        {
+            id: 'Bota-ET-Maiz',
+            titulo: 'Bota ET',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Una bota moderna y elegante ideal para combinar con jeans y con pantalones de vestir.',
+            color: 'Maíz',
+            tipoCuero: 'Cuero Vacuno',
+            codigo: 'Bota ET',
+            imagenPrincipal: "../assets/img/ready to wear/143 - 4.webp",
+            imagenes: ["../assets/img/ready to wear/143 - 4.webp", "../assets/img/ready to wear/143 - 5.webp", "../assets/img/ready to wear/143 - 6.webp", "../assets/img/ready to wear/143 - 7.webp"]
+        },
+        {
+            id: 'Bota-ET-Gamuza-Arena',
+            titulo: 'Bota ET',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Una bota moderna y elegante ideal para combinar con jeans y con pantalones de vestir.',
+            color: 'Arena',
+            tipoCuero: 'Gamuza',
+            codigo: 'Bota ET',
+            imagenPrincipal: "../assets/img/ready to wear/143 - 11.webp",
+            imagenes: ["../assets/img/ready to wear/143 - 11.webp", "../assets/img/ready to wear/143 - 12.webp", "../assets/img/ready to wear/143 - 13.webp", "../assets/img/ready to wear/143 - 7.webp"]
         },
         {
             id: 'Oxford-Wingtips',
@@ -929,6 +1237,28 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenes: ["../assets/img/made by order/112 - 13.webp", "../assets/img/made by order/112 - 14.webp", "../assets/img/made by order/112 - 15.webp", "../assets/img/made by order/112 - 16.webp"]
         },
         {
+            id: 'Swann-Wookie',
+            titulo: 'Mod. Swann Wookie',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'Una versión exótica de nuestro clásico de una sola pieza. Esta versión de nuestro modelo Swann exhibe capelladas de cuero que incluyen su pelaje bovino original.',
+            color: 'Café',
+            tipoCuero: 'Cuero vacuno',
+            codigo: 'Swann con pelo',
+            imagenPrincipal: "../assets/img/made by order/146 - 7.webp",
+            imagenes: ["../assets/img/made by order/146 - 7.webp", "../assets/img/made by order/146 - 8.webp", "../assets/img/made by order/146 - 9.webp", "../assets/img/made by order/146 - 10.webp"]
+        },
+        {
+            id: 'Swann-Club-Rojo',
+            titulo: 'Mod. Swann Club Wholecut',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'Este modelo se caracteriza por estar confeccionado a partir de una sola pieza de cuero, lo que le confiere un aspecto elegante y limpio, ya que no tiene costuras visibles en la parte superior del zapato. El modelo "Club" cuenta con la cordonera en la cara externa del calzado.',
+            color: 'Rojo',
+            tipoCuero: 'Cuero vacuno',
+            codigo: 'Swann Club',
+            imagenPrincipal: "../assets/img/made by order/143 - 1.webp",
+            imagenes: ["../assets/img/made by order/143 - 1.webp", "../assets/img/made by order/143 - 2.webp", "../assets/img/made by order/143 - 3.webp", "../assets/img/made by order/112 - 36.webp"]
+        },
+        {
             id: '2-Hebillas-Gamuza-Marron',
             titulo: '2 Hebillas',
             estilo: 'MADE TO ORDER',
@@ -1004,6 +1334,17 @@ document.addEventListener('DOMContentLoaded', function () {
             codigo: 'Bota Elástico',
             imagenPrincipal: "../assets/img/made by order/85 - 11.webp",
             imagenes: ["../assets/img/made by order/85 - 11.webp", "../assets/img/made by order/113 - 21.webp", "../assets/img/made by order/113 - 22.webp", "../assets/img/made by order/113 - 23.webp"]
+        },
+        {
+            id: 'Bota-Chelsea-Cafe',
+            titulo: 'Bota Chelsea',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'Un calzado versátil, adecuado tanto para ocasiones casuales como formales. Es fácil de combinar con una amplia gama de atuendos, desde jeans hasta trajes elegantes. Su diseño sin cordones y elástico la hacen cómoda y conveniente para el uso diario.',
+            color: 'Café',
+            tipoCuero: 'Búfalo',
+            codigo: 'Bota Elástico',
+            imagenPrincipal: "../assets/img/made by order/144 - 21.webp",
+            imagenes: ["../assets/img/made by order/144 - 21.webp", "../assets/img/made by order/144 - 22.webp", "../assets/img/made by order/144 - 23.webp", "../assets/img/made by order/113 - 27.webp"]
         },
         {
             id: 'Bota-Chelsea-Gamuza-Negro',
@@ -1086,7 +1427,7 @@ document.addEventListener('DOMContentLoaded', function () {
             id: 'Escarpin-123-Negro-Blanco',
             titulo: 'Escarpin Mod. 123',
             estilo: 'MADE TO ORDER',
-            descripcion: 'El mocasín escarpín es una fusión entre un mocasín y un zapato de vestir, con una suela más delgada y detalles de costura en la parte delantera. Este modelo cuenta con campanillas.',
+            descripcion: 'El mocasín escarpín es una fusión entre un mocasín y un zapato de vestir, con una suela más delgada y detalles de costura en la parte delantera.',
             color: 'Negro - Blanco',
             tipoCuero: 'Cuero vacuno',
             codigo: '123 Liguria',
@@ -1226,10 +1567,21 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenes: ["../assets/img/made by order/130 - 15.webp", "../assets/img/made by order/130 - 16.webp", "../assets/img/made by order/130 - 17.webp", "../assets/img/made by order/130 - 18.webp"]
         },
         {
+            id: 'Borcego-GC-Texano-Marron',
+            titulo: 'Borcego GC Texano',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'Un borcego rígido y robusto. Su construcción incorpora bases de Goma Rural FEBO. Unas botas ideales para el uso urbano y aptas para caminos rurales.',
+            color: 'Marrón',
+            tipoCuero: 'Vacuno',
+            codigo: "Borcego GC Texano",
+            imagenPrincipal: "../assets/img/made by order/148 - 26.webp",
+            imagenes: ["../assets/img/made by order/148 - 26.webp", "../assets/img/made by order/148 - 27.webp", "../assets/img/made by order/148 - 28.webp", "../assets/img/made by order/148 - 29.webp"]
+        },
+        {
             id: 'Borcego-GC-Texano-Negro',
             titulo: 'Borcego GC Texano',
-            estilo: 'BESPOKE',
-            descripcion: 'Este modelo es una versión exclusiva de realización a medida. Puede existir el mismo modelo o similar en versiones estándar. Este modelo puede ser customizado a gusto del cliente.',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'Un borcego rígido y robusto. Su construcción incorpora bases de cuero y suela FEBO. Unas botas ideales para el uso urbano y aptas para caminos rurales.',
             color: 'Negro',
             tipoCuero: 'Vacuno',
             codigo: "Borcego GC Texano",
@@ -1246,39 +1598,6 @@ document.addEventListener('DOMContentLoaded', function () {
             codigo: 'Borcego Texano',
             imagenPrincipal: "../assets/img/made by order/127 - 25.webp",
             imagenes: ["../assets/img/made by order/127 - 25.webp", "../assets/img/made by order/127 - 26.webp", "../assets/img/made by order/127 - 27.webp", "../assets/img/made by order/127 - 28.webp"]
-        },
-        {
-            id: 'Borcego-Texano-Bufalo-Negro',
-            titulo: 'Borcego Texano',
-            estilo: 'MADE TO ORDER',
-            descripcion: 'Un borcego rígido y robusto. Su construcción incorpora bases de Goma Rural FEBO. Unas botas ideales para el uso urbano y aptas para caminos rurales.',
-            color: 'Negro',
-            tipoCuero: 'Búfalo',
-            codigo: 'Borcego Texano',
-            imagenPrincipal: "../assets/img/made by order/130 - 5.webp",
-            imagenes: ["../assets/img/made by order/130 - 5.webp", "../assets/img/made by order/130 - 6.webp", "../assets/img/made by order/130 - 7.webp", "../assets/img/made by order/130 - 8.webp"]
-        },
-        {
-            id: 'Borcego-Texano-Bufalo-Suela',
-            titulo: 'Borcego Texano',
-            estilo: 'MADE TO ORDER',
-            descripcion: 'Un borcego rígido y robusto. Su construcción incorpora bases de Goma Rural FEBO. Unas botas ideales para el uso urbano y aptas para caminos rurales.',
-            color: 'Suela',
-            tipoCuero: 'Búfalo',
-            codigo: 'Borcego Texano',
-            imagenPrincipal: "../assets/img/made by order/130 - 9.webp",
-            imagenes: ["../assets/img/made by order/130 - 9.webp", "../assets/img/made by order/130 - 10.webp", "../assets/img/made by order/130 - 11.webp", "../assets/img/made by order/130 - 8.webp"]
-        },
-        {
-            id: 'Borcego-Texano-Bufalo-Marron',
-            titulo: 'Borcego Texano',
-            estilo: 'MADE TO ORDER',
-            descripcion: 'Un borcego rígido y robusto. Su construcción incorpora bases de Goma Rural FEBO. Unas botas ideales para el uso urbano y aptas para caminos rurales.',
-            color: 'Marrón',
-            tipoCuero: 'Búfalo',
-            codigo: 'Borcego Texano',
-            imagenPrincipal: "../assets/img/made by order/130 - 12.webp",
-            imagenes: ["../assets/img/made by order/130 - 12.webp", "../assets/img/made by order/130 - 13.webp", "../assets/img/made by order/130 - 14.webp", "../assets/img/made by order/130 - 8.webp"]
         },
         {
             id: 'Borcego-Texano-Bufalo-Gamuza-Natural',
@@ -1336,6 +1655,17 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenes: ["../assets/img/bespoke/139 - 7.webp", "../assets/img/bespoke/112 - 18.webp", "../assets/img/bespoke/112 - 19.webp", "../assets/img/bespoke/112 - 20.webp"]
         },
         {
+            id: '1047-Maiz-Bespoke',
+            titulo: '1 Hebilla Mod. 1047',
+            estilo: 'BESPOKE',
+            descripcion: 'Este modelo es una versión exclusiva de realización a medida. Puede existir el mismo modelo o similar en versiones estándar. Este modelo puede ser customizado a gusto del cliente.',
+            color: 'Maíz',
+            tipoCuero: 'Cuero vacuno',
+            codigo: '1047 Bespoke',
+            imagenPrincipal: "../assets/img/bespoke/150 - 25.webp",
+            imagenes: ["../assets/img/bespoke/150 - 25.webp", "../assets/img/bespoke/150 - 26.webp", "../assets/img/bespoke/150 - 27.webp", "../assets/img/bespoke/112 - 8.webp"]
+        },
+        {
             id: 'Oxford-1108-Bespoke-Marron',
             titulo: 'Oxford Mod. 1108',
             estilo: 'BESPOKE',
@@ -1376,8 +1706,8 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Cognac',
             tipoCuero: 'Cuero vacuno',
             codigo: '1116 Bespoke',
-            imagenPrincipal: "../assets/img/bespoke/113 - 9.webp",
-            imagenes: ["../assets/img/bespoke/113 - 9.webp", "../assets/img/bespoke/113 - 10.webp", "../assets/img/bespoke/113 - 11.webp", "../assets/img/bespoke/113 - 8.webp"]
+            imagenPrincipal: "../assets/img/bespoke/150 - 28.webp",
+            imagenes: ["../assets/img/bespoke/150 - 28.webp", "../assets/img/bespoke/113 - 10.webp", "../assets/img/bespoke/113 - 11.webp", "../assets/img/bespoke/113 - 8.webp"]
         },
         {
             id: 'Derby-1116-Suela',
@@ -1514,12 +1844,13 @@ document.addEventListener('DOMContentLoaded', function () {
         {
             id: 'Cinturon-Rustico-Maiz',
             titulo: 'Cinturón Rústico',
-            estilo: 'ACCESORIOS',
+            estilo: 'READY TO WEAR',
             descripcion: 'Este modelo es un cinturón de estilo rústico Se caracteriza por su textura más áspera y su ancho de 5,5 centímetros.',
             color: 'Maíz',
             tipoCuero: 'Vacuno',
             codigo: "Cinturón Rústico",
             imagenPrincipal: "../assets/img/cinturones/140 - 38.webp",
+            imagenes: ["../assets/img/cinturones/140 - 38.webp", "", "", ""]
         },
         {
             id: 'Cinturon-Rustico-Marron-Oscuro',
@@ -1530,6 +1861,7 @@ document.addEventListener('DOMContentLoaded', function () {
             tipoCuero: 'Vacuno',
             codigo: "Cinturón Rústico",
             imagenPrincipal: "../assets/img/cinturones/140 - 46.webp",
+            imagenes: ["../assets/img/cinturones/140 - 46.webp", "", "", ""]
         },
         {
             id: 'Cinturon-Rustico-Blanco',
@@ -1540,6 +1872,7 @@ document.addEventListener('DOMContentLoaded', function () {
             tipoCuero: 'Vacuno',
             codigo: "Cinturón Rústico",
             imagenPrincipal: "../assets/img/cinturones/141 - 5.webp",
+            imagenes: ["../assets/img/cinturones/141 - 5.webp", "", "", ""]
         },
         {
             id: 'Cinturon-Clasico-Guinda',
@@ -1550,6 +1883,7 @@ document.addEventListener('DOMContentLoaded', function () {
             tipoCuero: 'Vacuno',
             codigo: "Cinturón Clásico",
             imagenPrincipal: "../assets/img/cinturones/140 - 39.webp",
+            imagenes: ["../assets/img/cinturones/140 - 39.webp", "", "", ""]
         },
         {
             id: 'Cinturon-Clasico-Maiz',
@@ -1560,6 +1894,7 @@ document.addEventListener('DOMContentLoaded', function () {
             tipoCuero: 'Vacuno',
             codigo: "Cinturón Clásico",
             imagenPrincipal: "../assets/img/cinturones/140 - 41.webp",
+            imagenes: ["../assets/img/cinturones/140 - 41.webp", "", "", ""]
         },
         {
             id: 'Cinturon-Clasico-Graneado-Marron',
@@ -1570,6 +1905,7 @@ document.addEventListener('DOMContentLoaded', function () {
             tipoCuero: 'Vacuno Graneado',
             codigo: "Cinturón Clásico",
             imagenPrincipal: "../assets/img/cinturones/140 - 42.webp",
+            imagenes: ["../assets/img/cinturones/140 - 42.webp", "", "", ""]
         },
         {
             id: 'Cinturon-Clasico-Rojo',
@@ -1580,6 +1916,7 @@ document.addEventListener('DOMContentLoaded', function () {
             tipoCuero: 'Vacuno',
             codigo: "Cinturón Clásico",
             imagenPrincipal: "../assets/img/cinturones/140 - 43.webp",
+            imagenes: ["../assets/img/cinturones/140 - 43.webp", "", "", ""]
         },
         {
             id: 'Cinturon-Clasico-Negro',
@@ -1590,6 +1927,7 @@ document.addEventListener('DOMContentLoaded', function () {
             tipoCuero: 'Vacuno',
             codigo: "Cinturón Clásico",
             imagenPrincipal: "../assets/img/cinturones/140 - 44.webp",
+            imagenes: ["../assets/img/cinturones/140 - 44.webp", "", "", ""]
         },
         {
             id: 'Cinturon-Clasico-Verde',
@@ -1600,6 +1938,7 @@ document.addEventListener('DOMContentLoaded', function () {
             tipoCuero: 'Vacuno',
             codigo: "Cinturón Clásico",
             imagenPrincipal: "../assets/img/cinturones/140 - 45.webp",
+            imagenes: ["../assets/img/cinturones/140 - 45.webp", "", "", ""]
         },
         {
             id: 'Cinturon-Clasico-Azul',
@@ -1610,6 +1949,7 @@ document.addEventListener('DOMContentLoaded', function () {
             tipoCuero: 'Vacuno',
             codigo: "Cinturón Clásico",
             imagenPrincipal: "../assets/img/cinturones/140 - 47.webp",
+            imagenes: ["../assets/img/cinturones/140 - 47.webp", "", "", ""]
         },
         {
             id: 'Cinturon-Clasico-Gamuza-Marron',
@@ -1620,6 +1960,7 @@ document.addEventListener('DOMContentLoaded', function () {
             tipoCuero: 'Gamuza',
             codigo: "Cinturón Clásico",
             imagenPrincipal: "../assets/img/cinturones/141 - 2.webp",
+            imagenes: ["../assets/img/cinturones/141 - 2.webp", "", "", ""]
         },
         {
             id: 'Cinturon-Clasico-Gamuza-Rojo',
@@ -1630,6 +1971,7 @@ document.addEventListener('DOMContentLoaded', function () {
             tipoCuero: 'Gamuza',
             codigo: "Cinturón Clásico",
             imagenPrincipal: "../assets/img/cinturones/140 - 40.webp",
+            imagenes: ["../assets/img/cinturones/140 - 40.webp", "", "", ""]
         },
         {
             id: 'Cinturon-Clasico-Gamuza-Azul',
@@ -1640,6 +1982,7 @@ document.addEventListener('DOMContentLoaded', function () {
             tipoCuero: 'Gamuza',
             codigo: "Cinturón Clásico",
             imagenPrincipal: "../assets/img/cinturones/141 - 1.webp",
+            imagenes: ["../assets/img/cinturones/141 - 1.webp", "", "", ""]
         },
         {
             id: 'Cinturon-Clasico-Gamuza-Amarillo',
@@ -1650,6 +1993,7 @@ document.addEventListener('DOMContentLoaded', function () {
             tipoCuero: 'Gamuza',
             codigo: "Cinturón Clásico",
             imagenPrincipal: "../assets/img/cinturones/141 - 4.webp",
+            imagenes: ["../assets/img/cinturones/141 - 4.webp", "", "", ""]
         },
     ];
 
@@ -1667,7 +2011,518 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('img2').src = producto.imagenes[1];
         document.getElementById('img3').src = producto.imagenes[2];
         document.getElementById('img4').src = producto.imagenes[3];
+
+        if (producto) {
+            const carouselInner = document.querySelector('.carousel-inner');
+            const carouselIndicators = document.querySelector('.carousel-indicators');
+        
+            // Limpiar el contenido actual del carrusel
+            carouselInner.innerHTML = '';
+            carouselIndicators.innerHTML = '';
+        
+            if (producto.imagenes && producto.imagenes.length > 0) {
+                // Producto con imágenes disponibles
+                producto.imagenes.forEach((imagen, index) => {
+                    if (imagen !== '') {
+                        carouselInner.innerHTML += `
+                            <div class="carousel-item ${index === 0 ? 'active' : ''}">
+                                <img src="${imagen}" class="d-block w-100" alt="...">
+                            </div>
+                        `;
+                        carouselIndicators.innerHTML += `
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="${index}" ${index === 0 ? 'class="active"' : ''} aria-label="Slide ${index + 1}"></button>
+                        `;
+                    }
+                });
+            } else {
+                // Producto sin imágenes disponibles, mostrar solo la imagen principal
+                if (producto.imagenPrincipal !== '') {
+                    carouselInner.innerHTML += `
+                        <div class="carousel-item active">
+                            <img src="${producto.imagenPrincipal}" class="d-block w-100" alt="...">
+                        </div>
+                    `;
+                    // No se necesitan indicadores si solo hay una imagen
+                } else {
+                    console.log(`El producto con ID ${productoID} no tiene imágenes.`);
+                }
+            }
+        } else {
+            console.log(`Producto con ID ${productoID} no encontrado.`);
+        }
+
+        //-----
+        
+        
+        const preciosModelos = {
+            "sneaker": 100000,
+            "mocasin": 150000,
+            "oxford": 260000
+        };
+        
+        const precioElemento = document.getElementById('precio-modelo');
+        const divPrecioModelo = document.getElementById('div-precio_modelo');
+        
+        // Verificar si el precio es un modelo y buscar su precio en la lista de precios
+        if (typeof producto.precio === 'string' && preciosModelos.hasOwnProperty(producto.precio)) {
+            // Utilizar el precio del modelo definido en la lista de precios
+            const precioModelo = preciosModelos[producto.precio];
+            
+            // Muestra el precio del modelo
+            precioElemento.textContent = `$ ${precioModelo.toLocaleString('es-AR')}`;
+            
+            // Muestra el div de precio_modelo
+            divPrecioModelo.style.display = 'block';
+        } else if (producto.precio !== undefined && typeof producto.precio === 'number') {
+            // Si el precio es un número, mostrarlo normalmente
+            // Muestra el precio del producto
+            precioElemento.textContent = `$ ${producto.precio.toLocaleString('es-AR')}`;
+            
+            // Muestra el div de precio_modelo
+            divPrecioModelo.style.display = 'block';
+        } else {
+            // Muestra "Precio no disponible" si el precio no está definido o no es un número
+            precioElemento.textContent = "Precio no disponible";
+        
+            // Oculta el div de precio_modelo
+            divPrecioModelo.style.display = 'none';
+        }
+        
     } else {
         console.log(`Producto con ID ${productoID} no encontrado.`);
     }
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    const botonesCategorias = document.querySelectorAll('.button-card_models');
+    const botonTodosModelos = document.querySelector('.button-card_allmodels');
+
+    botonesCategorias.forEach(boton => {
+        boton.addEventListener('click', function(event) {
+            event.preventDefault(); // Evitar la acción predeterminada del enlace
+
+            // Agregar la clase 'seleccionado' al hacer clic en el filtro
+            if (!this.classList.contains('seleccionado')) {
+                // Remover la clase 'seleccionado' de todos los botones
+                botonesCategorias.forEach(b => b.classList.remove('seleccionado'));
+                // Agregar la clase 'seleccionado' solo al botón clickeado
+                this.classList.add('seleccionado');
+            }
+            
+            const categoriaSeleccionada = this.getAttribute('data-categoria');
+            actualizarURL(categoriaSeleccionada); // Función para actualizar la URL
+            aplicarFiltro(categoriaSeleccionada); // Función para aplicar el filtro
+        });
+    });
+
+    // Evento de clic para el botón "Todos los modelos"
+    botonTodosModelos.addEventListener('click', function(event) {
+        event.preventDefault();
+        botonesCategorias.forEach(boton => boton.classList.remove('seleccionado'));
+        actualizarURL(null); // Remover la categoría de la URL
+        aplicarFiltro(null); // Mostrar todos los modelos
+    });
+
+    // Función para actualizar el URL con el parámetro de categoría
+    function actualizarURL(categoria) {
+        const url = new URL(window.location.href);
+        url.searchParams.set('categoria', categoria);
+        history.replaceState(null, '', url);
+    }
+
+    // Función para aplicar el filtro basado en el parámetro de categoría
+    function aplicarFiltro(categoria) {
+        const productos = document.querySelectorAll('.producto');
+
+        productos.forEach(producto => {
+            const categoriaProducto = producto.getAttribute('data-categoria');
+            if (!categoria || categoria === 'null' || categoria === categoriaProducto) {
+                producto.style.display = 'block';
+            } else {
+                producto.style.display = 'none';
+            }
+        });
+    }
+
+    // Verificar si hay un parámetro de categoría en la URL al cargar la página
+    const urlParams = new URLSearchParams(window.location.search);
+    const categoriaURL = urlParams.get('categoria');
+    if (categoriaURL) {
+        aplicarFiltro(categoriaURL);
+        // Establecer la clase 'seleccionado' en el botón correspondiente si hay una categoría en la URL
+        const botonSeleccionado = document.querySelector(`[data-categoria="${categoriaURL}"]`);
+        if (botonSeleccionado) {
+            botonSeleccionado.classList.add('seleccionado');
+        }
+    }
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Obtener todos los enlaces de categorías principales
+    const botonesCategorias = document.querySelectorAll('.button-card_models');
+
+    // Agregar un evento de clic a cada enlace de categoría principal
+    botonesCategorias.forEach(boton => {
+        boton.addEventListener('click', function(event) {
+            event.preventDefault(); // Evitar la acción predeterminada del enlace
+
+            // Obtener la categoría seleccionada
+            const categoriaSeleccionada = this.getAttribute('data-categoria');
+
+            // Obtener el contenedor de subcategorías correspondiente a la categoría seleccionada
+            const subcategoriasContainer = document.querySelector(`.contenedor-card_shoe_models[data-categoria="${categoriaSeleccionada}"]`);
+
+            // Mostrar el contenedor de subcategorías
+            subcategoriasContainer.style.display = 'flex';
+            subcategoriasContainer.style.visibility = 'visible';
+
+            // Aplicar el filtro de la categoría seleccionada
+            aplicarFiltro(categoriaSeleccionada);
+        });
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Obtener el enlace de la categoría "Zapatos"
+    const zapatosLink = document.querySelector('.button-card_models[data-categoria="zapatos"]');
+
+    // Obtener el contenedor de subcategorías de zapatos
+    const subcategoriasContainer = document.querySelector('.contenedor-card_shoe_models');
+
+    // Agregar un evento de clic al enlace de "Zapatos"
+    zapatosLink.addEventListener('click', function(event) {
+        event.preventDefault(); // Evitar la acción predeterminada del enlace
+
+        // Cambiar el estilo del contenedor de subcategorías
+        subcategoriasContainer.style.display = 'flex';
+        subcategoriasContainer.style.visibility = 'visible';
+
+        // Filtrar productos por la categoría "Zapatos"
+        aplicarFiltro('zapatos');
+    });
+});
+
+//nuevo codigo que cree 22/03/2024
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Obtener el enlace de la categoría "Mocasines"
+    const mocasinesLink = document.querySelector('.button-card_models[data-categoria="mocasines"]');
+
+    // Obtener el contenedor de subcategorías de mocasines
+    const subcategoriasMocasinesContainer = document.querySelector('.contenedor-card_shoe_models_mocasines');
+
+    // Agregar un evento de clic al enlace de "Mocasines"
+    mocasinesLink.addEventListener('click', function(event) {
+        event.preventDefault(); // Evitar la acción predeterminada del enlace
+
+        // Mostrar el contenedor de subcategorías de mocasines
+        subcategoriasMocasinesContainer.style.display = 'flex';
+        subcategoriasMocasinesContainer.style.visibility = 'visible';
+
+        // Filtrar productos por la categoría "Mocasines"
+        aplicarFiltro('mocasines');
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Obtener todos los enlaces de categorías principales excepto "Mocasines"
+    const categoriasPrincipalesExceptoMocasines = document.querySelectorAll('.button-card_models:not([data-categoria="mocasines"])');
+
+    // Obtener el contenedor de subcategorías de mocasines
+    const subcategoriasMocasinesContainer = document.querySelector('.contenedor-card_shoe_models_mocasines');
+
+    // Agregar un evento de clic a cada enlace de categoría principal excepto "Mocasines"
+    categoriasPrincipalesExceptoMocasines.forEach(categoria => {
+        categoria.addEventListener('click', function(event) {
+            event.preventDefault(); // Evitar la acción predeterminada del enlace
+
+            // Ocultar las subcategorías de mocasines
+            subcategoriasMocasinesContainer.style.display = 'none';
+            subcategoriasMocasinesContainer.style.visibility = 'hidden';
+        });
+    });
+});
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Obtener los enlaces de todas las categorías principales
+    const categoriasPrincipales = document.querySelectorAll('.button-card_models:not([data-categoria="zapatos"])');
+
+    // Obtener el contenedor de subcategorías de zapatos
+    const subcategoriasContainer = document.querySelector('.contenedor-card_shoe_models');
+
+    // Agregar un evento de clic a cada enlace de categoría principal
+    categoriasPrincipales.forEach(categoria => {
+        categoria.addEventListener('click', function(event) {
+            event.preventDefault(); // Evitar la acción predeterminada del enlace
+
+            // Ocultar el contenedor de subcategorías de zapatos
+            subcategoriasContainer.style.display = 'none';
+            subcategoriasContainer.style.visibility = 'hidden';
+
+            // Obtener la categoría seleccionada y aplicar el filtro
+            const categoriaSeleccionada = this.getAttribute('data-categoria');
+            aplicarFiltro(categoriaSeleccionada);
+        });
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Obtener todos los enlaces de subcategorías
+    const subcategorias = document.querySelectorAll('.button-card_shoe_models');
+
+    // Agregar un evento de clic a cada enlace de subcategoría
+    subcategorias.forEach(subcategoria => {
+        subcategoria.addEventListener('click', function(event) {
+            event.preventDefault(); // Evitar la acción predeterminada del enlace
+
+            // Obtener la subcategoría seleccionada
+            const subcategoriaSeleccionada = this.getAttribute('data-subcategoria');
+            aplicarFiltro(subcategoriaSeleccionada);
+        });
+    });
+
+    // Función para aplicar el filtro
+    function aplicarFiltro(categoria) {
+        const productos = document.querySelectorAll('.producto');
+
+        productos.forEach(producto => {
+            const subcategoriaProducto = producto.getAttribute('data-subcategoria');
+            if (!categoria || categoria === 'null' || categoria === subcategoriaProducto) {
+                producto.style.display = 'block';
+            } else {
+                producto.style.display = 'none';
+            }
+        });
+    }
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Obtener todos los enlaces de subcategorías
+    const subcategorias = document.querySelectorAll('.button-card_shoe_models');
+
+    // Agregar un evento de clic a cada enlace de subcategoría
+    subcategorias.forEach(subcategoria => {
+        subcategoria.addEventListener('click', function(event) {
+            event.preventDefault(); // Evitar la acción predeterminada del enlace
+
+            // Remover la clase 'seleccionado' de todas las subcategorías
+            subcategorias.forEach(s => s.classList.remove('seleccionado'));
+
+            // Agregar la clase 'seleccionado' a la subcategoría clickeada
+            this.classList.add('seleccionado');
+        });
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Obtener el botón "Limpiar filtros"
+    const botonLimpiarFiltros = document.querySelector('.button-card_allmodels');
+
+    // Evento de clic para el botón "Limpiar filtros"
+    botonLimpiarFiltros.addEventListener('click', function(event) {
+        event.preventDefault(); // Evitar la acción predeterminada del enlace
+
+        // Remover la clase 'seleccionado' de todas las subcategorías
+        const subcategorias = document.querySelectorAll('.button-card_shoe_models');
+        subcategorias.forEach(subcategoria => subcategoria.classList.remove('seleccionado'));
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Obtener todos los enlaces de subcategorías
+    const subcategorias = document.querySelectorAll('.button-card_shoe_models');
+
+    // Evento de clic para cada enlace de subcategoría
+    subcategorias.forEach(subcategoria => {
+        subcategoria.addEventListener('click', function(event) {
+            event.preventDefault(); // Evitar la acción predeterminada del enlace
+
+            // Obtener la subcategoría seleccionada
+            const subcategoriaSeleccionada = this.getAttribute('data-subcategoria');
+
+            // Obtener el URL actual
+            const url = new URL(window.location.href);
+
+            // Obtener el parámetro de categoría del URL
+            const categoriaActual = url.searchParams.get('categoria');
+
+            // Construir el nuevo URL con la subcategoría seleccionada
+            let nuevoUrl;
+            if (categoriaActual) {
+                nuevoUrl = `${window.location.origin}${window.location.pathname}?categoria=${categoriaActual}&subcategoria=${subcategoriaSeleccionada}`;
+            } else {
+                nuevoUrl = `${window.location.origin}${window.location.pathname}?subcategoria=${subcategoriaSeleccionada}`;
+            }
+
+            // Actualizar el URL
+            history.replaceState(null, '', nuevoUrl);
+
+            // Aplicar el filtro de subcategoría
+            aplicarFiltro(subcategoriaSeleccionada);
+        });
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    const botonesCategorias = document.querySelectorAll('.button-card_models');
+    const botonTodosModelos = document.querySelector('.button-card_allmodels');
+
+    // Evento de clic para los botones de categoría
+    botonesCategorias.forEach(boton => {
+        boton.addEventListener('click', function(event) {
+            event.preventDefault(); // Evitar la acción predeterminada del enlace
+
+            // Agregar la clase 'seleccionado' al hacer clic en el filtro
+            if (!this.classList.contains('seleccionado')) {
+                // Remover la clase 'seleccionado' de todos los botones
+                botonesCategorias.forEach(b => b.classList.remove('seleccionado'));
+                // Agregar la clase 'seleccionado' solo al botón clickeado
+                this.classList.add('seleccionado');
+            }
+            
+            const categoriaSeleccionada = this.getAttribute('data-categoria');
+            const url = new URL(window.location.href);
+            url.searchParams.set('categoria', categoriaSeleccionada);
+            url.searchParams.delete('subcategoria');
+            history.replaceState(null, '', url);
+            aplicarFiltro(); // Aplicar filtro de categoría
+        });
+    });
+
+    // Evento de clic para el botón "Todos los modelos"
+    botonTodosModelos.addEventListener('click', function(event) {
+        event.preventDefault();
+        botonesCategorias.forEach(boton => boton.classList.remove('seleccionado'));
+        const url = new URL(window.location.href);
+        url.searchParams.delete('categoria');
+        url.searchParams.delete('subcategoria');
+        history.replaceState(null, '', url);
+        aplicarFiltro(); // Mostrar todos los modelos
+    });
+
+    // Función para aplicar el filtro
+    function aplicarFiltro() {
+        const productos = document.querySelectorAll('.producto');
+        const urlParams = new URLSearchParams(window.location.search);
+        const categoriaURL = urlParams.get('categoria');
+        const subcategoriaURL = urlParams.get('subcategoria');
+
+        productos.forEach(producto => {
+            const categoriaProducto = producto.getAttribute('data-categoria');
+            const subcategoriaProducto = producto.getAttribute('data-subcategoria');
+            
+            if ((!categoriaURL || categoriaURL === 'null' || categoriaURL === categoriaProducto) && 
+                (!subcategoriaURL || subcategoriaURL === 'null' || subcategoriaURL === subcategoriaProducto)) {
+                producto.style.display = 'block';
+            } else {
+                producto.style.display = 'none';
+            }
+        });
+    }
+
+    // Verificar si hay un parámetro de categoría en el URL al cargar la página
+    const urlParams = new URLSearchParams(window.location.search);
+    const categoriaURL = urlParams.get('categoria');
+    if (categoriaURL) {
+        // Establecer la clase 'seleccionado' en el botón correspondiente si hay una categoría en el URL
+        const botonSeleccionado = document.querySelector(`[data-categoria="${categoriaURL}"]`);
+        if (botonSeleccionado) {
+            botonSeleccionado.classList.add('seleccionado');
+        }
+    }
+
+    // Aplicar el filtro al cargar la página
+    aplicarFiltro();
+});
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Función para verificar el tamaño de la pantalla y mostrar u ocultar el contenedor de subcategorías
+    function verificarTamañoPantalla() {
+        if (window.matchMedia("(max-width: 768px)").matches) {
+            // Dispositivo móvil
+            document.querySelector('.contenedor-card_shoe_models').style.visibility = 'hidden';
+        } else {
+            // Versión web
+            document.querySelector('.contenedor-card_shoe_models').style.visibility = 'visible';
+        }
+    }
+
+    // Verificar el tamaño de la pantalla al cargar la página
+    verificarTamañoPantalla();
+
+    // Verificar el tamaño de la pantalla cuando cambia su tamaño
+    window.addEventListener('resize', verificarTamañoPantalla);
+});
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Obtener todos los enlaces de categorías principales excepto "Zapatos"
+    const categoriasNoZapatos = document.querySelectorAll('.button-card_models:not([data-categoria="zapatos"])');
+
+    // Obtener el contenedor de subcategorías para la versión móvil
+    const subcategoriasMobile = document.querySelector('.contenedor-card_shoe_models_mobile');
+
+    // Agregar un evento de clic a cada enlace de categoría principal excepto "Zapatos"
+    categoriasNoZapatos.forEach(categoria => {
+        categoria.addEventListener('click', function(event) {
+            event.preventDefault(); // Evitar la acción predeterminada del enlace
+
+            // Ocultar las subcategorías móviles
+            subcategoriasMobile.style.display = 'none';
+            subcategoriasMobile.style.visibility = 'hidden';
+        });
+    });
+
+    // Obtener el enlace de la categoría "Zapatos"
+    const zapatosLink = document.querySelector('.button-card_models[data-categoria="zapatos"]');
+
+    // Agregar un evento de clic al enlace de "Zapatos"
+    zapatosLink.addEventListener('click', function(event) {
+        event.preventDefault(); // Evitar la acción predeterminada del enlace
+
+        // Verificar si estamos en la versión móvil
+        if (window.innerWidth < 1100) {
+            // Mostrar las subcategorías móviles
+            subcategoriasMobile.style.display = 'flex';
+            subcategoriasMobile.style.visibility = 'visible';
+        }
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Obtener todos los enlaces de categorías principales excepto "Mocasines"
+    const categoriasPrincipalesExceptoMocasines = document.querySelectorAll('.button-card_models:not([data-categoria="mocasines"])');
+
+    // Obtener el contenedor de subcategorías de mocasines para la versión móvil
+    const subcategoriasMocasinesMobile = document.querySelector('.contenedor-card_shoe_models_mocasines_mobile');
+
+    // Agregar un evento de clic a cada enlace de categoría principal excepto "Mocasines"
+    categoriasPrincipalesExceptoMocasines.forEach(categoria => {
+        categoria.addEventListener('click', function(event) {
+            event.preventDefault(); // Evitar la acción predeterminada del enlace
+
+            // Ocultar las subcategorías de mocasines para la versión móvil
+            subcategoriasMocasinesMobile.style.display = 'none';
+            subcategoriasMocasinesMobile.style.visibility = 'hidden';
+        });
+    });
+
+    // Obtener el enlace de la categoría "Mocasines"
+    const mocasinesLink = document.querySelector('.button-card_models[data-categoria="mocasines"]');
+
+    // Agregar un evento de clic al enlace de "Mocasines"
+    mocasinesLink.addEventListener('click', function(event) {
+        event.preventDefault(); // Evitar la acción predeterminada del enlace
+
+        // Verificar si estamos en la versión móvil
+        if (window.innerWidth < 1100) {
+            // Mostrar el contenedor de subcategorías de mocasines para la versión móvil
+            subcategoriasMocasinesMobile.style.display = 'flex';
+            subcategoriasMocasinesMobile.style.visibility = 'visible';
+        }
+    });
+    
 });

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap");
@@ -227,6 +228,31 @@ ul {
   filter: brightness(0.7);
 }
 
+.img-acerca_de {
+  width: 30vw;
+  height: 20vw;
+  margin: 1rem;
+  transition: 0.5s;
+  filter: brightness(100%) grayscale(0%);
+  border-radius: 0.4vw;
+  object-fit: cover;
+  filter: brightness(0.7);
+}
+.img-acerca_de:hover {
+  width: 30vw;
+  height: 20vw;
+  transition: 0.5s;
+  filter: brightness(70%) grayscale(100%);
+}
+
+.img-nuestro_trabajo {
+  display: flex;
+  width: 25vw;
+  border-radius: 2vw;
+  box-shadow: 0px -1px 20px 0px;
+  color: rgba(0, 0, 0, 0.6117647059);
+}
+
 p {
   text-align: left;
   font-size: 1.2vw;
@@ -284,6 +310,14 @@ p {
 .p-model {
   margin: 0 0 1vw;
   text-align: start;
+}
+
+.p-price {
+  margin: 0 0 1vw;
+  text-align: start;
+  font-size: 1.4vw;
+  font-family: "Outfit", sans-serif;
+  color: #2a2a2a;
 }
 
 .p-descripcion {
@@ -388,6 +422,21 @@ p {
   margin: 0;
   font-family: "Outfit", sans-serif;
   color: #464646;
+}
+
+.p-aclaracion_filtros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.2vw;
+  margin: 2vw 26vw;
+  color: #df1616;
+}
+
+.p-nuestro_trabajo {
+  font-size: 1.2vw;
+  margin: 0;
 }
 
 .div-section {
@@ -577,6 +626,28 @@ a:visited {
   border: none;
 }
 
+.button-card_shoe_models {
+  padding: 0.5vw 3vw;
+  border-radius: 0.5vw;
+  background-color: rgba(103, 106, 124, 0.93);
+  border: none;
+  margin: 0 0.5vw;
+}
+
+.button-card_allmodels {
+  padding: 0.5vw 4vw;
+  border-radius: 0.5vw;
+  border: none;
+}
+
+.button-card_models.seleccionado {
+  background-color: #7783af;
+}
+
+.button-card_shoe_models.seleccionado {
+  background-color: rgb(119, 131, 175);
+}
+
 .acordion-filters {
   margin: 0 24vw;
   border: none;
@@ -599,6 +670,14 @@ a:visited {
 button:focus:not(:focus-visible) {
   outline: none !important;
   box-shadow: none !important;
+}
+
+.carousel-control-prev-icon2,
+.carousel-control-next-icon2 {
+  filter: invert(1); /* Invertir los colores del ícono */
+  opacity: 0.8;
+  width: 6vw;
+  margin-top: 111vw;
 }
 
 .form-style {
@@ -724,6 +803,36 @@ hr {
   flex-direction: column;
 }
 
+.div-acerca_de_texts {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 9.5vw;
+}
+
+.div-nuestro_trabajo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 4vw 2vw;
+}
+
+.carousel-pages [data-bs-target] {
+  background-color: #7c7c7c !important;
+  opacity: 0.4 !important;
+  width: 17px !important;
+  height: 2px !important;
+  margin-bottom: 0rem !important;
+}
+
+.carousel-pages .active {
+  opacity: 0;
+  background-color: #000000 !important;
+  margin-bottom: 0 !important;
+}
+
 .container-variant {
   justify-content: left;
 }
@@ -749,6 +858,16 @@ hr {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  background-color: #ffffff;
+  border: 0;
+}
+
+.contenedor-acerca_de {
+  margin: 0vw 10vw 3vw;
+  padding: 0vw 0 2vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   background-color: #ffffff;
   border: 0;
 }
@@ -864,8 +983,48 @@ hr {
 }
 
 .contenedor-card_models {
-  margin: 2vw 0vw 0vw;
-  padding: 0vw 0 2vw;
+  margin: 1vw 0vw 0vw;
+  padding: 0vw 0 0vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #ffffff;
+  border: 0;
+}
+
+.contenedor-card_shoe_models {
+  margin: 1vw 0vw 0vw;
+  padding: 0vw 0 0vw;
+  display: none;
+  flex-direction: row;
+  background-color: #ffffff;
+  border: 0;
+  visibility: hidden;
+}
+
+.contenedor-card_shoe_models_mobile {
+  display: none;
+  visibility: hidden;
+}
+
+.contenedor-card_shoe_models_mocasines {
+  margin: 1vw 0vw 0vw;
+  padding: 0vw;
+  display: none;
+  flex-direction: row;
+  background-color: #ffffff;
+  border: 0;
+  visibility: hidden;
+}
+
+.contenedor-card_shoe_models_mocasines_mobile {
+  display: none;
+  visibility: hidden;
+}
+
+.contenedor-card_clean_filters {
+  margin: 1vw 0vw 0vw;
+  padding: 0vw 0 0vw;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -876,6 +1035,10 @@ hr {
 .accordion-button:not(.collapsed) {
   background-color: rgba(255, 255, 255, 0);
   color: #47629e;
+}
+
+.carousel-container {
+  display: none;
 }
 
 h2 {
@@ -994,7 +1157,7 @@ h3 {
 
 .h3-style {
   color: #000000;
-  font-size: 1.1vw;
+  font-size: 0.9vw;
   text-align: center;
   margin: 0 0 0;
   letter-spacing: 0;
@@ -1002,9 +1165,17 @@ h3 {
 
 .h3-color {
   color: #595959;
-  font-size: 1.1vw;
+  font-size: 0.9vw;
   text-align: center;
   margin: 0 0 0;
+  letter-spacing: 0;
+}
+
+.h3-precio {
+  color: #000000;
+  font-size: 1vw;
+  text-align: center;
+  margin: 0.5vw 0;
   letter-spacing: 0;
 }
 
@@ -1012,7 +1183,7 @@ h3 {
   margin: auto;
   justify-content: center;
   align-items: center;
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   color: #29395c;
 }
 
@@ -1086,11 +1257,32 @@ h5 {
   margin: 0vw;
 }
 
+.h5-nuestro_trabajo {
+  font-size: 2.5vw;
+  margin: 0 0 1vw;
+}
+
 .card-title_models {
   margin: auto -1vw;
   justify-content: center;
   align-items: center;
   font-size: 1vw;
+  color: white;
+}
+
+.card-title_clean_models {
+  margin: auto -1vw;
+  justify-content: center;
+  align-items: center;
+  font-size: 1vw;
+  color: rgb(131, 131, 131);
+}
+
+.acerca_de_titles {
+  margin: auto -1vw;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw;
   color: white;
 }
 
@@ -1106,6 +1298,37 @@ h5 {
   padding: 0 0 3vw 0;
   background: rgb(36, 40, 65);
   background: linear-gradient(80deg, rgb(36, 40, 65) 0%, rgb(37, 41, 71) 26%, rgb(24, 27, 42) 73%, rgb(13, 14, 19) 100%);
+}
+
+.section-nuestro_trabajo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0;
+  background-color: #ffffff;
+  margin-bottom: 2vw;
+  border: 0;
+  margin: 0 17vw;
+}
+
+.section-nuestro_trabajo_reverse {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0;
+  background-color: #ffffff;
+  margin-bottom: 2vw;
+  border: 0;
+  margin: 0 17vw;
+  flex-direction: row-reverse;
+}
+
+#imagenesAdicionales {
+  display: block; /* Esto es importante para anular cualquier regla anterior que haya ocultado la sección */
+}
+
+.producto-con-una-imagen #imagenesAdicionales {
+  display: none;
 }
 
 footer {
@@ -1452,6 +1675,7 @@ footer .derechos-reservados {
     margin: 3vw auto 0vw;
     width: 80vw;
     justify-content: center;
+    display: none;
   }
   .h2-model {
     font-size: 230%;
@@ -1689,6 +1913,7 @@ footer .derechos-reservados {
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 3rem;
+    display: none;
   }
   .img-model_var {
     width: 80vw;
@@ -1741,12 +1966,15 @@ footer .derechos-reservados {
   .imagenes-button {
     font-family: "Outfit", sans-serif;
     color: #1F2337;
-    display: block;
+    display: none;
     text-align: center;
     margin: 1vw 2vw -5vw;
     padding: 0.5vw;
     text-decoration: none;
     font-size: 3.5vw;
+  }
+  #hr-var_modelos {
+    display: none;
   }
   .blue-section {
     margin: 10vw 0 0;
@@ -1905,9 +2133,47 @@ footer .derechos-reservados {
     margin: 3vw auto;
   }
   .contenedor-card_models {
-    margin: 7vw 15vw;
+    margin: 2vw 15vw;
     padding: 0 0;
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ffffff;
+    border: 0;
+    flex-direction: column;
+  }
+  .contenedor-card_shoe_models {
+    margin: 0vw 4vw;
+    padding: 0 0;
+    display: none !important;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ffffff;
+    border: 0;
+    flex-direction: column;
+  }
+  .contenedor-card_shoe_models_mobile {
+    margin: 0vw 4vw;
+    padding: 0 0;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ffffff;
+    border: 0;
+    flex-direction: column;
+  }
+  .contenedor-card_shoe_models_mocasines {
+    margin: 0vw 4vw;
+    padding: 0 0;
+    display: none !important;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ffffff;
+    border: 0;
+    flex-direction: column;
+  }
+  .contenedor-card_shoe_models_mocasines_mobile {
+    margin: 0vw 4vw;
+    padding: 0 0;
     flex-direction: row;
     justify-content: space-around;
     background-color: #ffffff;
@@ -1921,12 +2187,30 @@ footer .derechos-reservados {
     border: none;
     background-color: #29395c;
   }
+  .button-card_shoe_models {
+    margin: 3vw;
+    padding: 1vw 0;
+    border-radius: 5px;
+    border: none;
+  }
+  .button-card_allmodels {
+    margin: 3vw 0 0;
+    padding: 5vw 7vw;
+    border-radius: 5px;
+    border: none;
+  }
   .card-title_models {
     margin: auto -1vw;
     justify-content: center;
     align-items: center;
     font-size: 4vw;
     color: white;
+  }
+  .card-title_clean_models {
+    margin: auto -1vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.5vw;
   }
   .acordion-filters {
     margin: 0 12vw;
@@ -1945,6 +2229,57 @@ footer .derechos-reservados {
   }
   .accordion-button {
     padding: 3vw;
+  }
+  .p-price {
+    margin: 3vw 0 4vw;
+    text-align: center;
+    font-size: 5vw;
+    font-family: "Outfit", sans-serif;
+    color: #2a2a2a;
+  }
+  .p-aclaracion_filtros {
+    font-size: 4vw;
+    margin: 10vw 10vw 2vw;
+    color: #df1616;
+  }
+  .contenedor-acerca_de {
+    margin: 0vw 10vw 12vw;
+    padding: 0vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border: 0;
+  }
+  .img-acerca_de {
+    width: 80vw;
+    height: 30vw;
+    margin: 1rem;
+    border-radius: 3vw;
+  }
+  .img-acerca_de:hover {
+    width: 80vw;
+    height: 30vw;
+  }
+  .div-acerca_de_texts {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10.5vw;
+    padding: 5vw 0;
+  }
+  .acerca_de_titles {
+    margin: auto -1vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 6vw;
+    color: white;
+  }
+  .carousel-container {
+    display: block;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -2220,6 +2555,7 @@ footer .derechos-reservados {
     margin: 3vw auto 0vw;
     width: 70vw;
     justify-content: center;
+    display: none;
   }
   .h2-model {
     font-size: 400%;
@@ -2400,6 +2736,7 @@ footer .derechos-reservados {
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 3rem;
+    display: none;
   }
   .img-model_var {
     width: 70vw;
@@ -2458,12 +2795,15 @@ footer .derechos-reservados {
   .imagenes-button {
     font-family: "Outfit", sans-serif;
     color: #1F2337;
-    display: block;
+    display: none;
     text-align: center;
     margin: 1vw 2vw -3.5vw;
     padding: 0.5vw;
     text-decoration: none;
     font-size: 3vw;
+  }
+  #hr-var_modelos {
+    display: none;
   }
   .blue-section {
     margin: 10vw 0 0;
@@ -2613,6 +2953,44 @@ footer .derechos-reservados {
     border: 0;
     flex-direction: column;
   }
+  .contenedor-card_shoe_models {
+    margin: 0vw 4vw;
+    padding: 0 0;
+    display: none !important;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ffffff;
+    border: 0;
+    flex-direction: column;
+  }
+  .contenedor-card_shoe_models_mobile {
+    margin: 0vw 4vw;
+    padding: 0 0;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ffffff;
+    border: 0;
+    flex-direction: column;
+  }
+  .contenedor-card_shoe_models_mocasines {
+    margin: 0vw 4vw;
+    padding: 0 0;
+    display: none !important;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ffffff;
+    border: 0;
+    flex-direction: column;
+  }
+  .contenedor-card_shoe_models_mocasines_mobile {
+    margin: 0vw 4vw;
+    padding: 0 0;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ffffff;
+    border: 0;
+    flex-direction: column;
+  }
   .button-card_models {
     margin: 1.5vw;
     padding: 1vw 0;
@@ -2620,12 +2998,29 @@ footer .derechos-reservados {
     border: none;
     background-color: #1F2337;
   }
+  .button-card_shoe_models {
+    margin: 1.5vw;
+    padding: 1vw 0;
+    border-radius: 5px;
+    border: none;
+  }
+  .button-card_allmodels {
+    margin: 3vw 0 0;
+    border-radius: 5px;
+    border: none;
+  }
   .card-title_models {
     margin: auto -1vw;
     justify-content: center;
     align-items: center;
     font-size: 2vw;
     color: white;
+  }
+  .card-title_clean_models {
+    margin: auto -1vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
   }
   .acordion-filters {
     margin: 0 17vw;
@@ -2660,6 +3055,70 @@ footer .derechos-reservados {
   }
   .accordion-button {
     padding: 1.5vw 2vw;
+  }
+  .p-price {
+    margin: 3vw 0 4vw;
+    text-align: center;
+    font-size: 5vw;
+    font-family: "Outfit", sans-serif;
+    color: #2a2a2a;
+  }
+  .p-aclaracion_filtros {
+    font-size: 3vw;
+    margin: 9vw 10vw 5vw;
+    color: #df1616;
+  }
+  .contenedor-acerca_de {
+    margin: 0vw 10vw 12vw;
+    padding: 0vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border: 0;
+  }
+  .img-acerca_de {
+    width: 70vw;
+    height: 25vw;
+    margin: 1rem;
+    border-radius: 3vw;
+  }
+  .img-acerca_de:hover {
+    width: 70vw;
+    height: 25vw;
+  }
+  .div-acerca_de_texts {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10.5vw;
+    padding: 0;
+  }
+  .acerca_de_titles {
+    margin: auto -1vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+    color: white;
+  }
+  .carousel-container {
+    display: block;
+  }
+  .carousel-item2 {
+    margin-left: 12vw !important;
+    width: 75% !important;
+  }
+  .carousel-control-prev-icon2, .carousel-control-next-icon2 {
+    filter: invert(1); /* Invertir los colores del ícono */
+    opacity: 0.8;
+    width: 6vw;
+    margin-top: 86vw;
+  }
+  .carousel-models {
+    margin-bottom: 18vw !important;
   }
 }
 .estilo-x {

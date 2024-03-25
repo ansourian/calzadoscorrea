@@ -11,3 +11,34 @@
     background: rgb(36,40,65);
     background: linear-gradient(80deg, rgba(36,40,65,1) 0%, rgba(37,41,71,1) 26%, rgba(24,27,42,1) 73%, rgba(13,14,19,1) 100%);
 }
+
+.section-nuestro_trabajo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+    background-color: #ffffff;
+    margin-bottom: 2vw;
+    border: 0;
+    margin: 0 17vw;
+}
+
+.section-nuestro_trabajo_reverse{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+    background-color: #ffffff;
+    margin-bottom: 2vw;
+    border: 0;
+    margin: 0 17vw;
+    flex-direction: row-reverse;
+}
+
+#imagenesAdicionales {
+    display: block; /* Esto es importante para anular cualquier regla anterior que haya ocultado la sección */
+}
+
+.producto-con-una-imagen #imagenesAdicionales {
+    display: none;
+}

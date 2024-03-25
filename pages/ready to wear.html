@@ -22,9 +22,9 @@
                     <button id="cerrar" class="close-menu"><i class="bi bi-x-lg"></i></button>
                     <ul class="nav-list">
                         <li><a class="item-nav" href="../index.html">INICIO</a></li>
-                        <li><a class="item-nav" href="./quienes_somos.html">QUIENES SOMOS</a></li>
                         <li><a class="item-nav" href="./modelos.html">MODELOS</a></li>
                         <li><a class="item-nav" href="./mantenimiento.html">MANTENIMIENTO</a></li>
+                        <li><a class="item-nav" href="./acerca_de.html">ACERCA DE</a></li>
                         <li><a class="item-nav" href="./preguntas_frecuentes.html">AYUDA</a></li>
                         <li><a class="item-nav" href="./contacto.html">CONTACTO</a></li>
                     </ul>
@@ -44,6 +44,9 @@
                 <p class="p-sub"> Calzado estándar listo para vestir.
             </div>
             <hr class="hr-rtw">
+            <div>
+                <p class="p-aclaracion_filtros"> Renovamos la sección de filtros de búsqueda para que tengas una mejor experiencia. Ahora al clickear sobre el filtro, los cambios se aplican en esta misma pestaña. En caso de querer borrar los filtros podés clickear en la opción "Limpiar filtros de búsqueda"
+            </div>
             <div class="accordion accordion-flush div-acordion_filters" id="accordionFlushExample">
                 <div class="accordion-item acordion-filters">
                   <h2 class="accordion-header" id="flush-headingOne">
@@ -52,458 +55,677 @@
                     </button>
                   </h2>
                   <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                    <section class="contenedor-card_models fade-section">
-                        <a href="../pages/zapatos.html" class="button-card_models">
+                    <section class="contenedor-card_clean_filters fade-section">
+                        <a href="../pages/zapatos.html" class="button-card_allmodels">
+                            <h4 class="card-title_clean_models">Limpiar filtros de búsqueda</h4>
+                        </a>   
+                    </section>
+                    <section class="contenedor-card_models">
+                        <a href="../pages/zapatos.html" class="button-card_models" data-categoria="zapatos">
                             <h4 class="card-title_models">Zapatos</h4>
                         </a>
-                        <a href="../pages/botas.html" class="button-card_models">
+                        <section class="contenedor-card_shoe_models_mobile">
+                            <a href="" class="button-card_shoe_models" data-subcategoria="oxford">
+                                <h4 class="card-title_models">Oxford</h4>
+                            </a>
+                            <a href="" class="button-card_shoe_models" data-subcategoria="swann">
+                                <h4 class="card-title_models">Swann</h4>
+                            </a>
+                            <a href="" class="button-card_shoe_models" data-subcategoria="derby">
+                                <h4 class="card-title_models">Derby</h4>
+                            </a>
+                            <a href="" class="button-card_shoe_models" data-subcategoria="dandy">
+                                <h4 class="card-title_models">Dandy</h4>
+                            </a>
+                            <a href="" class="button-card_shoe_models" data-subcategoria="con-hebillas">
+                                <h4 class="card-title_models">Con Hebillas</h4>
+                            </a>
+                        </section> 
+                        <a href="" class="button-card_models" data-categoria="botas">
                             <h4 class="card-title_models">Botas</h4>
                         </a>
-                        <a href="../pages/borcegos.html" class="button-card_models">
+                        <a href="" class="button-card_models" data-categoria="borcegos">
                             <h4 class="card-title_models">Borcegos</h4>
                         </a>
-                        <a href="../pages/mocasines.html" class="button-card_models">
+                        <a href="" class="button-card_models" data-categoria="mocasines">
                             <h4 class="card-title_models">Mocasines</h4>
                         </a>
-                        <a href="../pages/sneakers.html" class="button-card_models">
+                        <section class="contenedor-card_shoe_models_mocasines_mobile">
+                            <a href="" class="button-card_shoe_models" data-subcategoria="nauticos">
+                                <h4 class="card-title_models">Náuticos</h4>
+                            </a>
+                            <a href="" class="button-card_shoe_models" data-subcategoria="archibaldo">
+                                <h4 class="card-title_models">Archibaldo</h4>
+                            </a>
+                        </section> 
+                        <a href="" class="button-card_models" data-categoria="escarpines">
+                            <h4 class="card-title_models">Escarpines</h4>
+                        </a>
+                        <a href="" class="button-card_models" data-categoria="sneakers">
                             <h4 class="card-title_models">Sneakers</h4>
                         </a>
-                    </section>        
+                    </section>
+                    <section class="contenedor-card_shoe_models">
+                        <a href="" class="button-card_shoe_models" data-subcategoria="oxford">
+                            <h4 class="card-title_models">Oxford</h4>
+                        </a>
+                        <a href="" class="button-card_shoe_models" data-subcategoria="swann">
+                            <h4 class="card-title_models">Swann</h4>
+                        </a>
+                        <a href="" class="button-card_shoe_models" data-subcategoria="derby">
+                            <h4 class="card-title_models">Derby</h4>
+                        </a>
+                        <a href="" class="button-card_shoe_models" data-subcategoria="dandy">
+                            <h4 class="card-title_models">Dandy</h4>
+                        </a>
+                        <a href="" class="button-card_shoe_models" data-subcategoria="con-hebillas">
+                            <h4 class="card-title_models">Con Hebillas</h4>
+                        </a>
+                    </section> 
+                    <section class="contenedor-card_shoe_models_mocasines" style="display: none;">
+                        <a href="" class="button-card_shoe_models" data-subcategoria="nauticos">
+                            <h4 class="card-title_models">Náuticos</h4>
+                        </a>
+                        <a href="" class="button-card_shoe_models" data-subcategoria="archibaldo">
+                            <h4 class="card-title_models">Archibaldo</h4>
+                        </a>
+                    </section>                    
                   </div>
                 </div>
                 <input type="text" class="search-bar" id="searchInput" placeholder="Buscar modelos...">
               </div>
             <section id="lista-productos" class="container">
-                <article class="producto model" data-producto-id="1122-Negro">
+                <article class="producto model" data-producto-id="1122-Negro" data-categoria="zapatos" data-subcategoria="oxford">
                     <img class="img-models" src="../assets/img/ready to wear/135 - 21.webp" alt="Oxford 1122 (Negro)">
                     <h4 class="model-titles">Oxford Mod. 1122</h4>
                     <h3 class="h3-style">Wingtip Full Brogued</h3>
                     <h3 class="h3-color">Negro</h3>
                 </article>
-                <article class="producto model" data-producto-id="1122-Natural">
+                <article class="producto model" data-producto-id="1122-Natural" data-categoria="zapatos" data-subcategoria="oxford">
                     <img class="img-models" src="../assets/img/ready to wear/123 - 5.webp" alt="Oxford 1122 (Natural)">
                     <h4 class="model-titles">Oxford Mod. 1122</h4>
                     <h3 class="h3-style">Wingtip Full Brogued</h3>
                     <h3 class="h3-color">Natural</h3>
                 </article>
-                <article class="producto model" data-producto-id="1122-Marron">
+                <article class="producto model" data-producto-id="1122-Marron" data-categoria="zapatos" data-subcategoria="oxford">
                     <img class="img-models" src="../assets/img/ready to wear/135 - 24.webp" alt="Oxford 1122 (Marrón)">
                     <h4 class="model-titles">Oxford Mod. 1122</h4>
                     <h3 class="h3-style">Wingtip Full Brogued</h3>
                     <h3 class="h3-color">Marrón</h3>
                 </article>
-                <article class="producto model" data-producto-id="1122-Tabaco">
+                <article class="producto model" data-producto-id="1122-Tabaco" data-categoria="zapatos" data-subcategoria="oxford">
                     <img class="img-models" src="../assets/img/ready to wear/123 - 9.webp" alt="Oxford 1122 (Tabaco)">
                     <h4 class="model-titles">Oxford Mod. 1122</h4>
                     <h3 class="h3-style">Wingtip Full Brogued</h3>
                     <h3 class="h3-color">Tabaco</h3>
                 </article>
-                <article class="producto model" data-producto-id="1122-Cafe">
+                <article class="producto model" data-producto-id="1122-Cafe" data-categoria="zapatos" data-subcategoria="oxford">
                     <img class="img-models" src="../assets/img/ready to wear/138 - 4.webp" alt="Oxford 1122 (Cafe)">
                     <h4 class="model-titles">Oxford Mod. 1122</h4>
                     <h3 class="h3-style">Wingtip Full Brogued</h3>
                     <h3 class="h3-color">Café</h3>
                 </article>
-                <article class="producto model" data-producto-id="1122-Suela">
+                <article class="producto model" data-producto-id="1122-Suela" data-categoria="zapatos" data-subcategoria="oxford">
                     <img class="img-models" src="../assets/img/ready to wear/122 - 29.webp" alt="Oxford 1122 (Suela)">
                     <h4 class="model-titles">Oxford Mod. 1122</h4>
                     <h3 class="h3-style">Wingtip Full Brogued</h3>
                     <h3 class="h3-color">Suela</h3>
                 </article>
-                <article class="producto model" data-producto-id="1122-Verde">
+                <article class="producto model" data-producto-id="1122-Verde" data-categoria="zapatos" data-subcategoria="oxford">
                     <img class="img-models" src="../assets/img/ready to wear/123 - 1.webp" alt="Oxford 1122 (Verde)">
                     <h4 class="model-titles">Oxford Mod. 1122</h4>
                     <h3 class="h3-style">Wingtip Full Brogued</h3>
                     <h3 class="h3-color">Verde</h3>
                 </article>
-                <article class="producto model" data-producto-id="1108-Negro">
+                <article class="producto model" data-producto-id="1122-Rojo" data-categoria="zapatos" data-subcategoria="oxford">
+                    <img class="img-models" src="../assets/img/ready to wear/147 - 3.webp" alt="Oxford 1122 (Rojo)">
+                    <h4 class="model-titles">Oxford Mod. 1122</h4>
+                    <h3 class="h3-style">Wingtip Full Brogued</h3>
+                    <h3 class="h3-color">Rojo</h3>
+                </article>
+                <article class="producto model" data-producto-id="1122-Azul" data-categoria="zapatos" data-subcategoria="oxford">
+                    <img class="img-models" src="../assets/img/ready to wear/147 - 6.webp" alt="Oxford 1122 (Azul)">
+                    <h4 class="model-titles">Oxford Mod. 1122</h4>
+                    <h3 class="h3-style">Wingtip Full Brogued</h3>
+                    <h3 class="h3-color">Azul</h3>
+                </article>
+                <article class="producto model" data-producto-id="1108-Negro" data-categoria="zapatos" data-subcategoria="oxford">
                     <img class="img-models" src="../assets/img/ready to wear/132 - 5.webp" alt="1108 (Negro)">
                     <h4 class="model-titles">Oxford Mod. 1108</h4>
                     <h3 class="h3-style">Captoe Full Brogued</h3>
                     <h3 class="h3-color">Negro</h3>
                 </article>
-                <article class="producto model" data-producto-id="1108-Guinda">
+                <article class="producto model" data-producto-id="1108-Guinda" data-categoria="zapatos" data-subcategoria="oxford">
                     <img class="img-models" src="../assets/img/ready to wear/127 - 5.webp" alt="1108 (Guinda)">
                     <h4 class="model-titles">Oxford Mod. 1108</h4>
                     <h3 class="h3-style">Captoe Full Brogued</h3>
                     <h3 class="h3-color">Guinda</h3>
                 </article>
-                <article class="producto model" data-producto-id="1108-Natural">
+                <article class="producto model" data-producto-id="1108-Natural" data-categoria="zapatos" data-subcategoria="oxford">
                     <img class="img-models" src="../assets/img/ready to wear/137 - 1.webp" alt="1108 (Natural)">
                     <h4 class="model-titles">Oxford Mod. 1108</h4>
                     <h3 class="h3-style">Captoe Full Brogued</h3>
                     <h3 class="h3-color">Natural</h3>
                 </article>
-                <article class="producto model" data-producto-id="1108-Marron">
+                <article class="producto model" data-producto-id="1108-Marron" data-categoria="zapatos" data-subcategoria="oxford">
                     <img class="img-models" src="../assets/img/ready to wear/137 - 4.webp" alt="1108 (Marrón)">
                     <h4 class="model-titles">Oxford Mod. 1108</h4>
                     <h3 class="h3-style">Captoe Full Brogued</h3>
                     <h3 class="h3-color">Marrón</h3>
                 </article>
-                <article class="producto model" data-producto-id="1108-SB-Guinda">
+                <article class="producto model" data-producto-id="1108-SB-Guinda" data-categoria="zapatos" data-subcategoria="oxford">
                     <img class="img-models" src="../assets/img/ready to wear/137 - 10.webp" alt="1108 (Guinda)">
                     <h4 class="model-titles">Oxford Mod. 1108</h4>
                     <h3 class="h3-style">Captoe Semi Brogued</h3>
                     <h3 class="h3-color">Guinda</h3>
                 </article>
-                <article class="producto model" data-producto-id="1108-SB-Suela">
+                <article class="producto model" data-producto-id="1108-SB-Suela" data-categoria="zapatos" data-subcategoria="oxford">
                     <img class="img-models" src="../assets/img/ready to wear/137 - 7.webp" alt="1108 (Suela)">
                     <h4 class="model-titles">Oxford Mod. 1108</h4>
                     <h3 class="h3-style">Captoe Semi Brogued</h3>
                     <h3 class="h3-color">Suela</h3>
                 </article>
-                <article class="producto model" data-producto-id="1108-SB-Cafe">
+                <article class="producto model" data-producto-id="1108-SB-Cafe" data-categoria="zapatos" data-subcategoria="oxford">
                     <img class="img-models" src="../assets/img/ready to wear/137 - 13.webp" alt="1108 (Café)">
                     <h4 class="model-titles">Oxford Mod. 1108</h4>
                     <h3 class="h3-style">Captoe Semi Brogued</h3>
                     <h3 class="h3-color">Café</h3>
                 </article>
-                <article class="producto model" data-producto-id="1107-Tabaco">
+                <article class="producto model" data-producto-id="1107-Tabaco" data-categoria="zapatos" data-subcategoria="oxford">
                     <img class="img-models" src="../assets/img/ready to wear/127 - 9.webp" alt="1107 Liso (Tabaco)">
                     <h4 class="model-titles">Oxford Mod. 1107</h4>
                     <h3 class="h3-style">Plain (No Captoe)</h3>
                     <h3 class="h3-color">Tabaco</h3>
                 </article>
-                <article class="producto model" data-producto-id="1107-Guinda">
+                <article class="producto model" data-producto-id="1107-Guinda" data-categoria="zapatos" data-subcategoria="oxford">
                     <img class="img-models" src="../assets/img/ready to wear/135 - 13.webp" alt="1107 Liso (Guinda)">
                     <h4 class="model-titles">Oxford Mod. 1107</h4>
                     <h3 class="h3-style">Plain (No Captoe)</h3>
                     <h3 class="h3-color">Guinda</h3>
                 </article>
-                <article class="producto model" data-producto-id="1107-Marron">
+                <article class="producto model" data-producto-id="1107-Marron" data-categoria="zapatos" data-subcategoria="oxford">
                     <img class="img-models" src="../assets/img/ready to wear/137 - 20.webp" alt="1107 Liso (Marrón)">
                     <h4 class="model-titles">Oxford Mod. 1107</h4>
                     <h3 class="h3-style">Plain (No Captoe)</h3>
                     <h3 class="h3-color">Marrón</h3>
                 </article>
-                <article class="producto model" data-producto-id="1107-Suela">
+                <article class="producto model" data-producto-id="1107-Suela" data-categoria="zapatos" data-subcategoria="oxford">
                     <img class="img-models" src="../assets/img/ready to wear/137 - 23.webp" alt="1107 Liso (Suela)">
                     <h4 class="model-titles">Oxford Mod. 1107</h4>
                     <h3 class="h3-style">Plain (No Captoe)</h3>
                     <h3 class="h3-color">Suela</h3>
                 </article>
-                <article class="producto model" data-producto-id="1107-Marron-Picado-Flor">
+                <article class="producto model" data-producto-id="1107-Marron-Picado-Flor" data-categoria="zapatos" data-subcategoria="oxford">
                     <img class="img-models" src="../assets/img/ready to wear/135 - 10.webp" alt="1107 Picado con Flor (Marrón)">
                     <h4 class="model-titles">Oxford Mod. 1107</h4>
                     <h3 class="h3-style">Full Brogued</h3>
                     <h3 class="h3-color">Marrón</h3>
                 </article>
-                <article class="producto model" data-producto-id="1107-Tabaco-Picado-Flor">
+                <article class="producto model" data-producto-id="1107-Tabaco-Picado-Flor" data-categoria="zapatos" data-subcategoria="oxford">
                     <img class="img-models" src="../assets/img/ready to wear/127 - 13.webp" alt="1107 Picado con Flor (Tabaco)">
                     <h4 class="model-titles">Oxford Mod. 1107</h4>
                     <h3 class="h3-style">Full Brogued</h3>
                     <h3 class="h3-color">Tabaco</h3>
                 </article>
-                <article class="producto model" data-producto-id="1107-Negro-Picado">
+                <article class="producto model" data-producto-id="1107-Negro-Picado" data-categoria="zapatos" data-subcategoria="oxford">
                     <img class="img-models" src="../assets/img/ready to wear/127 - 17.webp" alt="(Tabaco)">
                     <h4 class="model-titles">Oxford Mod. 1107</h4>
                     <h3 class="h3-style">Semi Brogued</h3>
                     <h3 class="h3-color">Negro</h3>
                 </article>
-                <article class="producto model" data-producto-id="1103-Negro">
+                <article class="producto model" data-producto-id="1103-Negro" data-categoria="zapatos" data-subcategoria="oxford">
                     <img class="img-models" src="../assets/img/ready to wear/121 - 1.webp" alt="1103 (Negro)">
                     <h4 class="model-titles">Oxford Mod. 1103</h4>
                     <h3 class="h3-style">Plain Captoe</h3>
                     <h3 class="h3-color">Negro</h3>
                 </article>
-                <article class="producto model" data-producto-id="1103-Suela">
+                <article class="producto model" data-producto-id="1103-Suela" data-categoria="zapatos" data-subcategoria="oxford">
                     <img class="img-models" src="../assets/img/ready to wear/135 - 7.webp" alt="1103 (Suela)">
                     <h4 class="model-titles">Oxford Mod. 1103</h4>
                     <h3 class="h3-style">Plain Captoe</h3>
                     <h3 class="h3-color">Suela</h3>
                 </article>
-                <article class="producto model" data-producto-id="1103-Cafe">
+                <article class="producto model" data-producto-id="1103-Cafe" data-categoria="zapatos" data-subcategoria="oxford">
                     <img class="img-models" src="../assets/img/ready to wear/121 - 4.webp" alt="1103 (Chocolate)">
                     <h4 class="model-titles">Oxford Mod. 1103</h4>
                     <h3 class="h3-style">Plain Captoe</h3>
                     <h3 class="h3-color">Café</h3>
                 </article>
-                <article class="producto model" data-producto-id="1103-Marron">
+                <article class="producto model" data-producto-id="1103-Marron" data-categoria="zapatos" data-subcategoria="oxford">
                     <img class="img-models" src="../assets/img/ready to wear/121 - 8.webp" alt="1103 (Marrón)">
                     <h4 class="model-titles">Oxford Mod. 1103</h4>
                     <h3 class="h3-style">Plain Captoe</h3>
                     <h3 class="h3-color">Marrón</h3>
                 </article>
-                <article class="producto model" data-producto-id="1103-Guinda">
+                <article class="producto model" data-producto-id="1103-Guinda" data-categoria="zapatos" data-subcategoria="oxford">
                     <img class="img-models" src="../assets/img/ready to wear/127 - 1.webp" alt="1103 (Guinda)">
                     <h4 class="model-titles">Oxford Mod. 1103</h4>
                     <h3 class="h3-style">Plain Captoe</h3>
                     <h3 class="h3-color">Guinda</h3>
                 </article>
-                <article class="producto model" data-producto-id="Swann-Tabaco">
+                <article class="producto model" data-producto-id="Swann-Tabaco" data-categoria="zapatos" data-subcategoria="swann">
                     <img class="img-models" src="../assets/img/ready to wear/139 - 4.webp" alt="Swann en color Tabaco">
                     <h4 class="model-titles">Mod. Swann</h4>
                     <h3 class="h3-style">Wholecut</h3>
                     <h3 class="h3-color">Tabaco</h3>
                 </article>
-                <article class="producto model" data-producto-id="Swann-Negro">
+                <article class="producto model" data-producto-id="Swann-Negro" data-categoria="zapatos" data-subcategoria="swann">
                     <img class="img-models" src="../assets/img/ready to wear/139 - 1.webp" alt="Swann en color Negro">
                     <h4 class="model-titles">Mod. Swann</h4>
                     <h3 class="h3-style">Wholecut</h3>
                     <h3 class="h3-color">Negro</h3>
                 </article>
-                <article class="producto model" data-producto-id="2-Hebillas-Negro">
+                <article class="producto model" data-producto-id="2-Hebillas-Negro" data-categoria="zapatos" data-subcategoria="con-hebillas">
                     <img class="img-models" src="../assets/img/ready to wear/130 - 41.webp" alt="Dos Hebillas color negro">
                     <h4 class="model-titles">2 Hebillas</h4>
                     <h3 class="h3-style">Captoe Double Monkstrap</h3>
                     <h3 class="h3-color">Negro</h3>
                 </article>
-                <article class="producto model" data-producto-id="2-Hebillas-Suela">
+                <article class="producto model" data-producto-id="2-Hebillas-Suela" data-categoria="zapatos" data-subcategoria="con-hebillas">
                     <img class="img-models" src="../assets/img/ready to wear/130 - 45.webp" alt="Dos Hebillas color suela">
                     <h4 class="model-titles">2 Hebillas</h4>
                     <h3 class="h3-style">Captoe Double Monkstrap</h3>
                     <h3 class="h3-color">Suela</h3>
                 </article>
-                <article class="producto model" data-producto-id="2-Hebillas-Cafe">
+                <article class="producto model" data-producto-id="2-Hebillas-Cafe" data-categoria="zapatos" data-subcategoria="con-hebillas">
                     <img class="img-models" src="../assets/img/ready to wear/130 - 48.webp" alt="Dos Hebillas color café">
                     <h4 class="model-titles">2 Hebillas</h4>
                     <h3 class="h3-style">Captoe Double Monkstrap</h3>
                     <h3 class="h3-color">Café</h3>
                 </article>
-                <article class="producto model" data-producto-id="2-Hebillas-Marron">
+                <article class="producto model" data-producto-id="2-Hebillas-Marron" data-categoria="zapatos" data-subcategoria="con-hebillas">
                     <img class="img-models" src="../assets/img/ready to wear/130 - 54.webp" alt="Dos Hebillas color marrón">
                     <h4 class="model-titles">2 Hebillas</h4>
                     <h3 class="h3-style">Captoe Double Monkstrap</h3>
                     <h3 class="h3-color">Marrón</h3>
                 </article>
-                <article class="producto model" data-producto-id="1119-Negro">
+                <article class="producto model" data-producto-id="1119-Negro" data-categoria="zapatos" data-subcategoria="derby">
                     <img class="img-models" src="../assets/img/ready to wear/136 - 9.webp" alt="Derby 1119 (Negro)">
                     <h4 class="model-titles">Derby Mod. 1119</h4>
                     <h3 class="h3-style">Captoe Semi Brogued</h3>
                     <h3 class="h3-color">Negro</h3>
                 </article>
-                <article class="producto model" data-producto-id="1119-Guinda">
+                <article class="producto model" data-producto-id="1119-Guinda" data-categoria="zapatos" data-subcategoria="derby">
                     <img class="img-models" src="../assets/img/ready to wear/136 - 12.webp" alt="Derby 1119 (Guinda)">
                     <h4 class="model-titles">Derby Mod. 1119</h4>
                     <h3 class="h3-style">Captoe Semi Brogued</h3>
                     <h3 class="h3-color">Guinda</h3>
                 </article>
-                <article class="producto model" data-producto-id="1119-Marron">
+                <article class="producto model" data-producto-id="1119-Marron" data-categoria="zapatos" data-subcategoria="derby">
                     <img class="img-models" src="../assets/img/ready to wear/136 - 15.webp" alt="Derby 1119 (Marrón)">
                     <h4 class="model-titles">Derby Mod. 1119</h4>
                     <h3 class="h3-style">Captoe Semi Brogued</h3>
                     <h3 class="h3-color">Marrón</h3>
                 </article>
-                <article class="producto model" data-producto-id="1119-Cafe">
+                <article class="producto model" data-producto-id="1119-Cafe" data-categoria="zapatos" data-subcategoria="derby">
                     <img class="img-models" src="../assets/img/ready to wear/136 - 18.webp" alt="Derby 1119 (Café)">
                     <h4 class="model-titles">Derby Mod. 1119</h4>
                     <h3 class="h3-style">Plain Captoe</h3>
                     <h3 class="h3-color">Café</h3>
                 </article>
-                <article class="producto model" data-producto-id="1116-Diamante-Cafe">
+                <article class="producto model" data-producto-id="1116-Diamante-Cafe" data-categoria="zapatos" data-subcategoria="derby">
                     <img class="img-models" src="../assets/img/ready to wear/136 - 22.webp" alt="Oxford 1116 (Diamante Café)">
                     <h4 class="model-titles">Derby Mod. 1116</h4>
                     <h3 class="h3-style">Split Toes</h3>
                     <h3 class="h3-color">Diamante Café</h3>
                 </article>
-                <article class="producto model" data-producto-id="1116-Diamante-Castaña">
+                <article class="producto model" data-producto-id="1116-Diamante-Castaña" data-categoria="zapatos" data-subcategoria="derby">
                     <img class="img-models" src="../assets/img/ready to wear/136 - 25.webp" alt="Oxford 1116 (Diamante Castaña)">
                     <h4 class="model-titles">Derby Mod. 1116</h4>
                     <h3 class="h3-style">Split Toes</h3>
                     <h3 class="h3-color">Diamante Castaña</h3>
                 </article>
-                <article class="producto model" data-producto-id="1116-Verde">
+                <article class="producto model" data-producto-id="1116-Verde" data-categoria="zapatos" data-subcategoria="derby">
                     <img class="img-models" src="../assets/img/ready to wear/136 - 28.webp" alt="Oxford 1116 (Verde)">
                     <h4 class="model-titles">Derby Mod. 1116</h4>
                     <h3 class="h3-style">Split Toes</h3>
                     <h3 class="h3-color">Verde</h3>
                 </article>
-                <article class="producto model" data-producto-id="Derby-1100-Negro-3ojales">
+                <article class="producto model" data-producto-id="Derby-1100-Negro-3ojales" data-categoria="zapatos" data-subcategoria="derby">
                     <img class="img-models" src="../assets/img/ready to wear/126 - 12.webp" alt="Derby 1100 3 Ojales Negro">
                     <h4 class="model-titles">Derby Mod. 1100</h4>
                     <h3 class="h3-style">3 ojales</h3>
                     <h3 class="h3-color">Negro</h3>
                 </article>
-                <article class="producto model" data-producto-id="Derby-1100-Natural-3ojales">
+                <article class="producto model" data-producto-id="Derby-1100-Natural-3ojales" data-categoria="zapatos" data-subcategoria="derby">
                     <img class="img-models" src="../assets/img/ready to wear/135 - 1.webp" alt="Derby 1100 3 Ojales Natural">
                     <h4 class="model-titles">Derby Mod. 1100</h4>
                     <h3 class="h3-style">3 ojales</h3>
                     <h3 class="h3-color">Natural</h3>
                 </article>
-                <article class="producto model" data-producto-id="Derby-1100-Suela-3ojales">
+                <article class="producto model" data-producto-id="Derby-1100-Suela-3ojales" data-categoria="zapatos" data-subcategoria="derby">
                     <img class="img-models" src="../assets/img/ready to wear/132 - 9.webp" alt="Derby 1100 3 Ojales Suela">
                     <h4 class="model-titles">Derby Mod. 1100</h4>
                     <h3 class="h3-style">3 ojales</h3>
                     <h3 class="h3-color">Suela</h3>
                 </article>
-                <article class="producto model" data-producto-id="Derby-1100-Mostaza-3ojales">
+                <article class="producto model" data-producto-id="Derby-1100-Mostaza-3ojales" data-categoria="zapatos" data-subcategoria="derby">
                     <img class="img-models" src="../assets/img/ready to wear/132 - 12.webp" alt="Derby 1100 3 Ojales Mostaza">
                     <h4 class="model-titles">Derby Mod. 1100</h4>
                     <h3 class="h3-style">3 ojales</h3>
                     <h3 class="h3-color">Mostaza</h3>
                 </article>
-                <article class="producto model" data-producto-id="Derby-1100-Marron-3ojales">
+                <article class="producto model" data-producto-id="Derby-1100-Marron-3ojales" data-categoria="zapatos" data-subcategoria="derby">
                     <img class="img-models" src="../assets/img/ready to wear/135 - 4.webp" alt="Derby 1100 3 Ojales Marrón">
                     <h4 class="model-titles">Derby Mod. 1100</h4>
                     <h3 class="h3-style">3 ojales</h3>
                     <h3 class="h3-color">Marrón</h3>
                 </article>
-                <article class="producto model" data-producto-id="Derby-1100-Tabaco-3ojales">
+                <article class="producto model" data-producto-id="Derby-1100-Tabaco-3ojales" data-categoria="zapatos" data-subcategoria="derby">
                     <img class="img-models" src="../assets/img/ready to wear/132 - 15.webp" alt="Derby 1100 3 Ojales Tabaco">
                     <h4 class="model-titles">Derby Mod. 1100</h4>
                     <h3 class="h3-style">3 ojales</h3>
                     <h3 class="h3-color">Tabaco</h3>
                 </article>
-                <article class="producto model" data-producto-id="Derby-1100-Guinda-3ojales">
+                <article class="producto model" data-producto-id="Derby-1100-Guinda-3ojales" data-categoria="zapatos" data-subcategoria="derby">
                     <img class="img-models" src="../assets/img/ready to wear/132 - 18.webp" alt="Derby 1100 3 Ojales Guinda">
                     <h4 class="model-titles">Derby Mod. 1100</h4>
                     <h3 class="h3-style">3 ojales</h3>
                     <h3 class="h3-color">Guinda</h3>
                 </article>
-                <article class="producto model" data-producto-id="Borcego-Corto">
+                <article class="producto model" data-producto-id="Borcego-Corto" data-categoria="borcegos">
                     <img class="img-models" src="../assets/img/ready to wear/115 - 13.webp" alt="Borcego Corto">
                     <h4 class="model-titles">Borcego Corto</h4>
                     <h3 class="h3-style">Edición Limitada</h3>
                     <h3 class="h3-color">Piedra</h3>
                 </article>
-                <article class="producto model" data-producto-id="Slippers-123-Gamuza-Arena">
+                <article class="producto model" data-producto-id="Borcego-Texano-Bufalo-Negro" data-categoria="borcegos">
+                    <img class="img-models" src="../assets/img/made by order/130 - 5.webp" alt="Borcego Texano (Negro)">
+                    <h4 class="model-titles">Borcego Texano</h4>
+                    <h3 class="h3-style">Base de Goma Rural FEBO</h3>
+                    <h3 class="h3-color">Negro</h3>
+                </article>
+                <article class="producto model" data-producto-id="Borcego-Texano-Bufalo-Suela" data-categoria="borcegos">
+                    <img class="img-models" src="../assets/img/made by order/130 - 9.webp" alt="Borcego Texano (Suela)">
+                    <h4 class="model-titles">Borcego Texano</h4>
+                    <h3 class="h3-style">Base de Goma Rural FEBO</h3>
+                    <h3 class="h3-color">Suela</h3>
+                </article>
+                <article class="producto model" data-producto-id="Borcego-Texano-Bufalo-Marron" data-categoria="borcegos">
+                    <img class="img-models" src="../assets/img/made by order/130 - 12.webp" alt="Borcego Texano (Marrón)">
+                    <h4 class="model-titles">Borcego Texano</h4>
+                    <h3 class="h3-style">Base de Goma Rural FEBO</h3>
+                    <h3 class="h3-color">Marrón</h3>
+                </article>
+                <article class="producto model" data-producto-id="Slippers-123-Gamuza-Arena" data-categoria="escarpines">
                     <img class="img-models" src="../assets/img/ready to wear/126 - 4.webp" alt="Slippers 123 (Gamuza Suela)">
                     <h4 class="model-titles">Escarpín Slipper Mod. 123</h4>
                     <h3 class="h3-color">Gamuza Arena</h3>
                 </article>
-                <article class="producto model" data-producto-id="Slippers-123-Gamuza-Tostado">
+                <article class="producto model" data-producto-id="Slippers-123-Gamuza-Tostado" data-categoria="escarpines">
                     <img class="img-models" src="../assets/img/ready to wear/117 - 23.webp" alt="Slippers 123 (Gamuza Tostada)">
                     <h4 class="model-titles">Escarpín Slipper Mod. 123</h4>
                     <h3 class="h3-color">Gamuza Tostado</h3>
                 </article>
-                <article class="producto model" data-producto-id="Slippers-123-Gamuza-Violeta">
+                <article class="producto model" data-producto-id="Slippers-123-Gamuza-Violeta" data-categoria="escarpines">
                     <img class="img-models" src="../assets/img/ready to wear/142 - 27.webp" alt="Slippers 123 (Gamuza Violeta)">
                     <h4 class="model-titles">Escarpín Slipper Mod. 123</h4>
                     <h3 class="h3-color">Gamuza Violeta</h3>
                 </article>
-                <article class="producto model" data-producto-id="Slippers-123-Gamuza-Verde-Musgo">
+                <article class="producto model" data-producto-id="Slippers-123-Gamuza-Verde-Musgo" data-categoria="escarpines">
                     <img class="img-models" src="../assets/img/ready to wear/126 - 8.webp" alt="Slippers 123 (Gamuza Suela)">
                     <h4 class="model-titles">Escarpín Slipper Mod. 123</h4>
                     <h3 class="h3-color">Gamuza Verde Musgo</h3>
                 </article>
-                <article class="producto model" data-producto-id="Mocasin-Archibaldo-Marron">
+                <article class="producto model" data-producto-id="Escarpin-MP-Suela_rtw" data-categoria="escarpines">
+                    <img class="img-models" src="../assets/img/ready to wear/145 - 17.webp" alt="Escarpin MP (Suela)">
+                    <h4 class="model-titles">Escarpín MP</h4>
+                    <h3 class="h3-color">Suela</h3>
+                </article>
+                <article class="producto model" data-producto-id="Escarpin-MP-Marron_rtw" data-categoria="escarpines">
+                    <img class="img-models" src="../assets/img/ready to wear/147 - 12.webp" alt="Escarpin MP (Marrón)">
+                    <h4 class="model-titles">Escarpín MP</h4>
+                    <h3 class="h3-color">Marrón</h3>
+                </article>
+                <article class="producto model" data-producto-id="Escarpin-MP-Verde_rtw" data-categoria="escarpines">
+                    <img class="img-models" src="../assets/img/ready to wear/147 - 16.webp" alt="Escarpin MP (Verde)">
+                    <h4 class="model-titles">Escarpín MP</h4>
+                    <h3 class="h3-color">Verde</h3>
+                </article>
+                <article class="producto model" data-producto-id="Escarpin-MP-Cafe_rtw" data-categoria="escarpines">
+                    <img class="img-models" src="../assets/img/ready to wear/147 - 19.webp" alt="Escarpin MP (Café)">
+                    <h4 class="model-titles">Escarpín MP</h4>
+                    <h3 class="h3-color">Café</h3>
+                </article>
+                <article class="producto model" data-producto-id="Escarpin-MP-Negro_rtw" data-categoria="escarpines">
+                    <img class="img-models" src="../assets/img/ready to wear/147 - 22.webp" alt="Escarpin MP (Negro)">
+                    <h4 class="model-titles">Escarpín MP</h4>
+                    <h3 class="h3-color">Negro</h3>
+                </article>
+                <article class="producto model" data-producto-id="Mocasin-800-Negro" data-categoria="mocasines">
+                    <img class="img-models" src="../assets/img/ready to wear/150 - 29.webp" alt="Mocasín Modelo 800 en color negro">
+                    <h4 class="model-titles">Mocasín Mod. 800</h4>
+                    <h3 class="h3-color">Negro</h3>
+                </article>
+                <article class="producto model" data-producto-id="Mocasin-Archibaldo-Marron" data-categoria="mocasines" data-subcategoria="archibaldo">
                     <img class="img-models" src="../assets/img/ready to wear/141 - 15.webp" alt="Mocasín Archibaldo (Marrón)">
                     <h4 class="model-titles">Mocasín Archibaldo 226</h4>
                     <h3 class="h3-color">Marrón</h3>
                 </article>
-                <article class="producto model" data-producto-id="Mocasin-Archibaldo-Azul">
+                <article class="producto model" data-producto-id="Mocasin-Archibaldo-Azul" data-categoria="mocasines" data-subcategoria="archibaldo">
                     <img class="img-models" src="../assets/img/ready to wear/119 - 17.webp" alt="Mocasín Archibaldo (Azul)">
                     <h4 class="model-titles">Mocasín Archibaldo 226</h4>
                     <h3 class="h3-color">Azul</h3>
                 </article>
-                <article class="producto model" data-producto-id="Mocasin-Archibaldo-Negro">
+                <article class="producto model" data-producto-id="Mocasin-Archibaldo-Negro" data-categoria="mocasines" data-subcategoria="archibaldo">
                     <img class="img-models" src="../assets/img/ready to wear/119 - 21.webp" alt="Mocasín Archibaldo (Negro)">
                     <h4 class="model-titles">Mocasín Archibaldo 226</h4>
                     <h3 class="h3-color">Negro</h3>
                 </article>
-                <article class="producto model" data-producto-id="Mocasin-Archibaldo-Maiz">
+                <article class="producto model" data-producto-id="Mocasin-Archibaldo-Maiz" data-categoria="mocasines" data-subcategoria="archibaldo">
                     <img class="img-models" src="../assets/img/ready to wear/130 - 25.webp" alt="Mocasín Archibaldo (Maiz)">
                     <h4 class="model-titles">Mocasín Archibaldo 226</h4>
                     <h3 class="h3-color">Maíz</h3>
                 </article>
-                <article class="producto model" data-producto-id="Mocasin-Archibaldo-Verde">
+                <article class="producto model" data-producto-id="Mocasin-Archibaldo-Verde" data-categoria="mocasines" data-subcategoria="archibaldo">
                     <img class="img-models" src="../assets/img/ready to wear/130 - 29.webp" alt="Mocasín Archibaldo (Verde)">
                     <h4 class="model-titles">Mocasín Archibaldo 226</h4>
                     <h3 class="h3-color">Verde</h3>
                 </article>
-                <article class="producto model" data-producto-id="Mocasin-Archibaldo-Carpincho">
+                <article class="producto model" data-producto-id="Mocasin-Archibaldo-Carpincho" data-categoria="mocasines" data-subcategoria="archibaldo">
                     <img class="img-models" src="../assets/img/ready to wear/141 - 18.webp" alt="Mocasín Archibaldo (Carpincho)">
                     <h4 class="model-titles">Mocasín Archibaldo 226</h4>
                     <h3 class="h3-color">Carpincho</h3>
                 </article>
-                <article class="producto model" data-producto-id="Mocasin-Mengueche">
-                    <img class="img-models" src="../assets/img/ready to wear/141 - 21.webp" alt="Mocasín Archibaldo (Mengueche)">
-                    <h4 class="model-titles">Mocasín Mengueche</h4>
-                    <h3 class="h3-color">Marrón</h3>
+                <article class="producto model" data-producto-id="Mocasin-Clasico" data-categoria="mocasines">
+                    <img class="img-models" src="../assets/img/ready to wear/141 - 21.webp" alt="Mocasín Archibaldo (Suela)">
+                    <h4 class="model-titles">Mocasín Clásico</h4>
+                    <h3 class="h3-style">Con Bocado Equino</h3>
+                    <h3 class="h3-color">Suela</h3>
                 </article>
-                <article class="producto model" data-producto-id="Mocasin-Archibaldo-Marron-Cocodrilo">
+                <article class="producto model" data-producto-id="Mocasin-Archibaldo-Marron-Cocodrilo" data-categoria="mocasines">
                     <img class="img-models" src="../assets/img/ready to wear/130 - 33.webp" alt="Mocasín Archibaldo (Marrón cocodrilo)">
                     <h4 class="model-titles">Mocasín Archibaldo 226</h4>
                     <h3 class="h3-color">Marrón Cocodrilo</h3>
                 </article>
-                <article class="producto model" data-producto-id="Mocasin-Industry">
+                <article class="producto model" data-producto-id="Mocasin-Industry" data-categoria="mocasines">
                     <img class="img-models" src="../assets/img/ready to wear/123 - 32.webp" alt="Mocasín Industry Of All Nations">
                     <h4 class="model-titles">Mocasín Industry</h4>
                     <h3 class="h3-color">Cuero Vegetal Maíz</h3>
                 </article>
-                <article class="producto model" data-producto-id="Dandy-1100-Diamante-Negro">
+                <article class="producto model" data-producto-id="Mocasin-Nautico-Suela" data-categoria="mocasines" data-subcategoria="nauticos">
+                    <img class="img-models" src="../assets/img/ready to wear/145 - 21.webp" alt="Mocasín Náutico (color suela)">
+                    <h4 class="model-titles">Mocasín Náutico</h4>
+                    <h3 class="h3-color">Suela</h3>
+                </article>
+                <article class="producto model" data-producto-id="Mocasin-Nautico-Azul" data-categoria="mocasines" data-subcategoria="nauticos">
+                    <img class="img-models" src="../assets/img/ready to wear/149 - 5.webp" alt="Mocasín Náutico (color azul)">
+                    <h4 class="model-titles">Mocasín Náutico</h4>
+                    <h3 class="h3-color">Azul</h3>
+                </article>
+                <article class="producto model" data-producto-id="Mocasin-Nautico-Marron" data-categoria="mocasines" data-subcategoria="nauticos">
+                    <img class="img-models" src="../assets/img/ready to wear/149 - 9.webp" alt="Mocasín Náutico (color marrón)">
+                    <h4 class="model-titles">Mocasín Náutico</h4>
+                    <h3 class="h3-color">Marrón</h3>
+                </article>
+                <article class="producto model" data-producto-id="Mocasin-Nautico-Marron-2" data-categoria="mocasines" data-subcategoria="nauticos">
+                    <img class="img-models" src="../assets/img/ready to wear/149 - 1.webp" alt="Mocasín Náutico">
+                    <h4 class="model-titles">Mocasín Náutico</h4>
+                    <h3 class="h3-color">Marrón (Detalles Marrón)</h3>
+                </article>
+                <article class="producto model" data-producto-id="Bota-Chelsea-Negro" data-categoria="botas">
+                    <img class="img-models" src="../assets/img/made by order/131 - 28.webp" alt="Bota Chelsea Negro">
+                    <h4 class="model-titles">Bota Chelsea</h4>
+                    <h3 class="h3-color">Negro</h3>
+                </article>
+                <article class="producto model" data-producto-id="Bota-Chelsea-Marron" data-categoria="botas">
+                    <img class="img-models" src="../assets/img/made by order/131 - 31.webp" alt="Bota Chelsea Marrón">
+                    <h4 class="model-titles">Bota Chelsea</h4>
+                    <h3 class="h3-color">Marrón</h3>
+                </article>
+                <article class="producto model" data-producto-id="Bota-Inglesa-Marron" data-categoria="botas">
+                    <img class="img-models" src="../assets/img/ready to wear/144 - 1.webp" alt="Bota Inglesa Marrón">
+                    <h4 class="model-titles">Bota Inglesa</h4>
+                    <h3 class="h3-color">Marrón</h3>
+                </article>
+                <article class="producto model" data-producto-id="Bota-Inglesa-Negro" data-categoria="botas">
+                    <img class="img-models" src="../assets/img/ready to wear/144 - 5.webp" alt="Bota Inglesa Negra">
+                    <h4 class="model-titles">Bota Inglesa</h4>
+                    <h3 class="h3-color">Negro</h3>
+                </article>
+                <article class="producto model" data-producto-id="Bota-Petta-Suela" data-categoria="botas">
+                    <img class="img-models" src="../assets/img/ready to wear/144 - 8.webp" alt="Bota Petta Suela">
+                    <h4 class="model-titles">Bota Petta</h4>
+                    <h3 class="h3-color">Suela</h3>
+                </article>
+                <article class="producto model" data-producto-id="Bota-Petta-Negro" data-categoria="botas">
+                    <img class="img-models" src="../assets/img/ready to wear/144 - 12.webp" alt="Bota Petta Negro">
+                    <h4 class="model-titles">Bota Petta</h4>
+                    <h3 class="h3-color">Negro</h3>
+                </article>
+                <article class="producto model" data-producto-id="Bota-Petta-Verde" data-categoria="botas">
+                    <img class="img-models" src="../assets/img/ready to wear/144 - 15.webp" alt="Bota Petta Verde">
+                    <h4 class="model-titles">Bota Petta</h4>
+                    <h3 class="h3-color">Verde</h3>
+                </article>
+                <article class="producto model" data-producto-id="Bota-ET-Negro" data-categoria="botas">
+                    <img class="img-models" src="../assets/img/ready to wear/143 - 8.webp" alt="Bota ET Negro">
+                    <h4 class="model-titles">Bota ET</h4>
+                    <h3 class="h3-color">Negro</h3>
+                </article>
+                <article class="producto model" data-producto-id="Bota-ET-Maiz" data-categoria="botas">
+                    <img class="img-models" src="../assets/img/ready to wear/143 - 4.webp" alt="Bota ET Maíz">
+                    <h4 class="model-titles">Bota ET</h4>
+                    <h3 class="h3-color">Maíz</h3>
+                </article>
+                <article class="producto model" data-producto-id="Bota-ET-Gamuza-Arena" data-categoria="botas">
+                    <img class="img-models" src="../assets/img/ready to wear/143 - 11.webp" alt="Bota ET Gamuza Arena">
+                    <h4 class="model-titles">Bota ET</h4>
+                    <h3 class="h3-color">Gamuza Arena</h3>
+                </article>
+                <article class="producto model" data-producto-id="Dandy-1100-Diamante-Negro" data-categoria="zapatos" data-subcategoria="dandy">
                     <img class="img-models" src="../assets/img/ready to wear/131 - 8.webp" alt="Dandy 1100 Diamante Negro">
                     <h4 class="model-titles">Dandy Mod. 1100</h4>
                     <h3 class="h3-style">Base de Goma</h3>
                     <h3 class="h3-color">Diamante Negro</h3>
                 </article>
-                <article class="producto model" data-producto-id="Dandy-1100-Diamante-Castaña">
+                <article class="producto model" data-producto-id="Dandy-1100-Diamante-Castaña" data-categoria="zapatos" data-subcategoria="dandy">
                     <img class="img-models" src="../assets/img/ready to wear/131 - 4.webp" alt="Dandy 1100 Diamante Castaña">
                     <h4 class="model-titles">Dandy Mod. 1100</h4>
                     <h3 class="h3-style">Base de Goma</h3>
                     <h3 class="h3-color">Diamante Castaña</h3>
                 </article>
-                <article class="producto model" data-producto-id="Dandy-1100-Gamuza-Marron">
+                <article class="producto model" data-producto-id="Dandy-1100-Gamuza-Marron" data-categoria="zapatos" data-subcategoria="dandy">
                     <img class="img-models" src="../assets/img/ready to wear/131 - 12.webp" alt="Dandy 1100 Gamuza Marrón">
                     <h4 class="model-titles">Dandy Mod. 1100</h4>
                     <h3 class="h3-style">Base de Goma</h3>
                     <h3 class="h3-color">Gamuza Marrón</h3>
                 </article>
-                <article class="producto model" data-producto-id="Bota-Dandy-Diamante-Negro">
+                <article class="producto model" data-producto-id="Bota-Dandy-Diamante-Negro" data-categoria="botas" data-subcategoria="dandy">
                     <img class="img-models" src="../assets/img/ready to wear/131 - 18.webp" alt="Bota Dandy Diamante Negro">
                     <h4 class="model-titles">Bota Inglesa Dandy</h4>
                     <h3 class="h3-style">Base de Goma</h3>
                     <h3 class="h3-color">Diamante Negro</h3>
                 </article>
-                <article class="producto model" data-producto-id="Bota-Dandy-Diamante-Castaña">
+                <article class="producto model" data-producto-id="Bota-Dandy-Diamante-Castaña" data-categoria="botas" data-subcategoria="dandy">
                     <img class="img-models" src="../assets/img/ready to wear/131 - 15.webp" alt="Bota Dandy Diamante Castaña">
                     <h4 class="model-titles">Bota Inglesa Dandy</h4>
                     <h3 class="h3-style">Base de Goma</h3>
                     <h3 class="h3-color">Diamante Castaña</h3>
                 </article>
-                <article class="producto model" data-producto-id="Bota-Dandy-Gamuza-Marron">
+                <article class="producto model" data-producto-id="Bota-Dandy-Gamuza-Marron" data-categoria="botas" data-subcategoria="dandy">
                     <img class="img-models" src="../assets/img/ready to wear/131 - 21.webp" alt="Bota Dandy Gamuza Marrón">
                     <h4 class="model-titles">Bota Inglesa Dandy</h4>
                     <h3 class="h3-style">Base de Goma</h3>
                     <h3 class="h3-color">Gamuza Marrón</h3>
                 </article>
-                <article class="producto model" data-producto-id="Bota-Carioca-Gamuza-Arena">
+                <article class="producto model" data-producto-id="Bota-Carioca-Gamuza-Arena" data-categoria="botas">
                     <img class="img-models" src="../assets/img/ready to wear/131 - 24.webp" alt="Bota carioca gamuza arena">
                     <h4 class="model-titles">Bota Carioca</h4>
                     <h3 class="h3-style">Base de Goma</h3>
                     <h3 class="h3-color">Gamuza Arena</h3>
                 </article>
-                <article class="producto model" data-producto-id="Sneaker-Suela">
+                <article class="producto model" data-producto-id="Bota-Carioca-Gamuza-Negro" data-categoria="botas">
+                    <img class="img-models" src="../assets/img/ready to wear/148 - 12.webp" alt="Bota carioca gamuza negro">
+                    <h4 class="model-titles">Bota Carioca</h4>
+                    <h3 class="h3-style">Base de Goma</h3>
+                    <h3 class="h3-color">Gamuza Negro</h3>
+                </article>
+                <article class="producto model" data-producto-id="Sneaker-Suela" data-categoria="sneakers">
                     <img class="img-models" src="../assets/img/ready to wear/122 - 26.webp" alt="Sneakers (Suela)">
                     <h4 class="model-titles">Sneakers Urbanas</h4>
                     <h3 class="h3-style">Zapatillas (Ed. Limitada)</h3>
                     <h3 class="h3-color">Suela</h3>
                 </article>
-                <article class="producto model" data-producto-id="Sneaker-Marron">
+                <article class="producto model" data-producto-id="Sneaker-Marron" data-categoria="sneakers">
                     <img class="img-models" src="../assets/img/ready to wear/117 - 10.webp" alt="Sneakers (Marrón)">
                     <h4 class="model-titles">Sneakers Urbanas</h4>
                     <h3 class="h3-style">Zapatillas (Ed. Limitada)</h3>
                     <h3 class="h3-color">Marrón</h3>
                 </article>
-                <article class="producto model" data-producto-id="Sneaker-Negro">
+                <article class="producto model" data-producto-id="Sneaker-Negro" data-categoria="sneakers">
                     <img class="img-models" src="../assets/img/ready to wear/122 - 20.webp" alt="Sneakers (Negro)">
                     <h4 class="model-titles">Sneakers Urbanas</h4>
                     <h3 class="h3-style">Zapatillas (Ed. Limitada)</h3>
                     <h3 class="h3-color">Negro</h3>
                 </article>
-                <article class="producto model" data-producto-id="Sneaker-Azul">
+                <article class="producto model" data-producto-id="Sneaker-Azul" data-categoria="sneakers">
                     <img class="img-models" src="../assets/img/ready to wear/122 - 17.webp" alt="Sneakers (Azul)">
                     <h4 class="model-titles">Sneakers Urbanas</h4>
                     <h3 class="h3-style">Zapatillas (Ed. Limitada)</h3>
                     <h3 class="h3-color">Azul</h3>
                 </article>
-                <article class="producto model" data-producto-id="Sneaker-Verde-Claro">
+                <article class="producto model" data-producto-id="Sneaker-Verde-Claro" data-categoria="sneakers">
                     <img class="img-models" src="../assets/img/ready to wear/117 - 13.webp" alt="Sneakers (Verde Claro)">
                     <h4 class="model-titles">Sneakers Urbanas</h4>
                     <h3 class="h3-style">Zapatillas (Ed. Limitada)</h3>
                     <h3 class="h3-color">Verde Claro</h3>
                 </article>
-                <article class="producto model" data-producto-id="Sneaker-Blanco-Negro">
+                <article class="producto model" data-producto-id="Sneaker-Blanco-Negro" data-categoria="sneakers">
                     <img class="img-models" src="../assets/img/ready to wear/133 - 19.webp" alt="Sneakers (Blancas con talón negro)">
                     <h4 class="model-titles">Sneakers Urbanas</h4>
                     <h3 class="h3-style">Zapatillas (Ed. Limitada)</h3>
                     <h3 class="h3-color">Blanco y Negro</h3>
                 </article>
-                <article class="producto model" data-producto-id="Sneaker-Blanco-Rojo">
+                <article class="producto model" data-producto-id="Sneaker-Blanco-Rojo" data-categoria="sneakers">
                     <img class="img-models" src="../assets/img/ready to wear/133 - 23.webp" alt="Sneakers (Blancas con talón rojo)">
                     <h4 class="model-titles">Sneakers Urbanas</h4>
                     <h3 class="h3-style">Zapatillas (Ed. Limitada)</h3>
                     <h3 class="h3-color">Blanco y Rojo</h3>
+                </article>
+                <article class="producto model" data-producto-id="Sneaker-Bota-Gamuza-Azul" data-categoria="sneakers">
+                    <img class="img-models" src="../assets/img/ready to wear/148 - 5.webp" alt="Bota Chukka Sneaker (Azul)">
+                    <h4 class="model-titles">Bota Chukka Sneaker</h4>
+                    <h3 class="h3-style">Zapatillas (Ed. Limitada)</h3>
+                    <h3 class="h3-color">Gamuza Azul</h3>
+                </article>
+                <article class="producto model" data-producto-id="Sneaker-Bota-Gamuza-Rojo" data-categoria="sneakers">
+                    <img class="img-models" src="../assets/img/ready to wear/148 - 16.webp" alt="Bota Chukka Sneaker (Rojo)">
+                    <h4 class="model-titles">Bota Chukka Sneaker</h4>
+                    <h3 class="h3-style">Zapatillas (Ed. Limitada)</h3>
+                    <h3 class="h3-color">Gamuza Rojo</h3>
+                </article>
+                <article class="producto model" data-producto-id="Sneaker-Bota-Gamuza-Amarillo" data-categoria="sneakers">
+                    <img class="img-models" src="../assets/img/ready to wear/149 - 12.webp" alt="Bota Chukka Sneaker (Amarillo)">
+                    <h4 class="model-titles">Bota Chukka Sneaker</h4>
+                    <h3 class="h3-style">Zapatillas (Ed. Limitada)</h3>
+                    <h3 class="h3-color">Gamuza Amarillo</h3>
+                </article>
+                <article class="producto model" data-producto-id="Sneaker-Bota-Verde" data-categoria="sneakers">
+                    <img class="img-models" src="../assets/img/ready to wear/148 - 9.webp" alt="Bota Chukka Sneaker (Rojo)">
+                    <h4 class="model-titles">Bota Chukka Sneaker</h4>
+                    <h3 class="h3-style">Zapatillas (Ed. Limitada)</h3>
+                    <h3 class="h3-color">Verde</h3>
                 </article>
             </section>
         </main>
@@ -551,6 +773,7 @@
             </div>
           </footer>
           <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+          <script src="../js/detallesProducto.js"></script>
           <script src="../js/bootstrap.min.js"></script>
           <script src="../js/main.js"></script>
     </body>

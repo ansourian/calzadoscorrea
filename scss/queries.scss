@@ -300,6 +300,7 @@
         margin: 3vw auto 0vw;
         width: 80vw;
         justify-content: center;
+        display: none;
     }
     .h2-model{
         font-size: 230%;
@@ -574,6 +575,7 @@
         align-items: center;
         flex-wrap: wrap;
         margin-bottom: 3rem;
+        display: none;
       }
     .img-model_var {
         width: 80vw;
@@ -629,12 +631,16 @@
     .imagenes-button{
         font-family: 'Outfit', sans-serif;
         color: #1F2337;
-        display: block;
+        display: none;
         text-align: center;
         margin: 1vw 2vw -5vw;
         padding: 0.5vw;
         text-decoration: none;
         font-size: 3.5vw;
+    }
+
+    #hr-var_modelos{
+        display: none;
     }
 
     .blue-section{
@@ -819,7 +825,7 @@
     }
 
     .contenedor-card_models{
-        margin: 7vw 15vw;
+        margin: 2vw 15vw;
         padding: 0 0;
         display: flex;
         flex-direction: row;
@@ -829,6 +835,49 @@
         flex-direction: column;
     }
 
+    .contenedor-card_shoe_models{
+        margin: 0vw 4vw;
+        padding: 0 0;
+        display: none !important;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #ffffff;
+        border: 0;
+        flex-direction: column;
+    }
+
+    .contenedor-card_shoe_models_mobile{
+        margin: 0vw 4vw;
+        padding: 0 0;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #ffffff;
+        border: 0;
+        flex-direction: column;
+    }
+
+    .contenedor-card_shoe_models_mocasines{
+        margin: 0vw 4vw;
+        padding: 0 0;
+        display: none !important;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #ffffff;
+        border: 0;
+        flex-direction: column;
+    }
+
+    .contenedor-card_shoe_models_mocasines_mobile{
+        margin: 0vw 4vw;
+        padding: 0 0;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #ffffff;
+        border: 0;
+        flex-direction: column;
+    }
+
+
     .button-card_models{
         margin: 3vw;
         padding: 1vw 0;
@@ -837,12 +886,33 @@
         background-color: #29395c;
     }
 
+    .button-card_shoe_models{
+        margin: 3vw;
+        padding: 1vw 0;
+        border-radius: 5px;
+        border: none;
+    }
+
+    .button-card_allmodels{
+        margin: 3vw 0 0;
+        padding: 5vw 7vw;
+        border-radius: 5px;
+        border: none;
+    }
+
     .card-title_models{
         margin: auto -1vw;
         justify-content: center;
         align-items: center;
         font-size: 4vw;
         color: white;
+    }
+
+    .card-title_clean_models{
+        margin: auto -1vw;
+        justify-content: center;
+        align-items: center;
+        font-size: 4.5vw;
     }
 
     .acordion-filters{
@@ -867,6 +937,66 @@
     .accordion-button{
         padding: 3vw;
     }
+
+    .p-price{
+        margin: 3vw 0 4vw;
+        text-align: center;
+        font-size: 5vw;
+        font-family: "Outfit", sans-serif;
+        color: #2a2a2a;
+    }
+
+    .p-aclaracion_filtros{
+        font-size: 4vw;
+        margin: 10vw 10vw 2vw;
+        color: #df1616;
+    }
+
+    .contenedor-acerca_de{
+        margin: 0vw 10vw 12vw;
+        padding: 0vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        border: 0;
+    }
+    
+    .img-acerca_de{
+        width: 80vw;
+        height: 30vw;
+        margin: 1rem;
+        border-radius: 3vw;
+    
+        &:hover{
+            width: 80vw;
+            height: 30vw;
+        }
+    }
+    
+    .div-acerca_de_texts{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10.5vw;
+        padding: 5vw 0;
+    }
+    
+    .acerca_de_titles{
+        margin: auto -1vw;
+        justify-content: center;
+        align-items: center;
+        font-size: 6vw;
+        color: white;
+    }    
+
+    .carousel-container {
+        display: block;
+    }
+
 }
 
 @media screen and (min-width: 768px) and (max-width:1024px) {
@@ -1178,6 +1308,7 @@
         margin: 3vw auto 0vw;
         width: 70vw;
         justify-content: center;
+        display: none;
     }
     .h2-model{
         font-size: 400%;
@@ -1386,6 +1517,7 @@
         align-items: center;
         flex-wrap: wrap;
         margin-bottom: 3rem;
+        display: none;
       }
     .img-model_var {
         width: 70vw;
@@ -1448,12 +1580,16 @@
     .imagenes-button{
         font-family: 'Outfit', sans-serif;
         color: #1F2337;
-        display: block;
+        display: none;
         text-align: center;
         margin: 1vw 2vw -3.5vw;
         padding: 0.5vw;
         text-decoration: none;
         font-size: 3vw;
+    }
+
+    #hr-var_modelos{
+        display: none;
     }
 
     .blue-section{
@@ -1627,6 +1763,48 @@
         flex-direction: column;
     }
 
+    .contenedor-card_shoe_models{
+        margin: 0vw 4vw;
+        padding: 0 0;
+        display: none !important;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #ffffff;
+        border: 0;
+        flex-direction: column;
+    }
+
+    .contenedor-card_shoe_models_mobile{
+        margin: 0vw 4vw;
+        padding: 0 0;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #ffffff;
+        border: 0;
+        flex-direction: column;
+    }
+
+    .contenedor-card_shoe_models_mocasines{
+        margin: 0vw 4vw;
+        padding: 0 0;
+        display: none !important;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #ffffff;
+        border: 0;
+        flex-direction: column;
+    }
+
+    .contenedor-card_shoe_models_mocasines_mobile{
+        margin: 0vw 4vw;
+        padding: 0 0;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #ffffff;
+        border: 0;
+        flex-direction: column;
+    }
+
     .button-card_models{
         margin: 1.5vw;
         padding: 1vw 0;
@@ -1635,12 +1813,32 @@
         background-color: #1F2337;
     }
 
+    .button-card_shoe_models{
+        margin: 1.5vw;
+        padding: 1vw 0;
+        border-radius: 5px;
+        border: none;
+    }
+
+    .button-card_allmodels{
+        margin: 3vw 0 0;
+        border-radius: 5px;
+        border: none;
+    }
+
     .card-title_models{
         margin: auto -1vw;
         justify-content: center;
         align-items: center;
         font-size: 2vw;
         color: white;
+    }
+
+    .card-title_clean_models{
+        margin: auto -1vw;
+        justify-content: center;
+        align-items: center;
+        font-size: 2vw;
     }
 
     .acordion-filters{
@@ -1682,6 +1880,81 @@
 
     .accordion-button{
         padding: 1.5vw 2vw;
+    }
+
+    .p-price{
+        margin: 3vw 0 4vw;
+        text-align: center;
+        font-size: 5vw;
+        font-family: "Outfit", sans-serif;
+        color: #2a2a2a;
+    }
+
+    .p-aclaracion_filtros{
+        font-size: 3vw;
+        margin: 9vw 10vw 5vw;
+        color: #df1616;
+    }
+
+    .contenedor-acerca_de{
+        margin: 0vw 10vw 12vw;
+        padding: 0vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        border: 0;
+    }
+    
+    .img-acerca_de{
+        width: 70vw;
+        height: 25vw;
+        margin: 1rem;
+        border-radius: 3vw;
+    
+        &:hover{
+            width: 70vw;
+            height: 25vw;
+        }
+    }
+    
+    .div-acerca_de_texts{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10.5vw;
+        padding: 0;
+    }
+    
+    .acerca_de_titles{
+        margin: auto -1vw;
+        justify-content: center;
+        align-items: center;
+        font-size: 5vw;
+        color: white;
+    }    
+
+    .carousel-container {
+        display: block;
+    }
+
+    .carousel-item2{
+        margin-left: 12vw !important;
+        width: 75% !important;
+    }
+
+    .carousel-control-prev-icon2, .carousel-control-next-icon2 {
+        filter: invert(1); /* Invertir los colores del ícono */
+        opacity: .8;
+        width: 6vw;
+        margin-top: 86vw;
+    }
+
+    .carousel-models{
+        margin-bottom: 18vw !important;
     }
 
 }
