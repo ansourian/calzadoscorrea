@@ -694,6 +694,17 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Negro',
             tipoCuero: 'Cuero vacuno granulado',
             codigo: 'Zap',
+            imagenPrincipal: "../assets/img/ready to wear/156 - 20.webp",
+            imagenes: ["../assets/img/ready to wear/156 - 20.webp", "../assets/img/ready to wear/156 - 21.webp", "../assets/img/ready to wear/156 - 22.webp", "../assets/img/ready to wear/117 - 19.webp"]
+        },
+        {
+            id: 'Sneaker-Negro-Gastado',
+            titulo: 'Sneakers Urbanas',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Zapatillas de uso urbano confeccionadas en cuero 100% vacuno argentino tanto en su exterior como en su interior. La boca del calzado cuenta con un refuerzo acolchonado agradable al uso cotidiano.',
+            color: 'Negro Gastado',
+            tipoCuero: 'Cuero vacuno granulado',
+            codigo: 'Zap',
             imagenPrincipal: "../assets/img/ready to wear/122 - 20.webp",
             imagenes: ["../assets/img/ready to wear/122 - 20.webp", "../assets/img/ready to wear/122 - 21.webp", "../assets/img/ready to wear/122 - 22.webp", "../assets/img/ready to wear/117 - 19.webp"]
         },
@@ -720,6 +731,28 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenes: ["../assets/img/ready to wear/117 - 13.webp", "../assets/img/ready to wear/117 - 14.webp", "../assets/img/ready to wear/117 - 15.webp", "../assets/img/ready to wear/117 - 19.webp"]
         },
         {
+            id: 'Sneaker-Verde',
+            titulo: 'Sneakers Urbanas',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Zapatillas de uso urbano confeccionadas en cuero 100% vacuno argentino tanto en su exterior como en su interior. La boca del calzado cuenta con un refuerzo acolchonado agradable al uso cotidiano.',
+            color: 'Verde',
+            tipoCuero: 'Cuero vacuno granulado',
+            codigo: 'Zap',
+            imagenPrincipal: "../assets/img/ready to wear/156 - 25.webp",
+            imagenes: ["../assets/img/ready to wear/156 - 25.webp", "../assets/img/ready to wear/156 - 26.webp", "../assets/img/ready to wear/156 - 27.webp", "../assets/img/ready to wear/117 - 19.webp"]
+        },
+        {
+            id: 'Sneaker-Rojo',
+            titulo: 'Sneakers Urbanas',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Zapatillas de uso urbano confeccionadas en cuero 100% vacuno argentino tanto en su exterior como en su interior. La boca del calzado cuenta con un refuerzo acolchonado agradable al uso cotidiano.',
+            color: 'Rojo',
+            tipoCuero: 'Cuero vacuno granulado',
+            codigo: 'Zap',
+            imagenPrincipal: "../assets/img/ready to wear/156 - 5.webp",
+            imagenes: ["../assets/img/ready to wear/156 - 5.webp", "../assets/img/ready to wear/156 - 6.webp", "../assets/img/ready to wear/156 - 7.webp", "../assets/img/ready to wear/117 - 19.webp"]
+        },
+        {
             id: 'Sneaker-Blanco-Negro',
             titulo: 'Sneakers Urbanas',
             estilo: 'READY TO WEAR',
@@ -740,6 +773,28 @@ document.addEventListener('DOMContentLoaded', function () {
             codigo: 'Zap',
             imagenPrincipal: "../assets/img/ready to wear/133 - 23.webp",
             imagenes: ["../assets/img/ready to wear/133 - 23.webp", "../assets/img/ready to wear/133 - 24.webp", "../assets/img/ready to wear/133 - 25.webp", "../assets/img/ready to wear/133 - 22.webp"]
+        },
+        {
+            id: 'Sneaker-SC-Gamuza-Suela',
+            titulo: 'Sneakers SC',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Zapatillas de uso urbano confeccionadas en cuero 100% vacuno argentino tanto en su exterior como en su interior. La boca del calzado cuenta con un refuerzo acolchonado agradable al uso cotidiano.',
+            color: 'Suela',
+            tipoCuero: 'Gamuza',
+            codigo: 'Zap SC',
+            imagenPrincipal: "../assets/img/ready to wear/152 - 19.webp",
+            imagenes: ["../assets/img/ready to wear/152 - 19.webp", "../assets/img/ready to wear/152 - 20.webp", "../assets/img/ready to wear/152 - 21.webp", "../assets/img/ready to wear/133 - 22.webp"]
+        },
+        {
+            id: 'Sneaker-SC-Gamuza-Arena',
+            titulo: 'Sneakers SC',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Zapatillas de uso urbano confeccionadas en cuero 100% vacuno argentino tanto en su exterior como en su interior. La boca del calzado cuenta con un refuerzo acolchonado agradable al uso cotidiano.',
+            color: 'Arena',
+            tipoCuero: 'Gamuza',
+            codigo: 'Zap SC',
+            imagenPrincipal: "../assets/img/ready to wear/152 - 16.webp",
+            imagenes: ["../assets/img/ready to wear/152 - 16.webp", "../assets/img/ready to wear/152 - 17.webp", "../assets/img/ready to wear/152 - 18.webp", "../assets/img/ready to wear/133 - 22.webp"]
         },
         {
             id: 'Sneaker-Bota-Gamuza-Azul',
@@ -888,12 +943,34 @@ document.addEventListener('DOMContentLoaded', function () {
             id: 'Mocasin-800-Negro',
             titulo: 'Mocasín Mod. 800',
             estilo: 'READY TO WEAR',
-            descripcion: 'Aún no tenemos una descripción de este producto.',
+            descripcion: 'Gracias a su liviana construccion es un modelo ideal para aquellas personas que buscan una comodidad superior. Únicamente realizados en cuero de Cabritilla y cuenta con elásticos internos. Tambien disponible en su horma de ancho extraordinario.',
             color: 'Negro',
             tipoCuero: 'Cuero vacuno',
-            codigo: 'Mocasín',
+            codigo: 'Mocasín 800',
             imagenPrincipal: "../assets/img/ready to wear/150 - 29.webp",
             imagenes: ["../assets/img/ready to wear/150 - 29.webp", "../assets/img/ready to wear/150 - 30.webp", "../assets/img/ready to wear/150 - 31.webp", "../assets/img/made by order/119 - 28.webp"]
+        }, 
+        {
+            id: 'Mocasin-800-Marron',
+            titulo: 'Mocasín Mod. 800',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Gracias a su liviana construccion es un modelo ideal para aquellas personas que buscan una comodidad superior. Únicamente realizados en cuero de Cabritilla y cuenta con elásticos internos. Tambien disponible en su horma de ancho extraordinario.',
+            color: 'Marrón',
+            tipoCuero: 'Cuero vacuno',
+            codigo: 'Mocasín 800',
+            imagenPrincipal: "../assets/img/ready to wear/155 - 1.webp",
+            imagenes: ["../assets/img/ready to wear/155 - 1.webp", "../assets/img/ready to wear/155 - 2.webp", "../assets/img/ready to wear/155 - 3.webp", "../assets/img/made by order/119 - 28.webp"]
+        }, 
+        {
+            id: 'Mocasin-800-Suela',
+            titulo: 'Mocasín Mod. 800',
+            estilo: 'READY TO WEAR',
+            descripcion: 'Gracias a su liviana construccion es un modelo ideal para aquellas personas que buscan una comodidad superior. Únicamente realizados en cuero de Cabritilla y cuenta con elásticos internos. Tambien disponible en su horma de ancho extraordinario.',
+            color: 'Suela',
+            tipoCuero: 'Cuero vacuno',
+            codigo: 'Mocasín 800',
+            imagenPrincipal: "../assets/img/ready to wear/153 - 13.webp",
+            imagenes: ["../assets/img/ready to wear/153 - 13.webp", "../assets/img/ready to wear/153 - 14.webp", "../assets/img/ready to wear/153 - 15.webp", "../assets/img/made by order/119 - 28.webp"]
         }, 
         {
             id: 'Mocasin-Clasico',
@@ -907,15 +984,37 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenes: ["../assets/img/ready to wear/141 - 21.webp", "../assets/img/ready to wear/141 - 22.webp", "../assets/img/ready to wear/141 - 23.webp", "../assets/img/ready to wear/119 - 20.webp"]
         },   
         {
-            id: 'Mocasin-Archibaldo-Marron',
-            titulo: 'Mocasín Archibaldo 226',
+            id: 'Mocasin-Americano-Suela',
+            titulo: 'Mocasín Americano (Doble Suela)',
             estilo: 'READY TO WEAR',
             descripcion: 'El mocasín más fresco y liviano de nuestro catálogo. Su costura frontal, al no ser sellada, proporciona mayor ventilación, convirtiéndolo en el mocasín ideal para los días de calor.',
-            color: 'Marrón',
+            color: 'Suela',
             tipoCuero: 'Cuero vacuno',
-            codigo: '226',
-            imagenPrincipal: "../assets/img/ready to wear/141 - 15.webp",
-            imagenes: ["../assets/img/ready to wear/141 - 15.webp", "../assets/img/ready to wear/141 - 16.webp", "../assets/img/ready to wear/141 - 17.webp", "../assets/img/ready to wear/119 - 20.webp"]
+            codigo: 'Mocasín USA',
+            imagenPrincipal: "../assets/img/ready to wear/161 - 15.webp",
+            imagenes: ["../assets/img/ready to wear/161 - 15.webp", "../assets/img/ready to wear/161 - 16.webp", "../assets/img/ready to wear/161 - 17.webp", "../assets/img/ready to wear/161 - 14.webp"]
+        },
+        {
+            id: 'Mocasin-Americano-Guinda',
+            titulo: 'Mocasín Americano (Doble Suela)',
+            estilo: 'READY TO WEAR',
+            descripcion: 'El mocasín más fresco y liviano de nuestro catálogo. Su costura frontal, al no ser sellada, proporciona mayor ventilación, convirtiéndolo en el mocasín ideal para los días de calor.',
+            color: 'Guinda',
+            tipoCuero: 'Cuero vacuno',
+            codigo: 'Mocasín USA',
+            imagenPrincipal: "../assets/img/ready to wear/161 - 11.webp",
+            imagenes: ["../assets/img/ready to wear/161 - 11.webp", "../assets/img/ready to wear/161 - 12.webp", "../assets/img/ready to wear/161 - 13.webp", "../assets/img/ready to wear/161 - 14.webp"]
+        },
+        {
+            id: 'Mocasin-Americano-Negro',
+            titulo: 'Mocasín Americano (Doble Suela)',
+            estilo: 'READY TO WEAR',
+            descripcion: 'El mocasín más fresco y liviano de nuestro catálogo. Su costura frontal, al no ser sellada, proporciona mayor ventilación, convirtiéndolo en el mocasín ideal para los días de calor.',
+            color: 'Negro',
+            tipoCuero: 'Cuero vacuno',
+            codigo: 'Mocasín USA',
+            imagenPrincipal: "../assets/img/ready to wear/161 - 18.webp",
+            imagenes: ["../assets/img/ready to wear/161 - 18.webp", "../assets/img/ready to wear/161 - 19.webp", "../assets/img/ready to wear/161 - 20.webp", "../assets/img/ready to wear/161 - 14.webp"]
         },
         {
             id: 'Mocasin-Archibaldo-Azul',
@@ -1050,7 +1149,7 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenes: ["../assets/img/ready to wear/144 - 1.webp", "../assets/img/ready to wear/144 - 2.webp", "../assets/img/ready to wear/144 - 3.webp", "../assets/img/ready to wear/144 - 4.webp"]
         },
         {
-            id: 'Bota-Inglesa-Negro',
+            id: 'Bota-Inglesa-Negro-rtw',
             titulo: 'Bota Inglesa',
             estilo: 'READY TO WEAR',
             descripcion: 'Una bota clásica, cómoda y atemporal. Desde paseos por la ciudad hasta eventos formales, la bota inglesa ofrece un toque de sofisticación a cualquier conjunto.',
@@ -1193,6 +1292,17 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenes: ["../assets/img/made by order/142 - 15.webp", "../assets/img/made by order/142 - 16.webp", "../assets/img/made by order/142 - 17.webp", "../assets/img/made by order/114 - 18.webp"]
         },
         {
+            id: 'Oxford-1107-Suela-MTO',
+            titulo: 'Oxford Mod. 1107',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'Un clásico atemporal, de mucha presencia. Se destaca por su gran versatilidad, tanto en lo formal como en lo casual.',
+            color: 'Suela (con pátina)',
+            tipoCuero: 'Cuero Vacuno',
+            codigo: '1107 MTO',
+            imagenPrincipal: "../assets/img/made by order/161 - 6.webp",
+            imagenes: ["../assets/img/made by order/161 - 6.webp", "../assets/img/made by order/161 - 8.webp", "../assets/img/made by order/161 - 9.webp", "../assets/img/made by order/137 - 19.webp"]
+        },
+        {
             id: 'Oxford-1103-Marron-Verde',
             titulo: 'Oxford Mod. 1103',
             estilo: 'MADE TO ORDER',
@@ -1314,11 +1424,11 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenes: ["../assets/img/made by order/131 - 28.webp", "../assets/img/made by order/131 - 29.webp", "../assets/img/made by order/131 - 30.webp", "../assets/img/made by order/113 - 27.webp"]
         },
         {
-            id: 'Bota-Chelsea-Marron',
+            id: 'Bota-Chelsea-Suela',
             titulo: 'Bota Chelsea',
             estilo: 'READY TO WEAR',
             descripcion: 'Un calzado versátil, adecuado tanto para ocasiones casuales como formales. Es fácil de combinar con una amplia gama de atuendos, desde jeans hasta trajes elegantes. Su diseño sin cordones y elástico la hacen cómoda y conveniente para el uso diario.',
-            color: 'Marrón',
+            color: 'Suela',
             tipoCuero: 'Cuero Vacuno',
             codigo: 'Bota Elástico',
             imagenPrincipal: "../assets/img/made by order/131 - 31.webp",
@@ -1336,6 +1446,17 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenes: ["../assets/img/made by order/85 - 11.webp", "../assets/img/made by order/113 - 21.webp", "../assets/img/made by order/113 - 22.webp", "../assets/img/made by order/113 - 23.webp"]
         },
         {
+            id: 'Bota-Chelsea-Chocolate',
+            titulo: 'Bota Chelsea',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'Un calzado versátil, adecuado tanto para ocasiones casuales como formales. Es fácil de combinar con una amplia gama de atuendos, desde jeans hasta trajes elegantes. Su diseño sin cordones y elástico la hacen cómoda y conveniente para el uso diario.',
+            color: 'Chocolate',
+            tipoCuero: 'Búfalo',
+            codigo: 'Bota Elástico',
+            imagenPrincipal: "../assets/img/made by order/144 - 21.webp",
+            imagenes: ["../assets/img/made by order/144 - 21.webp", "../assets/img/made by order/144 - 22.webp", "../assets/img/made by order/144 - 23.webp", "../assets/img/made by order/113 - 27.webp"]
+        },
+        {
             id: 'Bota-Chelsea-Cafe',
             titulo: 'Bota Chelsea',
             estilo: 'MADE TO ORDER',
@@ -1343,8 +1464,30 @@ document.addEventListener('DOMContentLoaded', function () {
             color: 'Café',
             tipoCuero: 'Búfalo',
             codigo: 'Bota Elástico',
-            imagenPrincipal: "../assets/img/made by order/144 - 21.webp",
-            imagenes: ["../assets/img/made by order/144 - 21.webp", "../assets/img/made by order/144 - 22.webp", "../assets/img/made by order/144 - 23.webp", "../assets/img/made by order/113 - 27.webp"]
+            imagenPrincipal: "../assets/img/made by order/155 - 8.webp",
+            imagenes: ["../assets/img/made by order/155 - 8.webp", "../assets/img/made by order/155 - 9.webp", "../assets/img/made by order/155 - 10.webp", "../assets/img/made by order/113 - 27.webp"]
+        },
+        {
+            id: 'Bota-Chelsea-Marron',
+            titulo: 'Bota Chelsea',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'Un calzado versátil, adecuado tanto para ocasiones casuales como formales. Es fácil de combinar con una amplia gama de atuendos, desde jeans hasta trajes elegantes. Su diseño sin cordones y elástico la hacen cómoda y conveniente para el uso diario.',
+            color: 'Marrón',
+            tipoCuero: 'Búfalo',
+            codigo: 'Bota Elástico',
+            imagenPrincipal: "../assets/img/made by order/155 - 4.webp",
+            imagenes: ["../assets/img/made by order/155 - 4.webp", "../assets/img/made by order/155 - 5.webp", "../assets/img/made by order/155 - 6.webp", "../assets/img/made by order/155 - 7.webp"]
+        },
+        {
+            id: 'Bota-Chelsea-Verde',
+            titulo: 'Bota Chelsea',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'Un calzado versátil, adecuado tanto para ocasiones casuales como formales. Es fácil de combinar con una amplia gama de atuendos, desde jeans hasta trajes elegantes. Su diseño sin cordones y elástico la hacen cómoda y conveniente para el uso diario.',
+            color: 'Verde',
+            tipoCuero: 'Búfalo',
+            codigo: 'Bota Elástico',
+            imagenPrincipal: "../assets/img/made by order/156 - 8.webp",
+            imagenes: ["../assets/img/made by order/156 - 8.webp", "../assets/img/made by order/156 - 9.webp", "../assets/img/made by order/156 - 10.webp", "../assets/img/made by order/156 - 11.webp"]
         },
         {
             id: 'Bota-Chelsea-Gamuza-Negro',
@@ -1358,11 +1501,11 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenes: ["../assets/img/made by order/113 - 24.webp", "../assets/img/made by order/113 - 25.webp", "../assets/img/made by order/113 - 26.webp", "../assets/img/made by order/113 - 27.webp"]
         },
         {
-            id: 'Bota-Chelsea-Gamuza-Marron',
+            id: 'Bota-Chelsea-Gamuza-Chocolate',
             titulo: 'Bota Chelsea',
             estilo: 'MADE TO ORDER',
             descripcion: 'Un calzado versátil, adecuado tanto para ocasiones casuales como formales. Es fácil de combinar con una amplia gama de atuendos, desde jeans hasta trajes elegantes. Su diseño sin cordones y elástico la hacen cómoda y conveniente para el uso diario.',
-            color: 'Marrón',
+            color: 'Chocolate',
             tipoCuero: 'Gamuza',
             codigo: 'Bota Elástico',
             imagenPrincipal: "../assets/img/made by order/114 - 1.webp",
@@ -1402,6 +1545,50 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenes: ["../assets/img/made by order/133 - 16.webp", "../assets/img/made by order/133 - 17.webp", "../assets/img/made by order/133 - 18.webp", "../assets/img/made by order/113 - 27.webp"]
         },
         {
+            id: 'Bota-Chelsea-Gamuza-Rojo',
+            titulo: 'Bota Chelsea',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'Un calzado versátil, adecuado tanto para ocasiones casuales como formales. Es fácil de combinar con una amplia gama de atuendos, desde jeans hasta trajes elegantes. Su diseño sin cordones y elástico la hacen cómoda y conveniente para el uso diario.',
+            color: 'Rojo',
+            tipoCuero: 'Gamuza',
+            codigo: 'Bota Elástico',
+            imagenPrincipal: "../assets/img/made by order/157 - 27.webp",
+            imagenes: ["../assets/img/made by order/157 - 27.webp", "../assets/img/made by order/157 - 28.webp", "../assets/img/made by order/157 - 29.webp", "../assets/img/made by order/113 - 27.webp"]
+        },
+        {
+            id: 'Bota-Manchester-Negro',
+            titulo: 'Bota Manchester',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'Un calzado versátil, adecuado tanto para ocasiones casuales como formales. Es fácil de combinar con una amplia gama de atuendos, desde jeans hasta trajes elegantes. Su diseño sin cordones y elástico la hacen cómoda y conveniente para el uso diario.',
+            color: 'Negro',
+            tipoCuero: 'Cuero Vacuno',
+            codigo: 'Bota con Cierre',
+            imagenPrincipal: "../assets/img/made by order/153 - 1.webp",
+            imagenes: ["../assets/img/made by order/153 - 1.webp", "../assets/img/made by order/153 - 2.webp", "../assets/img/made by order/153 - 4.webp", "../assets/img/made by order/113 - 27.webp"]
+        },
+        {
+            id: 'Bota-Manchester-Guinda',
+            titulo: 'Bota Manchester',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'Un calzado versátil, adecuado tanto para ocasiones casuales como formales. Es fácil de combinar con una amplia gama de atuendos, desde jeans hasta trajes elegantes. Su diseño sin cordones y elástico la hacen cómoda y conveniente para el uso diario.',
+            color: 'Guinda',
+            tipoCuero: 'Cuero Vacuno',
+            codigo: 'Bota con Cierre',
+            imagenPrincipal: "../assets/img/made by order/153 - 9.webp",
+            imagenes: ["../assets/img/made by order/153 - 9.webp", "../assets/img/made by order/153 - 10.webp", "../assets/img/made by order/153 - 12.webp", "../assets/img/made by order/113 - 27.webp"]
+        },
+        {
+            id: 'Bota-Manchester-Gamuza-Tostado',
+            titulo: 'Bota Manchester',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'Un calzado versátil, adecuado tanto para ocasiones casuales como formales. Es fácil de combinar con una amplia gama de atuendos, desde jeans hasta trajes elegantes. Su diseño sin cordones y elástico la hacen cómoda y conveniente para el uso diario.',
+            color: 'Tostado',
+            tipoCuero: 'Gamuza',
+            codigo: 'Bota con Cierre',
+            imagenPrincipal: "../assets/img/made by order/153 - 5.webp",
+            imagenes: ["../assets/img/made by order/153 - 5.webp", "../assets/img/made by order/153 - 6.webp", "../assets/img/made by order/153 - 8.webp", "../assets/img/made by order/113 - 27.webp"]
+        },
+        {
             id: 'Derby-Split-Toes',
             titulo: 'Derby Mod. 1115',
             estilo: 'MADE TO ORDER',
@@ -1411,6 +1598,17 @@ document.addEventListener('DOMContentLoaded', function () {
             codigo: '1115 Copete Aparado',
             imagenPrincipal: "../assets/img/made by order/113 - 1.webp",
             imagenes: ["../assets/img/made by order/113 - 1.webp", "../assets/img/made by order/113 - 2.webp", "../assets/img/made by order/113 - 3.webp", "../assets/img/made by order/112 - 28.webp"]
+        },
+        {
+            id: 'Derby-1100-MTO-Gamuza-Verde-Musgo',
+            titulo: 'Derby Mod. 1100',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'Un clásico liso de cordonera abierta. Este modelo logra un atractivo estilizado sin romper sus líneas tradicionales. Se recomienda para personas con empeine alto.',
+            color: 'Verde Musgo',
+            tipoCuero: 'Gamuza',
+            codigo: '1100 MTO',
+            imagenPrincipal: "../assets/img/made by order/153 - 23.webp",
+            imagenes: ["../assets/img/made by order/153 - 23.webp", "../assets/img/made by order/153 - 24.webp", "../assets/img/made by order/153 - 25.webp", "../assets/img/made by order/153 - 26.webp"]
         },
         {
             id: 'Escarpin-123-Diamante-Castaña',
@@ -1490,6 +1688,17 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenes: ["../assets/img/made by order/142 - 9.webp", "../assets/img/made by order/142 - 10.webp", "../assets/img/made by order/142 - 11.webp", "../assets/img/made by order/119 - 28.webp"]
         },
         {
+            id: 'Escarpin-123-Gamuza-Chocolate',
+            titulo: 'Escarpin Mod. 123',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'El mocasín escarpín es una fusión entre un mocasín y un zapato de vestir, con una suela más delgada y detalles de costura en la parte delantera.',
+            color: 'Chocolate',
+            tipoCuero: 'Gamuza',
+            codigo: '123 con Costurín y Vincha',
+            imagenPrincipal: "../assets/img/made by order/152 - 36.webp",
+            imagenes: ["../assets/img/made by order/152 - 36.webp", "../assets/img/made by order/152 - 37.webp", "../assets/img/made by order/152 - 38.webp", "../assets/img/made by order/119 - 28.webp"]
+        },
+        {
             id: 'Escarpin-MP-Gamuza-Arena',
             titulo: 'Escarpin MP',
             estilo: 'MADE TO ORDER',
@@ -1501,11 +1710,11 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenes: ["../assets/img/made by order/141 - 24.webp", "../assets/img/made by order/141 - 25.webp", "../assets/img/made by order/141 - 26.webp", "../assets/img/made by order/119 - 28.webp"]
         },
         {
-            id: 'Escarpin-MP-Gamuza-Marron',
+            id: 'Escarpin-MP-Gamuza-Chocolate',
             titulo: 'Escarpin MP',
             estilo: 'MADE TO ORDER',
             descripcion: 'El mocasín escarpín es una fusión entre un mocasín y un zapato de vestir, con una suela más delgada y detalles de costura en la parte delantera. Este modelo cuenta con campanillas.',
-            color: 'Marrón',
+            color: 'Chocolate',
             tipoCuero: 'Gamuza',
             codigo: 'MP con Costurín Recto y Campanillas',
             imagenPrincipal: "../assets/img/made by order/141 - 27.webp",
@@ -1523,6 +1732,17 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenes: ["../assets/img/made by order/141 - 12.webp", "../assets/img/made by order/141 - 13.webp", "../assets/img/made by order/141 - 14.webp", "../assets/img/made by order/119 - 28.webp"]
         },
         {
+            id: 'Escarpin-MP-Gamuza-Violeta',
+            titulo: 'Escarpin MP',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'El mocasín escarpín es una fusión entre un mocasín y un zapato de vestir, con una suela más delgada y detalles de costura en la parte delantera. Este modelo cuenta con campanillas.',
+            color: 'Violeta',
+            tipoCuero: 'Gamuza',
+            codigo: 'MP con Costurín y Campanillas',
+            imagenPrincipal: "../assets/img/made by order/156 - 1.webp",
+            imagenes: ["../assets/img/made by order/156 - 1.webp", "../assets/img/made by order/156 - 2.webp", "../assets/img/made by order/156 - 3.webp", "../assets/img/made by order/156 - 4.webp"]
+        },
+        {
             id: 'Escarpin-MP-Verde',
             titulo: 'Escarpin MP',
             estilo: 'MADE TO ORDER',
@@ -1532,6 +1752,17 @@ document.addEventListener('DOMContentLoaded', function () {
             codigo: 'MP con Costurín',
             imagenPrincipal: "../assets/img/made by order/119 - 25.webp",
             imagenes: ["../assets/img/made by order/119 - 25.webp", "../assets/img/made by order/119 - 26.webp", "../assets/img/made by order/119 - 27.webp", "../assets/img/made by order/119 - 28.webp"]
+        },
+        {
+            id: 'Escarpin-MP-Rojo',
+            titulo: 'Escarpin MP',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'El mocasín escarpín es una fusión entre un mocasín y un zapato de vestir, con una suela más delgada y detalles de costura en la parte delantera. Este modelo cuenta con campanillas.',
+            color: 'Rojo',
+            tipoCuero: 'Cuero vacuno',
+            codigo: 'MP con Costurín',
+            imagenPrincipal: "../assets/img/made by order/153 - 16.webp",
+            imagenes: ["../assets/img/made by order/153 - 16.webp", "../assets/img/made by order/153 - 17.webp", "../assets/img/made by order/153 - 18.webp", "../assets/img/made by order/119 - 28.webp"]
         },
         {
             id: 'Escarpin-MP-Maiz',
@@ -1622,6 +1853,50 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenes: ["../assets/img/made by order/128 - 10.webp", "../assets/img/made by order/128 - 11.webp", "../assets/img/made by order/128 - 12.webp", "../assets/img/made by order/128 - 13.webp"]
         },
         {
+            id: 'Derby-Coll-Negro',
+            titulo: 'Derby Mod. Coll',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'Un zapato rígido y robusto. Su construcción incorpora bases de Goma Rural FEBO. Un modelo ideal para el uso urbano y aptas para caminos rurales.',
+            color: 'Negro',
+            tipoCuero: 'Cuero Vacuno',
+            codigo: 'Derby Coll',
+            imagenPrincipal: "../assets/img/made by order/160 - 11.webp",
+            imagenes: ["../assets/img/made by order/160 - 11.webp", "../assets/img/made by order/160 - 12.webp", "../assets/img/made by order/160 - 13.webp", "../assets/img/made by order/160 - 14.webp"]
+        },
+        {
+            id: 'Sneaker-1122-Gamuza-Arena',
+            titulo: 'Sneaker Mod. 1122',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'Un clásico en versión informal. Su construcción incorpora bases de Goma FEBO. Un modelo ideal para el uso urbano.',
+            color: 'Arena',
+            tipoCuero: 'Gamuza',
+            codigo: 'Zap 1122',
+            imagenPrincipal: "../assets/img/made by order/157 - 1.webp",
+            imagenes: ["../assets/img/made by order/157 - 1.webp", "../assets/img/made by order/157 - 2.webp", "../assets/img/made by order/157 - 3.webp", "../assets/img/made by order/157 - 4.webp"]
+        },
+        {
+            id: 'Sneaker-1122-Gamuza-Azul',
+            titulo: 'Sneaker Mod. 1122',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'Un clásico en versión informal. Su construcción incorpora bases de Goma FEBO. Un modelo ideal para el uso urbano.',
+            color: 'Azul',
+            tipoCuero: 'Gamuza',
+            codigo: 'Zap 1122',
+            imagenPrincipal: "../assets/img/made by order/157 - 24.webp",
+            imagenes: ["../assets/img/made by order/157 - 24.webp", "../assets/img/made by order/157 - 25.webp", "../assets/img/made by order/157 - 26.webp", "../assets/img/made by order/157 - 4.webp"]
+        },
+        {
+            id: 'Sneaker-1122-Gamuza-Verde-Musgo',
+            titulo: 'Sneaker Mod. 1122',
+            estilo: 'MADE TO ORDER',
+            descripcion: 'Un clásico en versión informal. Su construcción incorpora bases de Goma FEBO. Un modelo ideal para el uso urbano.',
+            color: 'Verde Musgo',
+            tipoCuero: 'Gamuza',
+            codigo: 'Zap 1122',
+            imagenPrincipal: "../assets/img/made by order/157 - 36.webp",
+            imagenes: ["../assets/img/made by order/157 - 36.webp", "../assets/img/made by order/157 - 37.webp", "../assets/img/made by order/157 - 38.webp", "../assets/img/made by order/157 - 4.webp"]
+        },
+        {
             id: 'Oxford-1122-Bespoke-Maiz',
             titulo: 'Oxford Mod. 1122',
             estilo: 'BESPOKE',
@@ -1644,6 +1919,17 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenes: ["../assets/img/bespoke/142 - 24.webp", "../assets/img/bespoke/142 - 25.webp", "../assets/img/bespoke/142 - 26.webp", "../assets/img/bespoke/142 - 27.webp"]
         },
         {
+            id: 'Oxford-1122-Bespoke-Rojo',
+            titulo: 'Oxford Mod. 1122',
+            estilo: 'BESPOKE',
+            descripcion: 'Este modelo es una versión exclusiva de realización a medida. Puede existir el mismo modelo o similar en versiones estándar. Este modelo puede ser customizado a gusto del cliente.',
+            color: 'Rojo',
+            tipoCuero: 'Cuero Vacuno',
+            codigo: '1122 Bespoke',
+            imagenPrincipal: "../assets/img/bespoke/152 - 1.webp",
+            imagenes: ["../assets/img/bespoke/152 - 1.webp", "../assets/img/bespoke/152 - 2.webp", "../assets/img/bespoke/152 - 3.webp", "../assets/img/bespoke/152 - 4.webp"]
+        },
+        {
             id: 'Oxford-1122-Bespoke-Gamuza-Verde',
             titulo: 'Oxford Mod. 1122',
             estilo: 'BESPOKE',
@@ -1664,6 +1950,17 @@ document.addEventListener('DOMContentLoaded', function () {
             codigo: '1047 Bespoke',
             imagenPrincipal: "../assets/img/bespoke/150 - 25.webp",
             imagenes: ["../assets/img/bespoke/150 - 25.webp", "../assets/img/bespoke/150 - 26.webp", "../assets/img/bespoke/150 - 27.webp", "../assets/img/bespoke/112 - 8.webp"]
+        },
+        {
+            id: '1047-Suela-HD-Bespoke',
+            titulo: '1 Hebilla Mod. 1047 (Horma Delfín)',
+            estilo: 'BESPOKE',
+            descripcion: 'Este modelo es una versión exclusiva de realización a medida. Puede existir el mismo modelo o similar en versiones estándar. Este modelo puede ser customizado a gusto del cliente.',
+            color: 'Maíz',
+            tipoCuero: 'Cuero vacuno',
+            codigo: '1047 Bespoke HD',
+            imagenPrincipal: "../assets/img/bespoke/152 - 12.webp",
+            imagenes: ["../assets/img/bespoke/152 - 12.webp", "../assets/img/bespoke/152 - 13.webp", "../assets/img/bespoke/152 - 14.webp", "../assets/img/bespoke/152 - 15.webp"]
         },
         {
             id: 'Oxford-1108-Bespoke-Marron',
@@ -1721,6 +2018,17 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenes: ["../assets/img/bespoke/123 - 20.webp", "../assets/img/bespoke/123 - 21.webp", "../assets/img/bespoke/123 - 22.webp", "../assets/img/bespoke/113 - 8.webp"]
         },
         {
+            id: 'Swann-Wholecut-DC-Tabaco',
+            titulo: 'Mod. Swann Wholecut (Diente de Caballo)',
+            estilo: 'BESPOKE',
+            descripcion: 'Este modelo es una versión exclusiva de realización a medida. Puede existir el mismo modelo o similar en versiones estándar. Este modelo puede ser customizado a gusto del cliente.',
+            color: 'Tabaco',
+            tipoCuero: 'Vacuno',
+            codigo: "Swann Bespoke",
+            imagenPrincipal: "../assets/img/bespoke/152 - 5.webp",
+            imagenes: ["../assets/img/bespoke/152 - 5.webp", "../assets/img/bespoke/152 - 6.webp", "../assets/img/bespoke/152 - 7.webp", "../assets/img/bespoke/152 - 8.webp"]
+        },
+        {
             id: 'Swann-Wholecut-Cafe',
             titulo: 'Mod. Swann Wholecut',
             estilo: 'BESPOKE',
@@ -1754,7 +2062,18 @@ document.addEventListener('DOMContentLoaded', function () {
             imagenes: ["../assets/img/bespoke/115 - 9.webp", "../assets/img/bespoke/115 - 10.webp", "../assets/img/bespoke/115 - 11.webp", "../assets/img/bespoke/115 - 12.webp"]
         },
         {
-            id: 'Bota-Inglesa-Negro',
+            id: 'Bota-Inglesa-Negro-Bespoke',
+            titulo: 'Bota Inglesa',
+            estilo: 'BESPOKE',
+            descripcion: 'Este modelo es una versión exclusiva de realización a medida. Puede existir el mismo modelo o similar en versiones estándar. Este modelo puede ser customizado a gusto del cliente. Este cuero es a pedido, contra disponibilidad del material.',
+            color: 'Negro',
+            tipoCuero: 'Cuero Vacuno',
+            codigo: "Bota Inglesa Bespoke",
+            imagenPrincipal: "../assets/img/bespoke/152 - 22.webp",
+            imagenes: ["../assets/img/bespoke/152 - 22.webp", "../assets/img/bespoke/152 - 23.webp", "../assets/img/bespoke/152 - 24.webp", "../assets/img/bespoke/152 - 25.webp"]
+        },
+        {
+            id: 'Bota-Inglesa-Bufalo-Negro-Bespoke',
             titulo: 'Bota Inglesa',
             estilo: 'BESPOKE',
             descripcion: 'Este modelo es una versión exclusiva de realización a medida. Puede existir el mismo modelo o similar en versiones estándar. Este modelo puede ser customizado a gusto del cliente. Este cuero es a pedido, contra disponibilidad del material.',

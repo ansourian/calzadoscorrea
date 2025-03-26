@@ -119,3 +119,42 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 });
+
+// Opcional: Detener la animación al pasar el cursor
+const marquee = document.querySelector('.marquee');
+marquee.addEventListener('mouseenter', () => {
+  marquee.querySelector('.marquee-content').style.animationPlayState = 'paused';
+});
+marquee.addEventListener('mouseleave', () => {
+  marquee.querySelector('.marquee-content').style.animationPlayState = 'running';
+});
+
+const originalContent = marquee.querySelector('.marquee-content');
+
+function cloneContentInfinitely() {
+    const marqueeWidth = marquee.offsetWidth;
+    let totalWidth = 0;
+
+    while (totalWidth < marqueeWidth) {
+        const cloneContent = originalContent.cloneNode(true);
+        marquee.appendChild(cloneContent);
+        totalWidth += cloneContent.offsetWidth;
+    }
+}
+
+cloneContentInfinitely();
+
+const marqueeContents = document.querySelectorAll('.marquee-content');
+
+marqueeContents.forEach((marqueeContent) => {
+  marqueeContent.addEventListener('click', () => {
+    const isPaused = marqueeContent.getAttribute('data-paused') === 'true';
+    if (isPaused) {
+      marqueeContent.style.animationPlayState = 'running';
+      marqueeContent.setAttribute('data-paused', 'false');
+    } else {
+      marqueeContent.style.animationPlayState = 'paused';
+      marqueeContent.setAttribute('data-paused', 'true');
+    }
+  });
+});
