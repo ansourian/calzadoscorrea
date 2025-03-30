@@ -1,186 +1,362 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Calzados Correa</title>
-        <link rel="icon" href=../assets/img/correa.ico>
-        <link href="../css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-        <link rel="stylesheet" href="../css/style.css">
-        <script src="https://kit.fontawesome.com/86346e7c53.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <header>
-            <div class="background-header">
-                <div class="nav-logo">
-                    <button id="abrir" class="open-menu"><i class="bi bi-list"></i></button>
-                    <a id="redireccion" href="#" onclick="scrollToTop()"><img class="logo" src="../assets/img/logo correa index.png" alt="Logotipo de Calzados Correa"></a>
-                </div>
-                <nav class="navigation" id="nav">
-                    <button id="cerrar" class="close-menu"><i class="bi bi-x-lg"></i></button>
-                    <ul class="nav-list">
-                        <li><a class="item-nav" href="../index.html">INICIO</a></li>
-                        <li><a class="item-nav" href="#">MODELOS</a></li>
-                        <li><a class="item-nav" href="./mantenimiento.html">MANTENIMIENTO</a></li>
-                        <li><a class="item-nav" href="./acerca_de.html">ACERCA DE</a></li>
-                        <li><a class="item-nav" href="./preguntas_frecuentes.html">AYUDA</a></li>
-                        <li><a class="item-nav" href="./contacto.html">CONTACTO</a></li>
-                    </ul>
-                </nav>    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calzados Correa</title>
+    <link rel="icon" href=../assets/img/correa.ico>
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/86346e7c53.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="navbar navbar-expand-lg">
+      <div
+        class="container-fluid d-flex align-items-center justify-content-between"
+      >
+        <button
+          class="navbar-toggler d-lg-none open-menu"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <i class="bi bi-list"></i>
+        </button>
+        <a id="redireccion" href="#" onclick="scrollToTop()">
+          <img
+            class="logo"
+            src="../assets/img/logo correa index.png"
+            alt="Logotipo de Calzados Correa"
+          />
+        </a>
+        <a
+          href="https://www.instagram.com/calzadoscorrea"
+          target="_blank"
+          class="d-lg-none"
+        >
+          <img
+            class="instagram-icon"
+            src="../assets/img/instagram-icon.svg"
+            alt="Enlace a Instagram"
+          />
+        </a>
+        <nav
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav nav-list">
+            <li class="nav-item">
+              <a class="nav-link item-nav" href="/">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link item-nav" href="./modelos.html">MODELOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link item-nav" href="./mantenimiento.html"
+                >MANTENIMIENTO</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link item-nav" href="./acerca_de.html">ACERCA DE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link item-nav" href="./preguntas_frecuentes.html"
+                >AYUDA</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link item-nav" href="./contacto.html">CONTACTO</a>
+            </li>
+          </ul>
+        </nav>
+        <a
+          href="https://www.instagram.com/calzadoscorrea"
+          target="_blank"
+          class="d-none d-lg-block"
+        >
+          <img
+            class="instagram-icon"
+            src="../assets/img/instagram-icon.svg"
+            alt="Enlace a Instagram"
+          />
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <div class="div-section">
+        <h3>NUESTROS ZAPATOS</h3>
+        <h2>Variedad para cada estilo de vida</h2>
+        <hr class="linea-subtitulo" />
+        <p class="p-sub">Correa estará con vos en cada paso del camino.</p>
+      </div>
+
+      <hr />
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide model-carousel"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+        </div>
+        <div class="carousel-inner carousel-modelos">
+          <a href="../pages/ready to wear.html" class="carousel-item active">
+            <img
+              src="../assets/img/ready to wear car.webp"
+              class="d-block w-100 img-carousel"
+              alt="..."
+            />
+            <div class="carousel-caption">
+              <h4 class="model-titles_car">Ready to Wear</h4>
+              <h5 class="model-subtitles_car">(Listos para usar)</h5>
             </div>
-            <a class="volver-button" href="javascript:history.back()"> VOLVER</a>
-        </header>
-        <main>
-            <div class="div-section">
-                <h3>NUESTROS ZAPATOS</h3>
-                <h2>Variedad para cada estilo de vida</h2>
-                <hr class="linea-subtitulo">
-                <p class="p-sub"> Correa estará con vos en cada paso del camino.
+          </a>
+          <a href="../pages/made by order.html" class="carousel-item">
+            <img
+              src="../assets/img/made to order car.webp"
+              class="d-block w-100 img-carousel"
+              alt="..."
+            />
+            <div class="carousel-caption">
+              <h4 class="model-titles_car">Made to Order</h4>
+              <h5 class="model-subtitles_car">(Personalizados a pedido)</h5>
             </div>
-            <hr>
-            <div id="carouselExampleCaptions" class="carousel slide model-carousel" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                </div>
-                <div class="carousel-inner carousel-modelos">
-                  <a href="../pages/ready to wear.html" class="carousel-item active">
-                    <img src="../assets/img/ready to wear car.webp" class="d-block w-100 img-carousel" alt="...">
-                    <div class="carousel-caption">
-                      <h4 class="model-titles_car">Ready to Wear</h4>
-                      <h5 class="model-subtitles_car">(Listos para usar)</h5>
-                    </div>
-                  </a>
-                  <a href="../pages/made by order.html" class="carousel-item">
-                    <img src="../assets/img/made to order car.webp" class="d-block w-100 img-carousel" alt="...">
-                    <div class="carousel-caption">
-                      <h4 class="model-titles_car">Made to Order</h4>
-                      <h5 class="model-subtitles_car">(Personalizados a pedido)</h5>
-                    </div>
-                  </a>
-                  <a href="../pages/bespoke.html" class="carousel-item">
-                    <img src="../assets/img/bespoke car.webp" class="d-block w-100 img-carousel" alt="...">
-                    <div class="carousel-caption">
-                      <h4 class="model-titles_car">Bespoke</h4>
-                      <h5 class="model-subtitles_car">(Exclusivos de medida)</h5>
-                    </div>
-                  </a>
-                  <a href="../pages/cinturones.html" class="carousel-item">
-                    <img src="../assets/img/cinturones car.webp" class="d-block w-100 img-carousel" alt="...">
-                    <div class="carousel-caption">
-                      <h4 class="model-titles_car">Cinturones</h4>
-                      <h5 class="model-subtitles_car">(Modelos exclusivos)</h5>
-                    </div>
-                  </a>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-              <section class="contenedor-tipo_modelos fade-section">
-                <a href="./ready to wear.html" class="model">
-                    <img class="img-modeltype" src="../assets/img/Ready to Wear.webp" alt="modelo ready to wear">
-                    <div class="div-model_type_texts">
-                        <h4 class="model-type_titles">Modelos Ready to Wear</h4>
-                        <h5 class="model-type_subtitles">(Modelos Listos para usar)</h5>    
-                    </div>
-                </a>
-                <a href="./made by order.html" class="model">
-                    <img class="img-modeltype" src="../assets/img/Made to Order.webp" alt="modelo made to order">
-                    <div class="div-model_type_texts">
-                        <h4 class="model-type_titles">Modelos Made to Order</h4>
-                        <h5 class="model-type_subtitles">(Personalizados a pedido)</h5>    
-                    </div>
-                </a>
-                <a href="./bespoke.html" class="model">
-                    <img class="img-modeltype" src="../assets/img/Bespoke.webp" alt="modelo bespoke">
-                    <div class="div-model_type_texts">
-                        <h4 class="model-type_titles">Modelos Bespoke</h4>
-                        <h5 class="model-type_subtitles">(Exclusivos de medida)</h5>    
-                    </div>
-                </a>
-                <a href="./cinturones.html" class="model">
-                    <img class="img-modeltype" src="../assets/img/cinturones.webp" alt="modelos de cinturones">
-                    <div class="div-model_type_texts">
-                        <h4 class="model-type_titles">Cinturones</h4>
-                        <h5 class="model-type_subtitles">(Modelos exclusivos)</h5>    
-                    </div>
-                </a>
-            </section>
-            <hr>
-            <section class="container-info_modelos fade-section">
-                <article class="notas-periodisticas">
-                    <h4 class="h4-modelos">PRUEBA</h4>
-                    <p class="p-info_modelos"> La prueba consiste en tomar de nuestros clientes las medidas exactas para la fabricación a medida de su calzado. Altura, anchura y demás caracteristicas proyectan el futuro producto. Aquí es donde nuestro servicio está por sobre todo lo conocido. Como las mejores casas del mundo.</p>
-                </article>
-                <article class="notas-periodisticas">
-                    <h4 class="h4-modelos">ELECCIÓN DE MATERIALES</h4>
-                    <p class="p-info_modelos">Es fundamental la elección de los materiales. Cueros Seleccionados y Materiales de calidad Premium confeccionan nuestros calzados. En nuestro Showroom podrá disfrutar además de un ambiente ameno, cordial y con aires de antaño, gran cantidad de "pies" exhibidos en nuestras vidrieras. Para los que se atrevan a más, existen líneas Trendy que combinan los diseños clásicos con colores de Tendencia.</p>
-                </article>
-                <article class="notas-periodisticas">
-                    <h4 class="h4-modelos">PERSONALIZACIÓN</h4>
-                    <p class="p-info_modelos"> Cada cliente es especial para nosotros. En el caso que asi lo requiera se confeccionarán los zapatos de manera personalizada. Tambien contamos con modelos Bespoke, que involucran de lleno a nuestros artesanos más experimentados, para desarrollar desde un principio confecciones exclusivas, e incorporar en su final acabados de lujo y detalles notables a la hora de coronar otra obra maestra de la casa.</p>
-                </article>
-                <article class="notas-periodisticas">
-                    <h4 class="h4-modelos">SERVICIO POST-VENTA</h4>                    
-                    <p class="p-info_modelos"> Reparamos y mantenemos intactos a través del tiempo nuestros productos. Los zapatos que se llevan los clientes pertenecen de alguna manera a Correa. Solo reparamos los zapatos que se adquieren en nuestros locales. Aquellos amantes del buen vestir y de la elegancia, al arribar al local ubicado en Mario Bravo al 750, no dejan de sorprenderse al descubrir el tratamiento y la confección íntegramente manual y personalizada en el calzado.</p>
-                </article>
-            </section>
-        </main>
-        <footer>
-            <div class="row">
-                <div class="col">
-                    <h3>SOCIALES</h3>
-                        <div class="row row-seguinos_ig">
-                            <div class="col">
-                                <h2 class="h2-footer">Seguinos en</h2>
-                            </div>
-                            <div class="col">
-                                <a href="https://www.instagram.com/calzadoscorrea" target="_blank">
-                                    <img
-                                        class="instagram-logo"
-                                        src="../assets/img/Instagram logo.png"
-                                        alt="enlace a instagram"
-                                    />
-                                </a>
-                            </div>                           
-                        </div>
-                        <div>
-                            <p class="p-footer">Estate atento a todas las novedades a través de nuestro instagram.</p>
-                        </div>
-                </div>
-                <div class="vertical-hr">
-                </div>
-                <div class="col">
-                    <h3>CONTACTO</h3>
-                        <div class="row">
-                            <div class="col footer-content">
-                                <p class="p-footerinfo">Dirección: Mario Bravo 750</p>
-                                <p class="p-footerinfo">Mail: info@calzadoscorrea.com.ar</p>
-                                <p class="p-footerinfo">Teléfono: (5411) 4861-7344</p>
-                            </div>
-                            <div class="col footer-maps">
-                                <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.1248428114995!2d-58.41852518255615!3d-34.6010045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca89c1127145%3A0x7c1cd35e3cf9433f!2sCalzados%20Correa!5e0!3m2!1ses!2sar!4v1679619945615!5m2!1ses!2sar" width="300" height="200" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            </div>
-                        </div>
-                </div>
-                <p class="p-footerinfo_horario">Horario de Atención: Lunes a Viernes de 9hs a 13hs y de 15hs a 19hs / Sábados de 9hs a 13hs</p>
+          </a>
+          <a href="../pages/bespoke.html" class="carousel-item">
+            <img
+              src="../assets/img/bespoke car.webp"
+              class="d-block w-100 img-carousel"
+              alt="..."
+            />
+            <div class="carousel-caption">
+              <h4 class="model-titles_car">Bespoke</h4>
+              <h5 class="model-subtitles_car">(Exclusivos de medida)</h5>
             </div>
-            <div class="row">
-               <p class="derechos-reservados"> © COPYRIGHT 2023 CALZADOS CORREA / WEB CUSTOM & PHOTO PRODUCTION DESIGN BY JAIR ANSOURIAN</p>
+          </a>
+          <a href="../pages/cinturones.html" class="carousel-item">
+            <img
+              src="../assets/img/cinturones car.webp"
+              class="d-block w-100 img-carousel"
+              alt="..."
+            />
+            <div class="carousel-caption">
+              <h4 class="model-titles_car">Cinturones</h4>
+              <h5 class="model-subtitles_car">(Modelos exclusivos)</h5>
             </div>
-          </footer>
-          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-          <script src="../js/bootstrap.min.js"></script>
-          <script src="../js/main.js"></script>
-    </body>
+          </a>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <section class="contenedor-tipo_modelos fade-section">
+        <a href="./ready to wear.html" class="model">
+          <img
+            class="img-modeltype"
+            src="../assets/img/Ready to Wear.webp"
+            alt="modelo ready to wear"
+          />
+          <div class="div-model_type_texts">
+            <h4 class="model-type_titles">Modelos Ready to Wear</h4>
+            <h5 class="model-type_subtitles">(Modelos Listos para usar)</h5>
+          </div>
+        </a>
+        <a href="./made by order.html" class="model">
+          <img
+            class="img-modeltype"
+            src="../assets/img/Made to Order.webp"
+            alt="modelo made to order"
+          />
+          <div class="div-model_type_texts">
+            <h4 class="model-type_titles">Modelos Made to Order</h4>
+            <h5 class="model-type_subtitles">(Personalizados a pedido)</h5>
+          </div>
+        </a>
+        <a href="./bespoke.html" class="model">
+          <img
+            class="img-modeltype"
+            src="../assets/img/Bespoke.webp"
+            alt="modelo bespoke"
+          />
+          <div class="div-model_type_texts">
+            <h4 class="model-type_titles">Modelos Bespoke</h4>
+            <h5 class="model-type_subtitles">(Exclusivos de medida)</h5>
+          </div>
+        </a>
+        <a href="./cinturones.html" class="model">
+          <img
+            class="img-modeltype"
+            src="../assets/img/cinturones.webp"
+            alt="modelos de cinturones"
+          />
+          <div class="div-model_type_texts">
+            <h4 class="model-type_titles">Cinturones</h4>
+            <h5 class="model-type_subtitles">(Modelos exclusivos)</h5>
+          </div>
+        </a>
+      </section>
+      <hr />
+      <section class="container-info_modelos fade-section">
+        <article class="notas-periodisticas">
+          <h4 class="h4-modelos">PRUEBA</h4>
+          <p class="p-info_modelos">
+            La prueba consiste en tomar de nuestros clientes las medidas exactas
+            para la fabricación a medida de su calzado. Altura, anchura y demás
+            caracteristicas proyectan el futuro producto. Aquí es donde nuestro
+            servicio está por sobre todo lo conocido. Como las mejores casas del
+            mundo.
+          </p>
+        </article>
+        <article class="notas-periodisticas">
+          <h4 class="h4-modelos">ELECCIÓN DE MATERIALES</h4>
+          <p class="p-info_modelos">
+            Es fundamental la elección de los materiales. Cueros Seleccionados y
+            Materiales de calidad Premium confeccionan nuestros calzados. En
+            nuestro Showroom podrá disfrutar además de un ambiente ameno,
+            cordial y con aires de antaño, gran cantidad de "pies" exhibidos en
+            nuestras vidrieras. Para los que se atrevan a más, existen líneas
+            Trendy que combinan los diseños clásicos con colores de Tendencia.
+          </p>
+        </article>
+        <article class="notas-periodisticas">
+          <h4 class="h4-modelos">PERSONALIZACIÓN</h4>
+          <p class="p-info_modelos">
+            Cada cliente es especial para nosotros. En el caso que asi lo
+            requiera se confeccionarán los zapatos de manera personalizada.
+            Tambien contamos con modelos Bespoke, que involucran de lleno a
+            nuestros artesanos más experimentados, para desarrollar desde un
+            principio confecciones exclusivas, e incorporar en su final acabados
+            de lujo y detalles notables a la hora de coronar otra obra maestra
+            de la casa.
+          </p>
+        </article>
+        <article class="notas-periodisticas">
+          <h4 class="h4-modelos">SERVICIO POST-VENTA</h4>
+          <p class="p-info_modelos">
+            Reparamos y mantenemos intactos a través del tiempo nuestros
+            productos. Los zapatos que se llevan los clientes pertenecen de
+            alguna manera a Correa. Solo reparamos los zapatos que se adquieren
+            en nuestros locales. Aquellos amantes del buen vestir y de la
+            elegancia, al arribar al local ubicado en Mario Bravo al 750, no
+            dejan de sorprenderse al descubrir el tratamiento y la confección
+            íntegramente manual y personalizada en el calzado.
+          </p>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <div class="row">
+        <div class="col">
+          <h3>SOCIALES</h3>
+          <div class="row row-seguinos_ig">
+            <div class="col">
+              <h2 class="h2-footer">Seguinos en</h2>
+            </div>
+            <div class="col">
+              <a
+                href="https://www.instagram.com/calzadoscorrea"
+                target="_blank"
+              >
+                <img
+                  class="instagram-logo"
+                  src="../assets/img/Instagram logo.png"
+                  alt="enlace a instagram"
+                />
+              </a>
+            </div>
+          </div>
+          <div>
+            <p class="p-footer">
+              Estate atento a todas las novedades a través de nuestro instagram.
+            </p>
+          </div>
+        </div>
+        <div class="vertical-hr"></div>
+        <div class="col">
+          <h3>CONTACTO</h3>
+          <div class="row">
+            <div class="col footer-content">
+              <p class="p-footerinfo">Dirección: Mario Bravo 750</p>
+              <p class="p-footerinfo">Mail: info@calzadoscorrea.com.ar</p>
+              <p class="p-footerinfo">Teléfono: (5411) 4861-7344</p>
+            </div>
+            <div class="col footer-maps">
+              <iframe
+                class="maps"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.1248428114995!2d-58.41852518255615!3d-34.6010045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca89c1127145%3A0x7c1cd35e3cf9433f!2sCalzados%20Correa!5e0!3m2!1ses!2sar!4v1679619945615!5m2!1ses!2sar"
+                width="300"
+                height="200"
+                style="border: 0; border-radius: 10px"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+        <p class="p-footerinfo_horario">
+          Horario de Atención: Lunes a Viernes de 9hs a 13hs y de 15hs a 19hs /
+          Sábados de 9hs a 13hs
+        </p>
+      </div>
+      <div class="row">
+        <p class="derechos-reservados">
+          © COPYRIGHT 2023 CALZADOS CORREA / WEB CUSTOM & PHOTO PRODUCTION
+          DESIGN BY JAIR ANSOURIAN
+        </p>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
 </html>

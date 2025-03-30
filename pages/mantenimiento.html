@@ -1,154 +1,292 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Calzados Correa</title>
-        <link rel="icon" href=../assets/img/correa.ico>
-        <link href="../css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-        <link rel="stylesheet" href="../css/style.css">
-        <script src="https://kit.fontawesome.com/86346e7c53.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <header>
-            <div class="background-header">
-                <div class="nav-logo">
-                    <button id="abrir" class="open-menu"><i class="bi bi-list"></i></button>
-                    <a id="redireccion" href="#" onclick="scrollToTop()"><img class="logo" src="../assets/img/logo correa index.png" alt="Logotipo de Calzados Correa"></a>
-                </div>
-                <nav class="navigation" id="nav">
-                    <button id="cerrar" class="close-menu"><i class="bi bi-x-lg"></i></button>
-                    <ul class="nav-list">
-                        <li><a class="item-nav" href="../index.html">INICIO</a></li>
-                        <li><a class="item-nav" href="./modelos.html">MODELOS</a></li>
-                        <li><a class="item-nav" href="#">MANTENIMIENTO</a></li>
-                        <li><a class="item-nav" href="./acerca_de.html">ACERCA DE</a></li>
-                        <li><a class="item-nav" href="./preguntas_frecuentes.html">AYUDA</a></li>
-                        <li><a class="item-nav" href="./contacto.html">CONTACTO</a></li>
-                    </ul>
-                </nav>    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calzados Correa</title>
+    <link rel="icon" href=../assets/img/correa.ico>
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/86346e7c53.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="navbar navbar-expand-lg">
+      <div
+        class="container-fluid d-flex align-items-center justify-content-between"
+      >
+        <button
+          class="navbar-toggler d-lg-none open-menu"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <i class="bi bi-list"></i>
+        </button>
+        <a id="redireccion" href="#" onclick="scrollToTop()">
+          <img
+            class="logo"
+            src="../assets/img/logo correa index.png"
+            alt="Logotipo de Calzados Correa"
+          />
+        </a>
+        <a
+          href="https://www.instagram.com/calzadoscorrea"
+          target="_blank"
+          class="d-lg-none"
+        >
+          <img
+            class="instagram-icon"
+            src="../assets/img/instagram-icon.svg"
+            alt="Enlace a Instagram"
+          />
+        </a>
+        <nav
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav nav-list">
+            <li class="nav-item">
+              <a class="nav-link item-nav" href="/">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link item-nav" href="./modelos.html">MODELOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link item-nav" href="./mantenimiento.html"
+                >MANTENIMIENTO</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link item-nav" href="./acerca_de.html">ACERCA DE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link item-nav" href="./preguntas_frecuentes.html"
+                >AYUDA</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link item-nav" href="./contacto.html">CONTACTO</a>
+            </li>
+          </ul>
+        </nav>
+        <a
+          href="https://www.instagram.com/calzadoscorrea"
+          target="_blank"
+          class="d-none d-lg-block"
+        >
+          <img
+            class="instagram-icon"
+            src="../assets/img/instagram-icon.svg"
+            alt="Enlace a Instagram"
+          />
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <div class="div-section">
+        <h3>MANTENIMIENTO</h3>
+        <h2>Métodos para un tratamiento adecuado del calzado</h2>
+        <hr class="linea-subtitulo" />
+        <p class="p-sub">
+          En esta sección podrás aprender todo sobre el mantenimiento adecuado
+          para tu calzado.
+        </p>
+      </div>
+
+      <hr />
+      <div class="contenedor-mantenimiento fade-section">
+        <h5>Limpieza de polvo y tierra</h5>
+        <div class="div-mantenimiento d-flex">
+          <h5 class="h5-number">1</h5>
+          <p class="p-mantenimiento">
+            Se busca que el calzado quede libre de particulas que puedan
+            adherirse al paño o a la crema y por consecuente, rayar el calzado.
+            Finalizarlo con un cepillado con cerda de caballo o en su defecto
+            limpiar el zapato con un trapo de algodón seco para corroborar que
+            la piel quede completamente limpia.
+          </p>
+        </div>
+      </div>
+      <img
+        class="img-mantenimiento fade-section"
+        src="../assets/img/paso1.webp"
+      />
+      <hr />
+      <div class="contenedor-mantenimiento fade-section">
+        <h5 class="h4-right">Selección de producto a aplicar</h5>
+        <div class="div-mantenimiento d-flex">
+          <div class="contenedor-aclaracion">
+            <p class="p-mantenimiento">
+              Si el zapato se encuentra muy seco, la utilización de cremas es la
+              óptima. Como primer mano puede ser un renovador de cueros o una
+              crema/pomada hidratante de color (si se considera que el zapato
+              está decolorado) o en su defecto, una crema incolora. Entre 2 y 4
+              manos bien absorbidas, aplicando de a pizcas del tamaño de una
+              yema de dedo.
+            </p>
+            <p class="p-aclaracion">
+              Aclaración: pueden utilizarse distintos pigmentos a lo largo del
+              proceso en caso de requerirlo. Tambien se debe aplicar crema sobre
+              los costados de las suelas y entre la suela y la capellada*.
+            </p>
+          </div>
+          <h5 class="h5-number">2</h5>
+        </div>
+      </div>
+      <img
+        class="img-mantenimiento fade-section"
+        src="../assets/img/paso2.webp"
+      />
+      <hr />
+      <div class="contenedor-mantenimiento fade-section">
+        <h5>Aplicación de ceras</h5>
+        <div class="div-mantenimiento d-flex">
+          <h5 class="h5-number">3</h5>
+          <p class="p-mantenimiento">
+            Para seleccionar la cera ideal se debe tener en cuenta que se puede
+            elegir una cera con un pigmento más claro o uno más oscuro ya que
+            estos no aplican tanta coloración, pero al utilizarse varias capas
+            del mismo, se puede alterar el tono del calzado a gusto y propósito.
+            Luego dejar secar 5 minutos al finalizar.
+          </p>
+        </div>
+      </div>
+      <img
+        class="img-mantenimiento fade-section"
+        src="../assets/img/paso3.webp"
+      />
+      <hr />
+      <div class="contenedor-mantenimiento fade-section">
+        <h5 class="h4-right">Cepillado</h5>
+        <div class="div-mantenimiento d-flex">
+          <div class="contenedor-aclaracion row">
+            <p class="p-mantenimiento">
+              Cepillar con cerda de caballo, o en su defecto, con un trapo de
+              algodón seco. Si opta por utilizar el trapo, puede verter una gota
+              de agua sobre el calzado para activar el producto y que de esa
+              forma tome aún más brillo.
+            </p>
+            <p class="p-aclaracion">
+              Aclaración: en caso de utilizar un cepillo de cerda, hágalo en
+              seco.
+            </p>
+          </div>
+          <h5 class="h5-number">4</h5>
+        </div>
+      </div>
+      <img
+        class="img-mantenimiento fade-section"
+        src="../assets/img/paso4.webp"
+      />
+      <hr />
+      <div class="div-section fade-section">
+        <h3>ASESORAMIENTO</h3>
+        <h2>Marcas de productos recomendadas</h2>
+        <hr class="linea-subtitulo" />
+        <p class="p-sub">
+          Te ofrecemos recomendaciones para cremas y ceras tanto nacionales como
+          internacionales.
+        </p>
+      </div>
+
+      <hr />
+      <div class="slide-styles">
+        <div class="contenedor-recomendaciones fade-section visible">
+          <h5 class="h5-recomendaciones">Para cremas</h5>
+          <p class="p-recomendaciones">■ Tintaló (Industria Argentina)</p>
+          <p class="p-recomendaciones">
+            ■ Saphir Médaille d'Or (Industria Francesa)
+          </p>
+          <p class="p-recomendaciones">■ Boot Black (Industria Japonesa)</p>
+        </div>
+        <div class="contenedor-recomendaciones fade-section visible">
+          <h5 class="h5-recomendaciones">Para ceras</h5>
+          <p class="p-recomendaciones">
+            ■ Saphir Médaille d'Or (Industria Francesa)
+          </p>
+          <p class="p-recomendaciones">
+            ■ Wassington Premium (Industria Argentina)
+          </p>
+        </div>
+      </div>
+      <img
+        class="img-recomendaciones fade-section"
+        src="../assets/img/saphir.webp"
+      />
+    </main>
+    <footer>
+      <div class="row">
+        <div class="col">
+          <h3>SOCIALES</h3>
+          <div class="row row-seguinos_ig">
+            <div class="col">
+              <h2 class="h2-footer">Seguinos en</h2>
             </div>
-            <a class="volver-button" href="javascript:history.back()"> VOLVER</a>
-        </header>
-        <main>
-            <div class="div-section">
-                <h3>MANTENIMIENTO</h3>
-                <h2>Métodos para un tratamiento adecuado del calzado</h2>
-                <hr class="linea-subtitulo">
-                <p class="p-sub"> En esta sección podrás aprender todo sobre el mantenimiento adecuado para tu calzado.
+            <div class="col">
+              <a
+                href="https://www.instagram.com/calzadoscorrea"
+                target="_blank"
+              >
+                <img
+                  class="instagram-logo"
+                  src="../assets/img/Instagram logo.png"
+                  alt="enlace a instagram"
+                />
+              </a>
             </div>
-            <hr>
-            <div class="contenedor-mantenimiento fade-section">
-                <h5>Limpieza de polvo y tierra</h5>
-                <div class="div-mantenimiento d-flex">
-                    <h5 class="h5-number">1</h5>
-                    <p class="p-mantenimiento">Se busca que el calzado quede libre de particulas que puedan adherirse al paño o a la crema y por consecuente, rayar el calzado. Finalizarlo con un cepillado con cerda de caballo o en su defecto limpiar el zapato con un trapo de algodón seco para corroborar que la piel quede completamente limpia.</p>
-                </div>
+          </div>
+          <div>
+            <p class="p-footer">
+              Estate atento a todas las novedades a través de nuestro instagram.
+            </p>
+          </div>
+        </div>
+        <div class="vertical-hr"></div>
+        <div class="col">
+          <h3>CONTACTO</h3>
+          <div class="row">
+            <div class="col footer-content">
+              <p class="p-footerinfo">Dirección: Mario Bravo 750</p>
+              <p class="p-footerinfo">Mail: info@calzadoscorrea.com.ar</p>
+              <p class="p-footerinfo">Teléfono: (5411) 4861-7344</p>
             </div>
-            <img class="img-mantenimiento fade-section" src="../assets/img/paso1.webp">
-            <hr>
-            <div class="contenedor-mantenimiento fade-section">
-                <h5 class="h4-right">Selección de producto a aplicar</h5>
-                <div class="div-mantenimiento d-flex">
-                    <div class="contenedor-aclaracion">
-                        <p class="p-mantenimiento">Si el zapato se encuentra muy seco, la utilización de cremas es la óptima. Como primer mano puede ser un renovador de cueros o una crema/pomada hidratante de color (si se considera que el zapato está decolorado) o en su defecto, una crema incolora. Entre 2 y 4 manos bien absorbidas, aplicando de a pizcas del tamaño de una yema de dedo.</p>
-                        <p class="p-aclaracion">Aclaración: pueden utilizarse distintos pigmentos a lo largo del proceso en caso de requerirlo. Tambien se debe aplicar crema sobre los costados de las suelas y entre la suela y la capellada*.</p>
-                    </div>
-                    <h5 class="h5-number">2<h4>
-                </div>
+            <div class="col footer-maps">
+              <iframe
+                class="maps"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.1248428114995!2d-58.41852518255615!3d-34.6010045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca89c1127145%3A0x7c1cd35e3cf9433f!2sCalzados%20Correa!5e0!3m2!1ses!2sar!4v1679619945615!5m2!1ses!2sar"
+                width="300"
+                height="200"
+                style="border: 0; border-radius: 10px"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
-            <img class="img-mantenimiento fade-section" src="../assets/img/paso2.webp">
-            <hr>
-            <div class="contenedor-mantenimiento fade-section">
-                <h5>Aplicación de ceras</h5>
-                <div class="div-mantenimiento d-flex">
-                    <h5 class="h5-number">3</h5>
-                    <p class="p-mantenimiento">Para seleccionar la cera ideal se debe tener en cuenta que se puede elegir una cera con un pigmento más claro o uno más oscuro ya que estos no aplican tanta coloración, pero al utilizarse varias capas del mismo, se puede alterar el tono del calzado a gusto y propósito. Luego dejar secar 5 minutos al finalizar.</p>
-                </div>
-            </div>
-            <img class="img-mantenimiento fade-section" src="../assets/img/paso3.webp">
-            <hr>
-            <div class="contenedor-mantenimiento fade-section">
-                <h5 class="h4-right">Cepillado</h5>
-                <div class="div-mantenimiento d-flex">
-                    <div class="contenedor-aclaracion row">
-                        <p class="p-mantenimiento">Cepillar con cerda de caballo, o en su defecto, con un trapo de algodón seco. Si opta por utilizar el trapo, puede verter una gota de agua sobre el calzado para activar el producto y que de esa forma tome aún más brillo.</p>
-                        <p class="p-aclaracion">Aclaración: en caso de utilizar un cepillo de cerda, hágalo en seco.</p>
-                    </div>
-                    <h5 class="h5-number">4<h5>
-                </div>
-            </div>
-            <img class="img-mantenimiento fade-section" src="../assets/img/paso4.webp">
-            <hr>
-            <div class="div-section fade-section">
-                <h3>ASESORAMIENTO</h3>
-                <h2>Marcas de productos recomendadas</h2>
-                <hr class="linea-subtitulo">
-                <p class="p-sub"> Te ofrecemos recomendaciones para cremas y ceras tanto nacionales como internacionales.
-            </div>
-            <hr>
-            <div class="slide-styles">
-                <div class="contenedor-recomendaciones fade-section visible">
-                    <h5 class="h5-recomendaciones">Para cremas</h5>
-                    <p class="p-recomendaciones">■ Tintaló (Industria Argentina)</p>
-                    <p class="p-recomendaciones">■ Saphir Médaille d'Or (Industria Francesa)</p>
-                    <p class="p-recomendaciones">■ Boot Black (Industria Japonesa)</p>
-                </div>
-                <div class="contenedor-recomendaciones fade-section visible">
-                    <h5 class="h5-recomendaciones">Para ceras</h5>
-                    <p class="p-recomendaciones">■ Saphir Médaille d'Or (Industria Francesa)</p>
-                    <p class="p-recomendaciones">■ Wassington Premium (Industria Argentina)</p>
-                </div>
-            </div>
-            <img class="img-recomendaciones fade-section" src="../assets/img/saphir.webp">
-        </main>
-        <footer>
-            <div class="row">
-                <div class="col">
-                    <h3>SOCIALES</h3>
-                        <div class="row row-seguinos_ig">
-                            <div class="col">
-                                <h2 class="h2-footer">Seguinos en</h2>
-                            </div>
-                            <div class="col">
-                                <a href="https://www.instagram.com/calzadoscorrea" target="_blank">
-                                    <img
-                                        class="instagram-logo"
-                                        src="../assets/img/Instagram logo.png"
-                                        alt="enlace a instagram"
-                                    />
-                                </a>
-                            </div>                           
-                        </div>
-                        <div>
-                            <p class="p-footer">Estate atento a todas las novedades a través de nuestro instagram.</p>
-                        </div>
-                </div>
-                <div class="vertical-hr">
-                </div>
-                <div class="col">
-                    <h3>CONTACTO</h3>
-                        <div class="row">
-                            <div class="col footer-content">
-                                <p class="p-footerinfo">Dirección: Mario Bravo 750</p>
-                                <p class="p-footerinfo">Mail: info@calzadoscorrea.com.ar</p>
-                                <p class="p-footerinfo">Teléfono: (5411) 4861-7344</p>
-                            </div>
-                            <div class="col footer-maps">
-                                <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.1248428114995!2d-58.41852518255615!3d-34.6010045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca89c1127145%3A0x7c1cd35e3cf9433f!2sCalzados%20Correa!5e0!3m2!1ses!2sar!4v1679619945615!5m2!1ses!2sar" width="300" height="200" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            </div>
-                        </div>
-                </div>
-                <p class="p-footerinfo_horario">Horario de Atención: Lunes a Viernes de 9hs a 13hs y de 15hs a 19hs / Sábados de 9hs a 13hs</p>
-            </div>
-            <div class="row">
-               <p class="derechos-reservados"> © COPYRIGHT 2023 CALZADOS CORREA / WEB CUSTOM & PHOTO PRODUCTION DESIGN BY JAIR ANSOURIAN</p>
-            </div>
-          </footer>
-          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-          <script src="../js/bootstrap.min.js"></script>
-          <script src="../js/main.js"></script>
-    </body>
+          </div>
+        </div>
+        <p class="p-footerinfo_horario">
+          Horario de Atención: Lunes a Viernes de 9hs a 13hs y de 15hs a 19hs /
+          Sábados de 9hs a 13hs
+        </p>
+      </div>
+      <div class="row">
+        <p class="derechos-reservados">
+          © COPYRIGHT 2023 CALZADOS CORREA / WEB CUSTOM & PHOTO PRODUCTION
+          DESIGN BY JAIR ANSOURIAN
+        </p>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
 </html>

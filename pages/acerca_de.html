@@ -1,109 +1,196 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Calzados Correa</title>
-        <link rel="icon" href=../assets/img/correa.ico>
-        <link href="../css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-        <link rel="stylesheet" href="../css/style.css">
-        <script src="https://kit.fontawesome.com/86346e7c53.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <header>
-            <div class="background-header">
-                <div class="nav-logo">
-                    <button id="abrir" class="open-menu"><i class="bi bi-list"></i></button>
-                    <a id="redireccion" href="#" onclick="scrollToTop()"><img class="logo" src="../assets/img/logo correa index.png" alt="Logotipo de Calzados Correa"></a>
-                </div>
-                <nav class="navigation" id="nav">
-                    <button id="cerrar" class="close-menu"><i class="bi bi-x-lg"></i></button>
-                    <ul class="nav-list">
-                        <li><a class="item-nav" href="../index.html">INICIO</a></li>
-                        <li><a class="item-nav" href="modelos.html">MODELOS</a></li>
-                        <li><a class="item-nav" href="mantenimiento.html">MANTENIMIENTO</a></li>
-                        <li><a class="item-nav" href="#">ACERCA DE</a></li>
-                        <li><a class="item-nav" href="./preguntas_frecuentes.html">AYUDA</a></li>
-                        <li><a class="item-nav" href="contacto.html">CONTACTO</a></li>
-                    </ul>
-                </nav>    
-            </div>
-            <a class="volver-button" href="javascript:history.back()"> VOLVER</a>
-        </header>
-        <main>
-            <div class="div-section">
-                <h3>CALZADOS CORREA</h3>
-                <h2>Acerca de</h2>
-                <hr class="linea-subtitulo">
-                <p class="p-sub"> Conoce un poco mas sobre nuestra historia<br>y los productos que trabajamos.
-            </div>
-            <hr>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calzados Correa</title>
+    <link rel="icon" href=../assets/img/correa.ico>
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/86346e7c53.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="navbar navbar-expand-lg">
+      <div
+        class="container-fluid d-flex align-items-center justify-content-between"
+      >
+        <button
+          class="navbar-toggler d-lg-none open-menu"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <i class="bi bi-list"></i>
+        </button>
+        <a id="redireccion" href="#" onclick="scrollToTop()">
+          <img
+            class="logo"
+            src="../assets/img/logo correa index.png"
+            alt="Logotipo de Calzados Correa"
+          />
+        </a>
+        <a
+          href="https://www.instagram.com/calzadoscorrea"
+          target="_blank"
+          class="d-lg-none"
+        >
+          <img
+            class="instagram-icon"
+            src="../assets/img/instagram-icon.svg"
+            alt="Enlace a Instagram"
+          />
+        </a>
+        <nav
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav nav-list">
+            <li class="nav-item">
+              <a class="nav-link item-nav" href="/">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link item-nav" href="./modelos.html">MODELOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link item-nav" href="./mantenimiento.html"
+                >MANTENIMIENTO</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link item-nav" href="./acerca_de.html">ACERCA DE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link item-nav" href="./preguntas_frecuentes.html"
+                >AYUDA</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link item-nav" href="./contacto.html">CONTACTO</a>
+            </li>
+          </ul>
+        </nav>
+        <a
+          href="https://www.instagram.com/calzadoscorrea"
+          target="_blank"
+          class="d-none d-lg-block"
+        >
+          <img
+            class="instagram-icon"
+            src="../assets/img/instagram-icon.svg"
+            alt="Enlace a Instagram"
+          />
+        </a>
+      </div>
+    </header>
+    <main>
+      <div class="div-section">
+        <h3>CALZADOS CORREA</h3>
+        <h2>Acerca de</h2>
+        <hr class="linea-subtitulo" />
+        <p class="p-sub">
+          Conoce un poco mas sobre nuestra historia<br />y los productos que
+          trabajamos.
+        </p>
+      </div>
 
-            
-            <section class="contenedor-acerca_de fade-section">
-                
-                <a href="./nuestro_trabajo.html" class="model">
-                    <img class="img-acerca_de" src="../assets/img/Ready to Wear.webp" alt="modelo ready to wear">
-                    <div class="div-acerca_de_texts">
-                        <h4 class="acerca_de_titles">Nuestro trabajo</h4>
-                    </div>
-                </a>
-               
-                <a href="./quienes_somos.html" class="model">
-                    <img class="img-acerca_de" src="../assets/img/Made to Order.webp" alt="modelo made to order">
-                    <div class="div-acerca_de_texts">
-                        <h4 class="acerca_de_titles">Nuestra historia</h4>
-                    </div>
-                </a>
-            </section>
-        </main>
-        <footer>
-            <div class="row">
-                <div class="col">
-                    <h3>SOCIALES</h3>
-                        <div class="row row-seguinos_ig">
-                            <div class="col">
-                                <h2 class="h2-footer">Seguinos en</h2>
-                            </div>
-                            <div class="col">
-                                <a href="https://www.instagram.com/calzadoscorrea" target="_blank">
-                                    <img
-                                        class="instagram-logo"
-                                        src="../assets/img/Instagram logo.png"
-                                        alt="enlace a instagram"
-                                    />
-                                </a>
-                            </div>                           
-                        </div>
-                        <div>
-                            <p class="p-footer">Estate atento a todas las novedades a través de nuestro instagram.</p>
-                        </div>
-                </div>
-                <div class="vertical-hr">
-                </div>
-                <div class="col">
-                    <h3>CONTACTO</h3>
-                        <div class="row">
-                            <div class="col footer-content">
-                                <p class="p-footerinfo">Dirección: Mario Bravo 750</p>
-                                <p class="p-footerinfo">Mail: info@calzadoscorrea.com.ar</p>
-                                <p class="p-footerinfo">Teléfono: (5411) 4861-7344</p>
-                            </div>
-                            <div class="col footer-maps">
-                                <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.1248428114995!2d-58.41852518255615!3d-34.6010045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca89c1127145%3A0x7c1cd35e3cf9433f!2sCalzados%20Correa!5e0!3m2!1ses!2sar!4v1679619945615!5m2!1ses!2sar" width="300" height="200" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            </div>
-                        </div>
-                </div>
-                <p class="p-footerinfo_horario">Horario de Atención: Lunes a Viernes de 9hs a 13hs y de 15hs a 19hs / Sábados de 9hs a 13hs</p>
+      <hr />
+
+      <section class="contenedor-acerca_de fade-section">
+        <a href="./nuestro_trabajo.html" class="model">
+          <img
+            class="img-acerca_de"
+            src="../assets/img/Ready to Wear.webp"
+            alt="modelo ready to wear"
+          />
+          <div class="div-acerca_de_texts">
+            <h4 class="acerca_de_titles">Nuestro trabajo</h4>
+          </div>
+        </a>
+
+        <a href="./quienes_somos.html" class="model">
+          <img
+            class="img-acerca_de"
+            src="../assets/img/Made to Order.webp"
+            alt="modelo made to order"
+          />
+          <div class="div-acerca_de_texts">
+            <h4 class="acerca_de_titles">Nuestra historia</h4>
+          </div>
+        </a>
+      </section>
+    </main>
+    <footer>
+      <div class="row">
+        <div class="col">
+          <h3>SOCIALES</h3>
+          <div class="row row-seguinos_ig">
+            <div class="col">
+              <h2 class="h2-footer">Seguinos en</h2>
             </div>
-            <div class="row">
-               <p class="derechos-reservados"> © COPYRIGHT 2023 CALZADOS CORREA / WEB CUSTOM & PHOTO PRODUCTION DESIGN BY JAIR ANSOURIAN</p>
+            <div class="col">
+              <a
+                href="https://www.instagram.com/calzadoscorrea"
+                target="_blank"
+              >
+                <img
+                  class="instagram-logo"
+                  src="../assets/img/Instagram logo.png"
+                  alt="enlace a instagram"
+                />
+              </a>
             </div>
-          </footer>
-          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-          <script src="../js/bootstrap.min.js"></script>
-          <script src="../js/main.js"></script>
-    </body>
+          </div>
+          <div>
+            <p class="p-footer">
+              Estate atento a todas las novedades a través de nuestro instagram.
+            </p>
+          </div>
+        </div>
+        <div class="vertical-hr"></div>
+        <div class="col">
+          <h3>CONTACTO</h3>
+          <div class="row">
+            <div class="col footer-content">
+              <p class="p-footerinfo">Dirección: Mario Bravo 750</p>
+              <p class="p-footerinfo">Mail: info@calzadoscorrea.com.ar</p>
+              <p class="p-footerinfo">Teléfono: (5411) 4861-7344</p>
+            </div>
+            <div class="col footer-maps">
+              <iframe
+                class="maps"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.1248428114995!2d-58.41852518255615!3d-34.6010045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca89c1127145%3A0x7c1cd35e3cf9433f!2sCalzados%20Correa!5e0!3m2!1ses!2sar!4v1679619945615!5m2!1ses!2sar"
+                width="300"
+                height="200"
+                style="border: 0; border-radius: 10px"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+        <p class="p-footerinfo_horario">
+          Horario de Atención: Lunes a Viernes de 9hs a 13hs y de 15hs a 19hs /
+          Sábados de 9hs a 13hs
+        </p>
+      </div>
+      <div class="row">
+        <p class="derechos-reservados">
+          © COPYRIGHT 2023 CALZADOS CORREA / WEB CUSTOM & PHOTO PRODUCTION
+          DESIGN BY JAIR ANSOURIAN
+        </p>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
 </html>

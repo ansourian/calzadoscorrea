@@ -1,72 +1,46 @@
-const nav = document.querySelector("#nav");
-const abrir = document.querySelector("#abrir");
-const cerrar = document.querySelector("#cerrar");
-
-abrir.addEventListener("click", () => {
-    nav.classList.add("visible");
-})
-
-cerrar.addEventListener("click", () => {
-    nav.classList.remove("visible");
-})
-
 function isElementInViewport(element) {
-    const rect = element.getBoundingClientRect();
-    return (
+  const rect = element.getBoundingClientRect();
+  return (
       rect.top >= 0 &&
       rect.left >= 0 &&
       rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
       rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-    );
-  }
-  
-  function checkSections() {
-    const sections = document.querySelectorAll('.fade-section');
-  
-    sections.forEach((section) => {
-      const rect = section.getBoundingClientRect();
-      const isVisible = (rect.top <= window.innerHeight * 0.75 && rect.bottom >= 0);
-  
-      if (isVisible) {
-        section.classList.add('visible');
-      } else {
-        section.classList.remove('visible');
-      }
-    });
-  }
-  
-  window.addEventListener('load', checkSections);
-  
-  window.addEventListener('scroll', checkSections);
-
-  document.addEventListener('DOMContentLoaded', function () {
-    const listaProductos = document.getElementById('lista-productos');
-
-    if (listaProductos) {
-      listaProductos.addEventListener('click', function (event) {
-        const producto = event.target.closest('article.producto');
-        if (producto) {
-          const productoId = producto.getAttribute('data-producto-id');
-          window.location.href = `modelo.html?productoId=${productoId}`;
-        }
-      });
-    }
-});
+  );
+}
 
 function checkSections() {
   const sections = document.querySelectorAll('.fade-section');
 
   sections.forEach((section) => {
-    const rect = section.getBoundingClientRect();
-    const isVisible = (rect.top <= window.innerHeight * 0.90);
+      const rect = section.getBoundingClientRect();
+      const isVisible = rect.top <= window.innerHeight * 0.9;
 
-    if (isVisible) {
-      section.classList.add('visible');
-    } else {
-      section.classList.remove('visible');
-    }
+      // Verificamos si el elemento está visible
+      if (isVisible) {
+          section.classList.add('visible'); // Añadimos la clase visible
+      } else {
+          section.classList.remove('visible'); // Eliminamos la clase visible
+      }
   });
 }
+
+// Ejecutamos checkSections cuando la página carga y en cada scroll
+document.addEventListener('DOMContentLoaded', () => {
+  checkSections(); // Al cargar la página
+});
+
+let isScrolling = false;
+window.addEventListener('scroll', () => {
+  if (!isScrolling) {
+      isScrolling = true;
+      requestAnimationFrame(() => {
+          checkSections();
+          isScrolling = false;
+      });
+  }
+});
+
+  
 
 document.addEventListener("DOMContentLoaded", function () {
   const searchInput = document.getElementById("searchInput");
@@ -158,3 +132,5 @@ marqueeContents.forEach((marqueeContent) => {
     }
   });
 });
+
+

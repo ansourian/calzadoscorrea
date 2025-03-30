@@ -1,422 +1,850 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Calzados Correa</title>
-        <link rel="icon" href=../assets/img/correa.ico>
-        <link href="../css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-        <link rel="stylesheet" href="../css/style.css">
-        <script src="https://kit.fontawesome.com/86346e7c53.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <header>
-            <div class="background-header">
-                <div class="nav-logo">
-                    <button id="abrir" class="open-menu"><i class="bi bi-list"></i></button>
-                    <a id="redireccion" href="#" onclick="scrollToTop()"><img class="logo" src="../assets/img/logo correa index.png" alt="Logotipo de Calzados Correa"></a>
-                </div>
-                <nav class="navigation" id="nav">
-                    <button id="cerrar" class="close-menu"><i class="bi bi-x-lg"></i></button>
-                    <ul class="nav-list">
-                        <li><a class="item-nav" href="../index.html">INICIO</a></li>
-                        <li><a class="item-nav" href="./modelos.html">MODELOS</a></li>
-                        <li><a class="item-nav" href="./mantenimiento.html">MANTENIMIENTO</a></li>
-                        <li><a class="item-nav" href="./acerca_de.html">ACERCA DE</a></li>
-                        <li><a class="item-nav" href="./preguntas_frecuentes.html">AYUDA</a></li>
-                        <li><a class="item-nav" href="./contacto.html">CONTACTO</a></li>
-                    </ul>
-                </nav>    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calzados Correa</title>
+    <link rel="icon" href=../assets/img/correa.ico>
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/86346e7c53.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="navbar navbar-expand-lg">
+      <div
+        class="container-fluid d-flex align-items-center justify-content-between"
+      >
+        <button
+          class="navbar-toggler d-lg-none open-menu"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <i class="bi bi-list"></i>
+        </button>
+        <a id="redireccion" href="#" onclick="scrollToTop()">
+          <img
+            class="logo"
+            src="../assets/img/logo correa index.png"
+            alt="Logotipo de Calzados Correa"
+          />
+        </a>
+        <a
+          href="https://www.instagram.com/calzadoscorrea"
+          target="_blank"
+          class="d-lg-none"
+        >
+          <img
+            class="instagram-icon"
+            src="../assets/img/instagram-icon.svg"
+            alt="Enlace a Instagram"
+          />
+        </a>
+        <nav
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav nav-list">
+            <li class="nav-item">
+              <a class="nav-link item-nav" href="/">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link item-nav" href="./modelos.html">MODELOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link item-nav" href="./mantenimiento.html"
+                >MANTENIMIENTO</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link item-nav" href="./acerca_de.html">ACERCA DE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link item-nav" href="./preguntas_frecuentes.html"
+                >AYUDA</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link item-nav" href="./contacto.html">CONTACTO</a>
+            </li>
+          </ul>
+        </nav>
+        <a
+          href="https://www.instagram.com/calzadoscorrea"
+          target="_blank"
+          class="d-none d-lg-block"
+        >
+          <img
+            class="instagram-icon"
+            src="../assets/img/instagram-icon.svg"
+            alt="Enlace a Instagram"
+          />
+        </a>
+      </div>
+    </header>
+    <main>
+      <div class="div-section">
+        <h3>NUESTROS ZAPATOS</h3>
+        <div class="slide-styles">
+          <a class="button-slide" href="./ready to wear.html"
+            ><i class="bi bi-chevron-left"></i
+          ></a>
+          <h2>Made to Order</h2>
+          <a class="button-slide" href="./bespoke.html"
+            ><i class="bi bi-chevron-right"></i
+          ></a>
+        </div>
+        <hr class="linea-subtitulo" />
+        <p class="p-sub">Calzados customizados a pedido.</p>
+      </div>
+
+      <hr />
+      <input
+        type="text"
+        class="search-bar"
+        id="searchInput"
+        placeholder="Buscar modelos..."
+      />
+      <section id="lista-productos" class="container">
+        <article
+          class="producto model"
+          data-producto-id="Oxford-1122-Negro-Marron"
+        >
+          <img
+            class="img-models"
+            src="../assets/img/made by order/114 - 4.webp"
+            alt="Oxford 1122 (Negro y marrón)"
+          />
+          <h4 class="model-titles">Oxford Mod. 1122</h4>
+          <h3 class="h3-style">Wingtip Full Brogued</h3>
+          <h3 class="h3-color">Negro - Marrón</h3>
+        </article>
+        <article
+          class="producto model"
+          data-producto-id="Oxford-1122-Azul-Maiz"
+        >
+          <img
+            class="img-models"
+            src="../assets/img/made by order/142 - 18.webp"
+            alt="Oxford 1122 (Azul y Maíz)"
+          />
+          <h4 class="model-titles">Oxford Mod. 1122</h4>
+          <h3 class="h3-style">Wingtip Full Brogued</h3>
+          <h3 class="h3-color">Azul - Maíz</h3>
+        </article>
+        <article
+          class="producto model"
+          data-producto-id="Oxford-1122-Negro-Rojo"
+        >
+          <img
+            class="img-models"
+            src="../assets/img/made by order/114 - 15.webp"
+            alt="Oxford 1122 (Negro y rojo)"
+          />
+          <h4 class="model-titles">Oxford Mod. 1122</h4>
+          <h3 class="h3-style">Wingtip Full Brogued</h3>
+          <h3 class="h3-color">Negro - Rojo</h3>
+        </article>
+        <article
+          class="producto model"
+          data-producto-id="Oxford-1122-Suela-Gamuza-Marron"
+        >
+          <img
+            class="img-models"
+            src="../assets/img/made by order/142 - 31.webp"
+            alt="Oxford 1122 (Negro y rojo)"
+          />
+          <h4 class="model-titles">Oxford Mod. 1122</h4>
+          <h3 class="h3-style">Wingtip Full Brogued</h3>
+          <h3 class="h3-color">Suela - Gamuza Marrón</h3>
+        </article>
+        <article
+          class="producto model"
+          data-producto-id="Oxford-1122-Guinda-2-tonos"
+        >
+          <img
+            class="img-models"
+            src="../assets/img/made by order/142 - 15.webp"
+            alt="Oxford 1122 (Guinda claro y oscuro)"
+          />
+          <h4 class="model-titles">Oxford Mod. 1122</h4>
+          <h3 class="h3-style">Wingtip Semi Brogued</h3>
+          <h3 class="h3-color">Guinda (Claro y Oscuro)</h3>
+        </article>
+        <article class="producto model" data-producto-id="Oxford-Wingtips">
+          <img
+            class="img-models"
+            src="../assets/img/made by order/112 - 25.webp"
+            alt="Oxford Wingtips"
+          />
+          <h4 class="model-titles">Oxford Mod. 1122</h4>
+          <h3 class="h3-style">Plain Wingtips</h3>
+          <h3 class="h3-color">Marrón - Maíz</h3>
+        </article>
+        <article
+          class="producto model"
+          data-producto-id="Oxford-1107-Suela-MTO"
+        >
+          <img
+            class="img-models"
+            src="../assets/img/made by order/161 - 6.webp"
+            alt="Oxford 1107 semi brogued con patina color suela"
+          />
+          <h4 class="model-titles">Oxford Mod. 1107</h4>
+          <h3 class="h3-style">Semi Brogued con Pátina</h3>
+          <h3 class="h3-color">Suela</h3>
+        </article>
+        <article
+          class="producto model"
+          data-producto-id="Oxford-1103-Marron-Verde"
+        >
+          <img
+            class="img-models"
+            src="../assets/img/made by order/137 - 16.webp"
+            alt="Oxford 1122 (Marrón y Verde)"
+          />
+          <h4 class="model-titles">Oxford Mod. 1103</h4>
+          <h3 class="h3-style">Plain Captoe</h3>
+          <h3 class="h3-color">Marrón - Verde</h3>
+        </article>
+        <article class="producto model" data-producto-id="Swann-Maiz">
+          <img
+            class="img-models"
+            src="../assets/img/made by order/112 - 21.webp"
+            alt="Swann (Maíz)"
+          />
+          <h4 class="model-titles">Mod. Swann</h4>
+          <h3 class="h3-style">Wholecut</h3>
+          <h3 class="h3-color">Maíz</h3>
+        </article>
+        <article class="producto model" data-producto-id="Swann-Marron">
+          <img
+            class="img-models"
+            src="../assets/img/made by order/119 - 5.webp"
+            alt="Swann (Marrón 1136)"
+          />
+          <h4 class="model-titles">Mod. Swann</h4>
+          <h3 class="h3-style">Wholecut</h3>
+          <h3 class="h3-color">Marrón 1136</h3>
+        </article>
+        <article class="producto model" data-producto-id="Swann-Negro">
+          <img
+            class="img-models"
+            src="../assets/img/made by order/112 - 13.webp"
+            alt="Swann (Imperio Negro)"
+          />
+          <h4 class="model-titles">Mod. Swann</h4>
+          <h3 class="h3-style">Wholecut</h3>
+          <h3 class="h3-color">Negro</h3>
+        </article>
+        <article class="producto model" data-producto-id="Swann-Wookie">
+          <img
+            class="img-models"
+            src="../assets/img/made by order/146 - 7.webp"
+            alt="Swann Wookie (color café)"
+          />
+          <h4 class="model-titles">Mod. Swann Wookie</h4>
+          <h3 class="h3-style">Wholecut</h3>
+          <h3 class="h3-color">Café</h3>
+        </article>
+        <article class="producto model" data-producto-id="Swann-Club-Rojo">
+          <img
+            class="img-models"
+            src="../assets/img/made by order/143 - 1.webp"
+            alt="Swann Club (Rojo)"
+          />
+          <h4 class="model-titles">Mod. Swann Club</h4>
+          <h3 class="h3-style">Wholecut</h3>
+          <h3 class="h3-color">Rojo</h3>
+        </article>
+        <article
+          class="producto model"
+          data-producto-id="2-Hebillas-Gamuza-Marron"
+        >
+          <img
+            class="img-models"
+            src="../assets/img/ready to wear/130 - 51.webp"
+            alt="Dos Hebillas color gamuza marrón"
+          />
+          <h4 class="model-titles">2 Hebillas</h4>
+          <h3 class="h3-style">Captoe Double Monkstrap</h3>
+          <h3 class="h3-color">Gamuza Marrón</h3>
+        </article>
+        <article
+          class="producto model"
+          data-producto-id="Bota-Alpina-1101-Negro"
+        >
+          <img
+            class="img-models"
+            src="../assets/img/made by order/123 - 15.webp"
+            alt="Bota Alpina 1101 (Negro)"
+          />
+          <h4 class="model-titles">Bota Alpina Mod. 1101</h4>
+          <h3 class="h3-style">Captoe Full Brogued</h3>
+          <h3 class="h3-color">Negro</h3>
+        </article>
+        <article
+          class="producto model"
+          data-producto-id="Bota-Alpina-1101-Marron"
+        >
+          <img
+            class="img-models"
+            src="../assets/img/made by order/117 - 01.webp"
+            alt="Bota Alpina 1101 (Marrón)"
+          />
+          <h4 class="model-titles">Bota Alpina Mod. 1101</h4>
+          <h3 class="h3-style">Captoe Semi Brogued</h3>
+          <h3 class="h3-color">Marrón</h3>
+        </article>
+        <article
+          class="producto model"
+          data-producto-id="Bota-Alpina-1101-Marron-Oscuro"
+        >
+          <img
+            class="img-models"
+            src="../assets/img/made by order/130 - 22.webp"
+            alt="Bota Alpina 1101 (Marrón)"
+          />
+          <h4 class="model-titles">Bota Alpina Mod. 1101</h4>
+          <h3 class="h3-style">Plain (No Captoe)</h3>
+          <h3 class="h3-color">Marrón Oscuro</h3>
+        </article>
+        <article class="producto model" data-producto-id="Bota-Chelsea-Cafe">
+          <img
+            class="img-models"
+            src="../assets/img/made by order/155 - 8.webp"
+            alt="Bota Chelsea (Café)"
+          />
+          <h4 class="model-titles">Bota Chelsea</h4>
+          <h3 class="h3-color">Café</h3>
+        </article>
+        <article
+          class="producto model"
+          data-producto-id="Bota-Chelsea-Chocolate"
+        >
+          <img
+            class="img-models"
+            src="../assets/img/made by order/144 - 21.webp"
+            alt="Bota Chelsea (Chocolate)"
+          />
+          <h4 class="model-titles">Bota Chelsea</h4>
+          <h3 class="h3-color">Chocolate</h3>
+        </article>
+        <article class="producto model" data-producto-id="Bota-Chelsea-Marron">
+          <img
+            class="img-models"
+            src="../assets/img/made by order/155 - 4.webp"
+            alt="Bota Chelsea (Marrón)"
+          />
+          <h4 class="model-titles">Bota Chelsea</h4>
+          <h3 class="h3-color">Marrón</h3>
+        </article>
+        <article class="producto model" data-producto-id="Bota-Chelsea-Verde">
+          <img
+            class="img-models"
+            src="../assets/img/made by order/156 - 8.webp"
+            alt="Bota Chelsea (Verde)"
+          />
+          <h4 class="model-titles">Bota Chelsea</h4>
+          <h3 class="h3-color">Verde</h3>
+        </article>
+        <article
+          class="producto model"
+          data-producto-id="Bota-Chelsea-Gamuza-Gris"
+        >
+          <img
+            class="img-models"
+            src="../assets/img/made by order/85 - 11.webp"
+            alt="Bota Chelsea (Gamuza gris)"
+          />
+          <h4 class="model-titles">Bota Chelsea</h4>
+          <h3 class="h3-color">Gamuza Gris</h3>
+        </article>
+        <article
+          class="producto model"
+          data-producto-id="Bota-Chelsea-Gamuza-Negro"
+        >
+          <img
+            class="img-models"
+            src="../assets/img/made by order/113 - 24.webp"
+            alt="Bota Chelsea (Gamuza negro)"
+          />
+          <h4 class="model-titles">Bota Chelsea</h4>
+          <h3 class="h3-color">Gamuza Negro</h3>
+        </article>
+        <article
+          class="producto model"
+          data-producto-id="Bota-Chelsea-Gamuza-Chocolate"
+        >
+          <img
+            class="img-models"
+            src="../assets/img/made by order/114 - 1.webp"
+            alt="Bota Chelsea (Gamuza chocolate)"
+          />
+          <h4 class="model-titles">Bota Chelsea</h4>
+          <h3 class="h3-color">Gamuza Chocolate</h3>
+        </article>
+        <article
+          class="producto model"
+          data-producto-id="Bota-Chelsea-Gamuza-Verde"
+        >
+          <img
+            class="img-models"
+            src="../assets/img/made by order/117 - 03.webp"
+            alt="Bota Chelsea (Gamuza verde)"
+          />
+          <h4 class="model-titles">Bota Chelsea</h4>
+          <h3 class="h3-color">Gamuza Verde Musgo</h3>
+        </article>
+        <article
+          class="producto model"
+          data-producto-id="Bota-Chelsea-Gamuza-Arena"
+        >
+          <img
+            class="img-models"
+            src="../assets/img/made by order/131 - 1.webp"
+            alt="Bota Chelsea (Gamuza Arena)"
+          />
+          <h4 class="model-titles">Bota Chelsea</h4>
+          <h3 class="h3-color">Gamuza Arena</h3>
+        </article>
+        <article
+          class="producto model"
+          data-producto-id="Bota-Chelsea-Gamuza-Azul"
+        >
+          <img
+            class="img-models"
+            src="../assets/img/made by order/133 - 16.webp"
+            alt="Bota Chelsea (Gamuza Azul)"
+          />
+          <h4 class="model-titles">Bota Chelsea</h4>
+          <h3 class="h3-color">Gamuza Azul</h3>
+        </article>
+        <article
+          class="producto model"
+          data-producto-id="Bota-Chelsea-Gamuza-Rojo"
+        >
+          <img
+            class="img-models"
+            src="../assets/img/made by order/157 - 27.webp"
+            alt="Bota Chelsea (Gamuza Rojo)"
+          />
+          <h4 class="model-titles">Bota Chelsea</h4>
+          <h3 class="h3-color">Gamuza Rojo</h3>
+        </article>
+        <article
+          class="producto model"
+          data-producto-id="Bota-Manchester-Negro"
+        >
+          <img
+            class="img-models"
+            src="../assets/img/made by order/153 - 1.webp"
+            alt="Bota Manchester en cuero vacuno de color negro"
+          />
+          <h4 class="model-titles">Bota Manchester</h4>
+          <h3 class="h3-style">Con Cierre</h3>
+          <h3 class="h3-color">Negro</h3>
+        </article>
+        <article
+          class="producto model"
+          data-producto-id="Bota-Manchester-Guinda"
+        >
+          <img
+            class="img-models"
+            src="../assets/img/made by order/153 - 9.webp"
+            alt="Bota Manchester en cuero vacuno de color guinda"
+          />
+          <h4 class="model-titles">Bota Manchester</h4>
+          <h3 class="h3-style">Con Cierre</h3>
+          <h3 class="h3-color">Guinda</h3>
+        </article>
+        <article
+          class="producto model"
+          data-producto-id="Bota-Manchester-Gamuza-Tostado"
+        >
+          <img
+            class="img-models"
+            src="../assets/img/made by order/153 - 5.webp"
+            alt="Bota Manchester en gamuza de color suela"
+          />
+          <h4 class="model-titles">Bota Manchester</h4>
+          <h3 class="h3-style">Con Cierre</h3>
+          <h3 class="h3-color">Gamuza Tostado</h3>
+        </article>
+        <article class="producto model" data-producto-id="Derby-Split-Toes">
+          <img
+            class="img-models"
+            src="../assets/img/made by order/113 - 1.webp"
+            alt="Derby Split Toe"
+          />
+          <h4 class="model-titles">Derby Mod. 1115</h4>
+          <h3 class="h3-style">Split Toes</h3>
+          <h3 class="h3-color">Verde-Blanco</h3>
+        </article>
+        <article
+          class="producto model"
+          data-producto-id="Derby-1100-MTO-Gamuza-Verde-Musgo"
+        >
+          <img
+            class="img-models"
+            src="../assets/img/made by order/153 - 23.webp"
+            alt="Derby 1100 Gamuza Verde"
+          />
+          <h4 class="model-titles">Derby Mod. 1100</h4>
+          <h3 class="h3-color">Gamuza Verde Musgo</h3>
+        </article>
+        <article
+          class="producto model"
+          data-producto-id="Escarpin-123-Diamante-Castaña"
+        >
+          <img
+            class="img-models"
+            src="../assets/img/made by order/112 - 29.webp"
+            alt="Escarpin 123 (Diamante Castaña)"
+          />
+          <h4 class="model-titles">Escarpin Mod. 123</h4>
+          <h3 class="h3-style">Con Costurín</h3>
+          <h3 class="h3-color">Diamante Castaña</h3>
+        </article>
+        <article
+          class="producto model"
+          data-producto-id="Escarpin-123-Negro-Blanco"
+        >
+          <img
+            class="img-models"
+            src="../assets/img/made by order/142 - 37.webp"
+            alt="Escarpin 123 (Combinado Negro y Blanco)"
+          />
+          <h4 class="model-titles">Escarpin Mod. 123</h4>
+          <h3 class="h3-style">Combinado</h3>
+          <h3 class="h3-color">Negro - Blanco</h3>
+        </article>
+        <article
+          class="producto model"
+          data-producto-id="Escarpin-123-Guinda-Blanco"
+        >
+          <img
+            class="img-models"
+            src="../assets/img/made by order/141 - 6.webp"
+            alt="Escarpin 123 (Combinado Guinda y Blanco)"
+          />
+          <h4 class="model-titles">Escarpin Mod. 123</h4>
+          <h3 class="h3-style">Combinado</h3>
+          <h3 class="h3-color">Guinda - Blanco</h3>
+        </article>
+        <article class="producto model" data-producto-id="Escarpin-123-Natural">
+          <img
+            class="img-models"
+            src="../assets/img/made by order/141 - 9.webp"
+            alt="Escarpin 123 (Natural)"
+          />
+          <h4 class="model-titles">Escarpin Mod. 123</h4>
+          <h3 class="h3-style">Con Costurín Recto</h3>
+          <h3 class="h3-color">Natural</h3>
+        </article>
+        <article class="producto model" data-producto-id="Escarpin-123-Verde">
+          <img
+            class="img-models"
+            src="../assets/img/made by order/142 - 34.webp"
+            alt="Escarpin 123 (Verde)"
+          />
+          <h4 class="model-titles">Escarpin Mod. 123</h4>
+          <h3 class="h3-style">Con Costurín Recto</h3>
+          <h3 class="h3-color">Verde</h3>
+        </article>
+        <article
+          class="producto model"
+          data-producto-id="Escarpin-123-Gamuza-Arena"
+        >
+          <img
+            class="img-models"
+            src="../assets/img/made by order/142 - 6.webp"
+            alt="Escarpin 123 (Gamuza Arena)"
+          />
+          <h4 class="model-titles">Escarpin Mod. 123</h4>
+          <h3 class="h3-style">Con Costurín Recto</h3>
+          <h3 class="h3-color">Gamuza Arena</h3>
+        </article>
+        <article
+          class="producto model"
+          data-producto-id="Escarpin-123-Gamuza-Azul"
+        >
+          <img
+            class="img-models"
+            src="../assets/img/made by order/142 - 9.webp"
+            alt="Escarpin 123 (Gamuza Azul)"
+          />
+          <h4 class="model-titles">Escarpin Mod. 123</h4>
+          <h3 class="h3-style">Con Costurín Recto</h3>
+          <h3 class="h3-color">Gamuza Azul</h3>
+        </article>
+        <article
+          class="producto model"
+          data-producto-id="Escarpin-123-Gamuza-Chocolate"
+        >
+          <img
+            class="img-models"
+            src="../assets/img/made by order/152 - 36.webp"
+            alt="Escarpin 123 (Gamuza Chocolate)"
+          />
+          <h4 class="model-titles">Escarpin Mod. 123</h4>
+          <h3 class="h3-style">Con Costurín</h3>
+          <h3 class="h3-color">Gamuza Chocolate</h3>
+        </article>
+        <article
+          class="producto model"
+          data-producto-id="Escarpin-MP-Gamuza-Arena"
+        >
+          <img
+            class="img-models"
+            src="../assets/img/made by order/141 - 24.webp"
+            alt="Escarpin MP (Gamuza Arena)"
+          />
+          <h4 class="model-titles">Escarpin MP</h4>
+          <h3 class="h3-style">Con Costurín Recto</h3>
+          <h3 class="h3-color">Gamuza Arena</h3>
+        </article>
+        <article
+          class="producto model"
+          data-producto-id="Escarpin-MP-Gamuza-Chocolate"
+        >
+          <img
+            class="img-models"
+            src="../assets/img/made by order/141 - 27.webp"
+            alt="Escarpin MP (Gamuza Chocolate)"
+          />
+          <h4 class="model-titles">Escarpin MP</h4>
+          <h3 class="h3-style">Con Costurín Recto</h3>
+          <h3 class="h3-color">Gamuza Chocolate</h3>
+        </article>
+        <article
+          class="producto model"
+          data-producto-id="Escarpin-MP-Gamuza-Azul"
+        >
+          <img
+            class="img-models"
+            src="../assets/img/made by order/141 - 12.webp"
+            alt="Escarpin MP (Gamuza Azul)"
+          />
+          <h4 class="model-titles">Escarpin MP</h4>
+          <h3 class="h3-style">Con Costurín</h3>
+          <h3 class="h3-color">Gamuza Azul</h3>
+        </article>
+        <article
+          class="producto model"
+          data-producto-id="Escarpin-MP-Gamuza-Violeta"
+        >
+          <img
+            class="img-models"
+            src="../assets/img/made by order/156 - 1.webp"
+            alt="Escarpin MP (Gamuza Violeta)"
+          />
+          <h4 class="model-titles">Escarpin MP</h4>
+          <h3 class="h3-style">Con Costurín</h3>
+          <h3 class="h3-color">Gamuza Violeta</h3>
+        </article>
+        <article class="producto model" data-producto-id="Escarpin-MP-Verde">
+          <img
+            class="img-models"
+            src="../assets/img/made by order/119 - 25.webp"
+            alt="Escarpin MP (Verde)"
+          />
+          <h4 class="model-titles">Escarpin MP</h4>
+          <h3 class="h3-style">Con Costurín</h3>
+          <h3 class="h3-color">Verde</h3>
+        </article>
+        <article class="producto model" data-producto-id="Escarpin-MP-Rojo">
+          <img
+            class="img-models"
+            src="../assets/img/made by order/153 - 16.webp"
+            alt="Escarpin MP (Rojo)"
+          />
+          <h4 class="model-titles">Escarpin MP</h4>
+          <h3 class="h3-style">Con Costurín</h3>
+          <h3 class="h3-color">Rojo</h3>
+        </article>
+        <article class="producto model" data-producto-id="Escarpin-MP-Maiz">
+          <img
+            class="img-models"
+            src="../assets/img/made by order/119 - 9.webp"
+            alt="Escarpin MP (Maíz)"
+          />
+          <h4 class="model-titles">Escarpin MP</h4>
+          <h3 class="h3-style">Sin Costurín</h3>
+          <h3 class="h3-color">Maíz</h3>
+        </article>
+        <article
+          class="producto model"
+          data-producto-id="Borcego-Texano-Natural"
+        >
+          <img
+            class="img-models"
+            src="../assets/img/made by order/123 - 12.webp"
+            alt="Borcego Texano (Natural)"
+          />
+          <h4 class="model-titles">Borcego GC Texano</h4>
+          <h3 class="h3-style">Con Suelinas y Sobretacos de Goma</h3>
+          <h3 class="h3-color">Natural</h3>
+        </article>
+        <article
+          class="producto model"
+          data-producto-id="Borcego-Texano-Bufalo-Guinda"
+        >
+          <img
+            class="img-models"
+            src="../assets/img/made by order/130 - 15.webp"
+            alt="Borcego Texano (Guinda)"
+          />
+          <h4 class="model-titles">Borcego GC Texano</h4>
+          <h3 class="h3-style">Base de Cuero y Goma FEBO</h3>
+          <h3 class="h3-color">Guinda</h3>
+        </article>
+        <article
+          class="producto model"
+          data-producto-id="Borcego-GC-Texano-Marron"
+        >
+          <img
+            class="img-models"
+            src="../assets/img/made by order/148 - 26.webp"
+            alt="Borcego GC Texano (Marrón)"
+          />
+          <h4 class="model-titles">Borcego GC Texano</h4>
+          <h3 class="h3-style">Base de Goma Rural FEBO</h3>
+          <h3 class="h3-color">Marrón</h3>
+        </article>
+        <article
+          class="producto model"
+          data-producto-id="Borcego-GC-Texano-Negro"
+        >
+          <img
+            class="img-models"
+            src="../assets/img/bespoke/115 - 17.webp"
+            alt="Borcego GC Texano (Negro)"
+          />
+          <h4 class="model-titles">Borcego GC Texano</h4>
+          <h3 class="h3-style">Con Suelinas y Sobretacos de Goma</h3>
+          <h3 class="h3-color">Negro</h3>
+        </article>
+        <article
+          class="producto model"
+          data-producto-id="Borcego-Texano-Bufalo-Pecas"
+        >
+          <img
+            class="img-models"
+            src="../assets/img/made by order/127 - 25.webp"
+            alt="Borcego Texano (Natural con pecas)"
+          />
+          <h4 class="model-titles">Borcego Texano</h4>
+          <h3 class="h3-style">Base de Goma Rural FEBO</h3>
+          <h3 class="h3-color">Natural</h3>
+        </article>
+        <article
+          class="producto model"
+          data-producto-id="Borcego-Texano-Bufalo-Gamuza-Natural"
+        >
+          <img
+            class="img-models"
+            src="../assets/img/made by order/130 - 19.webp"
+            alt="Borcego Texano (Gamuza Natural)"
+          />
+          <h4 class="model-titles">Borcego Texano</h4>
+          <h3 class="h3-style">Base de Goma Rural FEBO</h3>
+          <h3 class="h3-color">Gamuza Natural</h3>
+        </article>
+        <article class="producto model" data-producto-id="Derby-Coll-Guinda">
+          <img
+            class="img-models"
+            src="../assets/img/made by order/128 - 10.webp"
+            alt="Derby Modelo Coll color guinda"
+          />
+          <h4 class="model-titles">Derby Mod. Coll</h4>
+          <h3 class="h3-style">Base de Goma Rural FEBO</h3>
+          <h3 class="h3-color">Guinda</h3>
+        </article>
+        <article class="producto model" data-producto-id="Derby-Coll-Negro">
+          <img
+            class="img-models"
+            src="../assets/img/made by order/160 - 11.webp"
+            alt="Derby Modelo Coll color negro"
+          />
+          <h4 class="model-titles">Derby Mod. Coll</h4>
+          <h3 class="h3-style">Base de Goma Rural FEBO</h3>
+          <h3 class="h3-color">Negro</h3>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <div class="row">
+        <div class="col">
+          <h3>SOCIALES</h3>
+          <div class="row row-seguinos_ig">
+            <div class="col">
+              <h2 class="h2-footer">Seguinos en</h2>
             </div>
-            <a class="volver-button" href="javascript:history.back()"> VOLVER</a>
-        </header>
-        <main>
-            <div class="div-section">
-                <h3>NUESTROS ZAPATOS</h3>
-                <div class="slide-styles">
-                    <a class="button-slide" href="./ready to wear.html"><i class="bi bi-chevron-left"></i></a>
-                    <h2>Made to Order</h2>
-                    <a class="button-slide" href="./bespoke.html"><i class="bi bi-chevron-right"></i></a>
-                </div>
-                <hr class="linea-subtitulo">
-                <p class="p-sub"> Calzados customizados a pedido.
+            <div class="col">
+              <a
+                href="https://www.instagram.com/calzadoscorrea"
+                target="_blank"
+              >
+                <img
+                  class="instagram-logo"
+                  src="../assets/img/Instagram logo.png"
+                  alt="enlace a instagram"
+                />
+              </a>
             </div>
-            <hr>
-            <input type="text" class="search-bar" id="searchInput" placeholder="Buscar modelos...">
-            <section id="lista-productos" class="container">
-                <article class="producto model" data-producto-id="Oxford-1122-Negro-Marron">
-                    <img class="img-models" src="../assets/img/made by order/114 - 4.webp" alt="Oxford 1122 (Negro y marrón)">
-                    <h4 class="model-titles">Oxford Mod. 1122</h4>
-                    <h3 class="h3-style">Wingtip Full Brogued</h3>
-                    <h3 class="h3-color">Negro - Marrón</h3>
-                </article>
-                <article class="producto model" data-producto-id="Oxford-1122-Azul-Maiz">
-                    <img class="img-models" src="../assets/img/made by order/142 - 18.webp" alt="Oxford 1122 (Azul y Maíz)">
-                    <h4 class="model-titles">Oxford Mod. 1122</h4>
-                    <h3 class="h3-style">Wingtip Full Brogued</h3>
-                    <h3 class="h3-color">Azul - Maíz</h3>
-                </article>
-                <article class="producto model" data-producto-id="Oxford-1122-Negro-Rojo">
-                    <img class="img-models" src="../assets/img/made by order/114 - 15.webp" alt="Oxford 1122 (Negro y rojo)">
-                    <h4 class="model-titles">Oxford Mod. 1122</h4>
-                    <h3 class="h3-style">Wingtip Full Brogued</h3>
-                    <h3 class="h3-color">Negro - Rojo</h3>
-                </article>
-                <article class="producto model" data-producto-id="Oxford-1122-Suela-Gamuza-Marron">
-                    <img class="img-models" src="../assets/img/made by order/142 - 31.webp" alt="Oxford 1122 (Negro y rojo)">
-                    <h4 class="model-titles">Oxford Mod. 1122</h4>
-                    <h3 class="h3-style">Wingtip Full Brogued</h3>
-                    <h3 class="h3-color">Suela - Gamuza Marrón</h3>
-                </article>
-                <article class="producto model" data-producto-id="Oxford-1122-Guinda-2-tonos">
-                    <img class="img-models" src="../assets/img/made by order/142 - 15.webp" alt="Oxford 1122 (Guinda claro y oscuro)">
-                    <h4 class="model-titles">Oxford Mod. 1122</h4>
-                    <h3 class="h3-style">Wingtip Semi Brogued</h3>
-                    <h3 class="h3-color">Guinda (Claro y Oscuro)</h3>
-                </article>
-                <article class="producto model" data-producto-id="Oxford-Wingtips">
-                    <img class="img-models" src="../assets/img/made by order/112 - 25.webp" alt="Oxford Wingtips">
-                    <h4 class="model-titles">Oxford Mod. 1122</h4>
-                    <h3 class="h3-style">Plain Wingtips</h3>
-                    <h3 class="h3-color">Marrón - Maíz</h3>
-                </article>
-                <article class="producto model" data-producto-id="Oxford-1107-Suela-MTO">
-                    <img class="img-models" src="../assets/img/made by order/161 - 6.webp" alt="Oxford 1107 semi brogued con patina color suela">
-                    <h4 class="model-titles">Oxford Mod. 1107</h4>
-                    <h3 class="h3-style">Semi Brogued con Pátina</h3>
-                    <h3 class="h3-color">Suela</h3>
-                </article>
-                <article class="producto model" data-producto-id="Oxford-1103-Marron-Verde">
-                    <img class="img-models" src="../assets/img/made by order/137 - 16.webp" alt="Oxford 1122 (Marrón y Verde)">
-                    <h4 class="model-titles">Oxford Mod. 1103</h4>
-                    <h3 class="h3-style">Plain Captoe</h3>
-                    <h3 class="h3-color">Marrón - Verde</h3>
-                </article>
-                <article class="producto model" data-producto-id="Swann-Maiz">
-                    <img class="img-models" src="../assets/img/made by order/112 - 21.webp" alt="Swann (Maíz)">
-                    <h4 class="model-titles">Mod. Swann</h4>
-                    <h3 class="h3-style">Wholecut</h3>
-                    <h3 class="h3-color">Maíz</h3>
-                </article>
-                <article class="producto model" data-producto-id="Swann-Marron">
-                    <img class="img-models" src="../assets/img/made by order/119 - 5.webp" alt="Swann (Marrón 1136)">
-                    <h4 class="model-titles">Mod. Swann</h4>
-                    <h3 class="h3-style">Wholecut</h3>
-                    <h3 class="h3-color">Marrón 1136</h3>
-                </article>
-                <article class="producto model" data-producto-id="Swann-Negro">
-                    <img class="img-models" src="../assets/img/made by order/112 - 13.webp" alt="Swann (Imperio Negro)">
-                    <h4 class="model-titles">Mod. Swann</h4>
-                    <h3 class="h3-style">Wholecut</h3>
-                    <h3 class="h3-color">Negro</h3>
-                </article>
-                <article class="producto model" data-producto-id="Swann-Wookie">
-                    <img class="img-models" src="../assets/img/made by order/146 - 7.webp" alt="Swann Wookie (color café)">
-                    <h4 class="model-titles">Mod. Swann Wookie</h4>
-                    <h3 class="h3-style">Wholecut</h3>
-                    <h3 class="h3-color">Café</h3>
-                </article>
-                <article class="producto model" data-producto-id="Swann-Club-Rojo">
-                    <img class="img-models" src="../assets/img/made by order/143 - 1.webp" alt="Swann Club (Rojo)">
-                    <h4 class="model-titles">Mod. Swann Club</h4>
-                    <h3 class="h3-style">Wholecut</h3>
-                    <h3 class="h3-color">Rojo</h3>
-                </article>
-                <article class="producto model" data-producto-id="2-Hebillas-Gamuza-Marron">
-                    <img class="img-models" src="../assets/img/ready to wear/130 - 51.webp" alt="Dos Hebillas color gamuza marrón">
-                    <h4 class="model-titles">2 Hebillas</h4>
-                    <h3 class="h3-style">Captoe Double Monkstrap</h3>
-                    <h3 class="h3-color">Gamuza Marrón</h3>
-                </article>
-                <article class="producto model" data-producto-id="Bota-Alpina-1101-Negro">
-                    <img class="img-models" src="../assets/img/made by order/123 - 15.webp" alt="Bota Alpina 1101 (Negro)">
-                    <h4 class="model-titles">Bota Alpina Mod. 1101</h4>
-                    <h3 class="h3-style">Captoe Full Brogued</h3>
-                    <h3 class="h3-color">Negro</h3>
-                </article>
-                <article class="producto model" data-producto-id="Bota-Alpina-1101-Marron">
-                    <img class="img-models" src="../assets/img/made by order/117 - 01.webp" alt="Bota Alpina 1101 (Marrón)">
-                    <h4 class="model-titles">Bota Alpina Mod. 1101</h4>
-                    <h3 class="h3-style">Captoe Semi Brogued</h3>
-                    <h3 class="h3-color">Marrón</h3>
-                </article>
-                <article class="producto model" data-producto-id="Bota-Alpina-1101-Marron-Oscuro">
-                    <img class="img-models" src="../assets/img/made by order/130 - 22.webp" alt="Bota Alpina 1101 (Marrón)">
-                    <h4 class="model-titles">Bota Alpina Mod. 1101</h4>
-                    <h3 class="h3-style">Plain (No Captoe)</h3>
-                    <h3 class="h3-color">Marrón Oscuro</h3>
-                </article>
-                <article class="producto model" data-producto-id="Bota-Chelsea-Cafe">
-                    <img class="img-models" src="../assets/img/made by order/155 - 8.webp" alt="Bota Chelsea (Café)">
-                    <h4 class="model-titles">Bota Chelsea</h4>
-                    <h3 class="h3-color">Café</h3>
-                </article>
-                <article class="producto model" data-producto-id="Bota-Chelsea-Chocolate">
-                    <img class="img-models" src="../assets/img/made by order/144 - 21.webp" alt="Bota Chelsea (Chocolate)">
-                    <h4 class="model-titles">Bota Chelsea</h4>
-                    <h3 class="h3-color">Chocolate</h3>
-                </article>
-                <article class="producto model" data-producto-id="Bota-Chelsea-Marron">
-                    <img class="img-models" src="../assets/img/made by order/155 - 4.webp" alt="Bota Chelsea (Marrón)">
-                    <h4 class="model-titles">Bota Chelsea</h4>
-                    <h3 class="h3-color">Marrón</h3>
-                </article>
-                <article class="producto model" data-producto-id="Bota-Chelsea-Verde">
-                    <img class="img-models" src="../assets/img/made by order/156 - 8.webp" alt="Bota Chelsea (Verde)">
-                    <h4 class="model-titles">Bota Chelsea</h4>
-                    <h3 class="h3-color">Verde</h3>
-                </article>
-                <article class="producto model" data-producto-id="Bota-Chelsea-Gamuza-Gris">
-                    <img class="img-models" src="../assets/img/made by order/85 - 11.webp" alt="Bota Chelsea (Gamuza gris)">
-                    <h4 class="model-titles">Bota Chelsea</h4>
-                    <h3 class="h3-color">Gamuza Gris</h3>
-                </article>
-                <article class="producto model" data-producto-id="Bota-Chelsea-Gamuza-Negro">
-                    <img class="img-models" src="../assets/img/made by order/113 - 24.webp" alt="Bota Chelsea (Gamuza negro)">
-                    <h4 class="model-titles">Bota Chelsea</h4>
-                    <h3 class="h3-color">Gamuza Negro</h3>
-                </article>
-                <article class="producto model" data-producto-id="Bota-Chelsea-Gamuza-Chocolate">
-                    <img class="img-models" src="../assets/img/made by order/114 - 1.webp" alt="Bota Chelsea (Gamuza chocolate)">
-                    <h4 class="model-titles">Bota Chelsea</h4>
-                    <h3 class="h3-color">Gamuza Chocolate</h3>
-                </article>
-                <article class="producto model" data-producto-id="Bota-Chelsea-Gamuza-Verde">
-                    <img class="img-models" src="../assets/img/made by order/117 - 03.webp" alt="Bota Chelsea (Gamuza verde)">
-                    <h4 class="model-titles">Bota Chelsea</h4>
-                    <h3 class="h3-color">Gamuza Verde Musgo</h3>
-                </article>
-                <article class="producto model" data-producto-id="Bota-Chelsea-Gamuza-Arena">
-                    <img class="img-models" src="../assets/img/made by order/131 - 1.webp" alt="Bota Chelsea (Gamuza Arena)">
-                    <h4 class="model-titles">Bota Chelsea</h4>
-                    <h3 class="h3-color">Gamuza Arena</h3>
-                </article>
-                <article class="producto model" data-producto-id="Bota-Chelsea-Gamuza-Azul">
-                    <img class="img-models" src="../assets/img/made by order/133 - 16.webp" alt="Bota Chelsea (Gamuza Azul)">
-                    <h4 class="model-titles">Bota Chelsea</h4>
-                    <h3 class="h3-color">Gamuza Azul</h3>
-                </article>
-                <article class="producto model" data-producto-id="Bota-Chelsea-Gamuza-Rojo">
-                    <img class="img-models" src="../assets/img/made by order/157 - 27.webp" alt="Bota Chelsea (Gamuza Rojo)">
-                    <h4 class="model-titles">Bota Chelsea</h4>
-                    <h3 class="h3-color">Gamuza Rojo</h3>
-                </article>
-                <article class="producto model" data-producto-id="Bota-Manchester-Negro">
-                    <img class="img-models" src="../assets/img/made by order/153 - 1.webp" alt="Bota Manchester en cuero vacuno de color negro">
-                    <h4 class="model-titles">Bota Manchester</h4>
-                    <h3 class="h3-style">Con Cierre</h3>
-                    <h3 class="h3-color">Negro</h3>
-                </article>
-                <article class="producto model" data-producto-id="Bota-Manchester-Guinda">
-                    <img class="img-models" src="../assets/img/made by order/153 - 9.webp" alt="Bota Manchester en cuero vacuno de color guinda">
-                    <h4 class="model-titles">Bota Manchester</h4>
-                    <h3 class="h3-style">Con Cierre</h3>
-                    <h3 class="h3-color">Guinda</h3>
-                </article>
-                <article class="producto model" data-producto-id="Bota-Manchester-Gamuza-Tostado">
-                    <img class="img-models" src="../assets/img/made by order/153 - 5.webp" alt="Bota Manchester en gamuza de color suela">
-                    <h4 class="model-titles">Bota Manchester</h4>
-                    <h3 class="h3-style">Con Cierre</h3>
-                    <h3 class="h3-color">Gamuza Tostado</h3>
-                </article>
-                <article class="producto model" data-producto-id="Derby-Split-Toes">
-                    <img class="img-models" src="../assets/img/made by order/113 - 1.webp" alt="Derby Split Toe">
-                    <h4 class="model-titles">Derby Mod. 1115</h4>
-                    <h3 class="h3-style">Split Toes</h3>
-                    <h3 class="h3-color">Verde-Blanco</h3>
-                </article>
-                <article class="producto model" data-producto-id="Derby-1100-MTO-Gamuza-Verde-Musgo">
-                    <img class="img-models" src="../assets/img/made by order/153 - 23.webp" alt="Derby 1100 Gamuza Verde">
-                    <h4 class="model-titles">Derby Mod. 1100</h4>
-                    <h3 class="h3-color">Gamuza Verde Musgo</h3>
-                </article>
-                <article class="producto model" data-producto-id="Escarpin-123-Diamante-Castaña">
-                    <img class="img-models" src="../assets/img/made by order/112 - 29.webp" alt="Escarpin 123 (Diamante Castaña)">
-                    <h4 class="model-titles">Escarpin Mod. 123</h4>
-                    <h3 class="h3-style">Con Costurín</h3>
-                    <h3 class="h3-color">Diamante Castaña</h3>
-                </article>
-                <article class="producto model" data-producto-id="Escarpin-123-Negro-Blanco">
-                    <img class="img-models" src="../assets/img/made by order/142 - 37.webp" alt="Escarpin 123 (Combinado Negro y Blanco)">
-                    <h4 class="model-titles">Escarpin Mod. 123</h4>
-                    <h3 class="h3-style">Combinado</h3>
-                    <h3 class="h3-color">Negro - Blanco</h3>
-                </article>
-                <article class="producto model" data-producto-id="Escarpin-123-Guinda-Blanco">
-                    <img class="img-models" src="../assets/img/made by order/141 - 6.webp" alt="Escarpin 123 (Combinado Guinda y Blanco)">
-                    <h4 class="model-titles">Escarpin Mod. 123</h4>
-                    <h3 class="h3-style">Combinado</h3>
-                    <h3 class="h3-color">Guinda - Blanco</h3>
-                </article>
-                <article class="producto model" data-producto-id="Escarpin-123-Natural">
-                    <img class="img-models" src="../assets/img/made by order/141 - 9.webp" alt="Escarpin 123 (Natural)">
-                    <h4 class="model-titles">Escarpin Mod. 123</h4>
-                    <h3 class="h3-style">Con Costurín Recto</h3>
-                    <h3 class="h3-color">Natural</h3>
-                </article>
-                <article class="producto model" data-producto-id="Escarpin-123-Verde">
-                    <img class="img-models" src="../assets/img/made by order/142 - 34.webp" alt="Escarpin 123 (Verde)">
-                    <h4 class="model-titles">Escarpin Mod. 123</h4>
-                    <h3 class="h3-style">Con Costurín Recto</h3>
-                    <h3 class="h3-color">Verde</h3>
-                </article>
-                <article class="producto model" data-producto-id="Escarpin-123-Gamuza-Arena">
-                    <img class="img-models" src="../assets/img/made by order/142 - 6.webp" alt="Escarpin 123 (Gamuza Arena)">
-                    <h4 class="model-titles">Escarpin Mod. 123</h4>
-                    <h3 class="h3-style">Con Costurín Recto</h3>
-                    <h3 class="h3-color">Gamuza Arena</h3>
-                </article>
-                <article class="producto model" data-producto-id="Escarpin-123-Gamuza-Azul">
-                    <img class="img-models" src="../assets/img/made by order/142 - 9.webp" alt="Escarpin 123 (Gamuza Azul)">
-                    <h4 class="model-titles">Escarpin Mod. 123</h4>
-                    <h3 class="h3-style">Con Costurín Recto</h3>
-                    <h3 class="h3-color">Gamuza Azul</h3>
-                </article>
-                <article class="producto model" data-producto-id="Escarpin-123-Gamuza-Chocolate">
-                    <img class="img-models" src="../assets/img/made by order/152 - 36.webp" alt="Escarpin 123 (Gamuza Chocolate)">
-                    <h4 class="model-titles">Escarpin Mod. 123</h4>
-                    <h3 class="h3-style">Con Costurín</h3>
-                    <h3 class="h3-color">Gamuza Chocolate</h3>
-                </article>
-                <article class="producto model" data-producto-id="Escarpin-MP-Gamuza-Arena">
-                    <img class="img-models" src="../assets/img/made by order/141 - 24.webp" alt="Escarpin MP (Gamuza Arena)">
-                    <h4 class="model-titles">Escarpin MP</h4>
-                    <h3 class="h3-style">Con Costurín Recto</h3>
-                    <h3 class="h3-color">Gamuza Arena</h3>
-                </article>
-                <article class="producto model" data-producto-id="Escarpin-MP-Gamuza-Chocolate">
-                    <img class="img-models" src="../assets/img/made by order/141 - 27.webp" alt="Escarpin MP (Gamuza Chocolate)">
-                    <h4 class="model-titles">Escarpin MP</h4>
-                    <h3 class="h3-style">Con Costurín Recto</h3>
-                    <h3 class="h3-color">Gamuza Chocolate</h3>
-                </article>
-                <article class="producto model" data-producto-id="Escarpin-MP-Gamuza-Azul">
-                    <img class="img-models" src="../assets/img/made by order/141 - 12.webp" alt="Escarpin MP (Gamuza Azul)">
-                    <h4 class="model-titles">Escarpin MP</h4>
-                    <h3 class="h3-style">Con Costurín</h3>
-                    <h3 class="h3-color">Gamuza Azul</h3>
-                </article>
-                <article class="producto model" data-producto-id="Escarpin-MP-Gamuza-Violeta">
-                    <img class="img-models" src="../assets/img/made by order/156 - 1.webp" alt="Escarpin MP (Gamuza Violeta)">
-                    <h4 class="model-titles">Escarpin MP</h4>
-                    <h3 class="h3-style">Con Costurín</h3>
-                    <h3 class="h3-color">Gamuza Violeta</h3>
-                </article>
-                <article class="producto model" data-producto-id="Escarpin-MP-Verde">
-                    <img class="img-models" src="../assets/img/made by order/119 - 25.webp" alt="Escarpin MP (Verde)">
-                    <h4 class="model-titles">Escarpin MP</h4>
-                    <h3 class="h3-style">Con Costurín</h3>
-                    <h3 class="h3-color">Verde</h3>
-                </article>
-                <article class="producto model" data-producto-id="Escarpin-MP-Rojo">
-                    <img class="img-models" src="../assets/img/made by order/153 - 16.webp" alt="Escarpin MP (Rojo)">
-                    <h4 class="model-titles">Escarpin MP</h4>
-                    <h3 class="h3-style">Con Costurín</h3>
-                    <h3 class="h3-color">Rojo</h3>
-                </article>
-                <article class="producto model" data-producto-id="Escarpin-MP-Maiz">
-                    <img class="img-models" src="../assets/img/made by order/119 - 9.webp" alt="Escarpin MP (Maíz)">
-                    <h4 class="model-titles">Escarpin MP</h4>
-                    <h3 class="h3-style">Sin Costurín</h3>
-                    <h3 class="h3-color">Maíz</h3>
-                </article>
-                <article class="producto model" data-producto-id="Borcego-Texano-Natural">
-                    <img class="img-models" src="../assets/img/made by order/123 - 12.webp" alt="Borcego Texano (Natural)">
-                    <h4 class="model-titles">Borcego GC Texano</h4>
-                    <h3 class="h3-style">Con Suelinas y Sobretacos de Goma</h3>
-                    <h3 class="h3-color">Natural</h3>
-                </article>
-                <article class="producto model" data-producto-id="Borcego-Texano-Bufalo-Guinda">
-                    <img class="img-models" src="../assets/img/made by order/130 - 15.webp" alt="Borcego Texano (Guinda)">
-                    <h4 class="model-titles">Borcego GC Texano</h4>
-                    <h3 class="h3-style">Base de Cuero y Goma FEBO</h3>
-                    <h3 class="h3-color">Guinda</h3>
-                </article>
-                <article class="producto model" data-producto-id="Borcego-GC-Texano-Marron">
-                    <img class="img-models" src="../assets/img/made by order/148 - 26.webp" alt="Borcego GC Texano (Marrón)">
-                    <h4 class="model-titles">Borcego GC Texano</h4>
-                    <h3 class="h3-style">Base de Goma Rural FEBO</h3>
-                    <h3 class="h3-color">Marrón</h3>
-                </article>
-                <article class="producto model" data-producto-id="Borcego-GC-Texano-Negro">
-                    <img class="img-models" src="../assets/img/bespoke/115 - 17.webp" alt="Borcego GC Texano (Negro)">
-                    <h4 class="model-titles">Borcego GC Texano</h4>
-                    <h3 class="h3-style">Con Suelinas y Sobretacos de Goma</h3>
-                    <h3 class="h3-color">Negro</h3>
-                </article>
-                <article class="producto model" data-producto-id="Borcego-Texano-Bufalo-Pecas">
-                    <img class="img-models" src="../assets/img/made by order/127 - 25.webp" alt="Borcego Texano (Natural con pecas)">
-                    <h4 class="model-titles">Borcego Texano</h4>
-                    <h3 class="h3-style">Base de Goma Rural FEBO</h3>
-                    <h3 class="h3-color">Natural</h3>
-                </article>
-                <article class="producto model" data-producto-id="Borcego-Texano-Bufalo-Gamuza-Natural">
-                    <img class="img-models" src="../assets/img/made by order/130 - 19.webp" alt="Borcego Texano (Gamuza Natural)">
-                    <h4 class="model-titles">Borcego Texano</h4>
-                    <h3 class="h3-style">Base de Goma Rural FEBO</h3>
-                    <h3 class="h3-color">Gamuza Natural</h3>
-                </article>
-                <article class="producto model" data-producto-id="Derby-Coll-Guinda">
-                    <img class="img-models" src="../assets/img/made by order/128 - 10.webp" alt="Derby Modelo Coll color guinda">
-                    <h4 class="model-titles">Derby Mod. Coll</h4>
-                    <h3 class="h3-style">Base de Goma Rural FEBO</h3>
-                    <h3 class="h3-color">Guinda</h3>
-                </article>
-                <article class="producto model" data-producto-id="Derby-Coll-Negro">
-                    <img class="img-models" src="../assets/img/made by order/160 - 11.webp" alt="Derby Modelo Coll color negro">
-                    <h4 class="model-titles">Derby Mod. Coll</h4>
-                    <h3 class="h3-style">Base de Goma Rural FEBO</h3>
-                    <h3 class="h3-color">Negro</h3>
-                </article>
-            </section>
-        </main>
-        <footer>
-            <div class="row">
-                <div class="col">
-                    <h3>SOCIALES</h3>
-                        <div class="row row-seguinos_ig">
-                            <div class="col">
-                                <h2 class="h2-footer">Seguinos en</h2>
-                            </div>
-                            <div class="col">
-                                <a href="https://www.instagram.com/calzadoscorrea" target="_blank">
-                                    <img
-                                        class="instagram-logo"
-                                        src="../assets/img/Instagram logo.png"
-                                        alt="enlace a instagram"
-                                    />
-                                </a>
-                            </div>                           
-                        </div>
-                        <div>
-                            <p class="p-footer">Estate atento a todas las novedades a través de nuestro instagram.</p>
-                        </div>
-                </div>
-                <div class="vertical-hr">
-                </div>
-                <div class="col">
-                    <h3>CONTACTO</h3>
-                        <div class="row">
-                            <div class="col footer-content">
-                                <p class="p-footerinfo">Dirección: Mario Bravo 750</p>
-                                <p class="p-footerinfo">Mail: info@calzadoscorrea.com.ar</p>
-                                <p class="p-footerinfo">Teléfono: (5411) 4861-7344</p>
-                            </div>
-                            <div class="col footer-maps">
-                                <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.1248428114995!2d-58.41852518255615!3d-34.6010045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca89c1127145%3A0x7c1cd35e3cf9433f!2sCalzados%20Correa!5e0!3m2!1ses!2sar!4v1679619945615!5m2!1ses!2sar" width="300" height="200" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            </div>
-                        </div>
-                </div>
-                <p class="p-footerinfo_horario">Horario de Atención: Lunes a Viernes de 9hs a 13hs y de 15hs a 19hs / Sábados de 9hs a 13hs</p>
+          </div>
+          <div>
+            <p class="p-footer">
+              Estate atento a todas las novedades a través de nuestro instagram.
+            </p>
+          </div>
+        </div>
+        <div class="vertical-hr"></div>
+        <div class="col">
+          <h3>CONTACTO</h3>
+          <div class="row">
+            <div class="col footer-content">
+              <p class="p-footerinfo">Dirección: Mario Bravo 750</p>
+              <p class="p-footerinfo">Mail: info@calzadoscorrea.com.ar</p>
+              <p class="p-footerinfo">Teléfono: (5411) 4861-7344</p>
             </div>
-            <div class="row">
-               <p class="derechos-reservados"> © COPYRIGHT 2023 CALZADOS CORREA / WEB CUSTOM & PHOTO PRODUCTION DESIGN BY JAIR ANSOURIAN</p>
+            <div class="col footer-maps">
+              <iframe
+                class="maps"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.1248428114995!2d-58.41852518255615!3d-34.6010045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca89c1127145%3A0x7c1cd35e3cf9433f!2sCalzados%20Correa!5e0!3m2!1ses!2sar!4v1679619945615!5m2!1ses!2sar"
+                width="300"
+                height="200"
+                style="border: 0; border-radius: 10px"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
-          </footer>
-          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-          <script src="../js/bootstrap.min.js"></script>
-          <script src="../js/main.js"></script>
-    </body>
+          </div>
+        </div>
+        <p class="p-footerinfo_horario">
+          Horario de Atención: Lunes a Viernes de 9hs a 13hs y de 15hs a 19hs /
+          Sábados de 9hs a 13hs
+        </p>
+      </div>
+      <div class="row">
+        <p class="derechos-reservados">
+          © COPYRIGHT 2023 CALZADOS CORREA / WEB CUSTOM & PHOTO PRODUCTION
+          DESIGN BY JAIR ANSOURIAN
+        </p>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
 </html>

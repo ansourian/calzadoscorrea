@@ -1,148 +1,281 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Calzados Correa</title>
-        <link rel="icon" href=../assets/img/correa.ico>
-        <link href="../css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-        <link rel="stylesheet" href="../css/style.css">
-        <script src="https://kit.fontawesome.com/86346e7c53.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <header>
-            <div class="background-header">
-                <div class="nav-logo">
-                    <button id="abrir" class="open-menu"><i class="bi bi-list"></i></button>
-                    <a id="redireccion" href="#" onclick="scrollToTop()"><img class="logo" src="../assets/img/logo correa index.png" alt="Logotipo de Calzados Correa"></a>
-                </div>
-                <nav class="navigation" id="nav">
-                    <button id="cerrar" class="close-menu"><i class="bi bi-x-lg"></i></button>
-                    <ul class="nav-list">
-                        <li><a class="item-nav" href="../index.html">INICIO</a></li>
-                        <li><a class="item-nav" href="./modelos.html">MODELOS</a></li>
-                        <li><a class="item-nav" href="./mantenimiento.html">MANTENIMIENTO</a></li>
-                        <li><a class="item-nav" href="./acerca_de.html">ACERCA DE</a></li>
-                        <li><a class="item-nav" href="./preguntas_frecuentes.html">AYUDA</a></li>
-                        <li><a class="item-nav" href="./contacto.html">CONTACTO</a></li>
-                    </ul>
-                </nav>    
-            </div>
-            <a class="volver-button" href="javascript:history.back()"> VOLVER</a>
-        </header>
-        <main>
-            <div id="carouselExampleIndicators" class="carousel slide carousel-container" data-bs-ride="carousel" data-bs-interval="false">
-                <div class="carousel-pages carousel-indicators carousel-indicators2 carousel-models">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calzados Correa</title>
+    <link rel="icon" href=../assets/img/correa.ico>
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/86346e7c53.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="navbar navbar-expand-lg">
+      <div
+        class="container-fluid d-flex align-items-center justify-content-between"
+      >
+        <button
+          class="navbar-toggler d-lg-none open-menu"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <i class="bi bi-list"></i>
+        </button>
+        <a id="redireccion" href="#" onclick="scrollToTop()">
+          <img
+            class="logo"
+            src="../assets/img/logo correa index.png"
+            alt="Logotipo de Calzados Correa"
+          />
+        </a>
+        <a
+          href="https://www.instagram.com/calzadoscorrea"
+          target="_blank"
+          class="d-lg-none"
+        >
+          <img
+            class="instagram-icon"
+            src="../assets/img/instagram-icon.svg"
+            alt="Enlace a Instagram"
+          />
+        </a>
+        <nav
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav nav-list">
+            <li class="nav-item">
+              <a class="nav-link item-nav" href="/">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link item-nav" href="./modelos.html">MODELOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link item-nav" href="./mantenimiento.html"
+                >MANTENIMIENTO</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link item-nav" href="./acerca_de.html">ACERCA DE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link item-nav" href="./preguntas_frecuentes.html"
+                >AYUDA</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link item-nav" href="./contacto.html">CONTACTO</a>
+            </li>
+          </ul>
+        </nav>
+        <a
+          href="https://www.instagram.com/calzadoscorrea"
+          target="_blank"
+          class="d-none d-lg-block"
+        >
+          <img
+            class="instagram-icon"
+            src="../assets/img/instagram-icon.svg"
+            alt="Enlace a Instagram"
+          />
+        </a>
+      </div>
+    </header>
 
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item2 carousel-item active">
-                    <img src="" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item carousel-item2">
-                    <img src="" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item carousel-item2">
-                    <img src="" class="d-block w-100" alt="...">
-                  </div>                  
-                  <div class="carousel-item carousel-item2">
-                    <img src="" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon carousel-control-prev-icon2" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                  <span class="carousel-control-next-icon carousel-control-prev-icon2" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
+    <main>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide carousel-container"
+        data-bs-ride="carousel"
+        data-bs-interval="false"
+      >
+        <div
+          class="carousel-pages carousel-indicators carousel-indicators2 carousel-models"
+        >
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item2 carousel-item active">
+            <img src="" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item carousel-item2">
+            <img src="" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item carousel-item2">
+            <img src="" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item carousel-item2">
+            <img src="" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon carousel-control-prev-icon2"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon carousel-control-prev-icon2"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="contenedor-modelos">
+        <div class="div-biografia d-flex">
+          <img
+            class="img-model"
+            id="imagen-modelo"
+            src=""
+            alt="modelo ready to wear"
+          />
+          <div>
+            <h2 class="h2-model" id="titulo-modelo">Título del Producto</h2>
+            <h3 class="h3-model" id="estilo-modelo">Estilo del Producto</h3>
+            <div class="row div-model">
+              <h4 class="h4-model">Descripción</h4>
+              <p class="p-model" id="descripcion-modelo">
+                Descripción del producto.
+              </p>
+              <h4 class="h4-model">Tipo de cuero</h4>
+              <p class="p-model" id="cuero-modelo"></p>
+              <h4 class="h4-model">Color</h4>
+              <p class="p-model" id="color-modelo"></p>
+              <h4 class="h4-model">Código de Modelo</h4>
+              <p class="p-model" id="codigo-modelo"></p>
+              <div id="div-precio_modelo">
+                <h4 class="h4-model">Precio</h4>
+                <p class="p-price" id="precio-modelo"></p>
+              </div>
+              <p class="aclaracion-colores">
+                Calzados 100% plantillados a mano. Nuestros cueros poseen un
+                curtido artesanal el cual puede variar sutilmente de tono según
+                la partida de producción.
+              </p>
+              <a class="imagenes-button" href="#hr-var_modelos">MÁS IMÁGENES</a>
             </div>
-            <div class="contenedor-modelos">
-                <div class="div-biografia d-flex">
-                    <img class="img-model" id="imagen-modelo" src="" alt="modelo ready to wear">
-                    <div>
-                        <h2 class="h2-model" id="titulo-modelo">Título del Producto</h2>
-                        <h3 class="h3-model" id="estilo-modelo">Estilo del Producto</h3>
-                        <div class="row div-model">
-                            <h4 class="h4-model">Descripción</h4>
-                            <p class="p-model" id="descripcion-modelo">Descripción del producto.</p>
-                            <h4 class="h4-model">Tipo de cuero</h4>
-                            <p class="p-model" id="cuero-modelo"></p>
-                            <h4 class="h4-model">Color</h4>
-                            <p class="p-model" id="color-modelo"></p>
-                            <h4 class="h4-model">Código de Modelo</h4>
-                            <p class="p-model" id="codigo-modelo"></p>
-                            <div id="div-precio_modelo">
-                                <h4 class="h4-model">Precio</h4>
-                                <p class="p-price" id="precio-modelo"></p>    
-                            </div>
-                            <p class="aclaracion-colores">Calzados 100% plantillados a mano. Nuestros cueros poseen un curtido artesanal el cual puede variar sutilmente de tono según la partida de producción.</p>
-                            <a class="imagenes-button" href="#hr-var_modelos">MÁS IMÁGENES</a>
-                        </div>
-                    </div>
-                </div>
+          </div>
+        </div>
+      </div>
+      <hr id="hr-var_modelos" />
+      <section class="container-var">
+        <img id="img1" class="img-model_var" src="" alt="" />
+        <img id="img2" class="img-model_var" src="" alt="" />
+        <img id="img3" class="img-model_var" src="" alt="" />
+        <img id="img4" class="img-model_var" src="" alt="" />
+      </section>
+    </main>
+    <footer>
+      <div class="row">
+        <div class="col">
+          <h3>SOCIALES</h3>
+          <div class="row row-seguinos_ig">
+            <div class="col">
+              <h2 class="h2-footer">Seguinos en</h2>
             </div>
-            <hr id="hr-var_modelos">
-            <section class="container-var">
-                <img id="img1" class="img-model_var" src="" alt="">
-                <img id="img2" class="img-model_var" src="" alt="">
-                <img id="img3" class="img-model_var" src="" alt="">
-                <img id="img4" class="img-model_var" src="" alt="">
-            </section>
-        </main>
-        <footer>
-            <div class="row">
-                <div class="col">
-                    <h3>SOCIALES</h3>
-                        <div class="row row-seguinos_ig">
-                            <div class="col">
-                                <h2 class="h2-footer">Seguinos en</h2>
-                            </div>
-                            <div class="col">
-                                <a href="https://www.instagram.com/calzadoscorrea" target="_blank">
-                                    <img
-                                        class="instagram-logo"
-                                        src="../assets/img/Instagram logo.png"
-                                        alt="enlace a instagram"
-                                    />
-                                </a>
-                            </div>                           
-                        </div>
-                        <div>
-                            <p class="p-footer">Estate atento a todas las novedades a través de nuestro instagram.</p>
-                        </div>
-                </div>
-                <div class="vertical-hr">
-                </div>
-                <div class="col">
-                    <h3>CONTACTO</h3>
-                        <div class="row">
-                            <div class="col footer-content">
-                                <p class="p-footerinfo">Dirección: Mario Bravo 750</p>
-                                <p class="p-footerinfo">Mail: info@calzadoscorrea.com.ar</p>
-                                <p class="p-footerinfo">Teléfono: (5411) 4861-7344</p>
-                            </div>
-                            <div class="col footer-maps">
-                                <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.1248428114995!2d-58.41852518255615!3d-34.6010045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca89c1127145%3A0x7c1cd35e3cf9433f!2sCalzados%20Correa!5e0!3m2!1ses!2sar!4v1679619945615!5m2!1ses!2sar" width="300" height="200" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            </div>
-                        </div>
-                </div>
-                <p class="p-footerinfo_horario">Horario de Atención: Lunes a Viernes de 9hs a 13hs y de 15hs a 19hs / Sábados de 9hs a 13hs</p>
+            <div class="col">
+              <a
+                href="https://www.instagram.com/calzadoscorrea"
+                target="_blank"
+              >
+                <img
+                  class="instagram-logo"
+                  src="../assets/img/Instagram logo.png"
+                  alt="enlace a instagram"
+                />
+              </a>
             </div>
-            <div class="row">
-               <p class="derechos-reservados"> © COPYRIGHT 2023 CALZADOS CORREA / WEB CUSTOM & PHOTO PRODUCTION DESIGN BY JAIR ANSOURIAN</p>
+          </div>
+          <div>
+            <p class="p-footer">
+              Estate atento a todas las novedades a través de nuestro instagram.
+            </p>
+          </div>
+        </div>
+        <div class="vertical-hr"></div>
+        <div class="col">
+          <h3>CONTACTO</h3>
+          <div class="row">
+            <div class="col footer-content">
+              <p class="p-footerinfo">Dirección: Mario Bravo 750</p>
+              <p class="p-footerinfo">Mail: info@calzadoscorrea.com.ar</p>
+              <p class="p-footerinfo">Teléfono: (5411) 4861-7344</p>
             </div>
-          </footer>
-          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-          <script src="../js/detallesProducto.js"></script>
-          <script src="../js/bootstrap.min.js"></script>
-          <script src="../js/main.js"></script>
-    </body>
+            <div class="col footer-maps">
+              <iframe
+                class="maps"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.1248428114995!2d-58.41852518255615!3d-34.6010045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca89c1127145%3A0x7c1cd35e3cf9433f!2sCalzados%20Correa!5e0!3m2!1ses!2sar!4v1679619945615!5m2!1ses!2sar"
+                width="300"
+                height="200"
+                style="border: 0; border-radius: 10px"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+        <p class="p-footerinfo_horario">
+          Horario de Atención: Lunes a Viernes de 9hs a 13hs y de 15hs a 19hs /
+          Sábados de 9hs a 13hs
+        </p>
+      </div>
+      <div class="row">
+        <p class="derechos-reservados">
+          © COPYRIGHT 2023 CALZADOS CORREA / WEB CUSTOM & PHOTO PRODUCTION
+          DESIGN BY JAIR ANSOURIAN
+        </p>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/detallesProducto.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
 </html>
