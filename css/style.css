@@ -472,6 +472,17 @@ p {
   border: 0;
 }
 
+.container-faqs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+  background-color: #ffffff;
+  border: 0;
+}
+
 .container-notas {
   display: flex;
   flex-direction: row;
@@ -651,6 +662,10 @@ a:visited {
 .acordion-filters {
   margin: 0 24vw;
   border: none;
+}
+
+.accordion-faqs{
+  width: 80%;
 }
 
 .accordion-button {
