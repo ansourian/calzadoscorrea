@@ -131,7 +131,7 @@ ul {
 
 .instagram-icon {
   width: 25px;
-  margin: 0 0 0 1vw;
+  margin: 0 3vw 0 0;
   filter: invert(1);
 }
 
@@ -505,7 +505,7 @@ p {
   justify-content: center;
   align-items: center;
   margin: 4rem 5rem 4rem;
-  background-color: #ffffff;
+  background-color: #ffffff00;
   border: 0;
 }
 .container-notas .notas-periodisticas {
